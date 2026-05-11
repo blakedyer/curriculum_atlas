@@ -372,15 +372,24 @@ def iter_program_course_entries(nodes: list[dict]) -> Iterable[tuple[str, str]]:
             yield from iter_program_course_entries(node["children"])
 
 
-def program_named_codes(program: ProgramRecord, stream: ProgramStreamRecord | None = None) -> list[str]:
+def is_eos_base_program(program: ProgramRecord) -> bool:
+    return program.code in {"BSC-EOSM", "BSC-EOSH"} and bool(program.streams)
+
+
+def program_named_codes(
+    program: ProgramRecord,
+    stream: ProgramStreamRecord | None = None,
+    *,
+    include_stream_courses: bool = True,
+) -> list[str]:
     if stream is not None:
         return unique_ordered(program.explicit_course_codes + stream.explicit_course_codes)
-    if not program.streams:
-        return list(program.explicit_course_codes)
-    return unique_ordered(
-        program.explicit_course_codes
-        + [code for current_stream in program.streams for code in current_stream.explicit_course_codes]
-    )
+    if not program.streams or include_stream_courses:
+        return unique_ordered(
+            program.explicit_course_codes
+            + [code for current_stream in program.streams for code in current_stream.explicit_course_codes]
+        )
+    return list(program.explicit_course_codes)
 
 
 def program_section_lookup(program: ProgramRecord, stream: ProgramStreamRecord | None = None) -> dict[str, str]:
@@ -648,10 +657,11 @@ def build_program_node_styles(
     stream: ProgramStreamRecord | None,
     *,
     course_group_lookup: dict[str, str],
+    include_stream_courses: bool = True,
 ) -> tuple[dict[str, dict[str, str]], list[tuple[str, dict[str, str]]]]:
     explicit_groups = {
         course_group_lookup.get(code, code)
-        for code in program_named_codes(program, stream)
+        for code in program_named_codes(program, stream, include_stream_courses=include_stream_courses)
     }
     support_groups = {
         course_group_lookup.get(code, code)
@@ -1547,7 +1557,10 @@ def build_contact_paths(program: ProgramRecord) -> list[ContactPathRecord]:
         return [base_path]
 
     if program_uses_stream_placeholders(program):
-        return [
+        paths: list[ContactPathRecord] = []
+        if is_eos_base_program(program):
+            paths.append(base_path)
+        paths.extend(
             ContactPathRecord(
                 slug=stream.slug,
                 title=stream.title,
@@ -1559,7 +1572,8 @@ def build_contact_paths(program: ProgramRecord) -> list[ContactPathRecord]:
                 stream=stream,
             )
             for stream in program.streams
-        ]
+        )
+        return paths
 
     paths = [base_path]
     for stream in program.streams:
@@ -2382,10 +2396,17 @@ def analytics_score_level(value: int, maximum: int) -> int:
     return min(4, max(1, int(round((value / maximum) * 4))))
 
 
-def program_path_codes(program: ProgramRecord, stream: ProgramStreamRecord | None = None) -> set[str]:
+def program_path_codes(
+    program: ProgramRecord,
+    stream: ProgramStreamRecord | None = None,
+    *,
+    include_stream_courses: bool = True,
+) -> set[str]:
     return {
         code
-        for code in unique_ordered(program_named_codes(program, stream) + program_support_codes(program, stream))
+        for code in unique_ordered(
+            program_named_codes(program, stream, include_stream_courses=include_stream_courses) + program_support_codes(program, stream)
+        )
     }
 
 
@@ -2398,7 +2419,8 @@ def build_program_mode_analytics(
     *,
     stream: ProgramStreamRecord | None = None,
 ) -> dict:
-    explicit_codes = {code for code in program_named_codes(program, stream) if code in courses}
+    include_stream_courses = not is_eos_base_program(program) if stream is None else True
+    explicit_codes = {code for code in program_named_codes(program, stream, include_stream_courses=include_stream_courses) if code in courses}
     visible_codes = explicit_codes | {code for code in program_support_codes(program, stream) if code in courses}
     prereq_map, dependent_map = build_group_dependency_maps(visible_codes, courses, course_group_lookup)
     prereq_closure = compute_group_prereq_closure(prereq_map)
@@ -3432,7 +3454,8 @@ def augment_courses_with_program_placeholders(
 
 def enrich_relationships(programs: dict[str, ProgramRecord], courses: dict[str, CourseRecord]) -> None:
     for program in programs.values():
-        named_codes = program_named_codes(program)
+        include_stream_courses = not is_eos_base_program(program)
+        named_codes = program_named_codes(program, include_stream_courses=include_stream_courses)
         section_lookup = program_section_lookup(program)
         for code in named_codes:
             if code in courses:
@@ -3590,12 +3613,14 @@ def write_program_graph(
             ranksep="1.15",
             pad="0.45",
         )
-    explicit_codes = {code for code in program_named_codes(program, stream) if code in courses}
+    include_stream_courses = not is_eos_base_program(program) if stream is None else True
+    explicit_codes = {code for code in program_named_codes(program, stream, include_stream_courses=include_stream_courses) if code in courses}
     visible_codes = explicit_codes | {code for code in program_support_codes(program, stream) if code in courses}
     node_styles, _legend_items = build_program_node_styles(
         program,
         stream,
         course_group_lookup=course_group_lookup,
+        include_stream_courses=stream is not None or not is_eos_base_program(program),
     )
     prereq_map, dependent_map = build_group_dependency_maps(visible_codes, courses, course_group_lookup)
     prereq_closure = compute_group_prereq_closure(prereq_map)
@@ -4548,7 +4573,8 @@ def render_filter_group(title: str, buttons: list[str]) -> str:
 
 
 def render_program_card(program: ProgramRecord, base: str, courses: dict[str, CourseRecord]) -> str:
-    named_codes = program_named_codes(program)
+    include_stream_courses = not is_eos_base_program(program)
+    named_codes = program_named_codes(program, include_stream_courses=include_stream_courses)
     eos_count = sum(1 for code in named_codes if subject_from_code(code) == "EOS")
     partner_prereq_count = len(program.support_codes)
     category = program_primary_category_label(program)
@@ -4873,7 +4899,8 @@ def build_contact_year_summaries(
     program: ProgramRecord,
     courses: dict[str, CourseRecord],
 ) -> list[dict]:
-    path_codes = set(program_named_codes(program, path.stream))
+    include_stream_courses = path.stream is not None or not is_eos_base_program(program)
+    path_codes = set(program_named_codes(program, path.stream, include_stream_courses=include_stream_courses))
     bucket_nodes: dict[str, list[dict]] = {"year-1": [], "year-2": [], "years-3-4": []}
 
     for section in path.sections:
@@ -5229,7 +5256,8 @@ def render_contact_path_card(
     program: ProgramRecord,
     courses: dict[str, CourseRecord],
 ) -> str:
-    path_codes = set(program_named_codes(program, path.stream))
+    include_stream_courses = path.stream is not None or not is_eos_base_program(program)
+    path_codes = set(program_named_codes(program, path.stream, include_stream_courses=include_stream_courses))
     section_rows = []
     for section in path.sections:
         section_node = evaluate_contact_section(
@@ -5316,7 +5344,8 @@ def render_program_page(
     courses: dict[str, CourseRecord],
     redundant_checks: list[dict],
 ) -> str:
-    named_codes = program_named_codes(program)
+    include_stream_courses = not is_eos_base_program(program)
+    named_codes = program_named_codes(program, include_stream_courses=include_stream_courses)
     metric_items = [
         render_metric_card(program_primary_category_label(program), "Program type"),
         render_metric_card(str(len(named_codes)), "Named courses in the published structure"),
@@ -5382,7 +5411,8 @@ def render_program_page(
         for mode in PROGRAM_GRAPH_MODES
     ]
     if program.streams:
-        show_base_graph = program.code in {"BSC-EOSM", "BSC-EOSH"}
+        is_eos_base = is_eos_base_program(program)
+        show_base_graph = is_eos_base
         graph_intro = (
             '<div class="section-heading">'
             '<p class="section-kicker">Program Graphs</p>'
@@ -5396,6 +5426,7 @@ def render_program_page(
                 program,
                 None,
                 course_group_lookup=simplified_program_group_lookup,
+                include_stream_courses=not is_eos_base,
             )
             overlay_legend = graph_overlay_legend_data(
                 title="Program legend",
