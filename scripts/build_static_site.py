@@ -5382,14 +5382,60 @@ def render_program_page(
         for mode in PROGRAM_GRAPH_MODES
     ]
     if program.streams:
+        show_base_graph = program.code in {"BSC-EOSM", "BSC-EOSH"}
         graph_intro = (
             '<div class="section-heading">'
             '<p class="section-kicker">Program Graphs</p>'
             '<h2>Program requirements arranged by prerequisite flow.</h2>'
-            f'<p>{e(program.name)} includes distinct published paths, so each map below keeps its stream or option context intact. Courses with no direct prerequisite links in the database are shown as isolated nodes; some may have prerequisites outside the pulled course set.</p>'
+            f'<p>{"This program includes a base map, plus any published option maps. " if show_base_graph else ""}Courses with no direct prerequisite links in the database are shown as isolated nodes; some may have prerequisites outside the pulled course set.</p>'
             '</div>'
         )
         graph_shells = []
+        if show_base_graph:
+            _program_node_styles, program_legend_items = build_program_node_styles(
+                program,
+                None,
+                course_group_lookup=simplified_program_group_lookup,
+            )
+            overlay_legend = graph_overlay_legend_data(
+                title="Program legend",
+                note="Node colours show required courses, related prerequisites, and distinct option sets used in the program map.",
+                items=program_legend_items,
+            )
+            additional_requirements_html = render_additional_requirements(
+                program_graph_note_lines(program, None),
+                title="Additional program requirements",
+            )
+            page_graph_modes = [
+                (mode, path_template.format(asset_stem=program.code))
+                for mode, path_template in program_graph_modes
+            ]
+            graph_shells.append(
+                render_graph_shell(
+                    shell_id="program-graph",
+                    section_kicker="Program Graph",
+                    heading="Program requirements arranged by prerequisite flow.",
+                    note="The graph is driven by prerequisites from left to right (instead of year suggestions). The simplified view keeps the sequence readable while the full view is closer to the real data structure.",
+                    default_svg=page_graph_modes[0][1],
+                    aria_label=f"{program.name} program graph",
+                    guide_html="",
+                    graph_modes=page_graph_modes,
+                    course_href_prefix="../courses/",
+                    footer_html=additional_requirements_html,
+                    overlay_legend=overlay_legend,
+                    analytics_html=render_program_graph_analytics(
+                        build_program_analytics_bundle(
+                            program,
+                            courses,
+                            redundant_checks,
+                        )
+                    ),
+                )
+            )
+            graph_anchor = "#program-graph"
+        else:
+            graph_anchor = "#program-streams"
+
         for stream in program.streams:
             _stream_node_styles, stream_legend_items = build_program_node_styles(
                 program,
@@ -5441,7 +5487,6 @@ def render_program_page(
         graphs_html = (
             f'{graph_intro}<div class="section-stack" id="program-streams">{"".join(graph_shells)}</div>'
         )
-        graph_anchor = "#program-streams"
     else:
         _program_node_styles, program_legend_items = build_program_node_styles(
             program,
