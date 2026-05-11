@@ -291,6 +291,10 @@ CREDIT_ONLY_ONE_OF_PATTERN = re.compile(
     r"Credit will be granted for only one of ([^.]+)\.",
     re.IGNORECASE,
 )
+MINIMUM_STAT_PREREQ_PATTERN = re.compile(
+    r"^1\.?5\s+units?\s+minimum\s+200\s+level\s+stat\s+or\s+equivalent$",
+    re.IGNORECASE,
+)
 SUMMER_FIELD_COURSE_CODES = {"EOS300", "EOS400", "EOS401"}
 
 
@@ -706,6 +710,21 @@ def child_list_items(ul_tag) -> list:
     return items
 
 
+def parse_equivalent_stat_prereq(text: str | None) -> dict | None:
+    cleaned = normalize_text(text).lower()
+    if not MINIMUM_STAT_PREREQ_PATTERN.fullmatch(cleaned):
+        return None
+
+    def stat_course(code: str) -> dict:
+        return {"kind": "course", "code": code, "text": code}
+
+    return {
+        "kind": "group",
+        "label": "Complete 1 of: 200 level STAT or equivalent",
+        "children": [stat_course("STAT254"), stat_course("STAT255"), stat_course("STAT260")],
+    }
+
+
 def parse_rule_item(li_tag) -> dict:
     nested_ul = li_tag.find("ul")
     if nested_ul is None:
@@ -717,7 +736,11 @@ def parse_rule_item(li_tag) -> dict:
                 "code": code,
                 "text": normalize_text(li_tag.get_text(" ", strip=True)),
             }
-        return {"kind": "text", "text": normalize_text(li_tag.get_text(" ", strip=True))}
+        text = normalize_text(li_tag.get_text(" ", strip=True))
+        synthetic = parse_equivalent_stat_prereq(text)
+        if synthetic is not None:
+            return synthetic
+        return {"kind": "text", "text": text}
 
     clone = BeautifulSoup(str(li_tag), "html.parser").find("li")
     for nested in clone.find_all("ul"):

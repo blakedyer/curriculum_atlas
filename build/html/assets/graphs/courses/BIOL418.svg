@@ -20,54 +20,54 @@
 <!-- choice_BIOL184_0_0 -->
 <g id="node6" class="node">
 <title>choice_BIOL184_0_0</title>
-<path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M182,-76C182,-76 152,-76 152,-76 146,-76 140,-70 140,-64 140,-64 140,-52 140,-52 140,-46 146,-40 152,-40 152,-40 182,-40 182,-40 188,-40 194,-46 194,-52 194,-52 194,-64 194,-64 194,-70 188,-76 182,-76"/>
-<text text-anchor="middle" x="167" y="-55.8" font-family="Avenir Next" font-size="9.00">1 of</text>
+<path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M431,-76C431,-76 401,-76 401,-76 395,-76 389,-70 389,-64 389,-64 389,-52 389,-52 389,-46 395,-40 401,-40 401,-40 431,-40 431,-40 437,-40 443,-46 443,-52 443,-52 443,-64 443,-64 443,-70 437,-76 431,-76"/>
+<text text-anchor="middle" x="416" y="-55.8" font-family="Avenir Next" font-size="9.00">1 of</text>
 </g>
 <!-- course__BIOL150A&#45;&gt;choice_BIOL184_0_0 -->
 <g id="edge1" class="edge">
 <title>course__BIOL150A&#45;&gt;choice_BIOL184_0_0</title>
-<path fill="none" stroke="#7a8389" d="M62.07,-83.59C83.01,-78.44 110.94,-71.56 132.58,-66.23"/>
-<polygon fill="#7a8389" stroke="#7a8389" points="133.44,-68.54 139.65,-64.49 132.27,-63.78 133.44,-68.54"/>
+<path fill="none" stroke="#7a8389" d="M62.09,-93.38C115.89,-97.01 231.91,-101.91 328,-86 346.35,-82.96 366.15,-76.83 382.21,-71.08"/>
+<polygon fill="#7a8389" stroke="#7a8389" points="383.12,-73.36 388.85,-68.65 381.43,-68.76 383.12,-73.36"/>
 </g>
 <!-- choice_BIOL186_0_0 -->
 <g id="node7" class="node">
 <title>choice_BIOL186_0_0</title>
-<path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M431,-76C431,-76 401,-76 401,-76 395,-76 389,-70 389,-64 389,-64 389,-52 389,-52 389,-46 395,-40 401,-40 401,-40 431,-40 431,-40 437,-40 443,-46 443,-52 443,-52 443,-64 443,-64 443,-70 437,-76 431,-76"/>
-<text text-anchor="middle" x="416" y="-55.8" font-family="Avenir Next" font-size="9.00">1 of</text>
+<path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M182,-76C182,-76 152,-76 152,-76 146,-76 140,-70 140,-64 140,-64 140,-52 140,-52 140,-46 146,-40 152,-40 152,-40 182,-40 182,-40 188,-40 194,-46 194,-52 194,-52 194,-64 194,-64 194,-70 188,-76 182,-76"/>
+<text text-anchor="middle" x="167" y="-55.8" font-family="Avenir Next" font-size="9.00">1 of</text>
 </g>
 <!-- course__BIOL150A&#45;&gt;choice_BIOL186_0_0 -->
 <g id="edge4" class="edge">
 <title>course__BIOL150A&#45;&gt;choice_BIOL186_0_0</title>
-<path fill="none" stroke="#7a8389" d="M62.09,-93.38C115.89,-97.01 231.91,-101.91 328,-86 346.35,-82.96 366.15,-76.83 382.21,-71.08"/>
-<polygon fill="#7a8389" stroke="#7a8389" points="383.12,-73.36 388.85,-68.65 381.43,-68.76 383.12,-73.36"/>
-</g>
-<!-- course__BIOL186 -->
-<g id="node2" class="node">
-<title>course__BIOL186</title>
-<g id="a_node2"><a xlink:href="../../../courses/BIOL186.html" xlink:title="BIOL186: Physiology and Cell Biology" target="_top">
-<path fill="#dbe8d2" stroke="#7e8d96" d="M47,-36C47,-36 15,-36 15,-36 9,-36 3,-30 3,-24 3,-24 3,-12 3,-12 3,-6 9,0 15,0 15,0 47,0 47,0 53,0 59,-6 59,-12 59,-12 59,-24 59,-24 59,-30 53,-36 47,-36"/>
-<text text-anchor="middle" x="31" y="-15.8" font-family="Avenir Next" font-size="9.00" fill="#41515b">BIOL186</text>
-</a>
-</g>
-</g>
-<!-- course__BIOL186&#45;&gt;choice_BIOL184_0_0 -->
-<g id="edge2" class="edge">
-<title>course__BIOL186&#45;&gt;choice_BIOL184_0_0</title>
-<path fill="none" stroke="#7a8389" d="M59.12,-26.09C80.46,-32.47 110.3,-41.37 133.03,-48.16"/>
-<polygon fill="#7a8389" stroke="#7a8389" points="132.43,-50.53 139.84,-50.19 133.83,-45.84 132.43,-50.53"/>
+<path fill="none" stroke="#7a8389" d="M62.07,-83.59C83.01,-78.44 110.94,-71.56 132.58,-66.23"/>
+<polygon fill="#7a8389" stroke="#7a8389" points="133.44,-68.54 139.65,-64.49 132.27,-63.78 133.44,-68.54"/>
 </g>
 <!-- course__BIOL184 -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>course__BIOL184</title>
-<g id="a_node3"><a xlink:href="../../../courses/BIOL184.html" xlink:title="BIOL184: Evolution and Biodiversity" target="_top">
-<path fill="#dbe8d2" stroke="#7e8d96" d="M316,-76C316,-76 284,-76 284,-76 278,-76 272,-70 272,-64 272,-64 272,-52 272,-52 272,-46 278,-40 284,-40 284,-40 316,-40 316,-40 322,-40 328,-46 328,-52 328,-52 328,-64 328,-64 328,-70 322,-76 316,-76"/>
-<text text-anchor="middle" x="300" y="-55.8" font-family="Avenir Next" font-size="9.00" fill="#41515b">BIOL184</text>
+<g id="a_node2"><a xlink:href="../../../courses/BIOL184.html" xlink:title="BIOL184: Evolution and Biodiversity" target="_top">
+<path fill="#dbe8d2" stroke="#7e8d96" d="M47,-36C47,-36 15,-36 15,-36 9,-36 3,-30 3,-24 3,-24 3,-12 3,-12 3,-6 9,0 15,0 15,0 47,0 47,0 53,0 59,-6 59,-12 59,-12 59,-24 59,-24 59,-30 53,-36 47,-36"/>
+<text text-anchor="middle" x="31" y="-15.8" font-family="Avenir Next" font-size="9.00" fill="#41515b">BIOL184</text>
 </a>
 </g>
 </g>
 <!-- course__BIOL184&#45;&gt;choice_BIOL186_0_0 -->
 <g id="edge5" class="edge">
 <title>course__BIOL184&#45;&gt;choice_BIOL186_0_0</title>
+<path fill="none" stroke="#7a8389" d="M59.12,-26.09C80.46,-32.47 110.3,-41.37 133.03,-48.16"/>
+<polygon fill="#7a8389" stroke="#7a8389" points="132.43,-50.53 139.84,-50.19 133.83,-45.84 132.43,-50.53"/>
+</g>
+<!-- course__BIOL186 -->
+<g id="node3" class="node">
+<title>course__BIOL186</title>
+<g id="a_node3"><a xlink:href="../../../courses/BIOL186.html" xlink:title="BIOL186: Physiology and Cell Biology" target="_top">
+<path fill="#dbe8d2" stroke="#7e8d96" d="M316,-76C316,-76 284,-76 284,-76 278,-76 272,-70 272,-64 272,-64 272,-52 272,-52 272,-46 278,-40 284,-40 284,-40 316,-40 316,-40 322,-40 328,-46 328,-52 328,-52 328,-64 328,-64 328,-70 322,-76 316,-76"/>
+<text text-anchor="middle" x="300" y="-55.8" font-family="Avenir Next" font-size="9.00" fill="#41515b">BIOL186</text>
+</a>
+</g>
+</g>
+<!-- course__BIOL186&#45;&gt;choice_BIOL184_0_0 -->
+<g id="edge2" class="edge">
+<title>course__BIOL186&#45;&gt;choice_BIOL184_0_0</title>
 <path fill="none" stroke="#7a8389" d="M328.02,-58C344.15,-58 364.76,-58 381.87,-58"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="381.96,-60.45 388.96,-58 381.96,-55.55 381.96,-60.45"/>
 </g>
@@ -99,14 +99,14 @@
 <!-- choice_BIOL184_0_0&#45;&gt;course__BIOL184 -->
 <g id="edge3" class="edge">
 <title>choice_BIOL184_0_0&#45;&gt;course__BIOL184</title>
-<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M194.19,-58C214.45,-58 242.67,-58 264.73,-58"/>
-<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="264.95,-60.45 271.95,-58 264.95,-55.55 264.95,-60.45"/>
+<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M388.82,-47.52C371.79,-41.22 348.93,-33.72 328,-30 234.47,-13.37 121.81,-14.49 66.32,-16.4"/>
+<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="66.11,-13.96 59.2,-16.67 66.28,-18.86 66.11,-13.96"/>
 </g>
 <!-- choice_BIOL186_0_0&#45;&gt;course__BIOL186 -->
 <g id="edge6" class="edge">
 <title>choice_BIOL186_0_0&#45;&gt;course__BIOL186</title>
-<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M388.82,-47.52C371.79,-41.22 348.93,-33.72 328,-30 234.47,-13.37 121.81,-14.49 66.32,-16.4"/>
-<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="66.11,-13.96 59.2,-16.67 66.28,-18.86 66.11,-13.96"/>
+<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M194.19,-58C214.45,-58 242.67,-58 264.73,-58"/>
+<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="264.95,-60.45 271.95,-58 264.95,-55.55 264.95,-60.45"/>
 </g>
 </g>
 </svg>
