@@ -1706,10 +1706,14 @@ summary:focus-visible {
   max-height: 78vh;
 }
 
+.page--secret-computing .graph-svg-stage {
+  min-width: 0;
+}
+
 .page--secret-computing .atlas-graph-svg {
-  width: auto;
-  height: auto;
-  max-width: none;
+  width: 100%;
+  height: clamp(360px, 78vh, 740px);
+  max-width: 100%;
 }
 
 .graph-actions {
