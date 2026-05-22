@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ENGR121",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "value": "1.0"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>Principles of engineering design with application to biomedical, civil, computer, electrical, mechanical and software engineering through practical projects to be undertaken by teams of students.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368e3fed2d200010da13c",
+    "name": "Faculty of Engineering and Computer Science"
+  },
+  "hoursCatalogText": "1-2-0",
+  "id": "620d3a093e2ac9699e542d89",
+  "pid": "Hk35Qu6Q4",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e8bc9e16fd5672600958d7e\" target=\"_blank\">ENGR110</a> <!-- -->-<!-- --> <!-- -->Design and Communication I<!-- --> <span style=\"margin-left:5px\">(2.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff39119654524003852e3\" target=\"_blank\">ENGR111</a> <!-- -->-<!-- --> <!-- -->Design and Communication IB<!-- --> <span style=\"margin-left:5px\">(2.5)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.2.1\"><div data-test=\"ruleView-A.2.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e8bc7646fd5672600958d61\" target=\"_blank\">ENGR112</a> <!-- -->-<!-- --> <!-- -->Design I<!-- --> <span style=\"margin-left:5px\">(1.0)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2.2\"><div data-test=\"ruleView-A.2.2-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64e7b6f87c6606787bfdbca5\" target=\"_blank\">ATWP135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5de177baa147ae2400fda6ea\" target=\"_blank\">ENGL135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.3.1\"><div data-test=\"ruleView-A.3.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ff2ca19654524003850df\" target=\"_blank\">ELEC199</a> <!-- -->-<!-- --> <!-- -->Laboratory in Engineering Fundamentals<!-- --> <span style=\"margin-left:5px\">(1.0)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3.2\"><div data-test=\"ruleView-A.3.2-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64e7b6f87c6606787bfdbca5\" target=\"_blank\">ATWP135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5de177baa147ae2400fda6ea\" target=\"_blank\">ENGL135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/633ca14333e5fe717cbdb3dd\" target=\"_blank\">ENGR240</a> <!-- -->-<!-- --> <!-- -->Technical Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/62f5a358e45450c5e69547d0\" target=\"_blank\">ENGL225</a> <!-- -->-<!-- --> <!-- -->Technical Communications: Written and Verbal<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/648a4b192fb3c37000c4d450\" target=\"_blank\">ENSH202</a> <!-- -->-<!-- --> <!-- -->Technical Communications, Written and Verbal<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-C.2\"><div data-test=\"ruleView-C.2-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4e356bbef2400c2efcf\" target=\"_blank\">CSC110</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e404ce072400155ec0\" target=\"_blank\">CSC111</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C.1\"><div data-test=\"ruleView-C.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"></ul></div></div></li></ul></li></div></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul> <li>CSC 110 or CSC 111 strongly recommended prior to ENGR 121. </li> </ul>",
+  "subjectCode": {
+    "description": "Engineering (ENGR)",
+    "id": "5c13fb1a3d3a3326007676bb",
+    "linkedGroup": "5be368e3fed2d200010da13c",
+    "name": "ENGR"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ENGR 121, ENGR 120.</li></ul>",
+  "title": "Design II"
+}

@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "STAT254",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "corequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Concurrently enrolled in: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f76e5d2bc1524008cb6b4\" target=\"_blank\">MATH200</a> <!-- -->-<!-- --> <!-- -->Calculus III<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Probability axioms, properties of probability, counting techniques, conditional probability, independence, random variables, discrete and continuous probability distributions, expectation, variance; binomial, hypergeometric, negative binomial, Poisson, uniform, normal, gamma and exponential distributions; discrete and continuous joint distributions, independent random variables, expectation of functions of random vectors, covariance, random samples and sampling distributions, central limit theorem; point and interval estimation; hypothesis testing; linear regression and correlation.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "5d1f6895fb68f3240022ccec",
+  "pid": "B1x8ClKamE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Admission to BEng program.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Statistics (STAT)",
+    "id": "5c140517b7636f2400ac5474",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "STAT"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of STAT 254, STAT 250, STAT 260.</li> <li>See &quot;<a href=\"#/policy/B1UAeszdE\">Credit Limit - Beginning Level Statistics Courses</a>&quot;.</li> </ul>",
+  "title": "Probability and Statistics for Engineers"
+}

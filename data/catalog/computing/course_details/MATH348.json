@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MATH348",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2026-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2026-05-03",
+  "description": "<p>Error analysis (round off and truncation errors), roots of equations (bisection, Newton, secant), systems of linear equations (Gauss elimination and LU factorization), function approximation (interpolation, least squares, orthogonal polynomials), numerical differentiation, numerical integration (Newton-Cotes, Gauss), numerical solution of ordinary differential equations (Euler, Taylor, Runge-Kutta, Adams), and a selection of additional topics, such as numerical optimization, finite difference methods for linear partial differential equations, iterative methods for linear systems.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "68436307ba1df5c4a522c421",
+  "pid": "B1xG-2_T7E",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f67c789944f24002acd1e\" target=\"_blank\">MATH110</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168fab578b6df3d6c07ace\" target=\"_blank\">MATH211</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/62ba27622434d348954acfef\" target=\"_blank\">MATH248</a> <!-- -->-<!-- --> <!-- -->Computer Assisted Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/62fbe3a90a88d51c787648ba\" target=\"_blank\">PHYS248</a> <!-- -->-<!-- --> <!-- -->Computer Assisted Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e567a5c324003b0bb6\" target=\"_blank\">CSC115</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e667a5c324003b0bb9\" target=\"_blank\">CSC116</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-C.1\"><div data-test=\"ruleView-C.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f76e5d2bc1524008cb6b4\" target=\"_blank\">MATH200</a> <!-- -->-<!-- --> <!-- -->Calculus III<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C.2\"><div data-test=\"ruleView-C.2-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f76e5d2bc1524008cb6b4\" target=\"_blank\">MATH200</a> <!-- -->-<!-- --> <!-- -->Calculus III<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C.3\"><div data-test=\"ruleView-C.3-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6abafb68f3240022ce99\" target=\"_blank\">MATH202</a> <!-- -->-<!-- --> <!-- -->Intermediate Calculus for CSC and EOS<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MATH 348, CSC 340, CSC 349A.</li></ul>",
+  "title": "Numerical Methods"
+}

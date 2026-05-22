@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "CHEM477",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "CHEM577",
+      "pid": "SJx7-kuaQ4",
+      "title": "Computational Chemistry"
+    }
+  ],
+  "dateStart": "2020-01-01",
+  "description": "<p>Develops an understanding of the benefits and limitations of applying different computational models to chemical phenomena, accounting for the relevant length and time scales and including the appropriate molecular behaviours.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb65cedee95370001de0ca0",
+    "name": "Department of Chemistry"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f6d49fb68f3240022d083",
+  "pid": "SyEoWKpXV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f774c94e82e2400a23abc\" target=\"_blank\">CHEM347</a> <!-- -->-<!-- --> <!-- -->Quantum Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Chemistry (CHEM)",
+    "id": "5bbec2f9dd74d22e00571e83",
+    "linkedGroup": "5bb65cedee95370001de0ca0",
+    "name": "CHEM"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of CHEM 447, CHEM 577.</li><li>A combined undergraduate and graduate course.</li></ul>",
+  "title": "Computational Chemistry"
+}

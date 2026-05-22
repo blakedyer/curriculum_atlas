@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "EOS325",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "courseNoteForCalendar": "",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>An introduction to the construction, analysis and interpretation of quantitative models of the Earth System and its components, with a particular emphasis on the use of computers in scientific problem solving. Both process models and statistical models are discussed. Topics may include simple models of the carbon cycle, seawater chemistry, mountain building, reaction kinetics, global energy balance, ecosystem dynamics, the geothermal gradient.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "6686d0e2516b11339407896b",
+  "pid": "Hk9nQOp7V",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6abafb68f3240022ce99\" target=\"_blank\">MATH202</a> <!-- -->-<!-- --> <!-- -->Intermediate Calculus for CSC and EOS<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/649a10a781f76f47f32e6507\" target=\"_blank\">PHYS102B</a> <!-- -->-<!-- --> <!-- -->General Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe7d1a3fd924005f028b\" target=\"_blank\">PHYS111</a> <!-- -->-<!-- --> <!-- -->Introductory Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe804afbf82400f7adba\" target=\"_blank\">PHYS130</a> <!-- -->-<!-- --> <!-- -->Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5faf0c6cf5dbad0026c052ed\" target=\"_blank\">EOS210</a> <!-- -->-<!-- --> <!-- -->Introductory Geophysics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/65a1935c7dbc90ea2f22223b\" target=\"_blank\">EOS230</a> <!-- -->-<!-- --> <!-- -->Introduction to Environmental Data Analysis <!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61ae8336846c7828419e7e5b\" target=\"_blank\">EOS261</a> <!-- -->-<!-- --> <!-- -->The Climate System<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/6686cd20516b11d275078958\" target=\"_blank\">EOS314</a> <!-- -->-<!-- --> <!-- -->Descriptive Physical Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e356bbef2400c2efcf\" target=\"_blank\">CSC110</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e404ce072400155ec0\" target=\"_blank\">CSC111</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/65a1a4097dbc907bef22234a\" target=\"_blank\">GEOG230</a> <!-- -->-<!-- --> <!-- -->Introduction to Environmental Data Analysis <!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5ffc89cbeba94e0026736fe0\" target=\"_blank\">PHYS210</a> <!-- -->-<!-- --> <!-- -->Introductory Geophysics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\"><div>or permission of the school</div></div></li></ul></li></div></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of EOS 325, EOS 225.</li> </ul>",
+  "title": "Earth System Modelling"
+}

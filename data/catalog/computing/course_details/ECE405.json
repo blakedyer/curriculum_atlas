@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE405",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>The channel coding problem. Coding approaches and characteristics. Linear block codes. Bounds on codes. Finite fields. Cyclic, BCH and Reed-Solomon codes. Convolutional codes and the Viterbi algorithm. Error control in data storage and transmission systems.</p>",
+  "formerlyNotesText": "ELEC 405",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "66ec8c8a2538a74acd65ba9c",
+  "pid": "SJAdxuamN",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div> 7.5 units of 200-level courses with any of the ECE, SENG, BME, or\nCSC designations</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 405, ECE 511, ELEC 405, ELEC 511.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Error Control Coding"
+}

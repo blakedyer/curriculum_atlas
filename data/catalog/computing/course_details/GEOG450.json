@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "GEOG450",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Examines the decision making theory and real world processes associated with resource management at the policy and field levels. Case studies used to illustrate decision making behaviour, from conflict to co-operation. May include simulation sessions, field trips and field methods review.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "66ec83e3f3c90657033d1310",
+  "pid": "BylIrO6QE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>2</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e594363e62c3f2500a5bc83\" target=\"_blank\">GEOG301</a> <!-- -->-<!-- --> <!-- -->Environmental Impact Assessment<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f731c89944f24002ad654\" target=\"_blank\">GEOG303</a> <!-- -->-<!-- --> <!-- -->Conservation and Ecology of Whales<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/659723e0dddceea4484c99e6\" target=\"_blank\">GEOG304</a> <!-- -->-<!-- --> <!-- -->Coastal Conservation<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/627bec098714a6a978f90e46\" target=\"_blank\">GEOG314</a> <!-- -->-<!-- --> <!-- -->Global Environmental Change and Human Response<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/68e02e7917a0436a2a659e20\" target=\"_blank\">GEOG339</a> <!-- -->-<!-- --> <!-- -->Disaster Management and Community Resilience<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6c9c94e82e2400a2332c\" target=\"_blank\">GEOG346</a> <!-- -->-<!-- --> <!-- -->Health, Environment and Community<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/657cae8e7dd6e1cadb4b3ebb\" target=\"_blank\">GEOG353</a> <!-- -->-<!-- --> <!-- -->Coastal and Marine Resource Management<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/65972529ead7256af23a5952\" target=\"_blank\">GEOG357</a> <!-- -->-<!-- --> <!-- -->Parks and Protected Areas<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f674089944f24002acc9e\" target=\"_blank\">GEOG358</a> <!-- -->-<!-- --> <!-- -->Landscape Ecology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/66ec6b375e15786f0ae2219e\" target=\"_blank\">GEOG371</a> <!-- -->-<!-- --> <!-- -->Water Resources Management<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e583a8f7120522500518b77\" target=\"_blank\">EOS365</a> <!-- -->-<!-- --> <!-- -->Climate and Society<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6ae289944f24002acfc8\" target=\"_blank\">ES301</a> <!-- -->-<!-- --> <!-- -->Political Ecology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e5842352beb4c2500153a53\" target=\"_blank\">ES302</a> <!-- -->-<!-- --> <!-- -->Capitalism, Justice and Sustainability<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/65adda9abce7bd869a9e71a6\" target=\"_blank\">ES365</a> <!-- -->-<!-- --> <!-- -->Climate and Society<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f72dbfb68f3240022d4b4\" target=\"_blank\">ES378</a> <!-- -->-<!-- --> <!-- -->Leadership Skills for Change<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/66e47af34fec506214f9782a\" target=\"_blank\">ES399</a> <!-- -->-<!-- --> <!-- -->Environmental Evidence in a Post-truth Era<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of GEOG 450, GEOG 450A.</li></ul>",
+  "title": "Environment and Sustainability in Practice"
+}

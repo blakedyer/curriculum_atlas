@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "GEOG101B",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Introduction to foundational spatial concepts, theories and approaches in human geography including geographies of identity and place; urban landscapes and planning; population and migration; and global geopolitics. Up-to-the-minute real-world examples at multiple scales are used to demonstrate the importance of where something happens in the world.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "657caf1e2d647d73bf57f8f5",
+  "pid": "H1-GBOaXN",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "",
+  "title": "Space, Place and Society"
+}

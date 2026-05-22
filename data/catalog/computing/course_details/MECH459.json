@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "MECH459",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2021-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "MECH558",
+      "pid": "H1JqhdTX4",
+      "title": "Fundamentals of Hybrid Electric Vehicles"
+    }
+  ],
+  "dateStart": "2021-05-03",
+  "description": "<p>Advance of hybrid electric propulsion technology; hybrid electric powertrain system and key components, engines, fuel cells, transmissions, energy storage systems; and electric drives; modeling and simulation of vehicle performance, energy efficiency and emissions using advanced modeling tools; design and control optimization of hybrid electric propulsion systems for vehicles and marine vessels.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "5f3d703d29dcfc0026fdadd8",
+  "pid": "Skwu2dTmV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffbe436d45224006d0fce\" target=\"_blank\">MATH201</a> <!-- -->-<!-- --> <!-- -->Introduction to Differential Equations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MECH 459, MECH 450A (if taken in the same topic) MECH 450B (if taken in the same topic), MECH 450C (if taken in the same topic), MECH 450D (if taken in the same topic), MECH 450E (if taken in the same topic), MECH 450F (if taken in the same topic), MECH 558.</li></ul>",
+  "title": "Fundamentals of Hybrid Electric Vehicles"
+}

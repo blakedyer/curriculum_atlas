@@ -7,6 +7,7 @@ import json
 import re
 import shutil
 import textwrap
+import argparse
 from collections import Counter, deque
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -18,14 +19,17 @@ from graphviz import Digraph
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "catalog"
+COMPUTING_DATA_DIR = DATA_DIR / "computing"
 BUILD_DIR = ROOT / "build" / "html"
 STYLE_SOURCE = ROOT / "site_assets" / "program-guide.css"
 SCRIPT_SOURCE = ROOT / "site_assets" / "program-guide.js"
 HERO_SOURCE_DIR = ROOT / "site_assets" / "heroes"
 PROGRAM_GRAPH_DIR = BUILD_DIR / "assets" / "graphs" / "programs"
 COURSE_GRAPH_DIR = BUILD_DIR / "assets" / "graphs" / "courses"
+COMPUTING_GRAPH_DIR = BUILD_DIR / "assets" / "graphs" / "computing"
 HERO_BUILD_DIR = BUILD_DIR / "assets" / "heroes"
 SITE_NAME = "SEOS Curriculum Atlas"
+UNDERGRAD_CALENDAR_URL = "https://www.uvic.ca/calendar/undergrad/index.php#/courses"
 RESEARCH_SITE_URL = "https://blakedyer.github.io/"
 TEACHING_SITE_URL = "https://eos-courses.readthedocs.io/en/latest/"
 ATLAS_SITE_URL = "https://blakedyer.github.io/curriculum_atlas/"
@@ -33,26 +37,40 @@ CURRICULUM_SITE_URL = "https://blakedyer.github.io/seos_curriculum/"
 HERO_ASSET_URL = f"{ATLAS_SITE_URL}assets/heroes/"
 
 SUBJECT_NAMES = {
+    "BME": "Biomedical Engineering",
     "EOS": "Earth and Ocean Sciences",
     "BIOL": "Biology",
     "BIOC": "Biochemistry",
     "CHEM": "Chemistry",
+    "CIVE": "Civil Engineering",
     "CSC": "Computer Science",
+    "ECE": "Electrical and Computer Engineering",
+    "ECS": "Engineering and Computer Science",
+    "ENGR": "Engineering",
     "GEOG": "Geography",
     "MATH": "Mathematics",
+    "MECH": "Mechanical Engineering",
     "PHYS": "Physics",
+    "SENG": "Software Engineering",
     "STAT": "Statistics",
 }
 
 SUBJECT_COLORS = {
+    "BME": "#dfe9e3",
     "EOS": "#d7e9ef",
     "BIOL": "#dbe8d2",
     "BIOC": "#e2e8d5",
     "CHEM": "#ead9b8",
+    "CIVE": "#e7e2d8",
     "CSC": "#e7ddec",
+    "ECE": "#dce7f2",
+    "ECS": "#e7ddec",
+    "ENGR": "#e5e2db",
     "GEOG": "#e7e2d8",
     "MATH": "#dfe3f4",
+    "MECH": "#efe3d4",
     "PHYS": "#efd8cf",
+    "SENG": "#dce9ec",
     "STAT": "#e6dde9",
 }
 
@@ -282,6 +300,21 @@ PROGRAM_GRAPH_MODES = (
         asset_suffix="",
         button_label="Full view",
         copy_text="Full view: keep the complete prerequisite structure and the separate course variants named in the last UVic calendar sync.",
+    ),
+)
+
+COMPUTING_GRAPH_MODES = (
+    GraphModeRecord(
+        key="simplified",
+        asset_suffix="--simplified",
+        button_label="Simple view",
+        copy_text="Simple view: keep the full prerequisite closure but collapse equivalent and recurring early-sequence alternatives where possible.",
+    ),
+    GraphModeRecord(
+        key="full",
+        asset_suffix="",
+        button_label="Full view",
+        copy_text="Full view: show all course variants and prerequisite branches captured in the computing-course calendar sync.",
     ),
 )
 
@@ -3396,6 +3429,36 @@ def build_course_lookup() -> dict[str, CourseRecord]:
     return courses
 
 
+def read_computing_manifest_rows() -> dict[str, dict]:
+    manifest_path = COMPUTING_DATA_DIR / "course_manifest.csv"
+    if not manifest_path.exists():
+        return {}
+    return {row["course_code"]: row for row in read_csv_rows(manifest_path)}
+
+
+def build_computing_course_lookup() -> dict[str, CourseRecord]:
+    manifest_rows = read_computing_manifest_rows()
+    courses: dict[str, CourseRecord] = {}
+    detail_dir = COMPUTING_DATA_DIR / "course_details"
+    if not detail_dir.exists():
+        return courses
+
+    for path in sorted(detail_dir.glob("*.json"), key=lambda item: course_sort_key(item.stem)):
+        code = path.stem
+        detail = read_json(path)
+        manifest = manifest_rows.get(code, {})
+        requirement_nodes = parse_course_requirement_nodes(detail)
+        courses[code] = CourseRecord(
+            code=code,
+            name=manifest.get("course_name") or detail.get("title") or code,
+            catalog_url=manifest.get("catalog_url", ""),
+            detail=detail,
+            rule_nodes=requirement_nodes,
+            prereq_codes=collect_course_codes(requirement_nodes),
+        )
+    return courses
+
+
 def build_program_lookup() -> dict[str, ProgramRecord]:
     manifest_rows = {
         row["program_code"]: row for row in read_csv_rows(DATA_DIR / "seos_program_manifest.csv")
@@ -3915,6 +3978,146 @@ def write_course_graph(
     (COURSE_GRAPH_DIR / f"{course.code}{suffix}.svg").write_bytes(svg_bytes)
 
 
+def computing_group_is_seed(
+    group_code: str,
+    course_groups: dict[str, CourseGroupRecord],
+    seed_codes: set[str],
+) -> bool:
+    return any(code in seed_codes for code in course_groups[group_code].codes)
+
+
+def computing_group_catalog_url(
+    group_code: str,
+    course_groups: dict[str, CourseGroupRecord],
+    courses: dict[str, CourseRecord],
+) -> str:
+    for code in course_groups[group_code].codes:
+        course = courses.get(code)
+        if course is not None and course.catalog_url:
+            return course.catalog_url
+    return ""
+
+
+def add_computing_course_group_node(
+    graph: Digraph,
+    group_code: str,
+    course_groups: dict[str, CourseGroupRecord],
+    courses: dict[str, CourseRecord],
+    *,
+    seed: bool,
+) -> None:
+    group = course_groups[group_code]
+    node_kwargs = {
+        "label": group.label,
+        "fillcolor": "#dce9ec" if seed else subject_color(group_code, missing=group_code not in courses),
+        "tooltip": group.tooltip,
+        "penwidth": "2.0" if seed else "1.0",
+        "style": "filled,rounded" if seed else "filled,rounded,dashed",
+        "fontsize": "10" if seed else "9",
+        "fontcolor": "#17232b" if seed else "#41515b",
+        "color": "#1f4f66" if seed else "#7e8d96",
+    }
+    catalog_url = computing_group_catalog_url(group_code, course_groups, courses)
+    if catalog_url:
+        node_kwargs["URL"] = catalog_url
+        node_kwargs["target"] = "_blank"
+    graph.node(course_group_id(group_code), **node_kwargs)
+
+
+def write_computing_graph(
+    courses: dict[str, CourseRecord],
+    seed_codes: set[str],
+    course_groups: dict[str, CourseGroupRecord],
+    course_group_lookup: dict[str, str],
+    *,
+    mode: GraphModeRecord,
+) -> None:
+    if not courses:
+        return
+
+    COMPUTING_GRAPH_DIR.mkdir(parents=True, exist_ok=True)
+    graph = graph_base("computing-courses")
+    if mode.key == "simplified":
+        graph.attr(nodesep="0.2", ranksep="0.58", pad="0.18")
+    else:
+        graph.attr(nodesep="0.28", ranksep="0.82", pad="0.3")
+
+    visible_codes = set(courses)
+    prereq_map, _dependent_map = build_group_dependency_maps(
+        visible_codes,
+        courses,
+        course_group_lookup,
+    )
+    prereq_closure = compute_group_prereq_closure(prereq_map)
+    depth_map = compute_group_depths(prereq_map)
+    visible_groups = sorted(
+        prereq_map,
+        key=lambda group_code: (
+            depth_map.get(group_code, 0),
+            0 if computing_group_is_seed(group_code, course_groups, seed_codes) else 1,
+            subject_from_code(group_code),
+            course_sort_key(group_code),
+        ),
+    )
+
+    for group_code in visible_groups:
+        add_computing_course_group_node(
+            graph,
+            group_code,
+            course_groups,
+            courses,
+            seed=computing_group_is_seed(group_code, course_groups, seed_codes),
+        )
+
+    depth_groups: dict[int, list[str]] = {}
+    for group_code in visible_groups:
+        depth_groups.setdefault(depth_map.get(group_code, 0), []).append(group_code)
+
+    for depth in sorted(depth_groups):
+        with graph.subgraph(name=f"rank_computing_depth_{depth}") as rank_subgraph:
+            rank_subgraph.attr(rank="same")
+            for group_code in depth_groups[depth]:
+                rank_subgraph.node(course_group_id(group_code))
+
+    drawn_edges: set[tuple[str, str, str]] = set()
+    created_aux_nodes: set[str] = set()
+    bundle_registry: dict[tuple[tuple[str, str], ...], str] | None = {} if mode.key != "full" else None
+    choice_registry: dict[tuple[str, tuple[tuple[str, str], ...]], str] | None = {} if mode.key != "full" else None
+    for target_group in visible_groups:
+        target_rule_nodes = dedupe_requirement_nodes(
+            (
+                rule_node
+                for target_code in course_groups[target_group].codes
+                if target_code in courses
+                for rule_node in courses[target_code].rule_nodes
+            ),
+            visible_codes=visible_codes,
+            courses=courses,
+            course_group_lookup=course_group_lookup,
+            target_group=target_group,
+        )
+        if not target_rule_nodes:
+            continue
+        add_simplified_requirement_flow(
+            graph,
+            target_code=target_group,
+            rule_nodes=target_rule_nodes,
+            visible_codes=visible_codes,
+            courses=courses,
+            course_groups=course_groups,
+            course_group_lookup=course_group_lookup,
+            drawn_edges=drawn_edges,
+            created_aux_nodes=created_aux_nodes,
+            summaries_enabled=mode.key == "simplified",
+            bundle_registry=bundle_registry,
+            choice_registry=choice_registry,
+            group_prereq_closure=prereq_closure,
+        )
+
+    svg_bytes = graph.pipe(format="svg")
+    (COMPUTING_GRAPH_DIR / f"computing-courses{mode.asset_suffix}.svg").write_bytes(svg_bytes)
+
+
 def render_nav(base: str, active: str) -> str:
     local_items = [
         ("Overview", f"{base}index.html", "home"),
@@ -4431,6 +4634,216 @@ def render_graph_shell(
       {footer_html}
     </div>
     """
+
+
+def render_computing_graph_key() -> str:
+    items = [
+        render_graph_key_item(
+            "Computing course",
+            "A course selected by the computing-course manifest rule.",
+            render_graph_key_sample("CSC225", "focus"),
+        ),
+        render_graph_key_item(
+            "Prerequisite only",
+            "A course pulled because it appears upstream of a computing course.",
+            render_graph_key_sample("MATH100", "named"),
+        ),
+        render_graph_key_item(
+            "Choice point",
+            "A shared calendar requirement such as choose 1 of or 2 of.",
+            render_graph_key_sample("1 of", "choice"),
+        ),
+        render_graph_key_item(
+            "Grouping junction",
+            "A small circular join keeps shared branches tidy.",
+            render_graph_key_sample("", "junction"),
+        ),
+        render_graph_key_item(
+            "Merged course node",
+            "Equivalent or cross-listed courses can collapse into one node in simple view.",
+            render_graph_key_sample("CSC110 / CSC111", "merged"),
+        ),
+    ]
+    return '<div class="graph-key">' + "".join(items) + "</div>"
+
+
+def render_computing_manifest_row(course: CourseRecord, manifest_row: dict) -> str:
+    department = manifest_row.get("department") or subject_name(course.code)
+    seed_reason = manifest_row.get("seed_reason") or "Computing subject or calendar keyword match"
+    search_text = " ".join(
+        unique_ordered(
+            [
+                course.code,
+                course.name,
+                subject_name(course.code),
+                department,
+                seed_reason,
+            ]
+        )
+    ).lower()
+    official_link = (
+        f'<a class="text-link" href="{e(course.catalog_url)}" target="_blank" rel="noopener">UVic Calendar</a>'
+        if course.catalog_url
+        else '<span class="meta-line">Official calendar unavailable</span>'
+    )
+    return f"""
+      <tr data-filter-search="{e(search_text)}">
+        <td class="program-overview-table__program" data-label="Course">
+          <a class="program-overview-table__primary-link" href="{e(course.catalog_url)}" target="_blank" rel="noopener">{e(course.code)}: {e(course.name)}</a>
+          <p class="program-overview-table__subtitle">{e(department)}</p>
+        </td>
+        <td class="program-overview-table__type" data-label="Subject">
+          {render_subject_pill(course.code)}
+        </td>
+        <td data-label="Prerequisites">
+          <span class="program-overview-table__type-label">{len(course.prereq_codes)} direct links</span>
+          <span class="program-overview-table__code">{e(course_level_label(course.code))}</span>
+        </td>
+        <td data-label="Manifest reason">
+          <span class="meta-line">{e(seed_reason)}</span>
+        </td>
+        <td class="program-overview-table__details" data-label="Details">
+          <div class="program-overview-table__links">{official_link}</div>
+        </td>
+      </tr>
+    """
+
+
+def render_computing_secret_page(courses: dict[str, CourseRecord], manifest: dict) -> str:
+    seed_codes = set(manifest.get("seed_course_codes", []))
+    seed_courses = sorted(
+        [course for course in courses.values() if course.code in seed_codes],
+        key=lambda item: course_sort_key(item.code),
+    )
+    manifest_rows = read_computing_manifest_rows()
+    prerequisite_only_count = int(manifest.get("counts", {}).get("prerequisite_only_courses", 0))
+    total_edges = int(manifest.get("counts", {}).get("direct_prerequisite_edges", 0))
+    generated_at = format_date_label(manifest["generated_at_utc"])
+    source = manifest.get("source", {})
+
+    metric_cards = "".join(
+        [
+            render_metric_card(str(len(seed_courses)), "Computing courses in the manifest"),
+            render_metric_card(str(prerequisite_only_count), "Prerequisite-only courses pulled recursively"),
+            render_metric_card(str(total_edges), "Direct prerequisite links in scope"),
+            render_metric_card(e(generated_at), "Last UVic calendar sync"),
+        ]
+    )
+    role_legend = "".join(
+        [
+            '<span class="legend-item"><span class="legend-swatch" style="--swatch-color: #dce9ec; --swatch-border: #1f4f66"></span>Computing course</span>',
+            '<span class="legend-item"><span class="legend-swatch" style="--swatch-color: #f2ece3; --swatch-border: #7e8d96"></span>Prerequisite only</span>',
+        ]
+    )
+    subject_legend = render_subject_legend([course.code for course in courses.values()])
+    guide_html = render_graph_guide(
+        summary="Expand for role colours, department colours, choice nodes, and merged-course labels.",
+        preview_samples=[("CSC225", "focus"), ("MATH100", "named"), ("1 of", "choice"), ("", "junction")],
+        legend_html=role_legend + subject_legend,
+        graph_key_html=render_computing_graph_key(),
+        title="Graph key and legend",
+    )
+    overlay_legend = graph_overlay_legend_data(
+        title="Computing graph roles",
+        note="Node colours distinguish courses selected by the computing manifest from prerequisite-only courses.",
+        items=[
+            ("Computing course", {"fillcolor": "#dce9ec", "color": "#1f4f66"}),
+            ("Prerequisite only", {"fillcolor": "#f2ece3", "color": "#7e8d96"}),
+        ],
+    )
+    graph_html = render_graph_shell(
+        shell_id="computing-graph",
+        section_kicker="Secret Graph",
+        heading="Computing courses and their prerequisite closure.",
+        note="The graph starts with Science and Engineering calendar courses that look computing-related, then recursively follows every published prerequisite. Co-requisites are treated as prerequisite links.",
+        default_svg="assets/graphs/computing/computing-courses--simplified.svg",
+        aria_label="Computing course prerequisite graph",
+        guide_html=guide_html,
+        graph_modes=[
+            (
+                mode,
+                f"assets/graphs/computing/computing-courses{mode.asset_suffix}.svg",
+            )
+            for mode in COMPUTING_GRAPH_MODES
+        ],
+        course_href_prefix="courses/",
+        overlay_legend=overlay_legend,
+    )
+    manifest_rows_html = "".join(
+        render_computing_manifest_row(course, manifest_rows.get(course.code, {}))
+        for course in seed_courses
+    )
+    search_options = [
+        (course.code, course.name)
+        for course in seed_courses
+    ] + [
+        (course.name, course.code)
+        for course in seed_courses
+    ]
+
+    content = f"""
+    <section class="section section--tight">
+      <div class="metric-grid">{metric_cards}</div>
+    </section>
+
+    <section class="section section--tight">
+      {graph_html}
+    </section>
+
+    <section class="section section--program-overview">
+      <div class="section-heading section-heading--compact">
+        <p class="section-kicker">Computing Manifest</p>
+        <h2>Seed courses pulled from Science and Engineering.</h2>
+        <p>The table lists only the courses selected as computing-related. The graph also includes prerequisite-only courses reached from those seeds.</p>
+      </div>
+      <div class="filter-panel filter-panel--compact" data-card-filter>
+        {render_filter_search("Search manifest", "Course code, title, department, or match reason", autocomplete_id="computing-course-options", autocomplete_options=search_options)}
+        <div class="filter-panel__status">
+          <span data-filter-count>{len(seed_courses)} courses</span>
+          <button class="filter-clear" type="button" data-filter-clear>Clear filters</button>
+        </div>
+        <p class="filter-panel__note">{e(source.get("scope_rule", ""))}</p>
+      </div>
+      <div class="table-shell">
+        <table class="program-overview-table">
+          <caption class="sr-only">Computing course manifest with subject, prerequisite count, manifest reason, and UVic calendar links.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Course</th>
+              <th scope="col">Subject</th>
+              <th scope="col">Prerequisites</th>
+              <th scope="col">Manifest reason</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody data-filter-grid>{manifest_rows_html}</tbody>
+        </table>
+      </div>
+      <p class="empty-state empty-state--filtered is-hidden" data-filter-empty>No computing courses match the current search.</p>
+    </section>
+    """
+
+    hero_actions = (
+        '<div class="hero__actions">'
+        '<a class="button" href="#computing-graph">Graph</a>'
+        f'<a class="button button--ghost" href="{e(source.get("undergrad_calendar_url", UNDERGRAD_CALENDAR_URL))}" target="_blank" rel="noopener">UVic Calendar</a>'
+        "</div>"
+    )
+
+    return render_layout(
+        base="",
+        active="courses",
+        active_site="atlas",
+        title=f"Computing Prerequisites | {SITE_NAME}",
+        description="Unlinked computing course prerequisite graph generated from current UVic undergraduate calendar data.",
+        eyebrow="Unlinked page | UVic calendar graph",
+        hero_title="Computing prerequisite structure",
+        hero_lede="A generated side map for computing-related Science and Engineering courses, plus the full prerequisite closure behind them.",
+        hero_actions=hero_actions,
+        content=content,
+        hero_image=f"{HERO_ASSET_URL}course-overview.jpg",
+        body_class="page--secret-computing",
+    )
 
 
 def filter_token_string(values: Iterable[str]) -> str:
@@ -6174,7 +6587,70 @@ def write_site(
         )
 
 
+def ensure_partial_build_assets() -> None:
+    BUILD_DIR.mkdir(parents=True, exist_ok=True)
+    COMPUTING_GRAPH_DIR.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(STYLE_SOURCE, BUILD_DIR / "program-guide.css")
+    shutil.copy2(SCRIPT_SOURCE, BUILD_DIR / "program-guide.js")
+    if HERO_SOURCE_DIR.exists() and not HERO_BUILD_DIR.exists():
+        shutil.copytree(HERO_SOURCE_DIR, HERO_BUILD_DIR)
+    (BUILD_DIR / ".nojekyll").write_text("", encoding="utf-8")
+
+
+def strip_trailing_whitespace_lines(markup: str) -> str:
+    return "\n".join(line.rstrip() for line in markup.splitlines()) + "\n"
+
+
+def write_computing_secret_bundle() -> bool:
+    manifest_path = COMPUTING_DATA_DIR / "manifest.json"
+    if not manifest_path.exists():
+        return False
+
+    manifest = read_json(manifest_path)
+    computing_courses = build_computing_course_lookup()
+    if not computing_courses:
+        return False
+
+    seed_codes = set(manifest.get("seed_course_codes", []))
+    course_groups, course_group_lookup = build_course_groups(computing_courses, aggressive=False)
+    simplified_course_groups, simplified_course_group_lookup = build_course_groups(
+        computing_courses,
+        aggressive=True,
+    )
+
+    for mode in COMPUTING_GRAPH_MODES:
+        write_computing_graph(
+            computing_courses,
+            seed_codes,
+            simplified_course_groups if mode.key != "full" else course_groups,
+            simplified_course_group_lookup if mode.key != "full" else course_group_lookup,
+            mode=mode,
+        )
+
+    (BUILD_DIR / "computing-prerequisites.html").write_text(
+        strip_trailing_whitespace_lines(render_computing_secret_page(computing_courses, manifest)),
+        encoding="utf-8",
+    )
+    return True
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--computing-only",
+        action="store_true",
+        help="Generate only the unlinked computing prerequisite graph page without clearing build/html.",
+    )
+    args = parser.parse_args()
+
+    if args.computing_only:
+        ensure_partial_build_assets()
+        if write_computing_secret_bundle():
+            print(f"Built secret computing prerequisite page in {BUILD_DIR}")
+        else:
+            print("No computing catalog data found; run scripts/sync_uvic_computing_catalog.py first.")
+        return
+
     manifest = read_json(DATA_DIR / "manifest.json")
     courses = build_course_lookup()
     programs = build_program_lookup()
@@ -6230,10 +6706,12 @@ def main() -> None:
         course_group_lookup,
         redundant_checks,
     )
+    computing_generated = write_computing_secret_bundle()
 
     print(
         f"Built static guide with {len(programs)} program pages, {len(courses)} course pages, "
         f"and regenerated graphs in {BUILD_DIR}"
+        + ("; included secret computing prerequisite page" if computing_generated else "")
     )
 
 

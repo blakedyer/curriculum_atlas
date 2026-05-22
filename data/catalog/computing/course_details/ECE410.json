@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE410",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Electronics in energy conversion and control. Circuits with switches and diodes. Electrical and thermal characteristics of power semiconductor devices: diodes and thyristors; bipolar, field effect and insulated gate transistors. Phase controlled converters: ac-to-ac and ac-to-dc. Dc-to-dc converters including switching regulators. Voltage source inverters. Pulse-width modulation and harmonic elimination techniques. Emphasis on device limitations, computer aided analysis and system control. Application examples including solar power conversion and battery chargers.</p>",
+  "formerlyNotesText": "ELEC 410",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "5cbdf58d67a5c324003b0c42",
+  "pid": "BkyKxOTXV",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6763433507cf786607474f0b\" target=\"_blank\">ECE370</a> <!-- -->-<!-- --> <!-- -->Electromechanical Energy Conversion<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d1bb9b5e24008114c7\" target=\"_blank\">ELEC370</a> <!-- -->-<!-- --> <!-- -->Electromechanical Energy Conversion<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf58756bbef2400c2f048\" target=\"_blank\">ECE380</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d119654524003850f3\" target=\"_blank\">ELEC380</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 410, ELEC 410.</li></ul>",
+  "title": "Power Electronics"
+}

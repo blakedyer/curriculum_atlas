@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG401",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Introduction to the larger societal context across Software Engineering and Computer Science. Topics include: the impact of software and hardware systems on privacy and handling of personal and proprietary information; the roles of encryption and interception of communication; trust in computers; democracy, free speech and civil discourse; intellectual property; computer crime; computers in the workplace; professional ethics and responsibilities; sustainable development and environmental stewardship; social ethics and relationships; economic exchange.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "66eaf407fda6e05bbd768d06",
+  "pid": "HyeVkgYTmE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/61c616fe8e9da13c15f931f5\" target=\"_blank\">SENG321</a> <!-- -->-<!-- --> <!-- -->Requirements Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/667c886c0ba2905ec3205482\" target=\"_blank\">SENG360</a> <!-- -->-<!-- --> <!-- -->Security Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4ef67a5c324003b0bc6\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/634f1b98705f4b6ffcb5e403\" target=\"_blank\">CSC360</a> <!-- -->-<!-- --> <!-- -->Operating Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/634f189b41b5edffbabee0ae\" target=\"_blank\">CSC370</a> <!-- -->-<!-- --> <!-- -->Database Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "",
+  "title": "Social and Professional Issues"
+}

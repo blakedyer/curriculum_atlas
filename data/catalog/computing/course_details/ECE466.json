@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE466",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>Design and System-on-Chip (SOC) implementation for signal processing applications. SOC design and testing methodologies, Platform-based design, Intellectual Property (IP) reuse, and built-in self-test. Controlling power consumption in SOC implementations. SOC multi-technology integration of analog and digital electronics, sensors and MEMS.</p>",
+  "formerlyNotesText": "ELEC 466",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "6082ff9a88e1bcf7de8fd779",
+  "pid": "BkFFlOpQN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf5822a310a240068a563\" target=\"_blank\">ECE355</a> <!-- -->-<!-- --> <!-- -->Microprocessor-Based Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb2bb9b5e2400810a75\" target=\"_blank\">CENG355</a> <!-- -->-<!-- --> <!-- -->Microprocessor-Based Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4f404ce072400155ed6\" target=\"_blank\">CSC355</a> <!-- -->-<!-- --> <!-- -->Digital Logic and Computer Organization<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffc6336d45224006d10f7\" target=\"_blank\">MECH405</a> <!-- -->-<!-- --> <!-- -->Introduction to Microprocessors<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/679a89c4e7ac7bb7aee6c456\" target=\"_blank\">MECH458</a> <!-- -->-<!-- --> <!-- -->Mechatronics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1\"><div data-test=\"ruleView-B.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ce19654524003850e9\" target=\"_blank\">ELEC310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf60e04ce072400155fef\" target=\"_blank\">MECH380</a> <!-- -->-<!-- --> <!-- -->Automatic Control Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf6222a310a240068a6de\" target=\"_blank\">MECH455</a> <!-- -->-<!-- --> <!-- -->Instrumentation<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 466, ECE 568, ELEC 466, ELEC 568.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "System-on-Chip Engineering for Signal Processing"
+}

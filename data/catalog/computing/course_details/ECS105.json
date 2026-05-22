@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ECS105",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "corequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>1.5 units of any course numbered 100 or higher.</div></div></li></ul></div></div></div>",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>An introduction to contemporary theory, research and practices contributing to academic and professional success in engineering and computer science professions through seminar-based lectures, discussions and applied activities. Develops knowledge and skills to foster inclusive and effective learning environments.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368e3fed2d200010da13c",
+    "name": "Faculty of Engineering and Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "66ff1f9123f02dcc7ee39351",
+  "pid": "SktqJonCC",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Engineering and Computer Science (ECS)",
+    "id": "650db8fa0bba50683122e9c4",
+    "linkedGroup": "5be368e3fed2d200010da13c",
+    "name": "ECS"
+  },
+  "supplementalNotes": "",
+  "title": "Academic Success and Diversity in Computing"
+}

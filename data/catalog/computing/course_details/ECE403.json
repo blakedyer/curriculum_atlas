@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE403",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>The steepest descent, Newton, conjugate, and quasi-Newton algorithms for unconstrained optimization. Inexact line search techniques. Application of optimization methods to classification, logistic regression, and support vector machines for signal processing and machine intelligence involving audio, image, video, and other types of data. Introduction to constrained optimization.</p>",
+  "formerlyNotesText": "ELEC 403",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "608206f6ee26e2db518685f7",
+  "pid": "r1pOxuT74",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f76e5d2bc1524008cb6b4\" target=\"_blank\">MATH200</a> <!-- -->-<!-- --> <!-- -->Calculus III<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 403, ECE 503, ELEC 403, ELEC 503.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Optimization for Machine Learning"
+}

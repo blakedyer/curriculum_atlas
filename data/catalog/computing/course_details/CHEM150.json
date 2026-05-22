@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CHEM150",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Atomic and molecular structure; periodicity, chemical bonding; gases, liquids, and solids; phase equilibria; equilibrium; thermochemistry; chemical thermodynamics; electrochemistry.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb65cedee95370001de0ca0",
+    "name": "Department of Chemistry"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5d1f6e3494e82e2400a23437",
+  "pid": "BybRRv6XV",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\"><div>Chemistry 11</div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\"><div>Pre-Calculus 12 or Principles of Mathematics 12</div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\"><div>admission to BEng or BSEng program</div></div></li></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul><li> Chemistry 12 recommended prior to CHEM 150.</li></ul>",
+  "subjectCode": {
+    "description": "Chemistry (CHEM)",
+    "id": "5bbec2f9dd74d22e00571e83",
+    "linkedGroup": "5bb65cedee95370001de0ca0",
+    "name": "CHEM"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of CHEM 150, CHEM 100, CHEM 101.</li><li>Students who have completed an advanced mathematics course equivalent to Pre-Calculus 12 or Principles of Mathematics 12 may request permission to register in the course. </li></ul>",
+  "title": "Engineering Chemistry"
+}

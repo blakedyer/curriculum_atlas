@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "ECE300",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Phasors. Design of complex loads for maximum power transfer. Coupled inductive circuits and ideal transformers. Laplace transform analysis and matrix characterization of loop and node circuits. Design of controlled source circuits and ideal operational amplifiers. Feedback in design. Driving point and transfer function analysis with design for pole and zero placement in simple passive circuits and second order resonant responses, design for stability or oscillation in active circuits. Bode plots. Two-port parameters.</p>",
+  "formerlyNotesText": "ELEC 300",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "5cbdf57b67a5c324003b0c30",
+  "pid": "HkO_guTQV",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57667a5c324003b0c2a\" target=\"_blank\">ECE250</a> <!-- -->-<!-- --> <!-- -->Linear Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ccbb9b5e24008114b8\" target=\"_blank\">ELEC250</a> <!-- -->-<!-- --> <!-- -->Linear Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57867a5c324003b0c2c\" target=\"_blank\">ECE260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cdbb9b5e24008114ba\" target=\"_blank\">ELEC260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffbe436d45224006d0fce\" target=\"_blank\">MATH201</a> <!-- -->-<!-- --> <!-- -->Introduction to Differential Equations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 300, ELEC 300.</li></ul>",
+  "title": "Linear Circuits II"
+}

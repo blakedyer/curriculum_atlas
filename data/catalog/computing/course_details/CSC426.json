@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CSC426",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [],
+  "dateStart": "2022-09-02",
+  "description": "<p>Algorithms and data structures that are used to solve geometrical problems. Topics include geometric searching, convex polygons and hulls, Voronoi diagrams, plane sweep algorithms, proximity and intersections. Application areas which are discussed include: computer graphics, VLSI design, and graph theory.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "61170dae7bfd58753b3bbcaa",
+  "pid": "rkdsyd6mV",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6307b1bdfe51a12031b36bfa\" target=\"_blank\">CSC226</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum third-year standing.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will granted for only one of CSC 426, CSC 526.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Computational Geometry"
+}

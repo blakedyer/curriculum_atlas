@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "GEOG476",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Focuses on various geomorphologic themes, with completion of a major research project based on field work/data analysis to supplement lectures, seminars and field/lab projects.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "657cb206367f2616ecfa6aba",
+  "pid": "SkZvSupQV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/657cb1092d647d752957f909\" target=\"_blank\">GEOG376</a> <!-- -->-<!-- --> <!-- -->Process Geomorphology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of GEOG 476, GEOG 471C.</li></ul>",
+  "title": "Advanced Topics in Geomorphology"
+}

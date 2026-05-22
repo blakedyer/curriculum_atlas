@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "CSC167",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>This multi-disciplinary course explores computer games and their applications through design exercises and game playing. Topics include game console architectures, entertainment media, history of academic and application-based simulations, role of artificial intelligence research, history of computer graphics, history of sound technologies, evolution of computer game design, networked games, virtual reality, and history of video and computer game industries.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "6117069cfff34bb6b0289910",
+  "pid": "SJNckd67E",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul><li>Not open to students with credit in CSC 205 or CSC 305.</li><li>Not open to third- and fourth-year students in Computer Science or Software Engineering program.</li></ul>",
+  "title": "Game Strategy, Interaction and Design"
+}

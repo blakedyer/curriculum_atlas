@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "BIOL462",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An examination of the development of, and approaches to, ecological research, including theoretical and empirical advances. Topics include scale, biodiversity ecosystem function, diversity stability, trophic interactions, food webs, ecological networks, macroecology, and resilience, as well as an introduction to programming and ecological modeling in R.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "5d1f6a2489944f24002acf26",
+  "pid": "SJwvCPaQE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6ea3d2bc1524008cb091\" target=\"_blank\">BIOL215</a> <!-- -->-<!-- --> <!-- -->Principles of Ecology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/61c9478d5cba7e826212eaef\" target=\"_blank\">BIOL330</a> <!-- -->-<!-- --> <!-- -->Study Design and Data Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/6227fe20601e842c1baae432\" target=\"_blank\">ES344</a> <!-- -->-<!-- --> <!-- -->Design and Analysis for Environmental Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biology (BIOL)",
+    "id": "5bb6513b65a8732e00a173d9",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "BIOL"
+  },
+  "supplementalNotes": "",
+  "title": "Community and Ecosystem"
+}

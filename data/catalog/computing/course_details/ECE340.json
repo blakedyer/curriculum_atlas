@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "ECE340",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Field concept, Maxwell's equations, power, and energy. Plane wave propagation, polarization, and reflection and transmission at material interfaces. Introduction to waveguides, antennas, and photonic structures. Engineering electromagnetics design concepts and examples with emphasis on impedance transformers and shielding structures.</p>",
+  "formerlyNotesText": "ELEC 340",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0.5",
+  "id": "67633be722c20e09dc50d1de",
+  "pid": "H15_eOp74",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/62fa805ec4bd596a1038f2cf\" target=\"_blank\">ECE216</a> <!-- -->-<!-- --> <!-- -->Electricity and Magnetism<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cb19654524003850e1\" target=\"_blank\">ELEC216</a> <!-- -->-<!-- --> <!-- -->Electricity and Magnetism<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffbe436d45224006d0fce\" target=\"_blank\">MATH201</a> <!-- -->-<!-- --> <!-- -->Introduction to Differential Equations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 340, ELEC 340.</li></ul>",
+  "title": "Applied Electromagnetics and Photonics"
+}

@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CSC424",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-05-02",
+  "description": "<p>Elements of the theory of computational complexity. Topics covered include: the distinction between tractable and intractable problems; definition of computational models and complexity classes; techniques for comparing the complexity of problems; the classes P and NP; completeness; auxiliary pushdown automata; alternating Turing machines; the polynomial time hierarchy; the classes Polynomial Space and Logarithm Space; probabilistic complexity classes; models of parallel computation; randomized computation.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "643f1e8f9d59270bcbea38ca",
+  "pid": "BkO90c3M2",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Earn a minimum grade of <span>B+</span> in each of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ef67a5c324003b0bc6\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 424, CSC 482A (if offered in same topic), CSC 524.</li> <li>May be offered as a joint undergraduate and graduate course.</li> </ul>",
+  "title": "Computational Complexity"
+}

@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG460",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>Aims to present a holistic view of various security engineering topics through practical case studies. Topics include enterprise security architecture, security threat and risk assessment, education and awareness, monitoring, investigation and forensics, application security, media handling and intellectual property, privacy, physical and environmental security and business continuity planning. Also introduces information security-related certification and relevant professional associations.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "62fa91b3e564a1a14443b84f",
+  "pid": "Byqketp7V",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/667c886c0ba2905ec3205482\" target=\"_blank\">SENG360</a> <!-- -->-<!-- --> <!-- -->Security Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of SENG 460, ECE 574, ELEC 574.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Practice of Information Security and Privacy"
+}

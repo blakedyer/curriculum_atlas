@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG426",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-05-02",
+  "description": "<p>An integral facet of software development, from requirements through delivery and maintenance. The principles of modern software engineering practices, such as DevOps and Site Reliability Engineering (SRE), with an emphasis on automation, continuous delivery and deployment. Topics include planning and achieving quality assurance goals such as reliability, security, performance and scalability for complex software systems.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "5d3f81c194ce2b2400f55cbd",
+  "pid": "S1xP1eFa7V",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/61c616fe8e9da13c15f931f5\" target=\"_blank\">SENG321</a> <!-- -->-<!-- --> <!-- -->Requirements Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf65a2a310a240068a734\" target=\"_blank\">SENG371</a> <!-- -->-<!-- --> <!-- -->Software Evolution<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb219654524003846d8\" target=\"_blank\">CENG356</a> <!-- -->-<!-- --> <!-- -->Engineering System Software<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/674e0a50ee2ca4ff2cb83986\" target=\"_blank\">ECE356</a> <!-- -->-<!-- --> <!-- -->Engineering System Software<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d3f7d1bc79bf72400540ef3\" target=\"_blank\">SENG275</a> <!-- -->-<!-- --> <!-- -->Software Testing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "",
+  "title": "Software Quality Engineering"
+}

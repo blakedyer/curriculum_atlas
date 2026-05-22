@@ -1,0 +1,4747 @@
+{
+  "counts": {
+    "all_courses": 3717,
+    "direct_prerequisite_edges": 1166,
+    "missing_prereq_codes": 63,
+    "prerequisite_only_courses": 167,
+    "seed_courses": 255,
+    "total_courses": 422
+  },
+  "direct_prerequisite_edges": [
+    {
+      "source": "ASTR150",
+      "target": "ASTR250"
+    },
+    {
+      "source": "ASTR250",
+      "target": "ASTR329"
+    },
+    {
+      "source": "ATWP110",
+      "target": "PSYC201"
+    },
+    {
+      "source": "ATWP135",
+      "target": "ENGR112"
+    },
+    {
+      "source": "ATWP135",
+      "target": "ENGR120"
+    },
+    {
+      "source": "ATWP135",
+      "target": "ENGR121"
+    },
+    {
+      "source": "ATWP135",
+      "target": "ENGR240"
+    },
+    {
+      "source": "ATWP135",
+      "target": "PSYC201"
+    },
+    {
+      "source": "BIOC299",
+      "target": "BIOL360"
+    },
+    {
+      "source": "BIOC299",
+      "target": "BIOL361"
+    },
+    {
+      "source": "BIOC299",
+      "target": "BIOL365"
+    },
+    {
+      "source": "BIOC300A",
+      "target": "BCMB301A"
+    },
+    {
+      "source": "BIOC300A",
+      "target": "BIOC300B"
+    },
+    {
+      "source": "BIOC300A",
+      "target": "BIOL360"
+    },
+    {
+      "source": "BIOC300A",
+      "target": "BIOL361"
+    },
+    {
+      "source": "BIOC300A",
+      "target": "BIOL365"
+    },
+    {
+      "source": "BIOC300A",
+      "target": "MICR405"
+    },
+    {
+      "source": "BIOC300B",
+      "target": "BCMB301A"
+    },
+    {
+      "source": "BIOC300B",
+      "target": "BIOL360"
+    },
+    {
+      "source": "BIOC300B",
+      "target": "BIOL361"
+    },
+    {
+      "source": "BIOC300B",
+      "target": "BIOL365"
+    },
+    {
+      "source": "BIOC300B",
+      "target": "MICR405"
+    },
+    {
+      "source": "BIOL150A",
+      "target": "BIOL184"
+    },
+    {
+      "source": "BIOL150A",
+      "target": "BIOL186"
+    },
+    {
+      "source": "BIOL150A",
+      "target": "GEOG303"
+    },
+    {
+      "source": "BIOL150B",
+      "target": "BIOL184"
+    },
+    {
+      "source": "BIOL150B",
+      "target": "BIOL186"
+    },
+    {
+      "source": "BIOL184",
+      "target": "BIOL186"
+    },
+    {
+      "source": "BIOL184",
+      "target": "BIOL215"
+    },
+    {
+      "source": "BIOL184",
+      "target": "BIOL225"
+    },
+    {
+      "source": "BIOL184",
+      "target": "BIOL365"
+    },
+    {
+      "source": "BIOL184",
+      "target": "GEOG303"
+    },
+    {
+      "source": "BIOL186",
+      "target": "BIOL184"
+    },
+    {
+      "source": "BIOL186",
+      "target": "BIOL215"
+    },
+    {
+      "source": "BIOL186",
+      "target": "BIOL225"
+    },
+    {
+      "source": "BIOL186",
+      "target": "BIOL365"
+    },
+    {
+      "source": "BIOL215",
+      "target": "BIOL330"
+    },
+    {
+      "source": "BIOL215",
+      "target": "BIOL462"
+    },
+    {
+      "source": "BIOL215",
+      "target": "GEOG358"
+    },
+    {
+      "source": "BIOL215",
+      "target": "MRNE412"
+    },
+    {
+      "source": "BIOL215",
+      "target": "MRNE475"
+    },
+    {
+      "source": "BIOL225",
+      "target": "BIOC300A"
+    },
+    {
+      "source": "BIOL225",
+      "target": "BIOC300B"
+    },
+    {
+      "source": "BIOL225",
+      "target": "BIOL230"
+    },
+    {
+      "source": "BIOL225",
+      "target": "BIOL330"
+    },
+    {
+      "source": "BIOL225",
+      "target": "BIOL365"
+    },
+    {
+      "source": "BIOL225",
+      "target": "MRNE475"
+    },
+    {
+      "source": "BIOL230",
+      "target": "BIOL330"
+    },
+    {
+      "source": "BIOL230",
+      "target": "BIOL360"
+    },
+    {
+      "source": "BIOL230",
+      "target": "BIOL361"
+    },
+    {
+      "source": "BIOL230",
+      "target": "BIOL469"
+    },
+    {
+      "source": "BIOL230",
+      "target": "MRNE475"
+    },
+    {
+      "source": "BIOL330",
+      "target": "BIOL462"
+    },
+    {
+      "source": "BIOL360",
+      "target": "BIOL367"
+    },
+    {
+      "source": "BIOL361",
+      "target": "BIOL469"
+    },
+    {
+      "source": "BIOL365",
+      "target": "BIOL367"
+    },
+    {
+      "source": "BIOL365",
+      "target": "BIOL404"
+    },
+    {
+      "source": "BIOL367",
+      "target": "BIOL404"
+    },
+    {
+      "source": "BME200",
+      "target": "BIOC300A"
+    },
+    {
+      "source": "BME200",
+      "target": "BIOL360"
+    },
+    {
+      "source": "BME200",
+      "target": "BIOL367"
+    },
+    {
+      "source": "BME201",
+      "target": "BIOL360"
+    },
+    {
+      "source": "BME201",
+      "target": "BIOL367"
+    },
+    {
+      "source": "BME201",
+      "target": "BME350"
+    },
+    {
+      "source": "BME320",
+      "target": "ECE320"
+    },
+    {
+      "source": "BME350",
+      "target": "BME448"
+    },
+    {
+      "source": "BME350",
+      "target": "MECH410"
+    },
+    {
+      "source": "BME350",
+      "target": "MECH448"
+    },
+    {
+      "source": "BME350",
+      "target": "MECH460"
+    },
+    {
+      "source": "CHEM091",
+      "target": "CHEM102"
+    },
+    {
+      "source": "CHEM101",
+      "target": "BME200"
+    },
+    {
+      "source": "CHEM101",
+      "target": "BME201"
+    },
+    {
+      "source": "CHEM101",
+      "target": "BME320"
+    },
+    {
+      "source": "CHEM101",
+      "target": "CHEM102"
+    },
+    {
+      "source": "CHEM101",
+      "target": "CHEM231"
+    },
+    {
+      "source": "CHEM101",
+      "target": "CIVE210"
+    },
+    {
+      "source": "CHEM101",
+      "target": "CIVE285"
+    },
+    {
+      "source": "CHEM101",
+      "target": "ECE220"
+    },
+    {
+      "source": "CHEM101",
+      "target": "MECH285"
+    },
+    {
+      "source": "CHEM102",
+      "target": "CHEM212"
+    },
+    {
+      "source": "CHEM102",
+      "target": "CHEM234"
+    },
+    {
+      "source": "CHEM102",
+      "target": "CHEM245"
+    },
+    {
+      "source": "CHEM102",
+      "target": "EOS205"
+    },
+    {
+      "source": "CHEM102",
+      "target": "EOS240"
+    },
+    {
+      "source": "CHEM102",
+      "target": "EOS261"
+    },
+    {
+      "source": "CHEM102",
+      "target": "MECH285"
+    },
+    {
+      "source": "CHEM150",
+      "target": "BME200"
+    },
+    {
+      "source": "CHEM150",
+      "target": "BME201"
+    },
+    {
+      "source": "CHEM150",
+      "target": "BME320"
+    },
+    {
+      "source": "CHEM150",
+      "target": "CHEM102"
+    },
+    {
+      "source": "CHEM150",
+      "target": "CHEM231"
+    },
+    {
+      "source": "CHEM150",
+      "target": "CIVE210"
+    },
+    {
+      "source": "CHEM150",
+      "target": "CIVE285"
+    },
+    {
+      "source": "CHEM150",
+      "target": "ECE220"
+    },
+    {
+      "source": "CHEM150",
+      "target": "MECH285"
+    },
+    {
+      "source": "CHEM231",
+      "target": "BIOC299"
+    },
+    {
+      "source": "CHEM231",
+      "target": "BIOC300A"
+    },
+    {
+      "source": "CHEM231",
+      "target": "BIOC300B"
+    },
+    {
+      "source": "CHEM231",
+      "target": "BIOL230"
+    },
+    {
+      "source": "CHEM231",
+      "target": "CHEM234"
+    },
+    {
+      "source": "CHEM234",
+      "target": "BIOC300A"
+    },
+    {
+      "source": "CHEM234",
+      "target": "BIOC300B"
+    },
+    {
+      "source": "CHEM245",
+      "target": "CHEM347"
+    },
+    {
+      "source": "CHEM347",
+      "target": "CHEM477"
+    },
+    {
+      "source": "CIVE200",
+      "target": "CIVE360"
+    },
+    {
+      "source": "CIVE202",
+      "target": "CIVE310"
+    },
+    {
+      "source": "CIVE202",
+      "target": "CIVE340"
+    },
+    {
+      "source": "CIVE210",
+      "target": "CIVE310"
+    },
+    {
+      "source": "CIVE210",
+      "target": "CIVE340"
+    },
+    {
+      "source": "CIVE210",
+      "target": "CIVE360"
+    },
+    {
+      "source": "CIVE210",
+      "target": "CIVE395"
+    },
+    {
+      "source": "CIVE220",
+      "target": "CIVE250"
+    },
+    {
+      "source": "CIVE220",
+      "target": "CIVE385"
+    },
+    {
+      "source": "CIVE250",
+      "target": "CIVE322"
+    },
+    {
+      "source": "CIVE250",
+      "target": "CIVE395"
+    },
+    {
+      "source": "CIVE250",
+      "target": "CIVE421"
+    },
+    {
+      "source": "CIVE250",
+      "target": "CIVE422"
+    },
+    {
+      "source": "CIVE250",
+      "target": "CIVE452"
+    },
+    {
+      "source": "CIVE285",
+      "target": "CIVE385"
+    },
+    {
+      "source": "CIVE285",
+      "target": "CIVE395"
+    },
+    {
+      "source": "CIVE310",
+      "target": "CIVE410"
+    },
+    {
+      "source": "CIVE322",
+      "target": "CIVE422"
+    },
+    {
+      "source": "CIVE340",
+      "target": "CIVE445"
+    },
+    {
+      "source": "CIVE360",
+      "target": "CIVE465"
+    },
+    {
+      "source": "CIVE385",
+      "target": "CIVE452"
+    },
+    {
+      "source": "CIVE395",
+      "target": "CIVE453"
+    },
+    {
+      "source": "CIVE395",
+      "target": "CIVE465"
+    },
+    {
+      "source": "CSC110",
+      "target": "CIVE200"
+    },
+    {
+      "source": "CSC110",
+      "target": "CIVE210"
+    },
+    {
+      "source": "CSC110",
+      "target": "CIVE322"
+    },
+    {
+      "source": "CSC110",
+      "target": "CIVE465"
+    },
+    {
+      "source": "CSC110",
+      "target": "CSC115"
+    },
+    {
+      "source": "CSC110",
+      "target": "CSC116"
+    },
+    {
+      "source": "CSC110",
+      "target": "CSC349A"
+    },
+    {
+      "source": "CSC110",
+      "target": "ENGR120"
+    },
+    {
+      "source": "CSC110",
+      "target": "ENGR121"
+    },
+    {
+      "source": "CSC110",
+      "target": "EOS325"
+    },
+    {
+      "source": "CSC110",
+      "target": "MATH248"
+    },
+    {
+      "source": "CSC110",
+      "target": "MECH200A"
+    },
+    {
+      "source": "CSC110",
+      "target": "MECH242"
+    },
+    {
+      "source": "CSC110",
+      "target": "MECH458"
+    },
+    {
+      "source": "CSC110",
+      "target": "PHYS248"
+    },
+    {
+      "source": "CSC110",
+      "target": "PHYS342"
+    },
+    {
+      "source": "CSC111",
+      "target": "CIVE200"
+    },
+    {
+      "source": "CSC111",
+      "target": "CIVE210"
+    },
+    {
+      "source": "CSC111",
+      "target": "CIVE322"
+    },
+    {
+      "source": "CSC111",
+      "target": "CIVE465"
+    },
+    {
+      "source": "CSC111",
+      "target": "CSC115"
+    },
+    {
+      "source": "CSC111",
+      "target": "CSC116"
+    },
+    {
+      "source": "CSC111",
+      "target": "CSC349A"
+    },
+    {
+      "source": "CSC111",
+      "target": "ECE255"
+    },
+    {
+      "source": "CSC111",
+      "target": "ENGR001"
+    },
+    {
+      "source": "CSC111",
+      "target": "ENGR120"
+    },
+    {
+      "source": "CSC111",
+      "target": "ENGR121"
+    },
+    {
+      "source": "CSC111",
+      "target": "EOS325"
+    },
+    {
+      "source": "CSC111",
+      "target": "MATH248"
+    },
+    {
+      "source": "CSC111",
+      "target": "MECH200A"
+    },
+    {
+      "source": "CSC111",
+      "target": "MECH242"
+    },
+    {
+      "source": "CSC111",
+      "target": "MECH458"
+    },
+    {
+      "source": "CSC111",
+      "target": "PHYS248"
+    },
+    {
+      "source": "CSC115",
+      "target": "CSC225"
+    },
+    {
+      "source": "CSC115",
+      "target": "CSC230"
+    },
+    {
+      "source": "CSC115",
+      "target": "CSC299"
+    },
+    {
+      "source": "CSC115",
+      "target": "CSC322"
+    },
+    {
+      "source": "CSC115",
+      "target": "CSC446"
+    },
+    {
+      "source": "CSC115",
+      "target": "MATH348"
+    },
+    {
+      "source": "CSC115",
+      "target": "PHYS342"
+    },
+    {
+      "source": "CSC115",
+      "target": "SENG265"
+    },
+    {
+      "source": "CSC116",
+      "target": "CSC225"
+    },
+    {
+      "source": "CSC116",
+      "target": "CSC230"
+    },
+    {
+      "source": "CSC116",
+      "target": "CSC322"
+    },
+    {
+      "source": "CSC116",
+      "target": "CSC446"
+    },
+    {
+      "source": "CSC116",
+      "target": "MATH348"
+    },
+    {
+      "source": "CSC116",
+      "target": "MECH200A"
+    },
+    {
+      "source": "CSC116",
+      "target": "SENG265"
+    },
+    {
+      "source": "CSC225",
+      "target": "CSC226"
+    },
+    {
+      "source": "CSC225",
+      "target": "CSC305"
+    },
+    {
+      "source": "CSC225",
+      "target": "CSC350"
+    },
+    {
+      "source": "CSC225",
+      "target": "CSC360"
+    },
+    {
+      "source": "CSC225",
+      "target": "CSC370"
+    },
+    {
+      "source": "CSC225",
+      "target": "CSC428A"
+    },
+    {
+      "source": "CSC225",
+      "target": "CSC445"
+    },
+    {
+      "source": "CSC225",
+      "target": "SENG457"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC299"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC320"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC330"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC361"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC421"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC423"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC426"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC427"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC428A"
+    },
+    {
+      "source": "CSC226",
+      "target": "CSC473"
+    },
+    {
+      "source": "CSC230",
+      "target": "CSC299"
+    },
+    {
+      "source": "CSC230",
+      "target": "CSC330"
+    },
+    {
+      "source": "CSC230",
+      "target": "CSC350"
+    },
+    {
+      "source": "CSC230",
+      "target": "CSC355"
+    },
+    {
+      "source": "CSC230",
+      "target": "CSC360"
+    },
+    {
+      "source": "CSC230",
+      "target": "CSC361"
+    },
+    {
+      "source": "CSC230",
+      "target": "ECE270"
+    },
+    {
+      "source": "CSC230",
+      "target": "ECE355"
+    },
+    {
+      "source": "CSC230",
+      "target": "ECE363"
+    },
+    {
+      "source": "CSC230",
+      "target": "SENG475"
+    },
+    {
+      "source": "CSC305",
+      "target": "CSC471"
+    },
+    {
+      "source": "CSC305",
+      "target": "CSC472"
+    },
+    {
+      "source": "CSC305",
+      "target": "CSC473"
+    },
+    {
+      "source": "CSC320",
+      "target": "CSC330"
+    },
+    {
+      "source": "CSC320",
+      "target": "CSC402"
+    },
+    {
+      "source": "CSC320",
+      "target": "CSC424"
+    },
+    {
+      "source": "CSC320",
+      "target": "CSC425"
+    },
+    {
+      "source": "CSC320",
+      "target": "CSC428"
+    },
+    {
+      "source": "CSC320",
+      "target": "CSC429"
+    },
+    {
+      "source": "CSC320",
+      "target": "CSC435"
+    },
+    {
+      "source": "CSC320",
+      "target": "SENG401"
+    },
+    {
+      "source": "CSC330",
+      "target": "CSC435"
+    },
+    {
+      "source": "CSC330",
+      "target": "CSC475"
+    },
+    {
+      "source": "CSC349A",
+      "target": "CSC449"
+    },
+    {
+      "source": "CSC349A",
+      "target": "MATH449"
+    },
+    {
+      "source": "CSC349A",
+      "target": "MECH410"
+    },
+    {
+      "source": "CSC349A",
+      "target": "MECH430"
+    },
+    {
+      "source": "CSC349A",
+      "target": "MECH444"
+    },
+    {
+      "source": "CSC349A",
+      "target": "MECH446"
+    },
+    {
+      "source": "CSC349A",
+      "target": "MECH460"
+    },
+    {
+      "source": "CSC349A",
+      "target": "SENG475"
+    },
+    {
+      "source": "CSC350",
+      "target": "ECE457"
+    },
+    {
+      "source": "CSC355",
+      "target": "CSC460"
+    },
+    {
+      "source": "CSC355",
+      "target": "ECE455"
+    },
+    {
+      "source": "CSC355",
+      "target": "ECE457"
+    },
+    {
+      "source": "CSC355",
+      "target": "ECE466"
+    },
+    {
+      "source": "CSC355",
+      "target": "SENG440"
+    },
+    {
+      "source": "CSC360",
+      "target": "CSC402"
+    },
+    {
+      "source": "CSC360",
+      "target": "CSC460"
+    },
+    {
+      "source": "CSC360",
+      "target": "CSC461"
+    },
+    {
+      "source": "CSC360",
+      "target": "CSC462"
+    },
+    {
+      "source": "CSC360",
+      "target": "CSC464"
+    },
+    {
+      "source": "CSC360",
+      "target": "CSC475"
+    },
+    {
+      "source": "CSC360",
+      "target": "SENG401"
+    },
+    {
+      "source": "CSC360",
+      "target": "SENG468"
+    },
+    {
+      "source": "CSC361",
+      "target": "CSC461"
+    },
+    {
+      "source": "CSC361",
+      "target": "CSC462"
+    },
+    {
+      "source": "CSC361",
+      "target": "CSC463"
+    },
+    {
+      "source": "CSC361",
+      "target": "CSC466"
+    },
+    {
+      "source": "CSC361",
+      "target": "CSC467"
+    },
+    {
+      "source": "CSC361",
+      "target": "SENG360"
+    },
+    {
+      "source": "CSC361",
+      "target": "SENG499"
+    },
+    {
+      "source": "CSC370",
+      "target": "CSC402"
+    },
+    {
+      "source": "CSC370",
+      "target": "CSC475"
+    },
+    {
+      "source": "CSC370",
+      "target": "SENG360"
+    },
+    {
+      "source": "CSC370",
+      "target": "SENG401"
+    },
+    {
+      "source": "CSC370",
+      "target": "SENG468"
+    },
+    {
+      "source": "CSC370",
+      "target": "SENG499"
+    },
+    {
+      "source": "ECE216",
+      "target": "ECE220"
+    },
+    {
+      "source": "ECE216",
+      "target": "ECE330"
+    },
+    {
+      "source": "ECE216",
+      "target": "ECE340"
+    },
+    {
+      "source": "ECE216",
+      "target": "ECE365"
+    },
+    {
+      "source": "ECE216",
+      "target": "ECE370"
+    },
+    {
+      "source": "ECE216",
+      "target": "MECH458"
+    },
+    {
+      "source": "ECE220",
+      "target": "ECE320"
+    },
+    {
+      "source": "ECE241",
+      "target": "ECE299"
+    },
+    {
+      "source": "ECE241",
+      "target": "ECE355"
+    },
+    {
+      "source": "ECE241",
+      "target": "ECE441"
+    },
+    {
+      "source": "ECE241",
+      "target": "SENG310"
+    },
+    {
+      "source": "ECE250",
+      "target": "ECE299"
+    },
+    {
+      "source": "ECE250",
+      "target": "ECE300"
+    },
+    {
+      "source": "ECE250",
+      "target": "ECE330"
+    },
+    {
+      "source": "ECE250",
+      "target": "ECE365"
+    },
+    {
+      "source": "ECE250",
+      "target": "ECE370"
+    },
+    {
+      "source": "ECE250",
+      "target": "MECH350"
+    },
+    {
+      "source": "ECE255",
+      "target": "CSC330"
+    },
+    {
+      "source": "ECE255",
+      "target": "CSC355"
+    },
+    {
+      "source": "ECE255",
+      "target": "CSC360"
+    },
+    {
+      "source": "ECE255",
+      "target": "CSC361"
+    },
+    {
+      "source": "ECE255",
+      "target": "ECE270"
+    },
+    {
+      "source": "ECE255",
+      "target": "ECE355"
+    },
+    {
+      "source": "ECE255",
+      "target": "ECE356"
+    },
+    {
+      "source": "ECE255",
+      "target": "ECE363"
+    },
+    {
+      "source": "ECE255",
+      "target": "SENG475"
+    },
+    {
+      "source": "ECE260",
+      "target": "BME335"
+    },
+    {
+      "source": "ECE260",
+      "target": "CSC475"
+    },
+    {
+      "source": "ECE260",
+      "target": "ECE270"
+    },
+    {
+      "source": "ECE260",
+      "target": "ECE300"
+    },
+    {
+      "source": "ECE260",
+      "target": "ECE310"
+    },
+    {
+      "source": "ECE260",
+      "target": "ECE335"
+    },
+    {
+      "source": "ECE260",
+      "target": "ECE360"
+    },
+    {
+      "source": "ECE299",
+      "target": "MECH350"
+    },
+    {
+      "source": "ECE299",
+      "target": "MECH410"
+    },
+    {
+      "source": "ECE299",
+      "target": "MECH460"
+    },
+    {
+      "source": "ECE300",
+      "target": "ECE380"
+    },
+    {
+      "source": "ECE300",
+      "target": "ECE404"
+    },
+    {
+      "source": "ECE310",
+      "target": "BME403"
+    },
+    {
+      "source": "ECE310",
+      "target": "CSC475"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE350"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE407"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE435"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE459"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE466"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE471"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE483"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE484"
+    },
+    {
+      "source": "ECE310",
+      "target": "ECE486"
+    },
+    {
+      "source": "ECE320",
+      "target": "ECE380"
+    },
+    {
+      "source": "ECE320",
+      "target": "ECE481"
+    },
+    {
+      "source": "ECE330",
+      "target": "BME335"
+    },
+    {
+      "source": "ECE330",
+      "target": "ECE335"
+    },
+    {
+      "source": "ECE330",
+      "target": "ECE380"
+    },
+    {
+      "source": "ECE340",
+      "target": "ECE404"
+    },
+    {
+      "source": "ECE350",
+      "target": "ECE417"
+    },
+    {
+      "source": "ECE350",
+      "target": "ECE450"
+    },
+    {
+      "source": "ECE355",
+      "target": "CSC460"
+    },
+    {
+      "source": "ECE355",
+      "target": "ECE455"
+    },
+    {
+      "source": "ECE355",
+      "target": "ECE457"
+    },
+    {
+      "source": "ECE355",
+      "target": "ECE466"
+    },
+    {
+      "source": "ECE355",
+      "target": "SENG440"
+    },
+    {
+      "source": "ECE356",
+      "target": "SENG426"
+    },
+    {
+      "source": "ECE356",
+      "target": "SENG468"
+    },
+    {
+      "source": "ECE360",
+      "target": "ECE426"
+    },
+    {
+      "source": "ECE360",
+      "target": "ECE460"
+    },
+    {
+      "source": "ECE360",
+      "target": "MECH430"
+    },
+    {
+      "source": "ECE360",
+      "target": "MECH460"
+    },
+    {
+      "source": "ECE363",
+      "target": "CSC461"
+    },
+    {
+      "source": "ECE363",
+      "target": "CSC462"
+    },
+    {
+      "source": "ECE363",
+      "target": "CSC463"
+    },
+    {
+      "source": "ECE363",
+      "target": "CSC466"
+    },
+    {
+      "source": "ECE363",
+      "target": "CSC467"
+    },
+    {
+      "source": "ECE363",
+      "target": "SENG360"
+    },
+    {
+      "source": "ECE363",
+      "target": "SENG468"
+    },
+    {
+      "source": "ECE363",
+      "target": "SENG499"
+    },
+    {
+      "source": "ECE365",
+      "target": "BME335"
+    },
+    {
+      "source": "ECE365",
+      "target": "ECE335"
+    },
+    {
+      "source": "ECE365",
+      "target": "MECH455"
+    },
+    {
+      "source": "ECE370",
+      "target": "ECE410"
+    },
+    {
+      "source": "ECE380",
+      "target": "ECE410"
+    },
+    {
+      "source": "ECE380",
+      "target": "ECE481"
+    },
+    {
+      "source": "ECE404",
+      "target": "ECE454"
+    },
+    {
+      "source": "ECE441",
+      "target": "ECE448"
+    },
+    {
+      "source": "ECE460",
+      "target": "MECH460"
+    },
+    {
+      "source": "ECON103",
+      "target": "ECON245"
+    },
+    {
+      "source": "ECON104",
+      "target": "ECON245"
+    },
+    {
+      "source": "ECON180",
+      "target": "ECON245"
+    },
+    {
+      "source": "ECON245",
+      "target": "STAT359"
+    },
+    {
+      "source": "ENGR001",
+      "target": "CIVE360"
+    },
+    {
+      "source": "ENGR001",
+      "target": "ENGR002"
+    },
+    {
+      "source": "ENGR001",
+      "target": "MECH350"
+    },
+    {
+      "source": "ENGR002",
+      "target": "MECH400A"
+    },
+    {
+      "source": "ENGR002",
+      "target": "SENG499"
+    },
+    {
+      "source": "ENGR110",
+      "target": "CIVE299"
+    },
+    {
+      "source": "ENGR110",
+      "target": "ENGR001"
+    },
+    {
+      "source": "ENGR110",
+      "target": "ENGR120"
+    },
+    {
+      "source": "ENGR110",
+      "target": "ENGR121"
+    },
+    {
+      "source": "ENGR110",
+      "target": "ENGR240"
+    },
+    {
+      "source": "ENGR112",
+      "target": "CIVE299"
+    },
+    {
+      "source": "ENGR112",
+      "target": "ENGR120"
+    },
+    {
+      "source": "ENGR112",
+      "target": "ENGR121"
+    },
+    {
+      "source": "ENGR120",
+      "target": "CIVE202"
+    },
+    {
+      "source": "ENGR120",
+      "target": "ECE299"
+    },
+    {
+      "source": "ENGR120",
+      "target": "ENGR002"
+    },
+    {
+      "source": "ENGR120",
+      "target": "MECH200A"
+    },
+    {
+      "source": "ENGR121",
+      "target": "ECE299"
+    },
+    {
+      "source": "ENGR121",
+      "target": "ENGR002"
+    },
+    {
+      "source": "ENGR121",
+      "target": "MECH200A"
+    },
+    {
+      "source": "ENGR130",
+      "target": "ENGR001"
+    },
+    {
+      "source": "ENGR130",
+      "target": "ENGR002"
+    },
+    {
+      "source": "ENGR141",
+      "target": "CIVE220"
+    },
+    {
+      "source": "ENGR141",
+      "target": "CIVE250"
+    },
+    {
+      "source": "ENGR141",
+      "target": "CIVE322"
+    },
+    {
+      "source": "ENGR141",
+      "target": "ECE426"
+    },
+    {
+      "source": "ENGR141",
+      "target": "MECH220"
+    },
+    {
+      "source": "ENGR141",
+      "target": "MECH242"
+    },
+    {
+      "source": "ENGR240",
+      "target": "ENGR002"
+    },
+    {
+      "source": "ENGR240",
+      "target": "ENGR121"
+    },
+    {
+      "source": "ENSH101",
+      "target": "ENGR240"
+    },
+    {
+      "source": "ENSH102",
+      "target": "ENGR240"
+    },
+    {
+      "source": "ENSH202",
+      "target": "ENGR002"
+    },
+    {
+      "source": "ENSH202",
+      "target": "ENGR121"
+    },
+    {
+      "source": "EOS110",
+      "target": "CIVE310"
+    },
+    {
+      "source": "EOS110",
+      "target": "EOS230"
+    },
+    {
+      "source": "EOS110",
+      "target": "EOS261"
+    },
+    {
+      "source": "EOS110",
+      "target": "GEOG209"
+    },
+    {
+      "source": "EOS110",
+      "target": "GEOG230"
+    },
+    {
+      "source": "EOS110",
+      "target": "GEOG272"
+    },
+    {
+      "source": "EOS120",
+      "target": "CIVE310"
+    },
+    {
+      "source": "EOS120",
+      "target": "EOS201"
+    },
+    {
+      "source": "EOS120",
+      "target": "EOS205"
+    },
+    {
+      "source": "EOS120",
+      "target": "EOS240"
+    },
+    {
+      "source": "EOS120",
+      "target": "GEOG276"
+    },
+    {
+      "source": "EOS120",
+      "target": "GEOG376"
+    },
+    {
+      "source": "EOS130",
+      "target": "EOS230"
+    },
+    {
+      "source": "EOS130",
+      "target": "EOS261"
+    },
+    {
+      "source": "EOS130",
+      "target": "GEOG209"
+    },
+    {
+      "source": "EOS130",
+      "target": "GEOG230"
+    },
+    {
+      "source": "EOS130",
+      "target": "GEOG272"
+    },
+    {
+      "source": "EOS201",
+      "target": "EOS423"
+    },
+    {
+      "source": "EOS201",
+      "target": "GEOG376"
+    },
+    {
+      "source": "EOS205",
+      "target": "EOS201"
+    },
+    {
+      "source": "EOS205",
+      "target": "EOS240"
+    },
+    {
+      "source": "EOS210",
+      "target": "EOS325"
+    },
+    {
+      "source": "EOS230",
+      "target": "EOS325"
+    },
+    {
+      "source": "EOS240",
+      "target": "EOS335"
+    },
+    {
+      "source": "EOS261",
+      "target": "EOS325"
+    },
+    {
+      "source": "EOS261",
+      "target": "EOS460"
+    },
+    {
+      "source": "EOS314",
+      "target": "EOS325"
+    },
+    {
+      "source": "EOS325",
+      "target": "EOS340"
+    },
+    {
+      "source": "EOS325",
+      "target": "EOS423"
+    },
+    {
+      "source": "EOS325",
+      "target": "EOS460"
+    },
+    {
+      "source": "EOS325",
+      "target": "PHYS340"
+    },
+    {
+      "source": "EOS335",
+      "target": "EOS460"
+    },
+    {
+      "source": "EOS340",
+      "target": "GEOG370"
+    },
+    {
+      "source": "EOS350",
+      "target": "EOS460"
+    },
+    {
+      "source": "EOS365",
+      "target": "EOS460"
+    },
+    {
+      "source": "EOS365",
+      "target": "GEOG450"
+    },
+    {
+      "source": "ES200",
+      "target": "ES301"
+    },
+    {
+      "source": "ES200",
+      "target": "ES302"
+    },
+    {
+      "source": "ES200",
+      "target": "ES321"
+    },
+    {
+      "source": "ES200",
+      "target": "ES341"
+    },
+    {
+      "source": "ES200",
+      "target": "ES344"
+    },
+    {
+      "source": "ES200",
+      "target": "ES378"
+    },
+    {
+      "source": "ES200",
+      "target": "ES399"
+    },
+    {
+      "source": "ES200",
+      "target": "ES461"
+    },
+    {
+      "source": "ES240",
+      "target": "ES341"
+    },
+    {
+      "source": "ES240",
+      "target": "ES344"
+    },
+    {
+      "source": "ES240",
+      "target": "ES399"
+    },
+    {
+      "source": "ES240",
+      "target": "GEOG358"
+    },
+    {
+      "source": "ES301",
+      "target": "ES461"
+    },
+    {
+      "source": "ES301",
+      "target": "GEOG450"
+    },
+    {
+      "source": "ES302",
+      "target": "GEOG450"
+    },
+    {
+      "source": "ES321",
+      "target": "ES461"
+    },
+    {
+      "source": "ES341",
+      "target": "ES461"
+    },
+    {
+      "source": "ES344",
+      "target": "BIOL462"
+    },
+    {
+      "source": "ES348",
+      "target": "GEOG358"
+    },
+    {
+      "source": "ES365",
+      "target": "GEOG450"
+    },
+    {
+      "source": "ES378",
+      "target": "GEOG450"
+    },
+    {
+      "source": "ES399",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG100",
+      "target": "GEOG226"
+    },
+    {
+      "source": "GEOG101A",
+      "target": "GEOG209"
+    },
+    {
+      "source": "GEOG101A",
+      "target": "GEOG274"
+    },
+    {
+      "source": "GEOG101A",
+      "target": "GEOG358"
+    },
+    {
+      "source": "GEOG101B",
+      "target": "GEOG211"
+    },
+    {
+      "source": "GEOG101B",
+      "target": "GEOG218"
+    },
+    {
+      "source": "GEOG103",
+      "target": "CIVE310"
+    },
+    {
+      "source": "GEOG103",
+      "target": "CIVE340"
+    },
+    {
+      "source": "GEOG103",
+      "target": "EOS230"
+    },
+    {
+      "source": "GEOG103",
+      "target": "EOS261"
+    },
+    {
+      "source": "GEOG103",
+      "target": "GEOG209"
+    },
+    {
+      "source": "GEOG103",
+      "target": "GEOG230"
+    },
+    {
+      "source": "GEOG103",
+      "target": "GEOG272"
+    },
+    {
+      "source": "GEOG103",
+      "target": "GEOG274"
+    },
+    {
+      "source": "GEOG103",
+      "target": "GEOG276"
+    },
+    {
+      "source": "GEOG103",
+      "target": "GEOG339"
+    },
+    {
+      "source": "GEOG103",
+      "target": "GEOG358"
+    },
+    {
+      "source": "GEOG130",
+      "target": "EOS230"
+    },
+    {
+      "source": "GEOG130",
+      "target": "EOS261"
+    },
+    {
+      "source": "GEOG130",
+      "target": "GEOG209"
+    },
+    {
+      "source": "GEOG130",
+      "target": "GEOG230"
+    },
+    {
+      "source": "GEOG130",
+      "target": "GEOG272"
+    },
+    {
+      "source": "GEOG209",
+      "target": "GEOG301"
+    },
+    {
+      "source": "GEOG209",
+      "target": "GEOG346"
+    },
+    {
+      "source": "GEOG209",
+      "target": "GEOG353"
+    },
+    {
+      "source": "GEOG209",
+      "target": "GEOG371"
+    },
+    {
+      "source": "GEOG211",
+      "target": "GEOG339"
+    },
+    {
+      "source": "GEOG211",
+      "target": "GEOG346"
+    },
+    {
+      "source": "GEOG218",
+      "target": "GEOG339"
+    },
+    {
+      "source": "GEOG218",
+      "target": "GEOG346"
+    },
+    {
+      "source": "GEOG222",
+      "target": "GEOG319"
+    },
+    {
+      "source": "GEOG222",
+      "target": "GEOG322"
+    },
+    {
+      "source": "GEOG222",
+      "target": "GEOG323"
+    },
+    {
+      "source": "GEOG222",
+      "target": "GEOG328"
+    },
+    {
+      "source": "GEOG222",
+      "target": "GEOG329"
+    },
+    {
+      "source": "GEOG226",
+      "target": "CSC226"
+    },
+    {
+      "source": "GEOG226",
+      "target": "CSC446"
+    },
+    {
+      "source": "GEOG226",
+      "target": "GEOG319"
+    },
+    {
+      "source": "GEOG226",
+      "target": "GEOG322"
+    },
+    {
+      "source": "GEOG226",
+      "target": "GEOG323"
+    },
+    {
+      "source": "GEOG226",
+      "target": "GEOG328"
+    },
+    {
+      "source": "GEOG226",
+      "target": "GEOG329"
+    },
+    {
+      "source": "GEOG226",
+      "target": "GEOG358"
+    },
+    {
+      "source": "GEOG226",
+      "target": "SENG404"
+    },
+    {
+      "source": "GEOG226",
+      "target": "STAT359"
+    },
+    {
+      "source": "GEOG228",
+      "target": "GEOG319"
+    },
+    {
+      "source": "GEOG228",
+      "target": "GEOG322"
+    },
+    {
+      "source": "GEOG228",
+      "target": "GEOG328"
+    },
+    {
+      "source": "GEOG228",
+      "target": "GEOG329"
+    },
+    {
+      "source": "GEOG230",
+      "target": "EOS325"
+    },
+    {
+      "source": "GEOG252",
+      "target": "GEOG353"
+    },
+    {
+      "source": "GEOG272",
+      "target": "GEOG370"
+    },
+    {
+      "source": "GEOG272",
+      "target": "GEOG371"
+    },
+    {
+      "source": "GEOG274",
+      "target": "GEOG303"
+    },
+    {
+      "source": "GEOG276",
+      "target": "GEOG376"
+    },
+    {
+      "source": "GEOG301",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG303",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG314",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG319",
+      "target": "GEOG420"
+    },
+    {
+      "source": "GEOG319",
+      "target": "GEOG422"
+    },
+    {
+      "source": "GEOG322",
+      "target": "GEOG422"
+    },
+    {
+      "source": "GEOG328",
+      "target": "GEOG418"
+    },
+    {
+      "source": "GEOG328",
+      "target": "GEOG420"
+    },
+    {
+      "source": "GEOG328",
+      "target": "GEOG428"
+    },
+    {
+      "source": "GEOG329",
+      "target": "GEOG418"
+    },
+    {
+      "source": "GEOG329",
+      "target": "GEOG420"
+    },
+    {
+      "source": "GEOG329",
+      "target": "GEOG428"
+    },
+    {
+      "source": "GEOG339",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG346",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG353",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG358",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG371",
+      "target": "GEOG450"
+    },
+    {
+      "source": "GEOG376",
+      "target": "GEOG476"
+    },
+    {
+      "source": "HINF130",
+      "target": "CSC375"
+    },
+    {
+      "source": "HINF140",
+      "target": "CSC375"
+    },
+    {
+      "source": "MATH100",
+      "target": "ASTR150"
+    },
+    {
+      "source": "MATH100",
+      "target": "CHEM102"
+    },
+    {
+      "source": "MATH100",
+      "target": "CHEM245"
+    },
+    {
+      "source": "MATH100",
+      "target": "CIVE210"
+    },
+    {
+      "source": "MATH100",
+      "target": "CIVE285"
+    },
+    {
+      "source": "MATH100",
+      "target": "CIVE299"
+    },
+    {
+      "source": "MATH100",
+      "target": "CSC110"
+    },
+    {
+      "source": "MATH100",
+      "target": "CSC111"
+    },
+    {
+      "source": "MATH100",
+      "target": "CSC371"
+    },
+    {
+      "source": "MATH100",
+      "target": "ECON245"
+    },
+    {
+      "source": "MATH100",
+      "target": "ENGR001"
+    },
+    {
+      "source": "MATH100",
+      "target": "ENGR141"
+    },
+    {
+      "source": "MATH100",
+      "target": "EOS240"
+    },
+    {
+      "source": "MATH100",
+      "target": "EOS261"
+    },
+    {
+      "source": "MATH100",
+      "target": "EOS314"
+    },
+    {
+      "source": "MATH100",
+      "target": "GEOG376"
+    },
+    {
+      "source": "MATH100",
+      "target": "MATH101"
+    },
+    {
+      "source": "MATH100",
+      "target": "MATH122"
+    },
+    {
+      "source": "MATH100",
+      "target": "MATH211"
+    },
+    {
+      "source": "MATH100",
+      "target": "PHYS110"
+    },
+    {
+      "source": "MATH100",
+      "target": "PHYS111"
+    },
+    {
+      "source": "MATH100",
+      "target": "PHYS120"
+    },
+    {
+      "source": "MATH101",
+      "target": "ASTR250"
+    },
+    {
+      "source": "MATH101",
+      "target": "CHEM347"
+    },
+    {
+      "source": "MATH101",
+      "target": "CIVE202"
+    },
+    {
+      "source": "MATH101",
+      "target": "CIVE322"
+    },
+    {
+      "source": "MATH101",
+      "target": "CIVE395"
+    },
+    {
+      "source": "MATH101",
+      "target": "ECE242"
+    },
+    {
+      "source": "MATH101",
+      "target": "ECE250"
+    },
+    {
+      "source": "MATH101",
+      "target": "ECE260"
+    },
+    {
+      "source": "MATH101",
+      "target": "ECON180"
+    },
+    {
+      "source": "MATH101",
+      "target": "EOS210"
+    },
+    {
+      "source": "MATH101",
+      "target": "EOS261"
+    },
+    {
+      "source": "MATH101",
+      "target": "EOS314"
+    },
+    {
+      "source": "MATH101",
+      "target": "MATH200"
+    },
+    {
+      "source": "MATH101",
+      "target": "MATH202"
+    },
+    {
+      "source": "MATH101",
+      "target": "MATH236"
+    },
+    {
+      "source": "MATH101",
+      "target": "MECH240"
+    },
+    {
+      "source": "MATH101",
+      "target": "MECH295"
+    },
+    {
+      "source": "MATH101",
+      "target": "PHYS130"
+    },
+    {
+      "source": "MATH101",
+      "target": "PHYS210"
+    },
+    {
+      "source": "MATH101",
+      "target": "STAT260"
+    },
+    {
+      "source": "MATH101",
+      "target": "STAT261"
+    },
+    {
+      "source": "MATH102",
+      "target": "CHEM102"
+    },
+    {
+      "source": "MATH102",
+      "target": "CHEM245"
+    },
+    {
+      "source": "MATH102",
+      "target": "CSC110"
+    },
+    {
+      "source": "MATH102",
+      "target": "CSC371"
+    },
+    {
+      "source": "MATH102",
+      "target": "ECON245"
+    },
+    {
+      "source": "MATH102",
+      "target": "EOS240"
+    },
+    {
+      "source": "MATH102",
+      "target": "EOS261"
+    },
+    {
+      "source": "MATH102",
+      "target": "EOS314"
+    },
+    {
+      "source": "MATH102",
+      "target": "MATH122"
+    },
+    {
+      "source": "MATH102",
+      "target": "MATH211"
+    },
+    {
+      "source": "MATH102",
+      "target": "PHYS110"
+    },
+    {
+      "source": "MATH102",
+      "target": "PHYS111"
+    },
+    {
+      "source": "MATH109",
+      "target": "ASTR150"
+    },
+    {
+      "source": "MATH109",
+      "target": "CHEM102"
+    },
+    {
+      "source": "MATH109",
+      "target": "CHEM245"
+    },
+    {
+      "source": "MATH109",
+      "target": "CIVE202"
+    },
+    {
+      "source": "MATH109",
+      "target": "CIVE210"
+    },
+    {
+      "source": "MATH109",
+      "target": "CIVE285"
+    },
+    {
+      "source": "MATH109",
+      "target": "CIVE299"
+    },
+    {
+      "source": "MATH109",
+      "target": "CSC110"
+    },
+    {
+      "source": "MATH109",
+      "target": "CSC111"
+    },
+    {
+      "source": "MATH109",
+      "target": "ECON245"
+    },
+    {
+      "source": "MATH109",
+      "target": "ENGR001"
+    },
+    {
+      "source": "MATH109",
+      "target": "ENGR141"
+    },
+    {
+      "source": "MATH109",
+      "target": "EOS240"
+    },
+    {
+      "source": "MATH109",
+      "target": "EOS261"
+    },
+    {
+      "source": "MATH109",
+      "target": "EOS314"
+    },
+    {
+      "source": "MATH109",
+      "target": "MATH101"
+    },
+    {
+      "source": "MATH109",
+      "target": "MATH122"
+    },
+    {
+      "source": "MATH109",
+      "target": "MATH211"
+    },
+    {
+      "source": "MATH109",
+      "target": "PHYS110"
+    },
+    {
+      "source": "MATH109",
+      "target": "PHYS111"
+    },
+    {
+      "source": "MATH109",
+      "target": "PHYS120"
+    },
+    {
+      "source": "MATH110",
+      "target": "CIVE200"
+    },
+    {
+      "source": "MATH110",
+      "target": "CIVE322"
+    },
+    {
+      "source": "MATH110",
+      "target": "CSC305"
+    },
+    {
+      "source": "MATH110",
+      "target": "CSC349A"
+    },
+    {
+      "source": "MATH110",
+      "target": "CSC445"
+    },
+    {
+      "source": "MATH110",
+      "target": "ECE242"
+    },
+    {
+      "source": "MATH110",
+      "target": "ECE260"
+    },
+    {
+      "source": "MATH110",
+      "target": "ENGR001"
+    },
+    {
+      "source": "MATH110",
+      "target": "ENGR141"
+    },
+    {
+      "source": "MATH110",
+      "target": "MATH248"
+    },
+    {
+      "source": "MATH110",
+      "target": "MATH322"
+    },
+    {
+      "source": "MATH110",
+      "target": "MATH335"
+    },
+    {
+      "source": "MATH110",
+      "target": "MATH346"
+    },
+    {
+      "source": "MATH110",
+      "target": "MATH347"
+    },
+    {
+      "source": "MATH110",
+      "target": "MATH348"
+    },
+    {
+      "source": "MATH110",
+      "target": "MATH377"
+    },
+    {
+      "source": "MATH110",
+      "target": "MATH428"
+    },
+    {
+      "source": "MATH110",
+      "target": "MECH200A"
+    },
+    {
+      "source": "MATH110",
+      "target": "MECH242"
+    },
+    {
+      "source": "MATH110",
+      "target": "MECH330"
+    },
+    {
+      "source": "MATH110",
+      "target": "MECH430"
+    },
+    {
+      "source": "MATH110",
+      "target": "PHYS248"
+    },
+    {
+      "source": "MATH110",
+      "target": "PHYS333"
+    },
+    {
+      "source": "MATH110",
+      "target": "SENG457"
+    },
+    {
+      "source": "MATH110",
+      "target": "SENG474"
+    },
+    {
+      "source": "MATH110",
+      "target": "STAT353"
+    },
+    {
+      "source": "MATH120",
+      "target": "CHEM091"
+    },
+    {
+      "source": "MATH120",
+      "target": "CHEM101"
+    },
+    {
+      "source": "MATH120",
+      "target": "CSC110"
+    },
+    {
+      "source": "MATH120",
+      "target": "CSC111"
+    },
+    {
+      "source": "MATH120",
+      "target": "CSC371"
+    },
+    {
+      "source": "MATH120",
+      "target": "MATH100"
+    },
+    {
+      "source": "MATH120",
+      "target": "MATH102"
+    },
+    {
+      "source": "MATH120",
+      "target": "MATH109"
+    },
+    {
+      "source": "MATH120",
+      "target": "MATH211"
+    },
+    {
+      "source": "MATH122",
+      "target": "CSC225"
+    },
+    {
+      "source": "MATH122",
+      "target": "CSC322"
+    },
+    {
+      "source": "MATH122",
+      "target": "CSC355"
+    },
+    {
+      "source": "MATH122",
+      "target": "ECE355"
+    },
+    {
+      "source": "MATH122",
+      "target": "MATH211"
+    },
+    {
+      "source": "MATH122",
+      "target": "MATH212"
+    },
+    {
+      "source": "MATH122",
+      "target": "MATH222"
+    },
+    {
+      "source": "MATH122",
+      "target": "MATH236"
+    },
+    {
+      "source": "MATH122",
+      "target": "MATH322"
+    },
+    {
+      "source": "MATH122",
+      "target": "MATH335"
+    },
+    {
+      "source": "MATH151",
+      "target": "CSC205"
+    },
+    {
+      "source": "MATH151",
+      "target": "EOS261"
+    },
+    {
+      "source": "MATH151",
+      "target": "EOS314"
+    },
+    {
+      "source": "MATH151",
+      "target": "MATH122"
+    },
+    {
+      "source": "MATH151",
+      "target": "MATH211"
+    },
+    {
+      "source": "MATH151",
+      "target": "MATH322"
+    },
+    {
+      "source": "MATH151",
+      "target": "STAT252"
+    },
+    {
+      "source": "MATH200",
+      "target": "CIVE220"
+    },
+    {
+      "source": "MATH200",
+      "target": "CIVE250"
+    },
+    {
+      "source": "MATH200",
+      "target": "CIVE322"
+    },
+    {
+      "source": "MATH200",
+      "target": "CSC349A"
+    },
+    {
+      "source": "MATH200",
+      "target": "ECE216"
+    },
+    {
+      "source": "MATH200",
+      "target": "ECE220"
+    },
+    {
+      "source": "MATH200",
+      "target": "ECE330"
+    },
+    {
+      "source": "MATH200",
+      "target": "ECE403"
+    },
+    {
+      "source": "MATH200",
+      "target": "MATH204"
+    },
+    {
+      "source": "MATH200",
+      "target": "MATH248"
+    },
+    {
+      "source": "MATH200",
+      "target": "MATH301"
+    },
+    {
+      "source": "MATH200",
+      "target": "MATH335"
+    },
+    {
+      "source": "MATH200",
+      "target": "MATH346"
+    },
+    {
+      "source": "MATH200",
+      "target": "MATH348"
+    },
+    {
+      "source": "MATH200",
+      "target": "MATH377"
+    },
+    {
+      "source": "MATH200",
+      "target": "MECH220"
+    },
+    {
+      "source": "MATH200",
+      "target": "MECH345"
+    },
+    {
+      "source": "MATH200",
+      "target": "MECH392"
+    },
+    {
+      "source": "MATH200",
+      "target": "PHYS216"
+    },
+    {
+      "source": "MATH200",
+      "target": "PHYS248"
+    },
+    {
+      "source": "MATH200",
+      "target": "PHYS301"
+    },
+    {
+      "source": "MATH200",
+      "target": "PHYS342"
+    },
+    {
+      "source": "MATH200",
+      "target": "STAT254"
+    },
+    {
+      "source": "MATH200",
+      "target": "STAT350"
+    },
+    {
+      "source": "MATH202",
+      "target": "CSC349A"
+    },
+    {
+      "source": "MATH202",
+      "target": "EOS325"
+    },
+    {
+      "source": "MATH202",
+      "target": "MATH348"
+    },
+    {
+      "source": "MATH204",
+      "target": "CIVE250"
+    },
+    {
+      "source": "MATH204",
+      "target": "CIVE322"
+    },
+    {
+      "source": "MATH204",
+      "target": "CSC349A"
+    },
+    {
+      "source": "MATH204",
+      "target": "ECE216"
+    },
+    {
+      "source": "MATH204",
+      "target": "ECE300"
+    },
+    {
+      "source": "MATH204",
+      "target": "ECE320"
+    },
+    {
+      "source": "MATH204",
+      "target": "ECE340"
+    },
+    {
+      "source": "MATH204",
+      "target": "EOS325"
+    },
+    {
+      "source": "MATH204",
+      "target": "EOS340"
+    },
+    {
+      "source": "MATH204",
+      "target": "MATH301"
+    },
+    {
+      "source": "MATH204",
+      "target": "MATH346"
+    },
+    {
+      "source": "MATH204",
+      "target": "MATH347"
+    },
+    {
+      "source": "MATH204",
+      "target": "MATH348"
+    },
+    {
+      "source": "MATH204",
+      "target": "MATH377"
+    },
+    {
+      "source": "MATH204",
+      "target": "MECH242"
+    },
+    {
+      "source": "MATH204",
+      "target": "MECH330"
+    },
+    {
+      "source": "MATH204",
+      "target": "MECH459"
+    },
+    {
+      "source": "MATH204",
+      "target": "MECH460"
+    },
+    {
+      "source": "MATH204",
+      "target": "PHYS215"
+    },
+    {
+      "source": "MATH204",
+      "target": "PHYS301"
+    },
+    {
+      "source": "MATH204",
+      "target": "PHYS340"
+    },
+    {
+      "source": "MATH211",
+      "target": "CIVE200"
+    },
+    {
+      "source": "MATH211",
+      "target": "CIVE322"
+    },
+    {
+      "source": "MATH211",
+      "target": "CSC205"
+    },
+    {
+      "source": "MATH211",
+      "target": "CSC305"
+    },
+    {
+      "source": "MATH211",
+      "target": "CSC349A"
+    },
+    {
+      "source": "MATH211",
+      "target": "CSC445"
+    },
+    {
+      "source": "MATH211",
+      "target": "ECE260"
+    },
+    {
+      "source": "MATH211",
+      "target": "ENGR141"
+    },
+    {
+      "source": "MATH211",
+      "target": "MATH248"
+    },
+    {
+      "source": "MATH211",
+      "target": "MATH322"
+    },
+    {
+      "source": "MATH211",
+      "target": "MATH335"
+    },
+    {
+      "source": "MATH211",
+      "target": "MATH346"
+    },
+    {
+      "source": "MATH211",
+      "target": "MATH347"
+    },
+    {
+      "source": "MATH211",
+      "target": "MATH348"
+    },
+    {
+      "source": "MATH211",
+      "target": "MATH377"
+    },
+    {
+      "source": "MATH211",
+      "target": "MATH428"
+    },
+    {
+      "source": "MATH211",
+      "target": "MECH200A"
+    },
+    {
+      "source": "MATH211",
+      "target": "MECH242"
+    },
+    {
+      "source": "MATH211",
+      "target": "MECH330"
+    },
+    {
+      "source": "MATH211",
+      "target": "MECH430"
+    },
+    {
+      "source": "MATH211",
+      "target": "PHYS248"
+    },
+    {
+      "source": "MATH211",
+      "target": "PHYS301"
+    },
+    {
+      "source": "MATH211",
+      "target": "PHYS333"
+    },
+    {
+      "source": "MATH211",
+      "target": "SENG457"
+    },
+    {
+      "source": "MATH211",
+      "target": "SENG474"
+    },
+    {
+      "source": "MATH211",
+      "target": "STAT353"
+    },
+    {
+      "source": "MATH211",
+      "target": "STAT464"
+    },
+    {
+      "source": "MATH212",
+      "target": "MATH413"
+    },
+    {
+      "source": "MATH222",
+      "target": "CSC428A"
+    },
+    {
+      "source": "MATH222",
+      "target": "CSC429"
+    },
+    {
+      "source": "MATH222",
+      "target": "MATH320"
+    },
+    {
+      "source": "MATH222",
+      "target": "MATH322"
+    },
+    {
+      "source": "MATH222",
+      "target": "MATH424"
+    },
+    {
+      "source": "MATH236",
+      "target": "MATH301"
+    },
+    {
+      "source": "MATH236",
+      "target": "MATH335"
+    },
+    {
+      "source": "MATH236",
+      "target": "MATH347"
+    },
+    {
+      "source": "MATH248",
+      "target": "EOS460"
+    },
+    {
+      "source": "MATH248",
+      "target": "MATH348"
+    },
+    {
+      "source": "MATH301",
+      "target": "MATH367"
+    },
+    {
+      "source": "MATH320",
+      "target": "MATH428"
+    },
+    {
+      "source": "MATH322",
+      "target": "MATH428"
+    },
+    {
+      "source": "MATH335",
+      "target": "MATH301"
+    },
+    {
+      "source": "MATH335",
+      "target": "MATH347"
+    },
+    {
+      "source": "MATH348",
+      "target": "MATH449"
+    },
+    {
+      "source": "MECH200A",
+      "target": "MECH200B"
+    },
+    {
+      "source": "MECH200A",
+      "target": "MECH410"
+    },
+    {
+      "source": "MECH200B",
+      "target": "MECH350"
+    },
+    {
+      "source": "MECH220",
+      "target": "BME350"
+    },
+    {
+      "source": "MECH220",
+      "target": "BME448"
+    },
+    {
+      "source": "MECH220",
+      "target": "CIVE385"
+    },
+    {
+      "source": "MECH220",
+      "target": "MECH320"
+    },
+    {
+      "source": "MECH220",
+      "target": "MECH330"
+    },
+    {
+      "source": "MECH220",
+      "target": "MECH345"
+    },
+    {
+      "source": "MECH220",
+      "target": "MECH350"
+    },
+    {
+      "source": "MECH220",
+      "target": "MECH360"
+    },
+    {
+      "source": "MECH220",
+      "target": "MECH392"
+    },
+    {
+      "source": "MECH220",
+      "target": "MECH444"
+    },
+    {
+      "source": "MECH220",
+      "target": "MECH448"
+    },
+    {
+      "source": "MECH240",
+      "target": "MECH345"
+    },
+    {
+      "source": "MECH240",
+      "target": "MECH392"
+    },
+    {
+      "source": "MECH240",
+      "target": "MECH395"
+    },
+    {
+      "source": "MECH242",
+      "target": "BME448"
+    },
+    {
+      "source": "MECH242",
+      "target": "MECH330"
+    },
+    {
+      "source": "MECH242",
+      "target": "MECH335"
+    },
+    {
+      "source": "MECH242",
+      "target": "MECH342"
+    },
+    {
+      "source": "MECH242",
+      "target": "MECH345"
+    },
+    {
+      "source": "MECH242",
+      "target": "MECH446"
+    },
+    {
+      "source": "MECH242",
+      "target": "MECH448"
+    },
+    {
+      "source": "MECH285",
+      "target": "MECH350"
+    },
+    {
+      "source": "MECH285",
+      "target": "MECH455"
+    },
+    {
+      "source": "MECH295",
+      "target": "MECH345"
+    },
+    {
+      "source": "MECH295",
+      "target": "MECH392"
+    },
+    {
+      "source": "MECH320",
+      "target": "MECH420"
+    },
+    {
+      "source": "MECH320",
+      "target": "MECH455"
+    },
+    {
+      "source": "MECH330",
+      "target": "MECH380"
+    },
+    {
+      "source": "MECH330",
+      "target": "MECH420"
+    },
+    {
+      "source": "MECH330",
+      "target": "MECH444"
+    },
+    {
+      "source": "MECH330",
+      "target": "MECH446"
+    },
+    {
+      "source": "MECH330",
+      "target": "MECH455"
+    },
+    {
+      "source": "MECH330",
+      "target": "MECH460"
+    },
+    {
+      "source": "MECH335",
+      "target": "MECH350"
+    },
+    {
+      "source": "MECH335",
+      "target": "MECH430"
+    },
+    {
+      "source": "MECH345",
+      "target": "MECH392"
+    },
+    {
+      "source": "MECH345",
+      "target": "MECH395"
+    },
+    {
+      "source": "MECH345",
+      "target": "MECH444"
+    },
+    {
+      "source": "MECH345",
+      "target": "MECH446"
+    },
+    {
+      "source": "MECH345",
+      "target": "MECH495"
+    },
+    {
+      "source": "MECH350",
+      "target": "BME448"
+    },
+    {
+      "source": "MECH350",
+      "target": "MECH400A"
+    },
+    {
+      "source": "MECH350",
+      "target": "MECH448"
+    },
+    {
+      "source": "MECH360",
+      "target": "MECH400A"
+    },
+    {
+      "source": "MECH380",
+      "target": "ECE460"
+    },
+    {
+      "source": "MECH380",
+      "target": "ECE466"
+    },
+    {
+      "source": "MECH380",
+      "target": "MECH381"
+    },
+    {
+      "source": "MECH380",
+      "target": "MECH430"
+    },
+    {
+      "source": "MECH380",
+      "target": "MECH444"
+    },
+    {
+      "source": "MECH380",
+      "target": "MECH455"
+    },
+    {
+      "source": "MECH380",
+      "target": "MECH460"
+    },
+    {
+      "source": "MECH395",
+      "target": "MECH455"
+    },
+    {
+      "source": "MECH395",
+      "target": "MECH495"
+    },
+    {
+      "source": "MECH400A",
+      "target": "MECH400B"
+    },
+    {
+      "source": "MECH455",
+      "target": "ECE466"
+    },
+    {
+      "source": "MECH458",
+      "target": "ECE466"
+    },
+    {
+      "source": "MICR200A",
+      "target": "BCMB301A"
+    },
+    {
+      "source": "MICR200A",
+      "target": "BIOL225"
+    },
+    {
+      "source": "MICR200A",
+      "target": "MICR200B"
+    },
+    {
+      "source": "MICR200A",
+      "target": "MICR405"
+    },
+    {
+      "source": "MICR200B",
+      "target": "BCMB301A"
+    },
+    {
+      "source": "MICR200B",
+      "target": "MICR405"
+    },
+    {
+      "source": "PHIL203",
+      "target": "CSC322"
+    },
+    {
+      "source": "PHYS102A",
+      "target": "EOS314"
+    },
+    {
+      "source": "PHYS102A",
+      "target": "EOS340"
+    },
+    {
+      "source": "PHYS102A",
+      "target": "PHYS102B"
+    },
+    {
+      "source": "PHYS102A",
+      "target": "PHYS340"
+    },
+    {
+      "source": "PHYS102B",
+      "target": "EOS261"
+    },
+    {
+      "source": "PHYS102B",
+      "target": "EOS314"
+    },
+    {
+      "source": "PHYS102B",
+      "target": "EOS325"
+    },
+    {
+      "source": "PHYS102B",
+      "target": "EOS340"
+    },
+    {
+      "source": "PHYS102B",
+      "target": "PHYS340"
+    },
+    {
+      "source": "PHYS110",
+      "target": "ASTR150"
+    },
+    {
+      "source": "PHYS110",
+      "target": "ASTR250"
+    },
+    {
+      "source": "PHYS110",
+      "target": "CIVE202"
+    },
+    {
+      "source": "PHYS110",
+      "target": "CIVE210"
+    },
+    {
+      "source": "PHYS110",
+      "target": "CIVE285"
+    },
+    {
+      "source": "PHYS110",
+      "target": "CIVE322"
+    },
+    {
+      "source": "PHYS110",
+      "target": "ECE216"
+    },
+    {
+      "source": "PHYS110",
+      "target": "ECE320"
+    },
+    {
+      "source": "PHYS110",
+      "target": "ECE426"
+    },
+    {
+      "source": "PHYS110",
+      "target": "ENGR001"
+    },
+    {
+      "source": "PHYS110",
+      "target": "EOS210"
+    },
+    {
+      "source": "PHYS110",
+      "target": "EOS314"
+    },
+    {
+      "source": "PHYS110",
+      "target": "EOS340"
+    },
+    {
+      "source": "PHYS110",
+      "target": "MECH242"
+    },
+    {
+      "source": "PHYS110",
+      "target": "PHYS102B"
+    },
+    {
+      "source": "PHYS110",
+      "target": "PHYS111"
+    },
+    {
+      "source": "PHYS110",
+      "target": "PHYS210"
+    },
+    {
+      "source": "PHYS110",
+      "target": "PHYS215"
+    },
+    {
+      "source": "PHYS110",
+      "target": "PHYS216"
+    },
+    {
+      "source": "PHYS110",
+      "target": "PHYS248"
+    },
+    {
+      "source": "PHYS110",
+      "target": "PHYS340"
+    },
+    {
+      "source": "PHYS110",
+      "target": "PHYS342"
+    },
+    {
+      "source": "PHYS111",
+      "target": "BME200"
+    },
+    {
+      "source": "PHYS111",
+      "target": "BME201"
+    },
+    {
+      "source": "PHYS111",
+      "target": "BME320"
+    },
+    {
+      "source": "PHYS111",
+      "target": "CIVE202"
+    },
+    {
+      "source": "PHYS111",
+      "target": "CIVE210"
+    },
+    {
+      "source": "PHYS111",
+      "target": "CIVE285"
+    },
+    {
+      "source": "PHYS111",
+      "target": "ECE216"
+    },
+    {
+      "source": "PHYS111",
+      "target": "ECE220"
+    },
+    {
+      "source": "PHYS111",
+      "target": "ECE250"
+    },
+    {
+      "source": "PHYS111",
+      "target": "ECE320"
+    },
+    {
+      "source": "PHYS111",
+      "target": "EOS261"
+    },
+    {
+      "source": "PHYS111",
+      "target": "EOS314"
+    },
+    {
+      "source": "PHYS111",
+      "target": "EOS325"
+    },
+    {
+      "source": "PHYS111",
+      "target": "EOS340"
+    },
+    {
+      "source": "PHYS111",
+      "target": "PHYS215"
+    },
+    {
+      "source": "PHYS111",
+      "target": "PHYS216"
+    },
+    {
+      "source": "PHYS111",
+      "target": "PHYS248"
+    },
+    {
+      "source": "PHYS111",
+      "target": "PHYS340"
+    },
+    {
+      "source": "PHYS111",
+      "target": "PHYS342"
+    },
+    {
+      "source": "PHYS120",
+      "target": "ASTR150"
+    },
+    {
+      "source": "PHYS120",
+      "target": "ASTR250"
+    },
+    {
+      "source": "PHYS120",
+      "target": "CIVE202"
+    },
+    {
+      "source": "PHYS120",
+      "target": "CIVE210"
+    },
+    {
+      "source": "PHYS120",
+      "target": "CIVE322"
+    },
+    {
+      "source": "PHYS120",
+      "target": "ECE216"
+    },
+    {
+      "source": "PHYS120",
+      "target": "EOS210"
+    },
+    {
+      "source": "PHYS120",
+      "target": "EOS314"
+    },
+    {
+      "source": "PHYS120",
+      "target": "EOS340"
+    },
+    {
+      "source": "PHYS120",
+      "target": "MECH242"
+    },
+    {
+      "source": "PHYS120",
+      "target": "PHYS102B"
+    },
+    {
+      "source": "PHYS120",
+      "target": "PHYS130"
+    },
+    {
+      "source": "PHYS120",
+      "target": "PHYS210"
+    },
+    {
+      "source": "PHYS120",
+      "target": "PHYS215"
+    },
+    {
+      "source": "PHYS120",
+      "target": "PHYS216"
+    },
+    {
+      "source": "PHYS120",
+      "target": "PHYS248"
+    },
+    {
+      "source": "PHYS120",
+      "target": "PHYS340"
+    },
+    {
+      "source": "PHYS120",
+      "target": "PHYS342"
+    },
+    {
+      "source": "PHYS130",
+      "target": "BME200"
+    },
+    {
+      "source": "PHYS130",
+      "target": "BME201"
+    },
+    {
+      "source": "PHYS130",
+      "target": "CIVE202"
+    },
+    {
+      "source": "PHYS130",
+      "target": "CIVE210"
+    },
+    {
+      "source": "PHYS130",
+      "target": "ECE216"
+    },
+    {
+      "source": "PHYS130",
+      "target": "ECE250"
+    },
+    {
+      "source": "PHYS130",
+      "target": "EOS261"
+    },
+    {
+      "source": "PHYS130",
+      "target": "EOS314"
+    },
+    {
+      "source": "PHYS130",
+      "target": "EOS325"
+    },
+    {
+      "source": "PHYS130",
+      "target": "EOS340"
+    },
+    {
+      "source": "PHYS130",
+      "target": "PHYS215"
+    },
+    {
+      "source": "PHYS130",
+      "target": "PHYS216"
+    },
+    {
+      "source": "PHYS130",
+      "target": "PHYS248"
+    },
+    {
+      "source": "PHYS130",
+      "target": "PHYS340"
+    },
+    {
+      "source": "PHYS130",
+      "target": "PHYS342"
+    },
+    {
+      "source": "PHYS210",
+      "target": "EOS325"
+    },
+    {
+      "source": "PHYS215",
+      "target": "PHYS301"
+    },
+    {
+      "source": "PHYS216",
+      "target": "PHYS301"
+    },
+    {
+      "source": "PHYS248",
+      "target": "EOS460"
+    },
+    {
+      "source": "PHYS248",
+      "target": "MATH348"
+    },
+    {
+      "source": "PHYS248",
+      "target": "PHYS301"
+    },
+    {
+      "source": "PHYS342",
+      "target": "CSC446"
+    },
+    {
+      "source": "PSYC100A",
+      "target": "PSYC201"
+    },
+    {
+      "source": "PSYC100B",
+      "target": "PSYC201"
+    },
+    {
+      "source": "PSYC201",
+      "target": "PSYC300A"
+    },
+    {
+      "source": "PSYC300A",
+      "target": "CSC226"
+    },
+    {
+      "source": "PSYC300A",
+      "target": "SENG404"
+    },
+    {
+      "source": "PSYC300A",
+      "target": "STAT359"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC205"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC299"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC305"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC330"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC360"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC361"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC370"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC375"
+    },
+    {
+      "source": "SENG265",
+      "target": "CSC427"
+    },
+    {
+      "source": "SENG265",
+      "target": "ECE270"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG275"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG310"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG321"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG330"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG360"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG404"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG421"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG457"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG474"
+    },
+    {
+      "source": "SENG265",
+      "target": "SENG475"
+    },
+    {
+      "source": "SENG275",
+      "target": "SENG350"
+    },
+    {
+      "source": "SENG275",
+      "target": "SENG371"
+    },
+    {
+      "source": "SENG275",
+      "target": "SENG426"
+    },
+    {
+      "source": "SENG275",
+      "target": "SENG477"
+    },
+    {
+      "source": "SENG310",
+      "target": "CSC411"
+    },
+    {
+      "source": "SENG310",
+      "target": "CSC413"
+    },
+    {
+      "source": "SENG310",
+      "target": "CSC475"
+    },
+    {
+      "source": "SENG310",
+      "target": "SENG411"
+    },
+    {
+      "source": "SENG310",
+      "target": "SENG435"
+    },
+    {
+      "source": "SENG321",
+      "target": "SENG371"
+    },
+    {
+      "source": "SENG321",
+      "target": "SENG401"
+    },
+    {
+      "source": "SENG321",
+      "target": "SENG426"
+    },
+    {
+      "source": "SENG321",
+      "target": "SENG499"
+    },
+    {
+      "source": "SENG330",
+      "target": "CSC475"
+    },
+    {
+      "source": "SENG350",
+      "target": "SENG499"
+    },
+    {
+      "source": "SENG360",
+      "target": "ECE448"
+    },
+    {
+      "source": "SENG360",
+      "target": "SENG401"
+    },
+    {
+      "source": "SENG360",
+      "target": "SENG460"
+    },
+    {
+      "source": "SENG360",
+      "target": "SENG477"
+    },
+    {
+      "source": "SENG371",
+      "target": "SENG426"
+    },
+    {
+      "source": "SENG474",
+      "target": "CSC431"
+    },
+    {
+      "source": "STAT252",
+      "target": "CSC446"
+    },
+    {
+      "source": "STAT252",
+      "target": "MATH377"
+    },
+    {
+      "source": "STAT252",
+      "target": "SENG411"
+    },
+    {
+      "source": "STAT252",
+      "target": "SENG474"
+    },
+    {
+      "source": "STAT252",
+      "target": "STAT256"
+    },
+    {
+      "source": "STAT252",
+      "target": "STAT350"
+    },
+    {
+      "source": "STAT252",
+      "target": "STAT359"
+    },
+    {
+      "source": "STAT254",
+      "target": "CIVE360"
+    },
+    {
+      "source": "STAT254",
+      "target": "CIVE452"
+    },
+    {
+      "source": "STAT254",
+      "target": "CSC226"
+    },
+    {
+      "source": "STAT254",
+      "target": "CSC446"
+    },
+    {
+      "source": "STAT254",
+      "target": "ECE463"
+    },
+    {
+      "source": "STAT254",
+      "target": "ECE485"
+    },
+    {
+      "source": "STAT254",
+      "target": "MATH377"
+    },
+    {
+      "source": "STAT254",
+      "target": "MECH350"
+    },
+    {
+      "source": "STAT254",
+      "target": "SENG404"
+    },
+    {
+      "source": "STAT254",
+      "target": "SENG411"
+    },
+    {
+      "source": "STAT254",
+      "target": "SENG474"
+    },
+    {
+      "source": "STAT254",
+      "target": "STAT256"
+    },
+    {
+      "source": "STAT254",
+      "target": "STAT261"
+    },
+    {
+      "source": "STAT254",
+      "target": "STAT350"
+    },
+    {
+      "source": "STAT254",
+      "target": "STAT359"
+    },
+    {
+      "source": "STAT255",
+      "target": "BIOL330"
+    },
+    {
+      "source": "STAT255",
+      "target": "CSC226"
+    },
+    {
+      "source": "STAT255",
+      "target": "CSC446"
+    },
+    {
+      "source": "STAT255",
+      "target": "ES344"
+    },
+    {
+      "source": "STAT255",
+      "target": "MATH377"
+    },
+    {
+      "source": "STAT255",
+      "target": "SENG411"
+    },
+    {
+      "source": "STAT255",
+      "target": "SENG474"
+    },
+    {
+      "source": "STAT255",
+      "target": "STAT256"
+    },
+    {
+      "source": "STAT255",
+      "target": "STAT350"
+    },
+    {
+      "source": "STAT255",
+      "target": "STAT359"
+    },
+    {
+      "source": "STAT256",
+      "target": "STAT353"
+    },
+    {
+      "source": "STAT260",
+      "target": "BIOL330"
+    },
+    {
+      "source": "STAT260",
+      "target": "CIVE360"
+    },
+    {
+      "source": "STAT260",
+      "target": "CIVE452"
+    },
+    {
+      "source": "STAT260",
+      "target": "CSC226"
+    },
+    {
+      "source": "STAT260",
+      "target": "CSC446"
+    },
+    {
+      "source": "STAT260",
+      "target": "ECE463"
+    },
+    {
+      "source": "STAT260",
+      "target": "ECE485"
+    },
+    {
+      "source": "STAT260",
+      "target": "ES344"
+    },
+    {
+      "source": "STAT260",
+      "target": "MATH377"
+    },
+    {
+      "source": "STAT260",
+      "target": "MECH350"
+    },
+    {
+      "source": "STAT260",
+      "target": "SENG404"
+    },
+    {
+      "source": "STAT260",
+      "target": "SENG411"
+    },
+    {
+      "source": "STAT260",
+      "target": "SENG474"
+    },
+    {
+      "source": "STAT260",
+      "target": "STAT256"
+    },
+    {
+      "source": "STAT260",
+      "target": "STAT261"
+    },
+    {
+      "source": "STAT260",
+      "target": "STAT350"
+    },
+    {
+      "source": "STAT260",
+      "target": "STAT359"
+    },
+    {
+      "source": "STAT261",
+      "target": "STAT353"
+    },
+    {
+      "source": "STAT261",
+      "target": "STAT464"
+    },
+    {
+      "source": "STAT350",
+      "target": "STAT464"
+    },
+    {
+      "source": "STAT350",
+      "target": "STAT465"
+    },
+    {
+      "source": "STAT353",
+      "target": "STAT465"
+    },
+    {
+      "source": "STAT353",
+      "target": "STAT469"
+    },
+    {
+      "source": "STAT359",
+      "target": "STAT464"
+    },
+    {
+      "source": "STAT469",
+      "target": "CSC431"
+    }
+  ],
+  "duplicate_course_codes": {},
+  "generated_at_utc": "2026-05-22T15:57:00.038636+00:00",
+  "missing_detail_codes": [],
+  "missing_prereq_codes": [
+    "BIOL190A",
+    "BIOL190B",
+    "BIOL409A",
+    "CENG241",
+    "CENG255",
+    "CENG290",
+    "CENG355",
+    "CENG356",
+    "CENG460",
+    "CHEM232",
+    "CHEM235",
+    "CIVE242",
+    "CIVE295",
+    "CIVE350",
+    "CSC450",
+    "ECE458",
+    "ECON103C",
+    "ELEC199",
+    "ELEC200",
+    "ELEC216",
+    "ELEC250",
+    "ELEC260",
+    "ELEC299",
+    "ELEC300",
+    "ELEC310",
+    "ELEC320",
+    "ELEC330",
+    "ELEC340",
+    "ELEC350",
+    "ELEC360",
+    "ELEC365",
+    "ELEC370",
+    "ELEC380",
+    "ELEC404",
+    "ELEC460",
+    "ENGL135",
+    "ENGL146",
+    "ENGL147",
+    "ENGL225",
+    "ENGR111",
+    "ENGR150",
+    "EOS100",
+    "EOS225",
+    "GEOG110",
+    "GEOG120",
+    "GEOG304",
+    "GEOG357",
+    "MATH201",
+    "MATH205",
+    "MATH208",
+    "MATH300",
+    "MATH336",
+    "MECH200",
+    "MECH245",
+    "MECH405",
+    "PHYS112",
+    "PHYS122",
+    "PHYS125",
+    "SENG221",
+    "SENG271",
+    "SENG299",
+    "SOCI371A",
+    "STAT100"
+  ],
+  "prerequisite_only_course_codes": [
+    "ASTR150",
+    "ASTR250",
+    "ATWP110",
+    "ATWP135",
+    "BIOC299",
+    "BIOC300A",
+    "BIOC300B",
+    "BIOL150A",
+    "BIOL150B",
+    "BIOL184",
+    "BIOL186",
+    "BIOL215",
+    "BIOL225",
+    "BIOL230",
+    "BIOL360",
+    "BIOL361",
+    "BIOL365",
+    "BIOL367",
+    "BME200",
+    "BME201",
+    "BME320",
+    "CHEM091",
+    "CHEM101",
+    "CHEM102",
+    "CHEM150",
+    "CHEM231",
+    "CHEM234",
+    "CHEM347",
+    "CIVE202",
+    "CIVE210",
+    "CIVE220",
+    "CIVE250",
+    "CIVE285",
+    "CIVE322",
+    "CIVE360",
+    "CIVE385",
+    "CIVE395",
+    "ECE216",
+    "ECE220",
+    "ECE300",
+    "ECE320",
+    "ECE340",
+    "ECE360",
+    "ECE365",
+    "ECE370",
+    "ECE460",
+    "ECON103",
+    "ECON104",
+    "ECON180",
+    "ECON245",
+    "ENGR001",
+    "ENGR002",
+    "ENGR110",
+    "ENGR112",
+    "ENGR120",
+    "ENGR130",
+    "ENGR240",
+    "ENSH101",
+    "ENSH102",
+    "ENSH202",
+    "EOS110",
+    "EOS120",
+    "EOS130",
+    "EOS201",
+    "EOS205",
+    "EOS210",
+    "EOS240",
+    "EOS261",
+    "EOS314",
+    "EOS325",
+    "EOS335",
+    "EOS340",
+    "EOS350",
+    "EOS365",
+    "ER313",
+    "ES200",
+    "ES240",
+    "ES301",
+    "ES302",
+    "ES321",
+    "ES341",
+    "ES344",
+    "ES348",
+    "ES365",
+    "ES378",
+    "ES399",
+    "ES461",
+    "GEOG100",
+    "GEOG101A",
+    "GEOG101B",
+    "GEOG103",
+    "GEOG130",
+    "GEOG209",
+    "GEOG211",
+    "GEOG218",
+    "GEOG226",
+    "GEOG252",
+    "GEOG272",
+    "GEOG274",
+    "GEOG276",
+    "GEOG301",
+    "GEOG303",
+    "GEOG314",
+    "GEOG339",
+    "GEOG346",
+    "GEOG353",
+    "GEOG358",
+    "GEOG371",
+    "GEOG376",
+    "HINF130",
+    "HINF140",
+    "MATH100",
+    "MATH101",
+    "MATH102",
+    "MATH109",
+    "MATH110",
+    "MATH120",
+    "MATH122",
+    "MATH200",
+    "MATH202",
+    "MATH204",
+    "MATH211",
+    "MATH212",
+    "MATH236",
+    "MATH301",
+    "MATH320",
+    "MATH322",
+    "MATH335",
+    "MECH200B",
+    "MECH220",
+    "MECH240",
+    "MECH242",
+    "MECH285",
+    "MECH295",
+    "MECH330",
+    "MECH335",
+    "MECH345",
+    "MECH350",
+    "MECH360",
+    "MECH380",
+    "MECH395",
+    "MECH400A",
+    "MECH455",
+    "MICR200A",
+    "MICR200B",
+    "PHIL203",
+    "PHYS102A",
+    "PHYS102B",
+    "PHYS110",
+    "PHYS111",
+    "PHYS120",
+    "PHYS130",
+    "PHYS210",
+    "PHYS215",
+    "PHYS216",
+    "PHYS340",
+    "PSYC100A",
+    "PSYC100B",
+    "PSYC201",
+    "PSYC300A",
+    "STAT254",
+    "STAT255",
+    "STAT256",
+    "STAT260",
+    "STAT261",
+    "STAT350",
+    "STAT353"
+  ],
+  "seed_course_codes": [
+    "ASTR329",
+    "BCMB301A",
+    "BEM310",
+    "BEM412",
+    "BEM415",
+    "BEM418",
+    "BEM430",
+    "BIOL330",
+    "BIOL404",
+    "BIOL462",
+    "BIOL469",
+    "BME335",
+    "BME350",
+    "BME403",
+    "BME448",
+    "CHEM212",
+    "CHEM245",
+    "CHEM477",
+    "CIVE200",
+    "CIVE299",
+    "CIVE310",
+    "CIVE340",
+    "CIVE410",
+    "CIVE411",
+    "CIVE421",
+    "CIVE422",
+    "CIVE445",
+    "CIVE452",
+    "CIVE453",
+    "CIVE465",
+    "CIVE467",
+    "CSC100",
+    "CSC103",
+    "CSC105",
+    "CSC106",
+    "CSC110",
+    "CSC111",
+    "CSC115",
+    "CSC116",
+    "CSC130",
+    "CSC167",
+    "CSC205",
+    "CSC225",
+    "CSC226",
+    "CSC230",
+    "CSC299",
+    "CSC305",
+    "CSC320",
+    "CSC322",
+    "CSC330",
+    "CSC349A",
+    "CSC350",
+    "CSC355",
+    "CSC360",
+    "CSC361",
+    "CSC370",
+    "CSC371",
+    "CSC375",
+    "CSC402",
+    "CSC411",
+    "CSC412",
+    "CSC413",
+    "CSC421",
+    "CSC423",
+    "CSC424",
+    "CSC425",
+    "CSC426",
+    "CSC427",
+    "CSC428",
+    "CSC428A",
+    "CSC429",
+    "CSC431",
+    "CSC435",
+    "CSC445",
+    "CSC446",
+    "CSC449",
+    "CSC460",
+    "CSC461",
+    "CSC462",
+    "CSC463",
+    "CSC464",
+    "CSC466",
+    "CSC467",
+    "CSC471",
+    "CSC472",
+    "CSC473",
+    "CSC475",
+    "CSC482A",
+    "CSC482B",
+    "CSC482C",
+    "CSC482D",
+    "CSC483A",
+    "CSC483B",
+    "CSC483C",
+    "CSC483D",
+    "CSC484A",
+    "CSC484B",
+    "CSC484C",
+    "CSC484D",
+    "CSC485A",
+    "CSC485B",
+    "CSC485C",
+    "CSC485D",
+    "CSC485E",
+    "CSC485F",
+    "CSC485G",
+    "CSC485H",
+    "CSC486A",
+    "CSC486B",
+    "CSC486C",
+    "CSC486D",
+    "CSC490",
+    "CSC497",
+    "CSC499",
+    "ECE241",
+    "ECE242",
+    "ECE250",
+    "ECE255",
+    "ECE260",
+    "ECE270",
+    "ECE299",
+    "ECE310",
+    "ECE330",
+    "ECE335",
+    "ECE350",
+    "ECE355",
+    "ECE356",
+    "ECE363",
+    "ECE380",
+    "ECE403",
+    "ECE404",
+    "ECE405",
+    "ECE406",
+    "ECE407",
+    "ECE410",
+    "ECE417",
+    "ECE426",
+    "ECE435",
+    "ECE441",
+    "ECE448",
+    "ECE450",
+    "ECE454",
+    "ECE455",
+    "ECE457",
+    "ECE459",
+    "ECE463",
+    "ECE466",
+    "ECE470",
+    "ECE471",
+    "ECE481",
+    "ECE483",
+    "ECE484",
+    "ECE485",
+    "ECE486",
+    "ECS100",
+    "ECS105",
+    "ECS200",
+    "ECS300",
+    "ECS400",
+    "ENGR121",
+    "ENGR141",
+    "EOS230",
+    "EOS423",
+    "EOS460",
+    "GEOG222",
+    "GEOG227",
+    "GEOG228",
+    "GEOG230",
+    "GEOG315",
+    "GEOG319",
+    "GEOG322",
+    "GEOG323",
+    "GEOG328",
+    "GEOG329",
+    "GEOG370",
+    "GEOG418",
+    "GEOG420",
+    "GEOG422",
+    "GEOG428",
+    "GEOG450",
+    "GEOG476",
+    "MATH151",
+    "MATH161",
+    "MATH222",
+    "MATH248",
+    "MATH346",
+    "MATH347",
+    "MATH348",
+    "MATH367",
+    "MATH377",
+    "MATH413",
+    "MATH424",
+    "MATH428",
+    "MATH449",
+    "MATH492",
+    "MECH150",
+    "MECH200A",
+    "MECH320",
+    "MECH342",
+    "MECH381",
+    "MECH392",
+    "MECH400B",
+    "MECH410",
+    "MECH420",
+    "MECH430",
+    "MECH444",
+    "MECH446",
+    "MECH448",
+    "MECH458",
+    "MECH459",
+    "MECH460",
+    "MECH495",
+    "MICR405",
+    "MRNE412",
+    "MRNE475",
+    "PHYS248",
+    "PHYS301",
+    "PHYS333",
+    "PHYS342",
+    "SENG265",
+    "SENG275",
+    "SENG310",
+    "SENG321",
+    "SENG330",
+    "SENG350",
+    "SENG360",
+    "SENG371",
+    "SENG401",
+    "SENG404",
+    "SENG411",
+    "SENG421",
+    "SENG426",
+    "SENG435",
+    "SENG440",
+    "SENG457",
+    "SENG460",
+    "SENG468",
+    "SENG474",
+    "SENG475",
+    "SENG477",
+    "SENG480A",
+    "SENG480B",
+    "SENG480C",
+    "SENG480D",
+    "SENG490",
+    "SENG498",
+    "SENG499",
+    "STAT123",
+    "STAT252",
+    "STAT321",
+    "STAT359",
+    "STAT454",
+    "STAT464",
+    "STAT465",
+    "STAT469"
+  ],
+  "seed_reasons": {
+    "ASTR329": "keyword match: data analysis",
+    "BCMB301A": "keyword match: bioinformatics",
+    "BEM310": "keyword match: data analytics, digital health",
+    "BEM412": "keyword match: computational, data analytics, data mining, machine learning, +1 more",
+    "BEM415": "keyword match: internet of things",
+    "BEM418": "keyword match: data analysis",
+    "BEM430": "keyword match: digital health",
+    "BIOL330": "keyword match: data analysis",
+    "BIOL404": "keyword match: coding",
+    "BIOL462": "keyword match: programming",
+    "BIOL469": "keyword match: bioinformatics, computational, programming",
+    "BME335": "keyword match: signal processing",
+    "BME350": "keyword match: graphics",
+    "BME403": "keyword match: computer-aided work, image processing, visualization",
+    "BME448": "keyword match: computational, computer-assisted work",
+    "CHEM212": "keyword match: data analysis",
+    "CHEM245": "keyword match: numerical methods",
+    "CHEM477": "keyword match: computational",
+    "CIVE200": "keyword match: computer-aided work",
+    "CIVE299": "keyword match: geographic information systems, GIS, remote sensing",
+    "CIVE310": "keyword match: systems analysis",
+    "CIVE340": "keyword match: simulation, software",
+    "CIVE410": "keyword match: software",
+    "CIVE411": "keyword match: cyber systems/security",
+    "CIVE421": "keyword match: finite element methods",
+    "CIVE422": "keyword match: computational, finite element methods, numerical methods",
+    "CIVE445": "keyword match: numerical methods",
+    "CIVE452": "keyword match: simulation",
+    "CIVE453": "keyword match: computational, optimization, simulation",
+    "CIVE465": "keyword match: optimization, Python, visualization",
+    "CIVE467": "keyword match: data analysis, machine learning, optimization",
+    "CSC100": "CSC subject",
+    "CSC103": "CSC subject",
+    "CSC105": "CSC subject",
+    "CSC106": "CSC subject",
+    "CSC110": "CSC subject",
+    "CSC111": "CSC subject",
+    "CSC115": "CSC subject",
+    "CSC116": "CSC subject",
+    "CSC130": "CSC subject",
+    "CSC167": "CSC subject",
+    "CSC205": "CSC subject",
+    "CSC225": "CSC subject",
+    "CSC226": "CSC subject",
+    "CSC230": "CSC subject",
+    "CSC299": "CSC subject",
+    "CSC305": "CSC subject",
+    "CSC320": "CSC subject",
+    "CSC322": "CSC subject",
+    "CSC330": "CSC subject",
+    "CSC349A": "CSC subject",
+    "CSC350": "CSC subject",
+    "CSC355": "CSC subject",
+    "CSC360": "CSC subject",
+    "CSC361": "CSC subject",
+    "CSC370": "CSC subject",
+    "CSC371": "CSC subject",
+    "CSC375": "CSC subject",
+    "CSC402": "CSC subject",
+    "CSC411": "CSC subject",
+    "CSC412": "CSC subject",
+    "CSC413": "CSC subject",
+    "CSC421": "CSC subject",
+    "CSC423": "CSC subject",
+    "CSC424": "CSC subject",
+    "CSC425": "CSC subject",
+    "CSC426": "CSC subject",
+    "CSC427": "CSC subject",
+    "CSC428": "CSC subject",
+    "CSC428A": "CSC subject",
+    "CSC429": "CSC subject",
+    "CSC431": "CSC subject",
+    "CSC435": "CSC subject",
+    "CSC445": "CSC subject",
+    "CSC446": "CSC subject",
+    "CSC449": "CSC subject",
+    "CSC460": "CSC subject",
+    "CSC461": "CSC subject",
+    "CSC462": "CSC subject",
+    "CSC463": "CSC subject",
+    "CSC464": "CSC subject",
+    "CSC466": "CSC subject",
+    "CSC467": "CSC subject",
+    "CSC471": "CSC subject",
+    "CSC472": "CSC subject",
+    "CSC473": "CSC subject",
+    "CSC475": "CSC subject",
+    "CSC482A": "CSC subject",
+    "CSC482B": "CSC subject",
+    "CSC482C": "CSC subject",
+    "CSC482D": "CSC subject",
+    "CSC483A": "CSC subject",
+    "CSC483B": "CSC subject",
+    "CSC483C": "CSC subject",
+    "CSC483D": "CSC subject",
+    "CSC484A": "CSC subject",
+    "CSC484B": "CSC subject",
+    "CSC484C": "CSC subject",
+    "CSC484D": "CSC subject",
+    "CSC485A": "CSC subject",
+    "CSC485B": "CSC subject",
+    "CSC485C": "CSC subject",
+    "CSC485D": "CSC subject",
+    "CSC485E": "CSC subject",
+    "CSC485F": "CSC subject",
+    "CSC485G": "CSC subject",
+    "CSC485H": "CSC subject",
+    "CSC486A": "CSC subject",
+    "CSC486B": "CSC subject",
+    "CSC486C": "CSC subject",
+    "CSC486D": "CSC subject",
+    "CSC490": "CSC subject",
+    "CSC497": "CSC subject",
+    "CSC499": "CSC subject",
+    "ECE241": "keyword match: digital design",
+    "ECE242": "keyword match: computational, programming",
+    "ECE250": "keyword match: parallel computing",
+    "ECE255": "keyword match: computer architecture, programming, software",
+    "ECE260": "keyword match: simulation",
+    "ECE270": "keyword match: computational, cyber systems/security, embedded systems, internet of things, +1 more",
+    "ECE299": "keyword match: computer-aided work, simulation",
+    "ECE310": "keyword match: digital signal processing, signal processing",
+    "ECE330": "keyword match: simulation",
+    "ECE335": "keyword match: signal processing",
+    "ECE350": "keyword match: MATLAB",
+    "ECE355": "keyword match: microprocessor systems",
+    "ECE356": "keyword match: operating systems, software",
+    "ECE363": "keyword match: algorithms",
+    "ECE380": "keyword match: simulation",
+    "ECE403": "keyword match: machine learning, optimization, signal processing",
+    "ECE404": "keyword match: numerical methods",
+    "ECE405": "keyword match: algorithms, coding",
+    "ECE406": "keyword match: cryptography",
+    "ECE407": "keyword match: digital signal processing, signal processing, VLSI",
+    "ECE410": "keyword match: computer-aided work",
+    "ECE417": "keyword match: digital signal processing, signal processing, software",
+    "ECE426": "keyword match: robotics",
+    "ECE435": "keyword match: computer-aided work, image processing, visualization",
+    "ECE441": "keyword match: coding, optimization, simulation, VLSI",
+    "ECE448": "keyword match: cyber systems/security, embedded systems",
+    "ECE450": "keyword match: coding",
+    "ECE454": "keyword match: computer-aided work",
+    "ECE455": "keyword match: software",
+    "ECE457": "keyword match: coding, computing, parallel computing",
+    "ECE459": "keyword match: algorithms, digital signal processing, signal processing",
+    "ECE463": "keyword match: simulation",
+    "ECE466": "keyword match: signal processing",
+    "ECE470": "keyword match: artificial intelligence",
+    "ECE471": "keyword match: computer vision",
+    "ECE481": "keyword match: neural networks, VLSI",
+    "ECE483": "keyword match: digital video",
+    "ECE484": "keyword match: signal processing",
+    "ECE485": "keyword match: computer security, data analysis, data science",
+    "ECE486": "keyword match: c++, computer graphics, graphics, programming, +1 more",
+    "ECS100": "ECS subject",
+    "ECS105": "ECS subject",
+    "ECS200": "ECS subject",
+    "ECS300": "ECS subject",
+    "ECS400": "ECS subject",
+    "ENGR121": "keyword match: software",
+    "ENGR141": "keyword match: distributed systems",
+    "EOS230": "keyword match: data analysis, data visualization, programming, visualization",
+    "EOS423": "keyword match: computational, remote sensing",
+    "EOS460": "keyword match: systems analysis",
+    "GEOG222": "keyword match: geographic information systems, GIS",
+    "GEOG227": "keyword match: coding",
+    "GEOG228": "keyword match: remote sensing",
+    "GEOG230": "keyword match: data analysis, data visualization, programming, visualization",
+    "GEOG315": "keyword match: data management",
+    "GEOG319": "keyword match: remote sensing",
+    "GEOG322": "keyword match: remote sensing, software",
+    "GEOG323": "keyword match: digital mapping, visualization",
+    "GEOG328": "keyword match: digital mapping, GIS",
+    "GEOG329": "keyword match: GIS",
+    "GEOG370": "keyword match: data analysis",
+    "GEOG418": "keyword match: data mining, numerical methods, simulation",
+    "GEOG420": "keyword match: GIS, remote sensing",
+    "GEOG422": "keyword match: remote sensing",
+    "GEOG428": "keyword match: geographic information systems, visualization",
+    "GEOG450": "keyword match: simulation",
+    "GEOG476": "keyword match: data analysis",
+    "MATH151": "keyword match: programming",
+    "MATH161": "keyword match: numerical methods",
+    "MATH222": "keyword match: coding",
+    "MATH248": "keyword match: coding, computer-assisted work, data management, numerical methods, +3 more",
+    "MATH346": "keyword match: numerical methods",
+    "MATH347": "keyword match: optimization, software",
+    "MATH348": "keyword match: numerical methods, optimization",
+    "MATH367": "keyword match: parallel computing",
+    "MATH377": "keyword match: numerical methods, optimization",
+    "MATH413": "keyword match: computer science, cryptography",
+    "MATH424": "keyword match: optimization",
+    "MATH428": "keyword match: optimization, programming",
+    "MATH449": "keyword match: computing, numerical methods, optimization, scientific computing",
+    "MATH492": "keyword match: optimization",
+    "MECH150": "keyword match: computer-aided work, software",
+    "MECH200A": "keyword match: computer-aided work, software",
+    "MECH320": "keyword match: finite element methods",
+    "MECH342": "keyword match: numerical methods",
+    "MECH381": "keyword match: optimization, simulation",
+    "MECH392": "keyword match: numerical methods",
+    "MECH400B": "keyword match: software",
+    "MECH410": "keyword match: computer graphics, computer-aided work, data management, graphics, +2 more",
+    "MECH420": "keyword match: finite element methods, numerical methods",
+    "MECH430": "keyword match: robotics",
+    "MECH444": "keyword match: simulation",
+    "MECH446": "keyword match: simulation",
+    "MECH448": "keyword match: computational, computer-assisted work",
+    "MECH458": "keyword match: programming",
+    "MECH459": "keyword match: optimization, simulation",
+    "MECH460": "keyword match: computer-aided work, programming",
+    "MECH495": "keyword match: computational",
+    "MICR405": "keyword match: bioinformatics",
+    "MRNE412": "keyword match: database",
+    "MRNE475": "keyword match: computing, data analysis, statistical computing",
+    "PHYS248": "keyword match: coding, computer-assisted work, computing, data management, +2 more",
+    "PHYS301": "keyword match: computational, data visualization, numerical methods, simulation, +1 more",
+    "PHYS333": "keyword match: computing",
+    "PHYS342": "keyword match: computational, data analysis, data visualization, numerical methods, +2 more",
+    "SENG265": "SENG subject",
+    "SENG275": "SENG subject",
+    "SENG310": "SENG subject",
+    "SENG321": "SENG subject",
+    "SENG330": "SENG subject",
+    "SENG350": "SENG subject",
+    "SENG360": "SENG subject",
+    "SENG371": "SENG subject",
+    "SENG401": "SENG subject",
+    "SENG404": "SENG subject",
+    "SENG411": "SENG subject",
+    "SENG421": "SENG subject",
+    "SENG426": "SENG subject",
+    "SENG435": "SENG subject",
+    "SENG440": "SENG subject",
+    "SENG457": "SENG subject",
+    "SENG460": "SENG subject",
+    "SENG468": "SENG subject",
+    "SENG474": "SENG subject",
+    "SENG475": "SENG subject",
+    "SENG477": "SENG subject",
+    "SENG480A": "SENG subject",
+    "SENG480B": "SENG subject",
+    "SENG480C": "SENG subject",
+    "SENG480D": "SENG subject",
+    "SENG490": "SENG subject",
+    "SENG498": "SENG subject",
+    "SENG499": "SENG subject",
+    "STAT123": "keyword match: computational, data science, data visualization, programming, +1 more",
+    "STAT252": "keyword match: software",
+    "STAT321": "keyword match: data management, database, programming, simulation",
+    "STAT359": "keyword match: data analysis, software",
+    "STAT454": "keyword match: bioinformatics, computing, data analysis, statistical computing",
+    "STAT464": "keyword match: algorithms, computing, numerical methods, optimization, +2 more",
+    "STAT465": "keyword match: visualization",
+    "STAT469": "keyword match: machine learning"
+  },
+  "source": {
+    "catalog_id": "69601062eff06bec3b0778a8",
+    "direct_computing_subjects": [
+      "CSC",
+      "ECS",
+      "SENG"
+    ],
+    "engineering_units": [
+      "Biomedical Engineering",
+      "Department of Civil Engineering",
+      "Department of Computer Science",
+      "Department of Electrical and Computer Engineering",
+      "Department of Mechanical Engineering",
+      "Faculty of Engineering and Computer Science",
+      "Software Engineering"
+    ],
+    "publish_timetable": "Y",
+    "science_units": [
+      "Department of Biochemistry and Microbiology",
+      "Department of Biology",
+      "Department of Chemistry",
+      "Department of Geography",
+      "Department of Mathematics and Statistics",
+      "Department of Physics and Astronomy",
+      "Faculty of Science",
+      "School of Earth and Ocean Sciences"
+    ],
+    "scope_rule": "Seed courses are current UVic undergraduate calendar courses in Science or Engineering and Computer Science that are direct computing subjects or match computing/data/software/numerical/GIS/systems keywords; prerequisite courses are then followed recursively.",
+    "search_api_base": "https://uvic.kuali.co/api/v1/catalog",
+    "term_code": "05|2026",
+    "undergrad_calendar_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses"
+  }
+}

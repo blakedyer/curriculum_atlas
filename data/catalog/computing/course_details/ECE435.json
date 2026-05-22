@@ -1,0 +1,42 @@
+{
+  "__catalogCourseId": "ECE435",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-05-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "BME403",
+      "pid": "B1f9CPTX4",
+      "title": "Medical Image Processing"
+    }
+  ],
+  "dateStart": "2020-09-01",
+  "description": "<p>Image processing and understanding techniques applied in medical imaging technologies such as CT, MRI, ultrasound, X-ray. Design of computer aided diagnosis systems. Topics include algorithms for filtering, edge detection, segmentation, registration and 3D visualization of medical data.</p>",
+  "formerlyNotesText": "ELEC 435",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "5e2b4a5db8c5f4250054671a",
+  "pid": "ry-FxOaQ4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ce19654524003850e9\" target=\"_blank\">ELEC310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 435, BME 403, ELEC 435.</li></ul>",
+  "title": "Medical Image Processing"
+}

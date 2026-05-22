@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "BIOL230",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Introduction to principles of inheritance. Classical genetic theory; meiosis, mitosis, recombination, population genetics and evolution, genotype, phenotype, random assortment, dominance, DNA structure, function, replication and molecular basis of inheritance. RNA and protein synthesis, regulation of transcription and gene organization. Introduction to DNA technologies.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5d1f6f68fb68f3240022d231",
+  "pid": "HJqQAwTX4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f70c9fb68f3240022d32c\" target=\"_blank\">BIOL225</a> <!-- -->-<!-- --> <!-- -->Principles of Cell Biology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6e3689944f24002ad28a\" target=\"_blank\">CHEM231</a> <!-- -->-<!-- --> <!-- -->Introduction to Organic Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul><li> BIOC 299 recommended prior to BIOL 230.</li></ul>",
+  "subjectCode": {
+    "description": "Biology (BIOL)",
+    "id": "5bb6513b65a8732e00a173d9",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "BIOL"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of BIOL 230, BIOL 300.</li></ul>",
+  "title": "Principles of Genetics"
+}

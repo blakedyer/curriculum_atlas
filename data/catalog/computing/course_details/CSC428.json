@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CSC428",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "courseNoteForCalendar": "",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>The design, analysis and implementation of algorithms used in Computational Biology. Typical topics include algorithms for sequence alignment, database searching, gene finding, phylogeny and structure analysis.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "633111a7ac81d0b3bd2e73a4",
+  "pid": "S1dok_6QN",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ef67a5c324003b0bc6\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 428, CSC 482A (if taken in the same topic), CSC 482B (if taken in the same topic), CSC 482C (if taken in the same topic), CSC 482D (if taken in the same topic), CSC 525.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Computational Biology Algorithms"
+}

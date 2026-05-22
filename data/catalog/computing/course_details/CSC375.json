@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CSC375",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-09-02",
+  "description": "<p>Covers a range of methods and methodologies used in analyzing and designing various types of systems. Topics include; requirements gathering, specification and design; data and process modelling; user interface modelling and prototyping; and system testing, implementation and operation. Students gain practical experience as part of team designing and implementing a system as part of the course.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "61c6161804d13a5d0556482f",
+  "pid": "B1VoyOpm4",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1\"><div data-test=\"ruleView-B.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67ffffe884f6076d6372eb34\" target=\"_blank\">HINF130</a> <!-- -->-<!-- --> <!-- -->Introduction to Health Information Technology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67ffffe951f88b7d73dc2ad2\" target=\"_blank\">HINF140</a> <!-- -->-<!-- --> <!-- -->Introduction to the Canadian Health Care System<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will only be granted for one of CSC 375, SENG 321.</li> </ul>",
+  "title": "Introduction to Systems Analysis"
+}

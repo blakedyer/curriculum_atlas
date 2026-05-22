@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "MECH200B",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Principles of design for manufacturing; modern manufacturing processes and their relative merits and limitations; hands-on experience in metrology, inspection, additive manufacturing and machine shop practice; case study dissections of existing products to explore alternative manufacturing and assembly techniques.</p>",
+  "formerlyNotesText": "",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "2-2.5-0",
+  "id": "66e09e4626f9a36711aea1a0",
+  "pid": "HJRHCfAhA",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66e09c3dc58de543b0ce1104\" target=\"_blank\">MECH200A</a> <!-- -->-<!-- --> <!-- -->Introduction to Technical Drawing and Computer Aided Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of MECH 200B, MECH 200.</li> </ul>",
+  "title": "Introduction to Manufacturing Processes"
+}

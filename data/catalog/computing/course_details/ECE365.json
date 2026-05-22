@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE365",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Characteristics of electronic devices including diodes, bipolar junction transistors and operational amplifiers; analysis of practical electronic circuits such as rectifiers, voltage regulators, amplifiers and filters; fundamentals of electromechanical energy conversion; transformers and actuators; operating principles of rotating electric machines: dc machines and ac machines.</p>",
+  "formerlyNotesText": "ELEC 365",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-1",
+  "id": "67633f00d49e4abd60245e8d",
+  "pid": "Bko_gu67V",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/62fa805ec4bd596a1038f2cf\" target=\"_blank\">ECE216</a> <!-- -->-<!-- --> <!-- -->Electricity and Magnetism<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cb19654524003850e1\" target=\"_blank\">ELEC216</a> <!-- -->-<!-- --> <!-- -->Electricity and Magnetism<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57667a5c324003b0c2a\" target=\"_blank\">ECE250</a> <!-- -->-<!-- --> <!-- -->Linear Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ccbb9b5e24008114b8\" target=\"_blank\">ELEC250</a> <!-- -->-<!-- --> <!-- -->Linear Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 365, ELEC 365.</li></ul>",
+  "title": "Applied Electronics and Electrical Machines"
+}

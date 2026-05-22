@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "EOS261",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-09-02",
+  "description": "<p>Introduces the processes and mechanisms through which the atmosphere, ocean, earth, and biosphere interact to control Earth\u2019s climate. Examines interactions via the carbon cycle and climate feedbacks, giving rise to stability, gradual evolution, and rapid change in the climate system. Develops understanding of the dynamics of the climate system by examining records of past climates and climate models. Applies this understanding to anthropogenic climate change.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-0-2",
+  "id": "61ae8336846c7828419e7e5b",
+  "pid": "BknoD5ykd",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f7c4389944f24002adb12\" target=\"_blank\">EOS110</a> <!-- -->-<!-- --> <!-- -->Oceans and Atmosphere<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5ff8d754100d1e00282bc041\" target=\"_blank\">EOS130</a> <!-- -->-<!-- --> <!-- -->Climate Change<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5ff8d95afb277900267e8424\" target=\"_blank\">GEOG130</a> <!-- -->-<!-- --> <!-- -->Climate Change<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/654ab4f49d70e6ada910d49b\" target=\"_blank\">GEOG103</a> <!-- -->-<!-- --> <!-- -->Our Natural Earth<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5f6e45ab4272fc00267b50df\" target=\"_blank\">CHEM102</a> <!-- -->-<!-- --> <!-- -->Chemical Reactivity Fundamentals with Environmental Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffe7d1a3fd924005f028b\" target=\"_blank\">PHYS111</a> <!-- -->-<!-- --> <!-- -->Introductory Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe804afbf82400f7adba\" target=\"_blank\">PHYS130</a> <!-- -->-<!-- --> <!-- -->Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/649a10a781f76f47f32e6507\" target=\"_blank\">PHYS102B</a> <!-- -->-<!-- --> <!-- -->General Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.4\"><div data-test=\"ruleView-A.4-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63168b42bee727d381e640aa\" target=\"_blank\">MATH100</a> <!-- -->-<!-- --> <!-- -->Calculus I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/651de9ca8d54b2de78bce62c\" target=\"_blank\">MATH102</a> <!-- -->-<!-- --> <!-- -->Calculus for Students in the Social and Biological Sciences<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168d043e376f0b1f621ffd\" target=\"_blank\">MATH109</a> <!-- -->-<!-- --> <!-- -->Introduction to Calculus<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.5\"><div data-test=\"ruleView-A.5-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f72acd2bc1524008cb36a\" target=\"_blank\">MATH101</a> <!-- -->-<!-- --> <!-- -->Calculus II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5f2b422ad8086200271ffe25\" target=\"_blank\">MATH151</a> <!-- -->-<!-- --> <!-- -->Finite Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of EOS 261, EOS 260.</li> </ul>",
+  "title": "The Climate System"
+}

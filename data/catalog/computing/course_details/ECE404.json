@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE404",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Transmission line theory, Smith chart and design examples, transmission lines and waveguides, network analysis, design of impedance matching and tuning networks, aspects of coupled lines, radiation and amplification, optical fibers, numerical aperture, single mode and multimode fibers, chromatic dispersion, fiber optic components.</p>",
+  "formerlyNotesText": "ELEC 404",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "5cbdf58a56bbef2400c2f04c",
+  "pid": "SyA_gOa7V",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57b67a5c324003b0c30\" target=\"_blank\">ECE300</a> <!-- -->-<!-- --> <!-- -->Linear Circuits II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cd19654524003850e7\" target=\"_blank\">ELEC300</a> <!-- -->-<!-- --> <!-- -->Linear Circuits II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67633be722c20e09dc50d1de\" target=\"_blank\">ECE340</a> <!-- -->-<!-- --> <!-- -->Applied Electromagnetics and Photonics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cfbb9b5e24008114c1\" target=\"_blank\">ELEC340</a> <!-- -->-<!-- --> <!-- -->Applied Electromagnetics and Photonics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 404, ELEC 404.</li></ul>",
+  "title": "Microwaves and Fiber Optics"
+}

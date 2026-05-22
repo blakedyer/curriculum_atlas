@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "STAT261",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Estimation and hypothesis testing; normal sampling distribution theory; analysis of variance and the design of experiments; regression and correlation; analysis of categorical data; distribution-free procedures. The mathematical foundations of statistical inference are introduced and illustrated with examples from a variety of disciplines.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "5e615ea270a30e250015ad11",
+  "pid": "r1uCgFTXN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6895fb68f3240022ccec\" target=\"_blank\">STAT254</a> <!-- -->-<!-- --> <!-- -->Probability and Statistics for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f72acd2bc1524008cb36a\" target=\"_blank\">MATH101</a> <!-- -->-<!-- --> <!-- -->Calculus II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/629f89a09f74b948ca31547e\" target=\"_blank\">MATH208</a> <!-- -->-<!-- --> <!-- -->Mathematics for Economics and Econometrics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Statistics (STAT)",
+    "id": "5c140517b7636f2400ac5474",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "STAT"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of STAT 261, STAT 251, STAT 256.</li></ul>",
+  "title": "Introduction to Probability and Statistics II"
+}

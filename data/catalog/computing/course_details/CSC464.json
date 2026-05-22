@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CSC464",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [],
+  "dateStart": "2024-05-02",
+  "description": "<p>Introduction to concurrent computing, including the specification, implementation, and analysis of concurrent systems. Topics include: theoretical models of concurrency; software design patterns for parallel applications; programming languages and frameworks for expressing concurrency; and verification techniques for concurrent programs.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "643ec1bad8bc27217641823d",
+  "pid": "rkg2ydTmN",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/634f1b98705f4b6ffcb5e403\" target=\"_blank\">CSC360</a> <!-- -->-<!-- --> <!-- -->Operating Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 464, CSC 485C (if taken in same topic), CSC 564, CSC 586C (if taken in same topic).</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Concurrency"
+}

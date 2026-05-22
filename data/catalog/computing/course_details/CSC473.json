@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CSC473",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-09-02",
+  "description": "<p>Principles of traditional animation, key framing, parametric and track animation, free form deformation, inverse kinematics, dynamics, spring mass systems, particle systems, numerical integration, Lagrangian constraints, space time constraints, collisions, human animation, behavioural animation, metamorphosis, implicit animation techniques, animating liquids, gases and cloth, motion capture. </p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "61533e1c9af3d3b267099d85",
+  "pid": "rJf3kupXE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6307b1bdfe51a12031b36bfa\" target=\"_blank\">CSC226</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/634f20f2a51adb55db67bb43\" target=\"_blank\">CSC305</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Graphics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 473, CSC 573, CSC 578A (if taken in same topic), CSC 578B (if taken in same topic), CSC 578C (if taken in same topic).</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Fundamentals of Computer Animation"
+}

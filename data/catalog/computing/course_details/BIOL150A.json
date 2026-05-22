@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "BIOL150A",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to biological science, emphasizing the diversity of living organisms and the evolutionary and ecological principles underlying this diversity. Topics include the history of life on earth, mechanisms of evolution, and the ecology of populations, communities and ecosystems (including human ecology).</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f70b689944f24002ad470",
+  "pid": "SkE7RwpQ4",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biology (BIOL)",
+    "id": "5bb6513b65a8732e00a173d9",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "BIOL"
+  },
+  "supplementalNotes": "<ul> <li>Not open to students with credit in any of BIOL 150, BIOL 184, BIOL 186, BIOL 190A, BIOL 190B.</li> <li>BIOL 150A and BIOL 150B may be taken in any order. BIOL 150A cannot be taken concurrently with any of BIOL 184, BIOL 186. Major and Honours students, see <a href=\"#/experiences/SyUVBQ5j4\">Notes on Course Requirements</a>.</li> </ul>",
+  "title": "Modern Biology"
+}

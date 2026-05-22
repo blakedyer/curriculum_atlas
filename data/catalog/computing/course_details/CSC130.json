@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "CSC130",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>An introduction to the Internet, the World Wide Web (WWW) and mobile communications technologies. Topics include: HTML; web-page design tools; development of simple mobile applications. Additional topics selected from: location-aware e-commerce; multimedia chat services; mobile social networking; software development for smartphone and tablets. Emphasis is on relating Internet technologies to the role they play enabling mobile computing.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "62b08d29f8827f955269b7f6",
+  "pid": "B149kOaX4",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 130, HINF 115, SENG 130.</li> <li>Not open to third- or fourth-year students in a Computer Science or Software Engineering program.</li> </ul>",
+  "title": "World Wide Web and Mobile Applications"
+}

@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE463",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>Markov chains and techniques for studying their transient and steady-state behaviour. Queuing theory and discrete time queues. Queuing models for media access, error control and traffic management protocols. Quality of service. Modelling of traffic and inter-arrival time. Self similar distributions and traffic. Analysis and design of switching fabrics. Switch design alternatives and performance modelling. Simulation of networks.</p>",
+  "formerlyNotesText": "CENG 461",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "6082fd7f6f22b00db393dbaa",
+  "pid": "rkldFx_TmV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6895fb68f3240022ccec\" target=\"_blank\">STAT254</a> <!-- -->-<!-- --> <!-- -->Probability and Statistics for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 463, ECE 514, CENG 461, ELEC 514.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Design and Analysis of Computer Networks"
+}

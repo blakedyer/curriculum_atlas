@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CSC485D",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Entrance is restricted to third- and fourth-year students who meet the prerequisite specified for the offered topic.</p> <p>* Lab hours may vary depending on the topic.</p>",
+  "formerlyNotesText": "CSC 485",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0*-0",
+  "id": "5e50416ad48ad32500889ad6",
+  "pid": "SJZa1da74",
+  "proForma": "no",
+  "repeatableCatalogText": "May be taken more than once for credit in different topics with permission of the department.",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit is granted for only one of CSC 485D, CSC 485 (if taken in the same topic), CSC 485A (if taken in the same topic), CSC 485B (if taken in the same topic), CSC 485C (if taken in the same topic), CSC 485E (if taken in the same topic), CSC 485F (if taken in the same topic), CSC 485G (if taken in the same topic), CSC 485H (if taken in the same topic).</li> </ul>",
+  "title": "Topics in Systems"
+}

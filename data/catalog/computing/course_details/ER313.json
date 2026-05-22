@@ -1,0 +1,42 @@
+{
+  "__catalogCourseId": "ER313",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "ES348",
+      "pid": "r1lvV4daQE",
+      "title": "Biodiversity and Conservation Biology"
+    }
+  ],
+  "dateStart": "2025-05-03",
+  "description": "<p>Biological organisms and ecosystems with particular reference to mechanisms of change and human impacts on the environment. Focuses on: biodiversity (definition, assessment methods, loss, and evaluation); population biology (concepts and research methods); habitat loss; species extinction; exotic species and their impacts; and possibilities for human intervention in alleviating trends in species loss and ecosystem degradation.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "675b6357e5713ee6e7d1eaf3",
+  "pid": "r1gQmNdTXV",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>admission to Certificate or Diploma program in Restoration of Natural Systems</div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the program.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "repeatableCatalogText": "",
+  "subjectCode": {
+    "description": "Environmental Restoration (ER)",
+    "id": "5c13fb97185fc42400eeaee1",
+    "linkedGroup": "5be368fb56a15d000126dea6",
+    "name": "ER"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ER 313, ES 318, ES 320, ES 348, BIOL 370.</li> </ul>",
+  "title": "Biodiversity and Conservation Biology"
+}

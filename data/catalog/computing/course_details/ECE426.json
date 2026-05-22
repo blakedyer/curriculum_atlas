@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE426",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Structure and specification of robot manipulators. Homogenous transformations. Link description. Manipulator kinematics. Inverse manipulator kinematics. Velocity and static forces in manipulators. An introduction to manipulator dynamics. Linear control of robot motion. Model-based nonlinear control of robot manipulators.</p>",
+  "formerlyNotesText": "ELEC 426",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "5cbdf59067a5c324003b0c49",
+  "pid": "S1eteup74",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf58404ce072400155f60\" target=\"_blank\">ECE360</a> <!-- -->-<!-- --> <!-- -->Control Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d019654524003850f0\" target=\"_blank\">ELEC360</a> <!-- -->-<!-- --> <!-- -->Control Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf5fb04ce072400155fb3\" target=\"_blank\">ENGR141</a> <!-- -->-<!-- --> <!-- -->Engineering Mechanics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffc5c0dc20e2400c1fc1d\" target=\"_blank\">MECH245</a> <!-- -->-<!-- --> <!-- -->Engineering Fundamentals: I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63177170cdd330fd06504399\" target=\"_blank\">PHYS110</a> <!-- -->-<!-- --> <!-- -->Introductory Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe7f1a3fd924005f0291\" target=\"_blank\">PHYS122</a> <!-- -->-<!-- --> <!-- -->Mechanics for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 426, ELEC 425, ELEC 426, ELEC 475, MECH 430.</li></ul>",
+  "title": "Robotics"
+}

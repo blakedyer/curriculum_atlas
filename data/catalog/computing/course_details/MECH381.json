@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MECH381",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-09-02",
+  "description": "<p>Modelling dynamic systems in time domain (multi-input-multi-output, MIMO, control systems). State-space analysis of linear systems (controllability, observability, stability), compensator design for regulators, tracking and disturbance-rejection systems based on eigenvalue placement and integral-time-absolute-error (ITAE) criteria. Design of stable linear observers and observer-based compensators. Introduction to optimal control, optimization concept and cost functions, linear quadratic regulators (LQR). Implementation into simulation-based autonomous systems in laboratory exercises.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1*-1",
+  "id": "60c911b3cbb5f07ddc018f1d",
+  "pid": "S1h3Z98j_",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf60e04ce072400155fef\" target=\"_blank\">MECH380</a> <!-- -->-<!-- --> <!-- -->Automatic Control Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul> <li>* Indicates four 3 hour lab sessions.</li> </ul>",
+  "title": "Control Systems II"
+}

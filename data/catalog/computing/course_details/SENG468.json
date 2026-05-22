@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG468",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>Introduction to scalability issues within modern distribution software systems. Middleware and cloud-based systems. Workload and system performance characterization, modelling, and testing. Identification and resolution of bottlenecks. Completion of a project is required.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "6306953efe51a1e868b353ee",
+  "pid": "HyhyeYT7E",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/634f1b98705f4b6ffcb5e403\" target=\"_blank\">CSC360</a> <!-- -->-<!-- --> <!-- -->Operating Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/634f189b41b5edffbabee0ae\" target=\"_blank\">CSC370</a> <!-- -->-<!-- --> <!-- -->Database Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1\"><div data-test=\"ruleView-B.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4feeb219654524003846d8\" target=\"_blank\">CENG356</a> <!-- -->-<!-- --> <!-- -->Engineering System Software<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/674e0a50ee2ca4ff2cb83986\" target=\"_blank\">ECE356</a> <!-- -->-<!-- --> <!-- -->Engineering System Software<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4feeb819654524003846e5\" target=\"_blank\">CENG460</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61ea019f5d55864a7ab7ac55\" target=\"_blank\">ECE363</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61ea00c667be1dda828f8e96\" target=\"_blank\">ECE458</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of SENG 468, SENG 462.</li></ul>",
+  "title": "Software System Scalability"
+}

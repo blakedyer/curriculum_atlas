@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CSC431",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-09-02",
+  "description": "<p>Theoretical foundations of machine learning, including learning paradigms and techniques for analyzing the performance of machine learning algorithms for problems in statistical (batch) learning and online (sequential) learning.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "63506cdbe1cd0aa2f97d9aae",
+  "pid": "SkQ16kAXi",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/667c8c9b7f6c948ee783fcee\" target=\"_blank\">SENG474</a> <!-- -->-<!-- --> <!-- -->Data Mining<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/610dae0c873283cb3fb857bc\" target=\"_blank\">STAT469</a> <!-- -->-<!-- --> <!-- -->Machine Learning<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be offered for only one of CSC 431, CSC 482A (if offered in same topic), CSC 531, CSC 581A (if offered in same topic), CSC 581B (if offered in same topic).</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Machine Learning Theory"
+}

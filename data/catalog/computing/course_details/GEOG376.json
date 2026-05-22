@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "GEOG376",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>An investigation of the physical processes that create and maintain landforms. Focus on measurement and analysis of morphodynamic processes in fluvial, aeolian, coastal, glacial, hillslope, and/or periglacial landscapes (e.g., sediment transport, erosion, wind/wave energy, river discharge, glacial dynamics, weathering rates).</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "657cb1092d647d752957f909",
+  "pid": "SypNB_a7V",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/657a38a8f194a73953ec9d3a\" target=\"_blank\">GEOG276</a> <!-- -->-<!-- --> <!-- -->Geomorphology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6b5889944f24002ad041\" target=\"_blank\">EOS120</a> <!-- -->-<!-- --> <!-- -->The Dynamic Earth<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6e62d2bc1524008cb067\" target=\"_blank\">EOS201</a> <!-- -->-<!-- --> <!-- -->Sedimentary Geology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1.5</span> units from <span>MATH</span> <span>100</span> - <span>199</span></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum third-level standing.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "",
+  "title": "Process Geomorphology"
+}

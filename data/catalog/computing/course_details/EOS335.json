@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "EOS335",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Basic principles controlling isotope distribution, including natural abundances, radiogenic decay, equilibrium and kinetic isotope effects. Applications of the principles in the fields of: Earth history - global processes and chronology; mineralization - diagenesis, catagenesis; hydrogeology and characterization of water and air masses; and biogeochemistry and biological fractionation isotopes.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5d1f7355d2bc1524008cb3ef",
+  "pid": "S1xs2m_a7V",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/667f1fcdc1d1429420bd2bc2\" target=\"_blank\">EOS240</a> <!-- -->-<!-- --> <!-- -->Geochemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of EOS 335, EOS 430.</li></ul>",
+  "title": "Isotopes in Natural Sciences"
+}

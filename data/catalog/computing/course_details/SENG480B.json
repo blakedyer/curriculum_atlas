@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "SENG480B",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Presents material in an emerging field or one not covered in regular offerings. Topics depend primarily on the interests of the instructor. Entrance is restricted to third- and fourth-year students who meet the prerequisite specified for the topic offered.</p> <p>* Lab hours may vary depending on the topic.</p>",
+  "formerlyNotesText": "SENG 480",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-0*-0",
+  "id": "5e6154d00c5f4b2500e5eb30",
+  "pid": "H1gR1eFpXN",
+  "proForma": "no",
+  "repeatableCatalogText": "May be taken more than once for credit in different topics with permission of the department.",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of SENG 480B, SENG 480A (if taken in the same topic), SENG 480C (if taken in the same topic), SENG 480D (if taken in the same topic).</li></ul>",
+  "title": "Topics in Software Engineering"
+}

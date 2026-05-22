@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "PSYC300A",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-05-02",
+  "description": "<p>Brief review of research methodology; univariate description, bivariate description and an introduction to probability and inferential statistics as applied in Psychology. Introduction to microcomputer software and computer based analyses of the statistical procedures covered in the course.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36d67fed2d200010da16e",
+    "name": "Department of Psychology"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "5d8d839e015c5b2400a72992",
+  "pid": "B1yQkK6QE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6578a4b5a99db2e835f35d22\" target=\"_blank\">PSYC201</a> <!-- -->-<!-- --> <!-- -->Research Methods in Psychology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>Academic Writing Requirement satisfied.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Psychology (PSYC)",
+    "id": "5be1fd81dece022e00ba70cd",
+    "linkedGroup": "5be36d67fed2d200010da16e",
+    "name": "PSYC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of PSYC 300A, PSYC 300.</li> <li>See &quot;<a href=\"#/policy/B1UAeszdE\">Credit Limit - Beginning Level Statistics Courses</a>&quot;.</li> </ul>",
+  "title": "Statistical Methods in Psychology"
+}

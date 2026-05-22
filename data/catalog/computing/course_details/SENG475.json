@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG475",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-09-02",
+  "description": "<p>Advanced programming techniques for robust high-efficiency computing are explored in the context of a single programming language, such as C++ or Swift. Topics covered may include: concurrency, parallelism, and vectorization; cache-efficient coding; compile-time versus run-time computation; generic programming techniques; resource/memory management; copy and move semantics; exception-safe coding; techniques for writing correct, efficient, and optimizer-friendly code. Application areas considered may include: signal/geometry processing; computer graphics; and numerical analysis.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-0-1.5",
+  "id": "639ca419b484654d88b9b81b",
+  "pid": "Hkpylt674",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb019654524003846d1\" target=\"_blank\">CENG255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4ec67a5c324003b0bc3\" target=\"_blank\">CSC230</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4f167a5c324003b0bcd\" target=\"_blank\">CSC349A</a> <!-- -->-<!-- --> <!-- -->Numerical Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57704ce072400155f52\" target=\"_blank\">ECE255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "",
+  "title": "Advanced Programming Techniques for Robust Efficient Computing"
+}

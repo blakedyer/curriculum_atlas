@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "GEOG230",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "EOS230",
+      "pid": "ByR84_80P",
+      "title": "Introduction to Environmental Data Analysis "
+    }
+  ],
+  "dateStart": "2024-09-01",
+  "description": "<p>An introduction to using computer programming to analyze climate data. Topics include fundamentals of programming, data visualization, analysis of spatial data, descriptive statistics, linear regression.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-0-2",
+  "id": "65a1a4097dbc907bef22234a",
+  "pid": "rJW5SdLRP",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1.5</span> units of: <div>100 level MATH</div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f7c4389944f24002adb12\" target=\"_blank\">EOS110</a> <!-- -->-<!-- --> <!-- -->Oceans and Atmosphere<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5ff8d754100d1e00282bc041\" target=\"_blank\">EOS130</a> <!-- -->-<!-- --> <!-- -->Climate Change<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/654ab4f49d70e6ada910d49b\" target=\"_blank\">GEOG103</a> <!-- -->-<!-- --> <!-- -->Our Natural Earth<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5ff8d95afb277900267e8424\" target=\"_blank\">GEOG130</a> <!-- -->-<!-- --> <!-- -->Climate Change<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>or permission of the department.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of GEOG 230, EOS 230.</li> </ul>",
+  "title": "Introduction to Environmental Data Analysis "
+}

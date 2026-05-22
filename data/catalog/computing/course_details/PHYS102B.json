@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "PHYS102B",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-05-02",
+  "description": "<p>Introductory algebra-based survey of physics including heat, sound, wave motion, light, electricity, magnetism, and modern physics. Life Science applications.</p>",
+  "formerlyNotesText": "part of PHYS 102",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "649a10a781f76f47f32e6507",
+  "pid": "BJVFCOp7N",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffe7b4afbf82400f7adb2\" target=\"_blank\">PHYS102A</a> <!-- -->-<!-- --> <!-- -->General Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63177170cdd330fd06504399\" target=\"_blank\">PHYS110</a> <!-- -->-<!-- --> <!-- -->Introductory Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe7e4afbf82400f7adb7\" target=\"_blank\">PHYS120</a> <!-- -->-<!-- --> <!-- -->Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul><li> One of MATH 100, MATH 102, MATH 109 recommended prior to or in conjunction with PHYS 102B.</li></ul>",
+  "subjectCode": {
+    "description": "Physics (PHYS)",
+    "id": "5bbfc647a6762c2e00837c2a",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "PHYS"
+  },
+  "supplementalNotes": "<ul><li>Not open for credit to students registered in or with credit in any of PHYS 102, PHYS 111, PHYS 112, PHYS 125, PHYS 130.</li></ul>",
+  "title": "General Physics II"
+}

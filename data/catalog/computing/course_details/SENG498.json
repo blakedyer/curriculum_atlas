@@ -1,0 +1,38 @@
+{
+  "__catalogCourseId": "SENG498",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "allGradingTypes": {
+    "inp": true,
+    "standard": true
+  },
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "value": "3.0"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>A major engineering design and research project under the supervision of a faculty member. The work involves independent study of the current literature and independent research and design. At the end of the term, each student submits a report and discusses the findings in an oral presentation.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "2-18-0",
+  "id": "663a97aa59fff1e7f039f8d9",
+  "pid": "HyexlK6mN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>All required 300-level courses in the Software Engineering Program</div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum GPA of 7.0 over all required 3rd year courses</div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\"><div>permission of the department.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "<ul> <li>Normally taken over two terms. This course may only be taken once replacing two technical electives.</li> </ul>",
+  "title": "Honours Thesis"
+}

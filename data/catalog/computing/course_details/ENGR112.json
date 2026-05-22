@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ENGR112",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-05-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "value": "1.0"
+  },
+  "dateStart": "2020-09-01",
+  "description": "<p>Introductory principles of engineering design processes through practical projects to be undertaken by teams of students.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368e3fed2d200010da13c",
+    "name": "Faculty of Engineering and Computer Science"
+  },
+  "hoursCatalogText": "1-2-0",
+  "id": "5e8bc7646fd5672600958d61",
+  "pid": "rJKqmuamV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64e7b6f87c6606787bfdbca5\" target=\"_blank\">ATWP135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5de177baa147ae2400fda6ea\" target=\"_blank\">ENGL135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Engineering (ENGR)",
+    "id": "5c13fb1a3d3a3326007676bb",
+    "linkedGroup": "5be368e3fed2d200010da13c",
+    "name": "ENGR"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ENGR 112, ENGR 110, ENGR 111, ELEC 199.</li></ul>",
+  "title": "Design I"
+}

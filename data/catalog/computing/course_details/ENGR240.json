@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ENGR240",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>Searching and referencing methods used in dealing with scientific and technical literature and on the characteristics of effective technical and scientific style. The emphasis throughout is on clarity, precision and consistency. Students acquire practical experience in the writing of short technical documents such as memoranda, letters and abstracts, longer forms such as reports, papers, and theses, and instructional forms such as manuals, brochures and specifications.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368e3fed2d200010da13c",
+    "name": "Faculty of Engineering and Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "633ca14333e5fe717cbdb3dd",
+  "pid": "By697OamV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64e7b6f87c6606787bfdbca5\" target=\"_blank\">ATWP135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e8bc9e16fd5672600958d7e\" target=\"_blank\">ENGR110</a> <!-- -->-<!-- --> <!-- -->Design and Communication I<!-- --> <span style=\"margin-left:5px\">(2.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff39119654524003852e3\" target=\"_blank\">ENGR111</a> <!-- -->-<!-- --> <!-- -->Design and Communication IB<!-- --> <span style=\"margin-left:5px\">(2.5)</span></span></li><li><span><a href=\"#/courses/view/5de177baa147ae2400fda6ea\" target=\"_blank\">ENGL135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/62f5811c8024e42189875b86\" target=\"_blank\">ENGL146</a> <!-- -->-<!-- --> <!-- -->Contemporary Literature (AWR)<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/62f58264dd3bd482fc42f13b\" target=\"_blank\">ENGL147</a> <!-- -->-<!-- --> <!-- -->Literary Traditions (AWR)<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/688a7361a47526db43c77405\" target=\"_blank\">ENSH101</a> <!-- -->-<!-- --> <!-- -->Themes in Literature<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/688a86bca47526db43c89772\" target=\"_blank\">ENSH102</a> <!-- -->-<!-- --> <!-- -->Literature in Action <!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Engineering (ENGR)",
+    "id": "5c13fb1a3d3a3326007676bb",
+    "linkedGroup": "5be368e3fed2d200010da13c",
+    "name": "ENGR"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ENGR 240, ENGR 120, ENGL 225, ENGL 226, ENGL 240.</li></ul>",
+  "title": "Technical Writing"
+}

@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "CIVE467",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Data analysis for buildings. Real-world cases of analyzing and interpreting building data to make informed decisions for energy retrofits. Key features of building energy data, role of building codes, optimization and machine learning models. Embodied carbon as it relates to building retrofits.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "664390e6645fe0a0df47d780",
+  "pid": "rJklZGW70",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CIVE 467, CIVE 480E (if taken in the same topic).</li> </ul>",
+  "title": "Data Analysis and Building Energy"
+}

@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "MATH100",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>Review of analytic geometry; functions and graphs; limits; derivatives; techniques and applications of differentiation; antiderivatives; the definite integral and area; logarithmic and exponential functions; trigonometric functions; Newton's, Simpson's and trapezoidal methods; l'Hopital's rule.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "63168b42bee727d381e640aa",
+  "pid": "ByxQ12d6QE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Earn a minimum grade of <span>C+</span> in each of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64dfdcc3020494a4aa686907\" target=\"_blank\">MATH120</a> <!-- -->-<!-- --> <!-- -->Precalculus Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Completed <span>Pre-Calculus 12</span> with a minimum grade of <span>B (73%)</span></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\"><div>or permission of the department.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul><li> A passing grade in Calculus 12 or equivalent course recommended prior to MATH 100, since MATH 100 expects some previous exposure to Calculus.</li></ul>",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MATH 100, MATH 102, MATH 109.</li></ul>",
+  "title": "Calculus I"
+}

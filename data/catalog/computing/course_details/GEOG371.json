@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "GEOG371",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>A study of water resources management in different parts of the world, examining the influence of various physical, economic, social, political and technological factors. Examines the alternative ways in which such problems as water scarcity, floods and declining water quality are handled. Examines in detail a number of major water development schemes. Students are expected to undertake a modest research project and report upon it.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "66ec6b375e15786f0ae2219e",
+  "pid": "Syj4Bd67N",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6474ef22c90e02197a2c656b\" target=\"_blank\">GEOG209</a> <!-- -->-<!-- --> <!-- -->Environmental Management<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/657a3849548a3d43a571ecb5\" target=\"_blank\">GEOG272</a> <!-- -->-<!-- --> <!-- -->Climatology and Hydrology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "",
+  "title": "Water Resources Management"
+}

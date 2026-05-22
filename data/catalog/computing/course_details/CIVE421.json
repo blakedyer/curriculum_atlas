@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CIVE421",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Stiffness method; development and applications in structural analysis; application of computer programs; trusses, multispan beams, and frames; loadings due to force, support displacement, temperature change and member prestrain; axial and flexural stability; basic plasticity; introduction to finite element method.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "64aed438f1c053e501598891",
+  "pid": "BkxVydT7E",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66e0ae3fd7dff994bff6e88f\" target=\"_blank\">CIVE250</a> <!-- -->-<!-- --> <!-- -->Structural Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/648b69b9a32e1e7de3a47841\" target=\"_blank\">CIVE350</a> <!-- -->-<!-- --> <!-- -->Structural Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "",
+  "title": "Advanced Structural Analysis"
+}

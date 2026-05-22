@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CSC463",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [],
+  "dateStart": "2023-05-03",
+  "description": "<p>An introduction to selected issues in wireless and mobile networks. Topics include: radio basics, mobility models, location management, handoff, QoS (Quality of Service), MAC (Medium Access Control), routing, and transport protocols over different types of wireless and mobile networks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "63068273fe51a1f017b35306",
+  "pid": "rky3J_pXN",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e50307b7ea20d2500081e92\" target=\"_blank\">CSC361</a> <!-- -->-<!-- --> <!-- -->Computer Communications and Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4fefa5bb9b5e2400810cd5\" target=\"_blank\">CSC450</a> <!-- -->-<!-- --> <!-- -->Computer Communications and Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb819654524003846e5\" target=\"_blank\">CENG460</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61ea019f5d55864a7ab7ac55\" target=\"_blank\">ECE363</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61ea00c667be1dda828f8e96\" target=\"_blank\">ECE458</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 463, CSC 569.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Wireless and Mobile Networks"
+}

@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "ES200",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Introduction to the symptoms and sources of environmental problems and approaches to resolving them. Global and local food systems are used as a focal lens through which to view and understand human impacts on ecosystems (e.g. climate change, biodiversity loss, deforestation) and how those impacts can be best addressed.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "5e5841f6b72ef32500f34d9e",
+  "pid": "rJbVVupXV",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Environmental Studies (ES)",
+    "id": "5c13fba53d3a3326007677bd",
+    "linkedGroup": "5be368fb56a15d000126dea6",
+    "name": "ES"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ES 200, ES 300A.</li></ul>",
+  "title": "Introduction to Environmental Studies"
+}

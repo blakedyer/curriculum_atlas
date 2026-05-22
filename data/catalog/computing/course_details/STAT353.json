@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "STAT353",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An outline of linear regression theory with applications; multiple linear regression, polynomial regression, model adequacy checking, variable transformation, variable selection, indicator variable, diagnostics for leverage and influential observations, multicollinearity problem, model selection, stepwise regression, prediction and inference</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f6bb289944f24002ad088",
+  "pid": "rJYCgt6m4",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e615e20109f5025006793aa\" target=\"_blank\">STAT256</a> <!-- -->-<!-- --> <!-- -->Statistics for Life Sciences II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615ea270a30e250015ad11\" target=\"_blank\">STAT261</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f67c789944f24002acd1e\" target=\"_blank\">MATH110</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168fab578b6df3d6c07ace\" target=\"_blank\">MATH211</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Statistics (STAT)",
+    "id": "5c140517b7636f2400ac5474",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "STAT"
+  },
+  "supplementalNotes": "",
+  "title": "Applied Regression Analysis"
+}

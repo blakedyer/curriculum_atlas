@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "MATH211",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>Matrices: simultaneous equations; determinants; vectors in 2-, 3- and n-tuple space; inner product; linear independence and rank; change of coordinates; rotation of axes in 2- and 3-dimensional Euclidean space; orthogonal matrices; eigenvalues and eigenvectors.</p>",
+  "formerlyNotesText": "MATH 233A",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "63168fab578b6df3d6c07ace",
+  "pid": "HJ1lndpmN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed <span>Pre-Calculus 12</span> with a minimum grade of <span>A (86%)</span></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63168b42bee727d381e640aa\" target=\"_blank\">MATH100</a> <!-- -->-<!-- --> <!-- -->Calculus I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/651de9ca8d54b2de78bce62c\" target=\"_blank\">MATH102</a> <!-- -->-<!-- --> <!-- -->Calculus for Students in the Social and Biological Sciences<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168d043e376f0b1f621ffd\" target=\"_blank\">MATH109</a> <!-- -->-<!-- --> <!-- -->Introduction to Calculus<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/64e3abc2014df36772e506a5\" target=\"_blank\">MATH122</a> <!-- -->-<!-- --> <!-- -->Logic and Foundations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Earned a minimum grade of <span>A</span> in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64dfdcc3020494a4aa686907\" target=\"_blank\">MATH120</a> <!-- -->-<!-- --> <!-- -->Precalculus Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5f2b422ad8086200271ffe25\" target=\"_blank\">MATH151</a> <!-- -->-<!-- --> <!-- -->Finite Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\"><div>permission of the department.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MATH 211, MATH 110, MATH 133, MATH 233A.</li></ul>",
+  "title": "Matrix Algebra I"
+}

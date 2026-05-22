@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "GEOG211",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Examines the major thematic concerns that have traditionally shaped the sub-disciplines of political and economic geography, while also engaging with emerging issues that are likely to become focal points in shaping future debates. Explores the co-constitutive relationship between politics, economics and space.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "5d1f6bcc89944f24002ad0a1",
+  "pid": "SkgvGHOpQN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/657caf1e2d647d73bf57f8f5\" target=\"_blank\">GEOG101B</a> <!-- -->-<!-- --> <!-- -->Space, Place and Society<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum second-year standing.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of GEOG 211, GEOG 201A, GEOG 201B.</li></ul>",
+  "title": "Political and Economic Geography"
+}

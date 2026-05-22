@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "STAT465",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Introduction to genomic data and statistical methodology for its analysis; examples of data may include single-nucleotide polymorphisms or gene expression levels, generated from microarrays or next-generation sequencing. Statistical techniques may include data preprocessing, filtering, normalization, exploratory methods, visualization, dimension reduction, differential expression, generalized linear models, corrections for multiple comparisons, clustering, gene ontology analyses, genome-wide association studies.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f67f089944f24002acd49",
+  "pid": "Byih-FpmV",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5f514d74caee610026d3b11d\" target=\"_blank\">STAT350</a> <!-- -->-<!-- --> <!-- -->Mathematical Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6bb289944f24002ad088\" target=\"_blank\">STAT353</a> <!-- -->-<!-- --> <!-- -->Applied Regression Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Statistics (STAT)",
+    "id": "5c140517b7636f2400ac5474",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "STAT"
+  },
+  "supplementalNotes": "<ul> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Statistical Methods for Genomic Data"
+}

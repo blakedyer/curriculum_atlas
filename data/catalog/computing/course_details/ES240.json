@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ES240",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to the discipline of ecology with a focus on understanding biotic processes as they relate to contemporary environmental challenges.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f72c794e82e2400a237a8",
+  "pid": "Bkg-EVOa7V",
+  "proForma": "no",
+  "recommendations": "<ul><li> ES 200 recommended prior to or in conjunction with ES 240.</li></ul>",
+  "subjectCode": {
+    "description": "Environmental Studies (ES)",
+    "id": "5c13fba53d3a3326007677bd",
+    "linkedGroup": "5be368fb56a15d000126dea6",
+    "name": "ES"
+  },
+  "supplementalNotes": "",
+  "title": "Ecological Processes"
+}

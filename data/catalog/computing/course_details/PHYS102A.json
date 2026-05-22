@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "PHYS102A",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2018-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2017-05-03",
+  "description": "<p>Introductory algebra-based mechanics. Life Science applications.</p>",
+  "formerlyNotesText": "part of PHYS 102",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5c4ffe7b4afbf82400f7adb2",
+  "pid": "rkEtC_pm4",
+  "proForma": "no",
+  "recommendations": "<ul><li> One of MATH 100, MATH 102, MATH 109 recommended prior to or in conjunction with PHYS 102A.</li></ul>",
+  "subjectCode": {
+    "description": "Physics (PHYS)",
+    "id": "5bbfc647a6762c2e00837c2a",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "PHYS"
+  },
+  "supplementalNotes": "<ul> <li>Not open for credit to students registered in or with credit in any of PHYS 102, PHYS 110, PHYS 112, PHYS 120, PHYS 122.</li> <li>Students intending to take further courses in Physics should consider PHYS 110 or PHYS 120 rather than PHYS 102A.</li> </ul>",
+  "title": "General Physics I"
+}

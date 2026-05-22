@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "ENGR130",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "value": "0.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Awareness of the role and responsibilities of Professional Engineers in society with respect to the environment, ethics, equity, public and worker safety and health considerations. Introduction to technical and other forms of work term and/or work experience report preparation, understanding national and international placement standards, WorkSafeBC standards, engineering logbooks. Development of effective interview techniques, skill assessment and analysis, career management and development. Preparation of resum\u00e9s and cover letters.</p>",
+  "formerlyNotesText": "ENGR 020",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368e3fed2d200010da13c",
+    "name": "Faculty of Engineering and Computer Science"
+  },
+  "id": "5cbdf5fa56bbef2400c2f0aa",
+  "pid": "SyncXd6XE",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Engineering (ENGR)",
+    "id": "5c13fb1a3d3a3326007676bb",
+    "linkedGroup": "5be368e3fed2d200010da13c",
+    "name": "ENGR"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ENGR 130, ENGR 020.</li></ul>",
+  "title": "Introduction to Professional Practice"
+}

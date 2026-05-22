@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "STAT321",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Data acquisition by scraping and other means. Data storage, cleaning and wrangling. Database administration, design and queries. Presentation of data in tabular, graphical summary, and interactive formats, including special methods for spatial and multivariate data. Statistical analysis, programming, and simulation.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "5d1f67b6fb68f3240022cc59",
+  "pid": "S16Syv-uE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>1.5 units of STAT course.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul><li>\u00a0Experience in computer programming recommended prior to STAT 321.</li></ul>",
+  "subjectCode": {
+    "description": "Statistics (STAT)",
+    "id": "5c140517b7636f2400ac5474",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "STAT"
+  },
+  "supplementalNotes": "",
+  "title": "Data Management and Presentation"
+}

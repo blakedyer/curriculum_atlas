@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE486",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>Multirate signal processing, upsampling, downsampling, sampling rate conversion, polyphase techniques, multirate filter banks, multiresolution signal representations, wavelets, digital geometry processing, polygon meshes, subdivision surfaces/wavelets, efficient multiresolution signal processing. Applications in data compression, computer graphics/animation, geometric modeling, communications, and signal processing. C++ programming language, libraries such as OpenGL and CGAL.</p>",
+  "formerlyNotesText": "ELEC 486",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-0-1.5",
+  "id": "60830c1e88e1bc16c38fd7c3",
+  "pid": "H13Kg_aXV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ce19654524003850e9\" target=\"_blank\">ELEC310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 486, ECE 586, ELEC 486, ELEC 586.</li> <li> <p>May be offered as a joint undergraduate and graduate class.</p> </li> </ul>",
+  "title": "Multiresolution Signal and Geometry Processing With C++"
+}

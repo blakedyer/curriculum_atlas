@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG421",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>The methods, tools and strategies used in developing software in large and geographically distributed teams. Topics include: agile development methodologies, activities of communicating with the clients to gather and analyze requirements, project planning and estimation in agile projects, distributed version control, communicating across cultural and time zone boundaries. Students work in distributed project teams and experience global software development environments.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "5e6150a17eb8e0250078b708",
+  "pid": "S1I1lKTXN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum fourth-year standing.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of SENG 421, SENG 480A (if taken in the same topic), SENG 480B (if taken in the same topic), SENG 480C (if taken in the same topic), SENG 480D (if taken in the same topic).</li></ul>",
+  "title": "Global Software Engineering"
+}

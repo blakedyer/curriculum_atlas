@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "PHIL203",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Explores the fundamentals of good reasoning by means of symbolic techniques in both propositional and predicate logic. Students learn to translate English sentences into logical notation, as well as how to use truth tables and derivations to demonstrate the validity of arguments.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca283b7470c1000123acc6",
+    "name": "Department of Philosophy"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5e61292670a30e250015a9b6",
+  "pid": "B1O4COa7N",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Philosophy (PHIL)",
+    "id": "5be1fd6b1d17b62e0081993b",
+    "linkedGroup": "5bca283b7470c1000123acc6",
+    "name": "PHIL"
+  },
+  "supplementalNotes": "<ul> <li>Designed as a first course in logic for students with little or no symbolic orientation. May be taken before or after PHIL 201.</li> </ul>",
+  "title": "Elementary Formal Logic"
+}

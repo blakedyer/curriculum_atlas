@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "EOS423",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-09-02",
+  "description": "<p>An examination of how geologic and Earth surface processes, including tectonic, sea level and climate changes, are recorded and preserved in the stratigraphic record. Focuses on modern and ancient case studies, with topics including basin analysis, cyclostratigraphy, process sedimentology and paleo-environmental reconstruction. Labs emphasize computational skills, including introductory time-series analysis, geospatial analysis and remote sensing, and have a field component.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "63911d47ecde9a0c1f71ae75",
+  "pid": "HJ-mjQi5U",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6e62d2bc1524008cb067\" target=\"_blank\">EOS201</a> <!-- -->-<!-- --> <!-- -->Sedimentary Geology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6360896651075f6ea89793d2\" target=\"_blank\">EOS225</a> <!-- -->-<!-- --> <!-- -->Earth System Modelling<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/6686d0e2516b11339407896b\" target=\"_blank\">EOS325</a> <!-- -->-<!-- --> <!-- -->Earth System Modelling<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of EOS 423, EOS 491 (if taken in the same topic)</li> </ul>",
+  "title": "Advanced Sedimentology and Stratigraphy"
+}

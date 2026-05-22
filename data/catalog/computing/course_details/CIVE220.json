@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CIVE220",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Review of bending moment and shear force diagrams for beams. Stress, strain, stress-strain relations, and factor of safety. Simple loadings: axial force, buckling of columns, torsion, and pure bending. Stresses in combined loadings. Stress and strain transformations in two dimensions. Mohr's circle. Beam deflection, stability of columns. Energy methods.</p> <p>* Indicates a 1-hour laboratory taken by students on alternate weeks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-1*-1",
+  "id": "66974c340a8ca7ebf44b3fe3",
+  "pid": "HJwQy_pX4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf5fb04ce072400155fb3\" target=\"_blank\">ENGR141</a> <!-- -->-<!-- --> <!-- -->Engineering Mechanics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f76e5d2bc1524008cb6b4\" target=\"_blank\">MATH200</a> <!-- -->-<!-- --> <!-- -->Calculus III<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of CIVE 220, MECH 220.</li></ul>",
+  "title": "Mechanics of Solids I"
+}

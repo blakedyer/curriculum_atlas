@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "EOS365",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "ES365",
+      "pid": "HJ54E_pXN",
+      "title": "Climate and Society"
+    }
+  ],
+  "dateStart": "2020-01-01",
+  "description": "<p>A survey of the climate system and its interaction with past, present and future societies. Topics include: climate change and the onset of agriculture/domestication, climate change and the rise and fall of early civilizations, the anthropocene and global warming. The interplay between science, media, public relations and public policy is also addressed.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5e583a8f7120522500518b77",
+  "pid": "r1T3QOaQE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Minimum third-year standing.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of EOS 365, ES 365.</li></ul>",
+  "title": "Climate and Society"
+}

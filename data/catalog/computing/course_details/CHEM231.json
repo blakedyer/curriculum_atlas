@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CHEM231",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Understanding structure, stereochemistry and mechanism; nucleophiles, substitutions, eliminations and additions. In the tutorials examples illustrate concepts and relevant spectroscopy.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb65cedee95370001de0ca0",
+    "name": "Department of Chemistry"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "5d1f6e3689944f24002ad28a",
+  "pid": "HkVACvpXV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d781350a50c3624007f55c8\" target=\"_blank\">CHEM101</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Chemistry from Atoms to Materials<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6e3494e82e2400a23437\" target=\"_blank\">CHEM150</a> <!-- -->-<!-- --> <!-- -->Engineering Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Chemistry (CHEM)",
+    "id": "5bbec2f9dd74d22e00571e83",
+    "linkedGroup": "5bb65cedee95370001de0ca0",
+    "name": "CHEM"
+  },
+  "supplementalNotes": "",
+  "title": "Introduction to Organic Chemistry"
+}

@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "MATH151",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2021-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2021-05-03",
+  "description": "<p>Permutations and combinations, basic laws of probability, conditional probability, independence, tree diagrams, Bayes' formula, random variables and their probability distributions (including binomial and hypergeometric), expectation, Markov chains, geometric approach to linear programming, matrices, systems of linear equations, and Gauss-Jordan elimination.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5f2b422ad8086200271ffe25",
+  "pid": "SyOk3uTmN",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul><li>Not open for credit to students with credit in MATH 352 or STAT 350.</li></ul>",
+  "title": "Finite Mathematics"
+}

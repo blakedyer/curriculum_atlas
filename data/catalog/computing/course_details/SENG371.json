@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG371",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Introduces problems and solutions of long-term software maintenance/evolution and large-scale, long-lived software systems. Topics include software engineering techniques for programming-in-the-large, programming-in-the-many, legacy software systems, software architecture, software evolution, software maintenance, reverse engineering, program understanding, software visualization, advanced issues in object-oriented programming, design patterns, antipatterns, and client-server computing. Culminates in a team project.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "5cbdf65a2a310a240068a734",
+  "pid": "HJ7kgKTmV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4fffd636d45224006d18d4\" target=\"_blank\">SENG271</a> <!-- -->-<!-- --> <!-- -->Software Model Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d3f7d1bc79bf72400540ef3\" target=\"_blank\">SENG275</a> <!-- -->-<!-- --> <!-- -->Software Testing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4fffd74afbf82400f7b128\" target=\"_blank\">SENG299</a> <!-- -->-<!-- --> <!-- -->Software Architecture and Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61c616fe8e9da13c15f931f5\" target=\"_blank\">SENG321</a> <!-- -->-<!-- --> <!-- -->Requirements Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of SENG 371, SENG 420.</li></ul>",
+  "title": "Software Evolution"
+}

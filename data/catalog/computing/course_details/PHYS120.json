@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "PHYS120",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2018-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "1982-09-02",
+  "description": "<p>Particle dynamics and curvilinear motion; force and momentum; rotational dynamics and angular momentum; kinetic and potential energy; special relativity.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5c4ffe7e4afbf82400f7adb7",
+  "pid": "H1vtCd6QV",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>1.5 units of 100-level PHYS</div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Completed <span>Physics 12</span> with a minimum grade of <span>B (73%)</span></div></li></ul></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63168b42bee727d381e640aa\" target=\"_blank\">MATH100</a> <!-- -->-<!-- --> <!-- -->Calculus I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168d043e376f0b1f621ffd\" target=\"_blank\">MATH109</a> <!-- -->-<!-- --> <!-- -->Introduction to Calculus<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Physics (PHYS)",
+    "id": "5bbfc647a6762c2e00837c2a",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "PHYS"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of PHYS 120, PHYS 110, PHYS 122.</li> <li>Credit will be granted for only PHYS 112 (3.0 units) or two of PHYS 120, PHYS 130, PHYS 122, PHYS 125 (1.5 units each).</li> <li>An enriched course in physics primarily intended for students who are planning a career in Physics or Astronomy.</li> <li>This course may include tours of local physics research institutions.</li> </ul>",
+  "title": "Physics I"
+}

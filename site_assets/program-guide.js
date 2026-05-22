@@ -285,6 +285,33 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     };
 
+    const centerScrollableGraphFrame = (svg) => {
+      if (!document.body.classList.contains("page--secret-computing")) {
+        return;
+      }
+      const frame = svg?.closest(".graph-frame");
+      if (!frame) {
+        return;
+      }
+      window.requestAnimationFrame(() => {
+        frame.scrollTo({
+          left: Math.max(0, (svg.scrollWidth - frame.clientWidth) / 2),
+          top: Math.max(0, (svg.scrollHeight - frame.clientHeight) / 2),
+          behavior: "smooth",
+        });
+      });
+    };
+
+    const restoreScrollableGraphFrame = (svg) => {
+      if (!document.body.classList.contains("page--secret-computing")) {
+        return;
+      }
+      const frame = svg?.closest(".graph-frame");
+      if (frame) {
+        frame.scrollTo({ left: 0, top: 0, behavior: "smooth" });
+      }
+    };
+
     const clientPointToSvgPoint = (svg, clientX, clientY) => {
       const matrix = svg.getScreenCTM();
       if (!matrix) {
@@ -394,12 +421,14 @@ document.addEventListener("DOMContentLoaded", () => {
         width,
         height,
       });
+      centerScrollableGraphFrame(svg);
     };
 
     const restoreGraphView = (svg = getActiveSvg()) => {
       const defaultViewBox = getDefaultViewBox(svg);
       if (defaultViewBox) {
         setViewBox(svg, defaultViewBox);
+        restoreScrollableGraphFrame(svg);
       }
     };
 
@@ -1107,7 +1136,10 @@ document.addEventListener("DOMContentLoaded", () => {
       branchContext.terminalNodes.forEach((node) => node.classList.add("is-atlas-terminal"));
       branchContext.branchEdges.forEach((edge) => edge.classList.add("is-atlas-branch"));
       if (focus) {
-        focusGraphElements(svg, [...branchContext.contextNodes, ...branchContext.branchEdges]);
+        const focusElements = document.body.classList.contains("page--secret-computing")
+          ? matchedNodes
+          : [...branchContext.contextNodes, ...branchContext.branchEdges];
+        focusGraphElements(svg, focusElements);
       }
       return { branchCount: branchContext.branchEdges.size };
     };

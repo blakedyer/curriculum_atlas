@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "GEOG301",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "ES461",
+      "pid": "rk3rVu6mE",
+      "title": "Environmental Impact Assessment"
+    }
+  ],
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to the objectives, philosophy, concepts, methods and social implications of environmental impact assessment (EIA). A critical examination of EIA as an analytical tool in the context of resource management and public policy is undertaken. Examples are drawn from B.C., Canada and other countries.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5e594363e62c3f2500a5bc83",
+  "pid": "HkCfrdp7E",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6474ef22c90e02197a2c656b\" target=\"_blank\">GEOG209</a> <!-- -->-<!-- --> <!-- -->Environmental Management<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of GEOG 301, GEOG 391 (if taken in the same topic), ES 400A (if taken prior to September 1989), ES 410, ES 461.</li></ul>",
+  "title": "Environmental Impact Assessment"
+}

@@ -1,0 +1,43 @@
+{
+  "__catalogCourseId": "CSC411",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2021-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "CSC511",
+      "pid": "S1dp1uaXE",
+      "title": "Information Visualization"
+    }
+  ],
+  "dateStart": "2020-01-01",
+  "description": "<p>Design and implement static and interactive visualizations. Select appropriate visualization methods according to data type and intended analysis task. Create variations of visual representations. Critique designs. Assess visual representations according to design and perceptual principles.</p>",
+  "formerlyNotesText": "SENG 480D, also CSC 485D",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5f6a4e862b2fb60026ca7d1b",
+  "pid": "SJCKCpvSv",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf65656bbef2400c2f0e6\" target=\"_blank\">SENG310</a> <!-- -->-<!-- --> <!-- -->Human Computer Interaction<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "repeatableCatalogText": "",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 411, CSC 485D (if taken in the same topic), CSC 511, SENG 480D (if taken in the same topic).</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Information Visualization"
+}

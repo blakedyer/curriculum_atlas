@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ES344",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [],
+  "dateStart": "2023-05-03",
+  "description": "<p>An introduction to experimental and statistical ecology, including principles of experimental design and sampling methods and data analysis.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "6227fe20601e842c1baae432",
+  "pid": "SyPE4_T7E",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e5841f6b72ef32500f34d9e\" target=\"_blank\">ES200</a> <!-- -->-<!-- --> <!-- -->Introduction to Environmental Studies<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f72c794e82e2400a237a8\" target=\"_blank\">ES240</a> <!-- -->-<!-- --> <!-- -->Ecological Processes<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e615df5109f5025006793a7\" target=\"_blank\">STAT255</a> <!-- -->-<!-- --> <!-- -->Statistics for Life Sciences I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum third-year standing.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Environmental Studies (ES)",
+    "id": "5c13fba53d3a3326007677bd",
+    "linkedGroup": "5be368fb56a15d000126dea6",
+    "name": "ES"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ES 344, BIOL 330 (if taken prior to September 2023), ES 310.</li> </ul>",
+  "title": "Design and Analysis for Environmental Science"
+}

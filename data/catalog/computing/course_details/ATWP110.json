@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ATWP110",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2026-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "3",
+      "min": "3"
+    },
+    "value": "3"
+  },
+  "dateStart": "2026-05-03",
+  "description": "<p>Introduces foundational English reading and writing skills; structured practice of advanced skills needed for advanced academic writing; balance of lectures, discussions, and paired or group work.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5de179536dd5ac002041a22b",
+    "name": "Academic and Technical Writing Program"
+  },
+  "hoursCatalogText": "6-0-0",
+  "id": "68a35f14ef7b39ac5c733b8e",
+  "pid": "HyHqCWran",
+  "proForma": "no",
+  "recommendations": "<ul> <li>Recommended for students who for any reason need more time and structured support to successfully complete UVic\u2019s Academic Writing Requirement. See ATWP\u2019s <a href=\"https://www.surveymonkey.ca/r/9GS7RKL\">online self-assessment</a> for guidance.</li> </ul>",
+  "subjectCode": {
+    "description": "Academic and Technical Writing Program (ATWP)",
+    "id": "5de175a5307b56240094625c",
+    "linkedGroup": null,
+    "name": "ATWP"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ATWP 110, ATWP 101, ATWP 135, ENGL 101, ENGL 135.</li> <li>Not open for credit to students registered in or with credit in any of ATWP 135, ENGL 116, ENGL 121, ENGL 122, ENGL 125, ENGL 135, ENGL 145, ENGL 146, ENGL 147, ENGR 110, ENSH 101, ENSH 102, ENSH 103.</li> <li>This year-long course runs September through April. Students should register in the same section in First Term (Sept-Dec) and Second Term (Jan-Apr) to complete registration.</li> </ul>",
+  "title": "Academic Reading and Writing Support and Development"
+}

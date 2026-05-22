@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MECH430",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Structure and specifications of robot manipulators, homogeneous transformations, kinematic equations and motion trajectories, dynamic models of robotic manipulators, position and force control, use of robots in industrial applications.</p> <p>* Indicates a 3 hour laboratory taken by students on alternate weeks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1.5*-0",
+  "id": "66aa8822e969bb7ba23b2006",
+  "pid": "Hkld3O6X4",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf60a2a310a240068a5c8\" target=\"_blank\">MECH335</a> <!-- -->-<!-- --> <!-- -->Theory of Mechanisms<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4f167a5c324003b0bcd\" target=\"_blank\">CSC349A</a> <!-- -->-<!-- --> <!-- -->Numerical Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\"><div>permission of the Department</div></div></li></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf60e04ce072400155fef\" target=\"_blank\">MECH380</a> <!-- -->-<!-- --> <!-- -->Automatic Control Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf58404ce072400155f60\" target=\"_blank\">ECE360</a> <!-- -->-<!-- --> <!-- -->Control Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d019654524003850f0\" target=\"_blank\">ELEC360</a> <!-- -->-<!-- --> <!-- -->Control Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f67c789944f24002acd1e\" target=\"_blank\">MATH110</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168fab578b6df3d6c07ace\" target=\"_blank\">MATH211</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "",
+  "title": "Robotics"
+}

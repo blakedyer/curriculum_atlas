@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE320",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-05-02",
+  "description": "<p>Operation and design of modern solid-state electronic devices and semiconductor integrated circuit technology. Electronic properties of silicon. Charge transport and carrier dynamics. Metal-semiconductor and pn junctions. Diodes. Operation and properties of bipolar and field-effect transistors, including metal-oxide-semiconductor (MOS) structures. Small-signal models and equivalent circuits. Ideal and non-ideal device behaviour. Design considerations with respect to device performance.</p>",
+  "formerlyNotesText": "ELEC 320",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "649329a9309b8099be1ec11f",
+  "pid": "S1FOe_6QV",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6763395a7804cc86ff3615ef\" target=\"_blank\">ECE220</a> <!-- -->-<!-- --> <!-- -->Electrical Properties of Materials<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d92392b2a7b69240048f635\" target=\"_blank\">BME320</a> <!-- -->-<!-- --> <!-- -->Engineering Materials with BME applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffbe436d45224006d0fce\" target=\"_blank\">MATH201</a> <!-- -->-<!-- --> <!-- -->Introduction to Differential Equations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63177170cdd330fd06504399\" target=\"_blank\">PHYS110</a> <!-- -->-<!-- --> <!-- -->Introductory Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe7d1a3fd924005f028b\" target=\"_blank\">PHYS111</a> <!-- -->-<!-- --> <!-- -->Introductory Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>with a minimum GPA of 3.0 over MATH 201 or 204, PHYS 110 and 111.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 320, ELEC 320.</li></ul>",
+  "title": "Electronic Devices I"
+}

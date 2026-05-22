@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CSC429",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [],
+  "dateStart": "2024-05-02",
+  "description": "<p>Fundamentals of modern cryptography. Topics include: review of classical and information-theoretic cryptography; block ciphers, DES, cryptanalysis of DES, modes of operation, AES; cryptographic hash functions and message authentication codes; public key cryptography, RSA, EIGamal and other public key systems, signature schemes; introduction to security protocols.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "63efaa7eb62378059b271e06",
+  "pid": "HkFsyupX4",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ef67a5c324003b0bc6\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/654c1b93795631ffc84e95d8\" target=\"_blank\">MATH222</a> <!-- -->-<!-- --> <!-- -->Discrete and Combinatorial Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum third-year standing.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 429, CSC 529.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Cryptography"
+}
