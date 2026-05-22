@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG474",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>An introduction to data mining. Data preparation, model building, and data mining techniques such as clustering, decisions trees and neural networks are discussed and applied to case studies. Data-mining software tools are reviewed and compared.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "667c8c9b7f6c948ee783fcee",
+  "pid": "S1aylKTX4",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f67c789944f24002acd1e\" target=\"_blank\">MATH110</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168fab578b6df3d6c07ace\" target=\"_blank\">MATH211</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5f2b40270d04170026ecad65\" target=\"_blank\">STAT252</a> <!-- -->-<!-- --> <!-- -->Statistics for Business<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6895fb68f3240022ccec\" target=\"_blank\">STAT254</a> <!-- -->-<!-- --> <!-- -->Probability and Statistics for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615df5109f5025006793a7\" target=\"_blank\">STAT255</a> <!-- -->-<!-- --> <!-- -->Statistics for Life Sciences I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of SENG 474, CSC 503, CSC 578D (if taken in same topic).</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Data Mining"
+}

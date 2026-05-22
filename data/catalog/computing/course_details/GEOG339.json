@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "GEOG339",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2026-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2026-05-03",
+  "description": "<p>Explores hazard events and the factors and conditions that lead to disasters. Covers such events as earthquakes, hurricanes, tsunamis, floods, droughts and examines their human and natural dimensions.Emphasis on understanding vulnerability and risk assessment, sustainable hazards mitigation and disaster management approaches to enhancing community resilience.</p>",
+  "formerlyNotesText": "part of GEOG 472",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "68e02e7917a0436a2a659e20",
+  "pid": "HyumH_aXE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/654ab4f49d70e6ada910d49b\" target=\"_blank\">GEOG103</a> <!-- -->-<!-- --> <!-- -->Our Natural Earth<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6bcc89944f24002ad0a1\" target=\"_blank\">GEOG211</a> <!-- -->-<!-- --> <!-- -->Political and Economic Geography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/657caf92548a3d13b976af40\" target=\"_blank\">GEOG218</a> <!-- -->-<!-- --> <!-- -->Social and Cultural Geography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of GEOG 339, GEOG 391 (if taken in the same topic), GEOG 472, GEOG 559.</li> <li>May be offered as a joint undergraduate and graduate course.</li> </ul>",
+  "title": "Disaster Management and Community Resilience"
+}

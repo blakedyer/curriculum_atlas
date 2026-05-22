@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MECH400A",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1",
+      "min": "1"
+    },
+    "value": "1"
+  },
+  "dateStart": "2023-09-02",
+  "description": "<p>Development of a project brief suitable for a capstone design project. Includes client value proposition elucidation, project scoping, feasibility evaluation including Gantt chart and prototyping budget, development of user requirements and engineering specifications and preparation of a project proposal document.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "id": "63c83b41d47c1f0ebaa8039d",
+  "pid": "B19HsnHso",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6847396d083f2e2d4af770fa\" target=\"_blank\">MECH350</a> <!-- -->-<!-- --> <!-- -->Engineering Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/650cc8d33d8b746fe633f6ae\" target=\"_blank\">ENGR002</a> <!-- -->-<!-- --> <!-- -->Work Term 2<!-- --> <span style=\"margin-left:5px\">(4.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5f3d776ea5085600262c969b\" target=\"_blank\">MECH360</a> <!-- -->-<!-- --> <!-- -->Design of Mechanical Elements<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of MECH 400A, ENGR 446.</li> </ul>",
+  "title": "Capstone Design Proposal"
+}

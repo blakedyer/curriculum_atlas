@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CIVE465",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [],
+  "dateStart": "2024-09-01",
+  "description": "<p>Energy systems concepts spanning sectors (buildings, transportation, power systems) and scales (cities, provinces, countries, the globe). Emissions and decarbonization, trade-offs, low-carbon technologies. Modelling for decision-making including: model design, workflow, scenario matrices; limitations, transparency, accuracy, breadth; data handling, optimization and visualization in python. Development and application of energy systems models.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "64aedfc450f09902ab7e9808",
+  "pid": "rkMsWktGH",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4e356bbef2400c2efcf\" target=\"_blank\">CSC110</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e404ce072400155ec0\" target=\"_blank\">CSC111</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/648b5e6fb25b9faa4c0249b4\" target=\"_blank\">CIVE295</a> <!-- -->-<!-- --> <!-- -->Building Science Fundamentals<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/6408ca6ee357b66c77efa614\" target=\"_blank\">CIVE395</a> <!-- -->-<!-- --> <!-- -->Building Science Fundamentals<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/61e8a78e1f45da5bbfd6167d\" target=\"_blank\">CIVE360</a> <!-- -->-<!-- --> <!-- -->Sustainable Transportation Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CIVE 465, CIVE 480A (if taken in the same topic), CIVE 565.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Energy Systems Decarbonization"
+}

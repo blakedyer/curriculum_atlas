@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ES301",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to the various socio-political and philosophical issues associated with the concept of a sustainable society. Emphasis is placed on the analysis of the complex relationships between social and biophysical systems. Examines how communities and environments are being impacted by the globalization of economies and cultures, technologies and ideologies, as well as responses from a variety of local, non-governmental and international agencies.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "5d1f6ae289944f24002acfc8",
+  "pid": "rJ7ENOaXE",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Earn a minimum grade of <span>B-</span> in each of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e5841f6b72ef32500f34d9e\" target=\"_blank\">ES200</a> <!-- -->-<!-- --> <!-- -->Introduction to Environmental Studies<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\"><div>minimum second-year standing</div></div></li></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the school.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Environmental Studies (ES)",
+    "id": "5c13fba53d3a3326007677bd",
+    "linkedGroup": "5be368fb56a15d000126dea6",
+    "name": "ES"
+  },
+  "supplementalNotes": "",
+  "title": "Political Ecology"
+}

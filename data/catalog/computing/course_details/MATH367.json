@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "MATH367",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-05-02",
+  "description": "<p>The parallel postulate and consequences, geometric transformations, the Erlanger programme, hyperbolic geometry and its various models, elliptic geometry, absolute geometry.</p>",
+  "formerlyNotesText": "MATH 368B",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d4b1175828b8d2400daa9e8",
+  "pid": "HkD-2Op7N",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6e7889944f24002ad2b9\" target=\"_blank\">MATH301</a> <!-- -->-<!-- --> <!-- -->Complex Variables<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MATH 367, MATH 368B.</li></ul>",
+  "title": "Non-Euclidean Geometry"
+}

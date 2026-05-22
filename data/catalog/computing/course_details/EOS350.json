@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "EOS350",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-09-02",
+  "description": "<p>Provides an interdisciplinary introduction to oceanography, with a focus on societally relevant issues, and use of technology to explore the ocean. Topics may include earthquakes and tsunamis, ocean pollution, deoxygenation, ocean acidification, marine conservation and climate change. Introduces community engagement and science communication in an oceanography context.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "614ba345b22f75455f424bdc",
+  "pid": "ryhhmOaQV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Minimum second-year standing.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of EOS 350, EOS 110 (if taken prior to May 2011), GEOG 110.</li> <li>Credit for this course will not be counted toward program requirements in Earth and Ocean Sciences (if taken prior to May 2011 or after May 2017), but Earth and Ocean Sciences students may take this course as an elective.</li> </ul>",
+  "title": "Understanding the Oceans"
+}

@@ -1,0 +1,42 @@
+{
+  "__catalogCourseId": "PHYS340",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "EOS340",
+      "pid": "rJs3Qu6QN",
+      "title": "Atmospheric Physics"
+    }
+  ],
+  "dateStart": "2025-05-03",
+  "description": "<p>An introduction to the study of the atmosphere as a physical system. Equations of motion, force balances, thermodynamics, phase changes of water, radiative transfer, waves and instabilities, predictability.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "3-0-2",
+  "id": "667f257207ae3558c7fa3e8f",
+  "pid": "BkUcCO674",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffe7b4afbf82400f7adb2\" target=\"_blank\">PHYS102A</a> <!-- -->-<!-- --> <!-- -->General Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/649a10a781f76f47f32e6507\" target=\"_blank\">PHYS102B</a> <!-- -->-<!-- --> <!-- -->General Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63177170cdd330fd06504399\" target=\"_blank\">PHYS110</a> <!-- -->-<!-- --> <!-- -->Introductory Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe7d1a3fd924005f028b\" target=\"_blank\">PHYS111</a> <!-- -->-<!-- --> <!-- -->Introductory Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.4\"><div data-test=\"ruleView-A.4-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffe7e4afbf82400f7adb7\" target=\"_blank\">PHYS120</a> <!-- -->-<!-- --> <!-- -->Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe804afbf82400f7adba\" target=\"_blank\">PHYS130</a> <!-- -->-<!-- --> <!-- -->Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6686d0e2516b11339407896b\" target=\"_blank\">EOS325</a> <!-- -->-<!-- --> <!-- -->Earth System Modelling<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Physics (PHYS)",
+    "id": "5bbfc647a6762c2e00837c2a",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "PHYS"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of PHYS 340, EOS 340.</li></ul>",
+  "title": "Atmospheric Physics"
+}

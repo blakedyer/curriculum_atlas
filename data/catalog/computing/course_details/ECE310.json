@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE310",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Discrete-time signals and systems. Signal properties and basic signal transformations. System properties. Linear time-invariant systems and convolution. Discrete-time Fourier series. The Fourier transform and spectral analysis. The z transform and its use in system analysis. The relationship between the Fourier and z transforms. Sampling. Analysis and design of discrete-time systems. Solving difference equations with the z transform.</p>",
+  "formerlyNotesText": "ELEC 310",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-0-0.5",
+  "id": "5cbdf57c04ce072400155f56",
+  "pid": "Byd_gu6QE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57867a5c324003b0c2c\" target=\"_blank\">ECE260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cdbb9b5e24008114ba\" target=\"_blank\">ELEC260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 310, ELEC 310.</li></ul>",
+  "title": "Digital Signal Processing I"
+}

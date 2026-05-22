@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MATH424",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2021-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2021-05-03",
+  "description": "<p>A study of various classes of graphs and digraphs that have nice structural properties and admit efficient algorithmic solutions to combinatorial and optimization problems. The focus is on the interrelationship between structures and algorithms. </p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d39f8fb044162240030a579",
+  "pid": "HyV-YOPzH",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/654c1b93795631ffc84e95d8\" target=\"_blank\">MATH222</a> <!-- -->-<!-- --> <!-- -->Discrete and Combinatorial Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1.5</span> units from <span>MATH</span> <span>300</span> - <span>499</span></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of MATH 424, MATH 492 (if taken in the same topic).</li> </ul>",
+  "title": "Structural Graph Theory"
+}

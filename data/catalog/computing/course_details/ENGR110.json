@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "ENGR110",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-05-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "2.5",
+      "min": "2.5"
+    },
+    "value": "2.5"
+  },
+  "dateStart": "2020-09-01",
+  "description": "<p>Introductory principles of engineering design processes through practical projects to be undertaken by teams of students; integrated development and demonstration of writing, research, design and presentation skills through research and design projects. Writing, research and organizational skills appropriate for University level writing.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368e3fed2d200010da13c",
+    "name": "Faculty of Engineering and Computer Science"
+  },
+  "hoursCatalogText": "4-2-0",
+  "id": "5e8bc9e16fd5672600958d7e",
+  "pid": "Hk_57dp7E",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Engineering (ENGR)",
+    "id": "5c13fb1a3d3a3326007676bb",
+    "linkedGroup": "5be368e3fed2d200010da13c",
+    "name": "ENGR"
+  },
+  "supplementalNotes": "<ul> <li>Not open for credit to students registered in or with credit in any of ENGR 111, ENGR 112, ATWP 135, ELEC 199, ENGL 115, ENGL 135.</li> </ul>",
+  "title": "Design and Communication I"
+}

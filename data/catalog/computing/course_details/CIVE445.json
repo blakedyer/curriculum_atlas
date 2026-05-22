@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "CIVE445",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "CIVE545",
+      "pid": "rylhE1uamE",
+      "title": "Groundwater Hydrology"
+    }
+  ],
+  "dateStart": "2020-05-02",
+  "description": "<p>Review of fundamental surface and subsurface hydrologic processes and equations. Aquifer geology, properties and conceptual models. Numerical modeling. Quantifying local to global groundwater resources and groundwater flow to wells. Groundwater-surface water interactions and ecohydrology. Groundwater sustainability from a multidisciplinary perspective including engineering, geoscience, policy and economics.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "5d3b67a749b1562400191b45",
+  "pid": "BJMVy_TQ4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/673f89c20f8414c64790ab92\" target=\"_blank\">CIVE340</a> <!-- -->-<!-- --> <!-- -->Sustainable Water Resources<!-- --> <span style=\"margin-left:5px\">(2.0)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CIVE 445, CIVE 545.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Groundwater Hydrology"
+}

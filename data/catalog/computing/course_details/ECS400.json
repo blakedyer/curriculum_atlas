@@ -1,0 +1,43 @@
+{
+  "__catalogCourseId": "ECS400",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "allGradingTypes": {
+    "com": true,
+    "f": true,
+    "inp": true,
+    "n": true,
+    "standard": false
+  },
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "range",
+    "credits": {
+      "max": "3",
+      "min": "0.5"
+    },
+    "value": {
+      "max": "3",
+      "min": "0.5"
+    }
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Topics relevant to the senior level undergraduate micro-credentials in Engineering or Computer Science disciplines.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368e3fed2d200010da13c",
+    "name": "Faculty of Engineering and Computer Science"
+  },
+  "hoursCatalogText": "1-0-0 to 6-6-6",
+  "id": "650df7ff9247834efa1145c4",
+  "pid": "HywZuuiya",
+  "proForma": "no",
+  "repeatableCatalogText": "May be taken more than once for credit in different topics with the permission of the department.",
+  "subjectCode": {
+    "description": "Engineering and Computer Science (ECS)",
+    "id": "650db8fa0bba50683122e9c4",
+    "linkedGroup": "5be368e3fed2d200010da13c",
+    "name": "ECS"
+  },
+  "title": "Topics in Engineering and Computer Science IV"
+}

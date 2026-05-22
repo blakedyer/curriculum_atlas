@@ -1,0 +1,32 @@
+{
+  "__catalogCourseId": "BEM430",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "value": "3.0"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Integrates biomedical knowledge and skills to address real challenges in healthcare and medical technology. Conception, design, validating, costing, project management and marketing plan for a biomedical device or system. Interdisciplinary collaboration, critical thinking, innovation and effective communication. </p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "6-0-0",
+  "id": "677d9ca940d36eb000c361d3",
+  "pid": "H1ZnnfjUJe",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biomedical Engineering and Management (BEM)",
+    "id": "67ad328b99e12e33bd88200a",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "BEM"
+  },
+  "title": "Project Management Biomedical Devices and Digital Health"
+}

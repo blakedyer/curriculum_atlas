@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE255",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>The architecture of computer systems including concepts such as processor, memory, buses, input/output, instruction sets, interrupt processing, pipelining, performance. Families of processors, CISC, RISC. Memory organization and management including cache, virtual memory, protection. Computer arithmetic. Assembly language programming, assemblers, linkers and loaders. Hardware/software interaction.</p>",
+  "formerlyNotesText": "CENG 255",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5cbdf57704ce072400155f52",
+  "pid": "Hkw_gdpX4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4e404ce072400155ec0\" target=\"_blank\">CSC111</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 255, CENG 255, CSC 230.</li></ul>",
+  "title": "Introduction to Computer Architecture"
+}

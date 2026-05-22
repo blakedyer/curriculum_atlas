@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ES399",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Builds the skills necessary to critically assess environmental issues and research. Emphasis is placed on critical assessment of evidence of all kinds, grounded in an understanding of quantitative and qualitative methodological considerations. Evaluates a wide variety of approaches to understanding and addressing real-world environmental challenges, and work towards producing their own compelling and comprehensive analysis of these challenges.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "66e47af34fec506214f9782a",
+  "pid": "Sy3VEdpQE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e5841f6b72ef32500f34d9e\" target=\"_blank\">ES200</a> <!-- -->-<!-- --> <!-- -->Introduction to Environmental Studies<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f72c794e82e2400a237a8\" target=\"_blank\">ES240</a> <!-- -->-<!-- --> <!-- -->Ecological Processes<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum third-year standing.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Environmental Studies (ES)",
+    "id": "5c13fba53d3a3326007677bd",
+    "linkedGroup": "5be368fb56a15d000126dea6",
+    "name": "ES"
+  },
+  "supplementalNotes": "",
+  "title": "Environmental Evidence in a Post-truth Era"
+}

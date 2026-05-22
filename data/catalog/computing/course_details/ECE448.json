@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE448",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Introduction to abstract algebra and finite field arithmetic. Hardware attacks and mitigation techniques. Hardware trojans and hardware trojan detection techniques. Trusted design in FPGAs. Security in embedded systems. Design for hardware trust. Security and testing. Crypto-processors architecture and design for security.</p>",
+  "formerlyNotesText": "CENG 448",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "66ec8eb5f3c9067e033d1389",
+  "pid": "Sy7FeOTm4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65a6e2a4f544761cbd6d899a\" target=\"_blank\">ECE441</a> <!-- -->-<!-- --> <!-- -->Design of Digital and VLSI Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/667c886c0ba2905ec3205482\" target=\"_blank\">SENG360</a> <!-- -->-<!-- --> <!-- -->Security Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 448, ECE 548, CENG 448, ELEC 548.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Cyber-System Security"
+}

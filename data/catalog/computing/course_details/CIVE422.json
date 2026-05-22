@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CIVE422",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Concepts and methods in computational mechanics and numerical analysis of engineering structures. Numerical models for linear elastic problems in the field of civil and mechanical engineering. Advanced structural analysis using commercial finite element packages.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-0-1",
+  "id": "66883ad398fcdc0bda6f9216",
+  "pid": "S1Y2K5RKY",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66e0ae3fd7dff994bff6e88f\" target=\"_blank\">CIVE250</a> <!-- -->-<!-- --> <!-- -->Structural Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/648b69b9a32e1e7de3a47841\" target=\"_blank\">CIVE350</a> <!-- -->-<!-- --> <!-- -->Structural Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/648b5f1aa32e1e7b5da477bb\" target=\"_blank\">CIVE242</a> <!-- -->-<!-- --> <!-- -->Dynamics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/648a35332231157ab16fcc1d\" target=\"_blank\">CIVE322</a> <!-- -->-<!-- --> <!-- -->Dynamics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CIVE 422, CIVE 480A (if taken in the same topic), CIVE 522, CIVE 580 (if taken in the same topic).</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Finite Element Method"
+}

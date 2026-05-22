@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "BIOL330",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "courseNoteForCalendar": "",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [],
+  "dateStart": "2023-05-03",
+  "description": "<p>An introduction to the statistical analysis of biological data, experimental design and sampling design. Laboratories emphasize computer-based analysis of biological data. </p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "61c9478d5cba7e826212eaef",
+  "pid": "HkdEADp7N",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e615df5109f5025006793a7\" target=\"_blank\">STAT255</a> <!-- -->-<!-- --> <!-- -->Statistics for Life Sciences I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>minimum third-year standing.</div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6ea3d2bc1524008cb091\" target=\"_blank\">BIOL215</a> <!-- -->-<!-- --> <!-- -->Principles of Ecology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f70c9fb68f3240022d32c\" target=\"_blank\">BIOL225</a> <!-- -->-<!-- --> <!-- -->Principles of Cell Biology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6f68fb68f3240022d231\" target=\"_blank\">BIOL230</a> <!-- -->-<!-- --> <!-- -->Principles of Genetics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biology (BIOL)",
+    "id": "5bb6513b65a8732e00a173d9",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "BIOL"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of BIOL 330, ES 310, ES 344 (if taken prior to September 2023).</li> </ul>",
+  "title": "Study Design and Data Analysis"
+}

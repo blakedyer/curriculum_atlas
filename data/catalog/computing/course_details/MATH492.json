@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "MATH492",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Possible topics include population modelling, neural networks, stochastic processes, discrete optimization, actuarial mathematics, calculus of variations, and fluid mechanics.</p>",
+  "formerlyNotesText": "MATH 491A",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f6bf0d2bc1524008caea6",
+  "pid": "HkTz2dpXN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Minimum third-year standing</div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>additional prerequisites set by department depending upon topic.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "repeatableCatalogText": "May be taken more than once for credit in different topics with permission of the department.",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MATH 492, MATH 491A (if taken in the same topic).</li></ul>",
+  "title": "Topics in Applied Mathematics"
+}

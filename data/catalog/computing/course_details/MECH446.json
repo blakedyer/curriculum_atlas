@@ -1,0 +1,42 @@
+{
+  "__catalogCourseId": "MECH446",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "MECH546",
+      "pid": "Syl9tn_6XN",
+      "title": "Introduction to Ocean Engineering"
+    }
+  ],
+  "dateStart": "2020-01-01",
+  "description": "<p>Application of mechanical engineering principles to the mathematical modeling, analysis, simulation and design of floating offshore infrastructure. Ocean wave kinematics: Airy wave theory, wave spectra, sea-state descriptions. Rigid body dynamics: Euler angle transformations, Newton-Euler equations of motion. Hydrostatics: buoyancy, metacentric height, waterplane moments. Hydrodynamics: added mass, drag, Cummins equation for radiation damping, wave excitation. Use of potential flow solvers for the calculation of hydrodynamic coefficients.</p>",
+  "formerlyNotesText": "also CIVE 446",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-0-1.5",
+  "id": "5cbdf61967a5c324003b0e1f",
+  "pid": "HyGd2u6X4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66aa888eee5b4b224bff47b5\" target=\"_blank\">MECH242</a> <!-- -->-<!-- --> <!-- -->Dynamics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf60967a5c324003b0cbf\" target=\"_blank\">MECH330</a> <!-- -->-<!-- --> <!-- -->Introduction to Mechanical Vibrations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/66aa892d833f9333d83acab7\" target=\"_blank\">MECH345</a> <!-- -->-<!-- --> <!-- -->Mechanics of Fluids<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4f167a5c324003b0bcd\" target=\"_blank\">CSC349A</a> <!-- -->-<!-- --> <!-- -->Numerical Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MECH 446, MECH 450A (if taken in the same topic), MECH 450B (if taken in the same topic), MECH 450C (if taken in the same topic), MECH 450D (if taken in the same topic), MECH 450E (if taken in the same topic), MECH 450F (if taken in the same topic), CIVE 446, MECH 546.</li></ul>",
+  "title": "Introduction to Ocean Engineering"
+}

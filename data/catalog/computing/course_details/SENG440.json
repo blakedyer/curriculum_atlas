@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "SENG440",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Characteristics and design of embedded systems. Formal models and specification languages for capturing system behaviour. Techniques for specification, exploration and refinement. System partitioning and hardware/software co-design. Tools for validation, verification and simulation. Quality and performance metrics.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "5cbdf6612a310a240068a739",
+  "pid": "HJ_ylKaQV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4feeb2bb9b5e2400810a75\" target=\"_blank\">CENG355</a> <!-- -->-<!-- --> <!-- -->Microprocessor-Based Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4f404ce072400155ed6\" target=\"_blank\">CSC355</a> <!-- -->-<!-- --> <!-- -->Digital Logic and Computer Organization<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf5822a310a240068a563\" target=\"_blank\">ECE355</a> <!-- -->-<!-- --> <!-- -->Microprocessor-Based Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "",
+  "title": "Embedded Systems"
+}

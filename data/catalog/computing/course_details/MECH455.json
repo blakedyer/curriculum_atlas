@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MECH455",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Overview of fundamental issues associated with measurement systems; response of 0th, 1st, and 2nd order systems, components in a measurement system, effects of digitization, sampling, aliasing, noise, quantization error. Frequency Response Function, voltage conversion, loading effects and filtering. Sensors and transducers for common physical measurements, including Optical techniques and sensors. Laboratories incorporate all elements of the lectures, with students designing and building complete measurement systems with digital acquisition.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1.5-1",
+  "id": "5cbdf6222a310a240068a6de",
+  "pid": "rkxLO2u6XE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf6052a310a240068a5c6\" target=\"_blank\">MECH285</a> <!-- -->-<!-- --> <!-- -->Properties of Engineering Materials<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61b3e7f879d29d888939c7a6\" target=\"_blank\">MECH320</a> <!-- -->-<!-- --> <!-- -->Mechanics of Solids II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf60967a5c324003b0cbf\" target=\"_blank\">MECH330</a> <!-- -->-<!-- --> <!-- -->Introduction to Mechanical Vibrations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf60e04ce072400155fef\" target=\"_blank\">MECH380</a> <!-- -->-<!-- --> <!-- -->Automatic Control Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf6102a310a240068a6cf\" target=\"_blank\">MECH395</a> <!-- -->-<!-- --> <!-- -->Heat Transfer<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67633f00d49e4abd60245e8d\" target=\"_blank\">ECE365</a> <!-- -->-<!-- --> <!-- -->Applied Electronics and Electrical Machines<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d1bb9b5e24008114c4\" target=\"_blank\">ELEC365</a> <!-- -->-<!-- --> <!-- -->Applied Electronics and Electrical Machines<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "",
+  "title": "Instrumentation"
+}

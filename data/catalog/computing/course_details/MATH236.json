@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MATH236",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Axiomatic and metric properties of the real numbers. Sequences and limits. Completeness, compactness, Bolzano-Weierstrass and Heine-Borel theorems. Infinite series. Continuous and uniformly continuous functions.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f76e9fb68f3240022d7da",
+  "pid": "Bkzx3OpmE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f72acd2bc1524008cb36a\" target=\"_blank\">MATH101</a> <!-- -->-<!-- --> <!-- -->Calculus II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/64e3abc2014df36772e506a5\" target=\"_blank\">MATH122</a> <!-- -->-<!-- --> <!-- -->Logic and Foundations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul><li>Not open for credit to students with credit in any of MATH 334, MATH 335, MATH 336.</li></ul>",
+  "title": "Introduction to Real Analysis"
+}

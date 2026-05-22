@@ -1,0 +1,42 @@
+{
+  "__catalogCourseId": "MECH410",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "MECH520",
+      "pid": "H1Btn_TQV",
+      "title": "Computer-Aided Design and Engineering"
+    }
+  ],
+  "dateStart": "2025-09-02",
+  "description": "<p>Fundamentals of computer graphics; geometric modeling of solids and curved surfaces of mechanical parts; part and assembly drawing generation; integrated CAD/CAE/CAM system for modelling, simulation, analysis using FEA and CFD, CNC tool path generation and design optimization; input and output of CAD systems, data management and customization of CAD/CAE/CAM systems.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "679bed9a6640a2abe8b41733",
+  "pid": "SJ2PnuTQE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6723d2037c174a144cae7071\" target=\"_blank\">MECH200</a> <!-- -->-<!-- --> <!-- -->Engineering Drawing, CAD and Manufacturing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/66e09c3dc58de543b0ce1104\" target=\"_blank\">MECH200A</a> <!-- -->-<!-- --> <!-- -->Introduction to Technical Drawing and Computer Aided Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf49867a5c324003b0b6c\" target=\"_blank\">BME350</a> <!-- -->-<!-- --> <!-- -->Biomedical Engineering Design<!-- --> <span style=\"margin-left:5px\">(2.0)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57a67a5c324003b0c2e\" target=\"_blank\">ECE299</a> <!-- -->-<!-- --> <!-- -->Introduction to Electrical and Computer Engineering Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cd7ec31124000cf0fb\" target=\"_blank\">ELEC299</a> <!-- -->-<!-- --> <!-- -->Introduction to Electrical and Computer Engineering Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4f167a5c324003b0bcd\" target=\"_blank\">CSC349A</a> <!-- -->-<!-- --> <!-- -->Numerical Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of MECH 410, MECH 520.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Computer-Aided Design and Engineering"
+}

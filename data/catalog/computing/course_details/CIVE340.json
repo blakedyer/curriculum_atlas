@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CIVE340",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "value": "2.0"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Design and environmental integration of a water resource system using simulation and geomatics software. Introduction to hydrology, hydraulic engineering and water resources planning, environment and management of watersheds and ecosystems, risk and uncertainty, urban water systems and water quality, economic demand and supply principles, externalities.</p> <p>* Indicates a 3 hour laboratory taken by students on alternate weeks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-1.5*-0",
+  "id": "673f89c20f8414c64790ab92",
+  "pid": "BJlsQJ_aQN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6487a201958ada7ee8e9b765\" target=\"_blank\">CIVE202</a> <!-- -->-<!-- --> <!-- --> Engineering Applications in Earth Systems <!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/654ab4f49d70e6ada910d49b\" target=\"_blank\">GEOG103</a> <!-- -->-<!-- --> <!-- -->Our Natural Earth<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4a304ce072400155e75\" target=\"_blank\">CIVE210</a> <!-- -->-<!-- --> <!-- -->Sustainability in Civil Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "",
+  "title": "Sustainable Water Resources"
+}

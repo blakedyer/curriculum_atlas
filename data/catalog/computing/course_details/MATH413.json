@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "MATH413",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>A survey of the applications of algebraic structures in computer science, applied mathematics, and electrical engineering. Topics may include: cryptography, switching circuits, finite state machines, state diagrams, machine homomorphism, group and matrix codes, Polya-Burnside enumeration, Latin squares, primality testing.</p>",
+  "formerlyNotesText": "MATH 433D",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f6d99d2bc1524008cafd0",
+  "pid": "BJ2Z2O67N",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6f9a89944f24002ad394\" target=\"_blank\">MATH212</a> <!-- -->-<!-- --> <!-- -->Introduction to Algebra<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mathematics (MATH)",
+    "id": "5be1fd2e1d17b62e00819938",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "MATH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MATH 413, MATH 433D.</li></ul>",
+  "title": "Applied Algebra"
+}

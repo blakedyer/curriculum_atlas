@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CIVE360",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>Topical lectures, case studies, transportation system design project in small teams. Role of transportation in urban development and planning; social impacts, policy; sustainability, clean transportation technology. Transportation network analysis, design and flow prediction.</p> <p>* Indicates a 3 hour laboratory taken by students on alternate weeks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-1.5*-0",
+  "id": "61e8a78e1f45da5bbfd6167d",
+  "pid": "BJaQJ_T7N",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4a304ce072400155e75\" target=\"_blank\">CIVE210</a> <!-- -->-<!-- --> <!-- -->Sustainability in Civil Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/650c8f838484b57be7d88cb9\" target=\"_blank\">ENGR001</a> <!-- -->-<!-- --> <!-- -->Work Term 1<!-- --> <span style=\"margin-left:5px\">(4.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6723d2037c174a144cae7071\" target=\"_blank\">MECH200</a> <!-- -->-<!-- --> <!-- -->Engineering Drawing, CAD and Manufacturing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/67acdc3ef95e9ddc8010fd1a\" target=\"_blank\">CIVE200</a> <!-- -->-<!-- --> <!-- -->Engineering Drawing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cbbb9b5e24008114b4\" target=\"_blank\">ELEC200</a> <!-- -->-<!-- --> <!-- -->Engineering Graphics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6895fb68f3240022ccec\" target=\"_blank\">STAT254</a> <!-- -->-<!-- --> <!-- -->Probability and Statistics for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "",
+  "title": "Sustainable Transportation Systems"
+}

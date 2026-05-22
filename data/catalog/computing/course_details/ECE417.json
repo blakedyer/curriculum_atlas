@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE417",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>Software defined radio architectures. Receiver design: radio frequency, digital signal processing, software. Application to analog and digital communications, cognitive radio, dynamic spectrum access. Implementation of software radio algorithms using GNU Radio, Simulink or other platforms.</p>",
+  "formerlyNotesText": "ELEC 417",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "608212f47cc255c222fde6d0",
+  "pid": "BkgKldTX4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5f18be2f6a9b9f0026fb5d1d\" target=\"_blank\">ECE350</a> <!-- -->-<!-- --> <!-- -->Communications Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d07ec31124000cf102\" target=\"_blank\">ELEC350</a> <!-- -->-<!-- --> <!-- -->Communications Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 417, ECE 517, ELEC 417, ELEC 517.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Software Defined Radio"
+}

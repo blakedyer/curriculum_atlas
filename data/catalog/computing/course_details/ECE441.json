@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE441",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Advanced combinational and sequential logic design. Optimization of finite state machines; timing methodologies and synchronization issues. Hardware description languages (HDL): structural and behavioural descriptions, simulation and testbenches, coding styles, design with HDL and FPGA implementation. Design for test: testing concepts, scan-based design and built-in self-test (BIST). Design for high speed: timing analysis, pipelining and retiming. Design for low power: sources of power dissipation, design transformations.</p>",
+  "formerlyNotesText": "CENG 441",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "65a6e2a4f544761cbd6d899a",
+  "pid": "rkXFxOTXE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66ec87db703c825dbe5e01ca\" target=\"_blank\">ECE241</a> <!-- -->-<!-- --> <!-- -->Digital Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeaf19654524003846cd\" target=\"_blank\">CENG241</a> <!-- -->-<!-- --> <!-- -->Digital Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb17ec31124000ce6c7\" target=\"_blank\">CENG290</a> <!-- -->-<!-- --> <!-- -->Digital Design: I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 441, ECE 543, CENG 440, CENG 441, CENG 465, ELEC 543.</li> <li> <p>May be offered as a joint undergraduate and graduate class.</p> </li> </ul>",
+  "title": "Design of Digital and VLSI Systems"
+}

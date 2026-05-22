@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "GEOG314",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Based on four components: global environmental change; sustainable development; biodiversity; and population impoverishment and environmental degradation. Lectures and discussion emphasize the causes of global change, the present and expected impacts on natural and social systems, and response strategies that have been proposed or enacted.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "627bec098714a6a978f90e46",
+  "pid": "ryGXHuTm4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Minimum second-year standing.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of GEOG 314, GEOG 214 (if taken prior to December 2006).</li></ul>",
+  "title": "Global Environmental Change and Human Response"
+}

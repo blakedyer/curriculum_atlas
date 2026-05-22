@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "BME200",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Examines the basic structures and processes that make up cells and tissues, including protein synthesis, cellular tissues, and control of cellular processes, using principles from engineering kinetics and transport processes. Includes wet lab exercises.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e2fdfae5f596cf4bbf7e6",
+    "name": "Biomedical Engineering"
+  },
+  "hoursCatalogText": "3-1.5-1",
+  "id": "5cbdf49467a5c324003b0b6a",
+  "pid": "HyCt0wpmE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d781350a50c3624007f55c8\" target=\"_blank\">CHEM101</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Chemistry from Atoms to Materials<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6e3494e82e2400a23437\" target=\"_blank\">CHEM150</a> <!-- -->-<!-- --> <!-- -->Engineering Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffe7d1a3fd924005f028b\" target=\"_blank\">PHYS111</a> <!-- -->-<!-- --> <!-- -->Introductory Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe7e36d45224006d1559\" target=\"_blank\">PHYS112</a> <!-- -->-<!-- --> <!-- -->Basic Physics<!-- --> <span style=\"margin-left:5px\">(3.0)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe8036d45224006d155e\" target=\"_blank\">PHYS125</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe804afbf82400f7adba\" target=\"_blank\">PHYS130</a> <!-- -->-<!-- --> <!-- -->Physics II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biomedical Engineering (BME)",
+    "id": "5c13f65f185fc42400eea3f2",
+    "linkedGroup": "",
+    "name": "BME"
+  },
+  "supplementalNotes": "",
+  "title": "Molecular and Cellular Physiology for Engineers"
+}

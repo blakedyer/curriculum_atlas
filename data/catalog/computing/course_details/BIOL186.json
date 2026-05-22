@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "BIOL186",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>An introductory course in the biological sciences. Biological chemistry, cellular diversity, membrane structure and function, energy transduction, DNA replication. Structure, growth, nutrition, and development of plants; principles of animal physiology including homeostatic mechanisms, circulation, gas exchange, osmoregulation, thermoregulation, defense systems, chemical signalling, reproduction and development.</p>",
+  "formerlyNotesText": "part of BIOL 190A",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "613ebd3f73306fb87583ddc9",
+  "pid": "B1UmRDp7V",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f70b689944f24002ad470\" target=\"_blank\">BIOL150A</a> <!-- -->-<!-- --> <!-- -->Modern Biology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6ae0fb68f3240022cebb\" target=\"_blank\">BIOL150B</a> <!-- -->-<!-- --> <!-- -->Modern Biology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/613eb4dde872572b8c59a5ae\" target=\"_blank\">BIOL184</a> <!-- -->-<!-- --> <!-- -->Evolution and Biodiversity<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.6\"><div data-test=\"ruleView-A.6-result\"><div>Anatomy and Physiology 12</div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\"><div>Biology 11</div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\"><div>Biology 12</div></div></li><li data-test=\"ruleView-A.4\"><div data-test=\"ruleView-A.4-result\"><div>Life Sciences 11</div></div></li></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul><li> One of Chemistry 11, Chemistry 12, CHEM 091, CHEM 101, CHEM 102, CHEM 150 recommended prior to BIOL 186.</li></ul>",
+  "subjectCode": {
+    "description": "Biology (BIOL)",
+    "id": "5bb6513b65a8732e00a173d9",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "BIOL"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of BIOL 186, BIOL 190A.</li><li>BIOL 184 and BIOL 186 may be taken in any order. Students who have passed a placement exam may request permission to register in the course. </li></ul>",
+  "title": "Physiology and Cell Biology"
+}

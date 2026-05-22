@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "EOS110",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Origin and structure of the oceans and atmosphere. Dynamic processes that drive ocean and atmosphere circulation, weather patterns and global climate change. The coastal ocean, marine ecosystems, nutrient and carbon cycles, human influences on ocean environments, marine resources and sustainability.</p>",
+  "formerlyNotesText": "also GEOG 110",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5d1f7c4389944f24002adb12",
+  "pid": "BkMnQ_a7V",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of EOS 110, GEOG 110, GEOG 203B, GEOG 213, GEOG 216, EOS 350 (if taken prior to May 2011).</li><li>Credit will be granted for only two of the following courses with no more than one course from a particular group. Group 1: EOS 100, EOS 101; Group 2: EOS 110, GEOG 110, GEOG 216; Group 3: EOS 120, GEOG 120, GEOG 217.</li></ul>",
+  "title": "Oceans and Atmosphere"
+}

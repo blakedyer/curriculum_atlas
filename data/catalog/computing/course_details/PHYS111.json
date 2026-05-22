@@ -1,0 +1,37 @@
+{
+  "__catalogCourseId": "PHYS111",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2018-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2013-05-03",
+  "description": "<p>Heat engines; harmonic motion; wave motion; geometric and wave optics; modern physics. Engineering and Physical Science applications.</p>",
+  "formerlyNotesText": "part of PHYS 112, PHYS 125",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5c4ffe7d1a3fd924005f028b",
+  "pid": "S18Y0d6mE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63177170cdd330fd06504399\" target=\"_blank\">PHYS110</a> <!-- -->-<!-- --> <!-- -->Introductory Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63168b42bee727d381e640aa\" target=\"_blank\">MATH100</a> <!-- -->-<!-- --> <!-- -->Calculus I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/651de9ca8d54b2de78bce62c\" target=\"_blank\">MATH102</a> <!-- -->-<!-- --> <!-- -->Calculus for Students in the Social and Biological Sciences<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168d043e376f0b1f621ffd\" target=\"_blank\">MATH109</a> <!-- -->-<!-- --> <!-- -->Introduction to Calculus<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul><li> MATH 101 strongly recommended in conjunction with PHYS 111.</li></ul>",
+  "subjectCode": {
+    "description": "Physics (PHYS)",
+    "id": "5bbfc647a6762c2e00837c2a",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "PHYS"
+  },
+  "supplementalNotes": "<ul> <li>Students with credit in PHYS 112, PHYS 125, or PHYS 130 may not take PHYS 111 for credit.</li> <li>A basic course in physics for students planning a program of study in fields such as Physics, Astronomy, Chemistry, Earth and Ocean Sciences and Engineering.</li> <li>Students with a strong interest in Physics or Astronomy are encouraged to consider registering in PHYS 130.</li> </ul>",
+  "title": "Introductory Physics II"
+}

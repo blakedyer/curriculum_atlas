@@ -1,0 +1,39 @@
+{
+  "__catalogCourseId": "CSC103",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "allGradingTypes": {
+    "com": true,
+    "f": true,
+    "n": true
+  },
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to the technical competencies in software development. Topics include an introduction to basic computing, problem solving and programming concepts including: variables, functions, objects, conditionals and loops; software development methodologies; version control systems; software tools; scripting languages; and collaboration tools and techniques. An ongoing collaborative project gives experience with building and deploying a software application.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "1-2-0",
+  "id": "5cbdf4e02a310a240068a4f0",
+  "pid": "SJxxcJdTmE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Permission of the Department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "",
+  "title": "Introductory Programming and Software Development"
+}

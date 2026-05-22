@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "MRNE475",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Principles of study design and data analysis illustrated by lecture material, current research and research seminars. Students acquire experience using the statistical computing language R.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "id": "5e598a85e62c3f2500a5c102",
+  "pid": "SylR2dTXN",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6ea3d2bc1524008cb091\" target=\"_blank\">BIOL215</a> <!-- -->-<!-- --> <!-- -->Principles of Ecology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f70c9fb68f3240022d32c\" target=\"_blank\">BIOL225</a> <!-- -->-<!-- --> <!-- -->Principles of Cell Biology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6f68fb68f3240022d231\" target=\"_blank\">BIOL230</a> <!-- -->-<!-- --> <!-- -->Principles of Genetics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Marine Science (MRNE)",
+    "id": "5c140131185fc42400eeba64",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "MRNE"
+  },
+  "supplementalNotes": "<ul> <li>This is a field course offered at the Bamfield Marine Sciences Centre for upper level Biology credit. Please visit\u00a0the Bamfield Marine Sciences Centre <a href=\"http://www.bamfieldmsc.com\" target=\"_blank\">website</a> for more information.</li> </ul>",
+  "title": "Applied Data Analysis in Marine Science"
+}

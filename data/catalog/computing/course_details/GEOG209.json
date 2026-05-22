@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "GEOG209",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Critically interrogates approaches to the management or governance of environments and natural resources. Themes may include parks and protected areas, fisheries, forestry, water and energy management; environmental impact assessment; comprehensive land-use and marine spatial planning; and urban sustainability, all in the context of profound political and environmental change, colonialism, and Indigenous resurgence.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "6474ef22c90e02197a2c656b",
+  "pid": "BJPfS_pXN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f7386d2bc1524008cb417\" target=\"_blank\">GEOG101A</a> <!-- -->-<!-- --> <!-- -->Environment, Society and Sustainability<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/654ab4f49d70e6ada910d49b\" target=\"_blank\">GEOG103</a> <!-- -->-<!-- --> <!-- -->Our Natural Earth<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-B.1\"><div data-test=\"ruleView-B.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/654ab4f49d70e6ada910d49b\" target=\"_blank\">GEOG103</a> <!-- -->-<!-- --> <!-- -->Our Natural Earth<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5ff8d95afb277900267e8424\" target=\"_blank\">GEOG130</a> <!-- -->-<!-- --> <!-- -->Climate Change<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f7c4389944f24002adb12\" target=\"_blank\">EOS110</a> <!-- -->-<!-- --> <!-- -->Oceans and Atmosphere<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5ff8d754100d1e00282bc041\" target=\"_blank\">EOS130</a> <!-- -->-<!-- --> <!-- -->Climate Change<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\"><div>declared Honours or Major in Climate Science.</div></div></li></ul></li></div></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of GEOG 209, GEOG 350, GEOG 350A, GEOG 350B, ES 316.</li></ul>",
+  "title": "Environmental Management"
+}

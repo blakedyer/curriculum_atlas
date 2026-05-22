@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "PSYC100B",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to concepts, theories and research findings of modern psychology. Topics may include cognition, development, personality, health psychology, psychological disorders, psychological therapies, and social behaviour.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36d67fed2d200010da16e",
+    "name": "Department of Psychology"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5d1f69a9fb68f3240022cdcf",
+  "pid": "SkuMJt674",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Psychology (PSYC)",
+    "id": "5be1fd81dece022e00ba70cd",
+    "linkedGroup": "5be36d67fed2d200010da16e",
+    "name": "PSYC"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of PSYC 100B, PSYC 100.</li></ul>",
+  "title": "Introductory Psychology II"
+}

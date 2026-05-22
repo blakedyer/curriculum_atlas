@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "HINF130",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Health information systems are comprised of computer programs generated using a variety of data manipulation and management techniques. Covers the general application of databases and spreadsheets to health information management. In addition, many specific health care applications such as electronic health records, mobile health applications, medical graphics, multi-media medical information systems, public health information systems, decision support systems, networked systems, wearable health applications and bioinformatics are addressed.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36a2f56a15d000126deb2",
+    "name": "School of Health Information Science"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "67ffffe884f6076d6372eb34",
+  "pid": "Hye_aPu6mE",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Health Information Science (HINF)",
+    "id": "5c13fdff42504f2400e64b69",
+    "linkedGroup": "5be36a2f56a15d000126deb2",
+    "name": "HINF"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of HINF 130, HINF 172.</li></ul>",
+  "title": "Introduction to Health Information Technology"
+}

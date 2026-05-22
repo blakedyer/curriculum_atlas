@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ENSH102",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-07-30",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Introduces literary and cultural criticism through a focused study of a small set of texts. Combines an examination of the influences at work on literary texts with a study of how those texts are then circulated and interpreted. Develops skills for writing about literature and making research-based academic arguments in any discipline.</p>",
+  "formerlyNotesText": "ENGL 147",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5b96a3a63a17f40001fa2b6a",
+    "name": "Department of English"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "688a86bca47526db43c89772",
+  "pid": "BJkzjYIlj",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "English (ENSH)",
+    "id": "62eaeee44699025ce2257cd4",
+    "linkedGroup": "5b96a3a63a17f40001fa2b6a",
+    "name": "ENSH"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ENSH 102, ENGL 116, ENGL 121, ENGL 122, ENGL 145, ENGL 147.</li> <li>Not recommended for students concurrently registered in ATWP 110 due to credit restrictions. Please refer to the note section of ATWP110 for more information.</li> <li>This course satisfies the Academic Writing Requirement.</li> </ul>",
+  "title": "Literature in Action "
+}

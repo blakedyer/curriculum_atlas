@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "EOS460",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2026-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2026-05-03",
+  "description": "<p>An examination of the interrelationships between the complex systems operating in the solid Earth, hydrosphere, atmosphere and biosphere; methods of systems analysis for the planet; modelling of global processes.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "681a5fcb36fc8f7fac74d7d6",
+  "pid": "ryVTQu6QE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6360896651075f6ea89793d2\" target=\"_blank\">EOS225</a> <!-- -->-<!-- --> <!-- -->Earth System Modelling<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/6686d0e2516b11339407896b\" target=\"_blank\">EOS325</a> <!-- -->-<!-- --> <!-- -->Earth System Modelling<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/62ba27622434d348954acfef\" target=\"_blank\">MATH248</a> <!-- -->-<!-- --> <!-- -->Computer Assisted Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/62fbe3a90a88d51c787648ba\" target=\"_blank\">PHYS248</a> <!-- -->-<!-- --> <!-- -->Computer Assisted Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/61ae8336846c7828419e7e5b\" target=\"_blank\">EOS261</a> <!-- -->-<!-- --> <!-- -->The Climate System<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f7355d2bc1524008cb3ef\" target=\"_blank\">EOS335</a> <!-- -->-<!-- --> <!-- -->Isotopes in Natural Sciences<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>3</span> units of: <div>EOS courses numbered 300 or higher (excluding EOS 350, EOS 365).</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "",
+  "title": "Earth System Science"
+}

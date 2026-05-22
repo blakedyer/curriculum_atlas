@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ENSH202",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-05-02",
+  "description": "<p>Assists planning for careers in business, government, public service and research institutions. Improves written and oral communication skills in a work environment. Develops practical skills (e.g., the preparation of business letters, internal memoranda and reports) supplemented by a theoretical outline of basic communication within an organizational structure. Offers experience of both individual and group problem-solving.</p>",
+  "formerlyNotesText": "ENGL 225",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5b96a3a63a17f40001fa2b6a",
+    "name": "Department of English"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "648a4b192fb3c37000c4d450",
+  "pid": "Hk4AmXQRc",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Academic Writing Requirement satisfied.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "English (ENSH)",
+    "id": "62eaeee44699025ce2257cd4",
+    "linkedGroup": "5b96a3a63a17f40001fa2b6a",
+    "name": "ENSH"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ENSH 202, ENGL 225, ENGR 120, ENGR 240.</li> <li>This is a Professional Communication course.</li> </ul>",
+  "title": "Technical Communications, Written and Verbal"
+}

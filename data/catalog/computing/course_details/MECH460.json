@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "MECH460",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>Introduction to machining operations and numerically controlled (NC) machine tools. Manual part programming with G-codes. Computer-aided part programing. 3-axis machining of curved surfaces. Kinematics of NC machine tools. Fundamental mechanics and dynamics of machining processes.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1.5*-1",
+  "id": "60c9105c6637466464558d80",
+  "pid": "ByPdnd6m4",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4f167a5c324003b0bcd\" target=\"_blank\">CSC349A</a> <!-- -->-<!-- --> <!-- -->Numerical Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffbe436d45224006d0fce\" target=\"_blank\">MATH201</a> <!-- -->-<!-- --> <!-- -->Introduction to Differential Equations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6723d2037c174a144cae7071\" target=\"_blank\">MECH200</a> <!-- -->-<!-- --> <!-- -->Engineering Drawing, CAD and Manufacturing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf49867a5c324003b0b6c\" target=\"_blank\">BME350</a> <!-- -->-<!-- --> <!-- -->Biomedical Engineering Design<!-- --> <span style=\"margin-left:5px\">(2.0)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57a67a5c324003b0c2e\" target=\"_blank\">ECE299</a> <!-- -->-<!-- --> <!-- -->Introduction to Electrical and Computer Engineering Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cd7ec31124000cf0fb\" target=\"_blank\">ELEC299</a> <!-- -->-<!-- --> <!-- -->Introduction to Electrical and Computer Engineering Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff394bb9b5e24008116af\" target=\"_blank\">ENGR150</a> <!-- -->-<!-- --> <!-- -->Engineering Graphics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf60e04ce072400155fef\" target=\"_blank\">MECH380</a> <!-- -->-<!-- --> <!-- -->Automatic Control Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf58404ce072400155f60\" target=\"_blank\">ECE360</a> <!-- -->-<!-- --> <!-- -->Control Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d019654524003850f0\" target=\"_blank\">ELEC360</a> <!-- -->-<!-- --> <!-- -->Control Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf60967a5c324003b0cbf\" target=\"_blank\">MECH330</a> <!-- -->-<!-- --> <!-- -->Introduction to Mechanical Vibrations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf59f56bbef2400c2f066\" target=\"_blank\">ECE460</a> <!-- -->-<!-- --> <!-- -->Control Theory and Systems II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2dd196545240038510f\" target=\"_blank\">ELEC460</a> <!-- -->-<!-- --> <!-- -->Control Theory and Systems II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "",
+  "title": "Computer-Aided Manufacturing"
+}

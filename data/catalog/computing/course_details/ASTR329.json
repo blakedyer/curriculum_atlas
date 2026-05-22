@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ASTR329",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2018-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2009-05-03",
+  "description": "<p>Introduction to observational and data analysis techniques in Astronomy. Observational and practical work, directed reading.</p>",
+  "formerlyNotesText": "ASTR 429A",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "0-6-0",
+  "id": "5c4fede17ec31124000ce4b3",
+  "pid": "SJgFJCvTQ4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66d2281c74171541059724aa\" target=\"_blank\">ASTR250</a> <!-- -->-<!-- --> <!-- -->Introduction to Astrophysics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Astronomy (ASTR)",
+    "id": "5bbfc63ca6762c2e00837c29",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "ASTR"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ASTR 329, ASTR 429A.</li></ul>",
+  "title": "Introduction to Observational Astronomy"
+}

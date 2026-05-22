@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "CSC100",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to computing for the nonspecialist. Topics covered include the basic structure of a digital computer system; applications of computers in the home, office and industry; and implications of computers for society. Hands-on experience with a microcomputer and the use of some practical software packages are given.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "5cbdf4df04ce072400155eba",
+  "pid": "r1xcyOamN",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul><li>Not open for credit to students registered in or with credit in any of CSC 105, CSC 106, CSC 110, CSC 111, CSC 212, HINF 130, HINF 171, HINF 172.</li><li>Normally not open to students with credit in ICT 11 Applied Digital Communications or ICT 11 Computer Programming or equivalent.</li><li>Designed for a general university audience; students considering a Major in Computer Science should enrol in CSC 106 or CSC 110 rather than CSC 100.</li></ul>",
+  "title": "Elementary Computing"
+}

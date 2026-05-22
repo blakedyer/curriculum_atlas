@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MECH285",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Atomic structure, arrangement and movement; microstructural development and heat treatment; physical properties of ferrous and nonferrous metals, semiconductors, ceramics, polymers and composites; corrosion and mechanical properties.</p> <p>* Indicates a 3 hour laboratory taken by students on alternate weeks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1.5*-1",
+  "id": "5cbdf6052a310a240068a5c6",
+  "pid": "S1IPn_6mE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d781350a50c3624007f55c8\" target=\"_blank\">CHEM101</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Chemistry from Atoms to Materials<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5f6e45ab4272fc00267b50df\" target=\"_blank\">CHEM102</a> <!-- -->-<!-- --> <!-- -->Chemical Reactivity Fundamentals with Environmental Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6e3494e82e2400a23437\" target=\"_blank\">CHEM150</a> <!-- -->-<!-- --> <!-- -->Engineering Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul><li>Not open to students with credit in MECH 325.</li></ul>",
+  "title": "Properties of Engineering Materials"
+}

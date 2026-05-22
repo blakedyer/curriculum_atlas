@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "STAT359",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>An introductory data analysis course for students who have had an introduction to descriptive statistics, probability distributions, estimation, hypothesis testing and confidence intervals. Emphasis is placed on proper use of computer software, interpretation of output and assumptions required for use of each statistical method. Topics may include: linear and nonlinear regression, time series analysis, analysis of variance, design of experiments, generalized linear models, repeated measures analysis, survival analysis, methods for multivariate data, and nonparametric methods.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bca28fd1add8e000113d55c",
+    "name": "Department of Mathematics and Statistics"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "62ba2b452434d327524ad015",
+  "pid": "rJiRltTQE",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5f2b40270d04170026ecad65\" target=\"_blank\">STAT252</a> <!-- -->-<!-- --> <!-- -->Statistics for Business<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6895fb68f3240022ccec\" target=\"_blank\">STAT254</a> <!-- -->-<!-- --> <!-- -->Probability and Statistics for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615df5109f5025006793a7\" target=\"_blank\">STAT255</a> <!-- -->-<!-- --> <!-- -->Statistics for Life Sciences I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/6721141113d6edf42705341b\" target=\"_blank\">ECON245</a> <!-- -->-<!-- --> <!-- -->Descriptive Statistics and Probability<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/654ab82479563116634e774f\" target=\"_blank\">GEOG226</a> <!-- -->-<!-- --> <!-- -->Quantitative Methods in Geography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d8d839e015c5b2400a72992\" target=\"_blank\">PSYC300A</a> <!-- -->-<!-- --> <!-- -->Statistical Methods in Psychology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c5000304afbf82400f7b1fd\" target=\"_blank\">SOCI371A</a> <!-- -->-<!-- --> <!-- -->Statistical Analysis in Sociology: I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Statistics (STAT)",
+    "id": "5c140517b7636f2400ac5474",
+    "linkedGroup": "5bca28fd1add8e000113d55c",
+    "name": "STAT"
+  },
+  "supplementalNotes": "",
+  "title": "Data Analysis"
+}

@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE481",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Review of IC technologies, device models and design concepts. Design of monolithic op amps, regulators, multipliers, oscillators, PLLs, A/D and D/A converters and other non-linear and high-speed ICs. Study and design of integrated filters, switched-capacitor circuits, CCDs and other sampled-data circuits. Design and applications of analog neural network and other analog-digital LSI.</p>",
+  "formerlyNotesText": "ELEC 481",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5cbdf5a756bbef2400c2f06b",
+  "pid": "BkcYlOpXN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/649329a9309b8099be1ec11f\" target=\"_blank\">ECE320</a> <!-- -->-<!-- --> <!-- -->Electronic Devices I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cebb9b5e24008114be\" target=\"_blank\">ELEC320</a> <!-- -->-<!-- --> <!-- -->Electronic Devices I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf58756bbef2400c2f048\" target=\"_blank\">ECE380</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d119654524003850f3\" target=\"_blank\">ELEC380</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 481, ELEC 481.</li></ul>",
+  "title": "Analog VLSI Systems"
+}

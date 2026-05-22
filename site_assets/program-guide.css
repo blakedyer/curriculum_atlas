@@ -276,7 +276,8 @@ summary:focus-visible {
 
 .page--program-overview .hero,
 .page--course-overview .hero,
-.page--workflow .hero {
+.page--workflow .hero,
+.page--secret-computing .hero {
   min-height: 14.5rem;
   padding: 2.1rem 0 1.35rem;
 }
@@ -291,7 +292,8 @@ summary:focus-visible {
 .page--course-overview .hero__title,
 .page--workflow .hero__title,
 .page--program-detail .hero__title,
-.page--course-detail .hero__title {
+.page--course-detail .hero__title,
+.page--secret-computing .hero__title {
   max-width: 21ch;
   font-size: clamp(2.15rem, 4.1vw, 3.8rem);
 }
@@ -305,7 +307,8 @@ summary:focus-visible {
 .page--course-overview .hero__lede,
 .page--workflow .hero__lede,
 .page--program-detail .hero__lede,
-.page--course-detail .hero__lede {
+.page--course-detail .hero__lede,
+.page--secret-computing .hero__lede {
   margin-top: 0.6rem;
 }
 
@@ -313,7 +316,8 @@ summary:focus-visible {
 .page--course-overview .hero__actions,
 .page--workflow .hero__actions,
 .page--program-detail .hero__actions,
-.page--course-detail .hero__actions {
+.page--course-detail .hero__actions,
+.page--secret-computing .hero__actions {
   margin-top: 1rem;
 }
 
@@ -419,7 +423,8 @@ summary:focus-visible {
 .page--program-detail .section-heading h2,
 .page--course-detail .section-heading h2,
 .page--program-overview .section-heading h2,
-.page--course-overview .section-heading h2 {
+.page--course-overview .section-heading h2,
+.page--secret-computing .section-heading h2 {
   font-size: clamp(1.65rem, 3vw, 2.45rem);
 }
 
@@ -1697,6 +1702,16 @@ summary:focus-visible {
   height: 650px;
 }
 
+.page--secret-computing .graph-frame {
+  max-height: 78vh;
+}
+
+.page--secret-computing .atlas-graph-svg {
+  width: auto;
+  height: auto;
+  max-width: none;
+}
+
 .graph-actions {
   margin: 0.9rem 0 0;
 }
@@ -1901,7 +1916,8 @@ summary:focus-visible {
   .page--course-overview .hero,
   .page--workflow .hero,
   .page--program-detail .hero,
-  .page--course-detail .hero {
+  .page--course-detail .hero,
+  .page--secret-computing .hero {
     min-height: 15.5rem;
     padding-top: 2.3rem;
     padding-bottom: 1.25rem;
@@ -2039,7 +2055,8 @@ summary:focus-visible {
   .page--course-overview .hero,
   .page--workflow .hero,
   .page--program-detail .hero,
-  .page--course-detail .hero {
+  .page--course-detail .hero,
+  .page--secret-computing .hero {
     min-height: 15.5rem;
     padding-top: 2.3rem;
   }
@@ -2052,7 +2069,8 @@ summary:focus-visible {
   .page--course-detail .hero__title,
   .page--program-overview .hero__title,
   .page--course-overview .hero__title,
-  .page--workflow .hero__title {
+  .page--workflow .hero__title,
+  .page--secret-computing .hero__title {
     font-size: clamp(2rem, 10vw, 3rem);
   }
 

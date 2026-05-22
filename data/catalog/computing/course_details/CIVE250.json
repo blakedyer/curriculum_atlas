@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "CIVE250",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Topics: analysis of determinate and indeterminate structures under static loads including trusses, beams, frames, cables, and arches; drawing of shear and moment diagrams, influence lines; deflection calculation; virtual work method; Castiglioni's Theorem and force method.</p> <p>*Indicates 1-hour labs are scheduled periodically throughout the term and students will be advised of the timing at the start of the term.</p>",
+  "formerlyNotesText": "CIVE 350",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-1*-1",
+  "id": "66e0ae3fd7dff994bff6e88f",
+  "pid": "ry5z6SIk2",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66974c340a8ca7ebf44b3fe3\" target=\"_blank\">CIVE220</a> <!-- -->-<!-- --> <!-- -->Mechanics of Solids I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf5fb04ce072400155fb3\" target=\"_blank\">ENGR141</a> <!-- -->-<!-- --> <!-- -->Engineering Mechanics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f76e5d2bc1524008cb6b4\" target=\"_blank\">MATH200</a> <!-- -->-<!-- --> <!-- -->Calculus III<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f71b694e82e2400a236df\" target=\"_blank\">MATH204</a> <!-- -->-<!-- --> <!-- -->Calculus IV<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CIVE 250, CIVE 350.</li> </ul>",
+  "title": "Structural Analysis"
+}

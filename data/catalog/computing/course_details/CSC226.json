@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "CSC226",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-09-02",
+  "description": "<p>Advanced techniques for design, analysis, and implementation of algorithms and data structures with an introduction to algorithm engineering. Algorithmic design paradigms: greedy, divide-and-conquer, dynamic programming, backtracking, branch and bound. Advanced Analysis techniques, such as amortization. Advanced data structures: hashing, disjoint sets. Advanced graph algorithms: network flow, connectivity, minimum spanning trees, shortest paths. Mathematical tools: graphs and digraphs, graph properties, planar graphs, networks; discrete probability, counting techniques, recurrences.</p>",
+  "formerlyNotesText": "CSC 326",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "6307b1bdfe51a12031b36bfa",
+  "pid": "HytcJuaQV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ea67a5c324003b0bbd\" target=\"_blank\">CSC225</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/654ab82479563116634e774f\" target=\"_blank\">GEOG226</a> <!-- -->-<!-- --> <!-- -->Quantitative Methods in Geography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d8d839e015c5b2400a72992\" target=\"_blank\">PSYC300A</a> <!-- -->-<!-- --> <!-- -->Statistical Methods in Psychology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6895fb68f3240022ccec\" target=\"_blank\">STAT254</a> <!-- -->-<!-- --> <!-- -->Probability and Statistics for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615df5109f5025006793a7\" target=\"_blank\">STAT255</a> <!-- -->-<!-- --> <!-- -->Statistics for Life Sciences I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of CSC 226, CSC 326.</li></ul>",
+  "title": "Algorithms and Data Structures II"
+}

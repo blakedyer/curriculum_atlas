@@ -1,0 +1,43 @@
+{
+  "__catalogCourseId": "BME335",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "ECE335",
+      "pid": "BkgKOgOamE",
+      "title": "Biosensors and Instrumentation"
+    }
+  ],
+  "dateStart": "2025-05-03",
+  "description": "<p>Principles of biomedical devices and instrumentation. Topics include: sensors and transducers (such as voltage sensors, optical sensors, displacement/pressure sensors and accelerometers, and acoustic sensors); signal filtering and amplification (Bode plots, passive and active filters, noise in electrical circuits); data acquisition and signal processing (sampling theory and signal aliasing, analogue-to-digital conversion); ECG; EEG; hearing aids; wearable and implanted devices; instrument/device safety.</p>",
+  "formerlyNotesText": "also ELEC 335",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e2fdfae5f596cf4bbf7e6",
+    "name": "Biomedical Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "669983eb67ca2b55c3b5295f",
+  "pid": "BJkcADaXN",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57867a5c324003b0c2c\" target=\"_blank\">ECE260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67633b2263ba75d9414b1021\" target=\"_blank\">ECE330</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/67633f00d49e4abd60245e8d\" target=\"_blank\">ECE365</a> <!-- -->-<!-- --> <!-- -->Applied Electronics and Electrical Machines<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cf19654524003850ec\" target=\"_blank\">ELEC330</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d1bb9b5e24008114c4\" target=\"_blank\">ELEC365</a> <!-- -->-<!-- --> <!-- -->Applied Electronics and Electrical Machines<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biomedical Engineering (BME)",
+    "id": "5c13f65f185fc42400eea3f2",
+    "linkedGroup": "",
+    "name": "BME"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of BME 335, ECE 335, ELEC 335.</li></ul>",
+  "title": "Biosensors and Instrumentation"
+}

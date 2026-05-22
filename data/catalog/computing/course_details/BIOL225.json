@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "BIOL225",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to cellular, subcellular, and molecular structure/function relationships in eukaryotic cells. Membrane structure and dynamics, membrane transport, protein sorting, vesicular transport, endocytic pathways, extracellular matrices, interactions with the cellular and acellular environments, endomembrane system, cytoskeleton and motility, cellular reproduction, mechanisms of cell signalling, techniques in cell biology.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5d1f70c9fb68f3240022d32c",
+  "pid": "SJxFXRvTXE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/613ebd3f73306fb87583ddc9\" target=\"_blank\">BIOL186</a> <!-- -->-<!-- --> <!-- -->Physiology and Cell Biology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4fee1d196545240038456e\" target=\"_blank\">BIOL190A</a> <!-- -->-<!-- --> <!-- -->General Biology I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div> or permission of the department.</div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/613eb4dde872572b8c59a5ae\" target=\"_blank\">BIOL184</a> <!-- -->-<!-- --> <!-- -->Evolution and Biodiversity<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4fee1ebb9b5e2400810911\" target=\"_blank\">BIOL190B</a> <!-- -->-<!-- --> <!-- -->General Biology II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6bfb89944f24002ad0c9\" target=\"_blank\">MICR200A</a> <!-- -->-<!-- --> <!-- -->Introductory Microbiology I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biology (BIOL)",
+    "id": "5bb6513b65a8732e00a173d9",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "BIOL"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of BIOL 225, BIOL 200.</li></ul>",
+  "title": "Principles of Cell Biology"
+}

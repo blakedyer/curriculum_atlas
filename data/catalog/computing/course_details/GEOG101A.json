@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "GEOG101A",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Introduction to the functioning of the biosphere, the ways in which humans alter natural processes, environmental consequences of these alterations and the implications for sustainability. Topics include: energy flows, biogeochemical cycles, ecosystem structure and dynamics, pollution, global change, water resources, biodiversity, endangered species, protected areas, agriculture and food, forestry, marine resources, poverty and development and different worldviews. Potential for a sustainable society is discussed.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "5d1f7386d2bc1524008cb417",
+  "pid": "H1bzS_67E",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of GEOG 101A, ES 101.</li></ul>",
+  "title": "Environment, Society and Sustainability"
+}

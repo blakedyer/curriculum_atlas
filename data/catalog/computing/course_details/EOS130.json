@@ -1,0 +1,40 @@
+{
+  "__catalogCourseId": "EOS130",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2021-05-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "GEOG130",
+      "pid": "HkMDtUICD",
+      "title": "Climate Change"
+    }
+  ],
+  "dateStart": "2021-09-02",
+  "description": "<p>An introduction to the fundamental physical principles governing the climate of the Earth system, and its response to anthropogenic factors. Topics include: components of the climate system, radiative energy balance, forcings and feedbacks, the carbon cycle, climate of the past, impacts of climate change, global climate model projections, and approaches to mitigation and adaptation.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3691afed2d200010da13f",
+    "name": "School of Earth and Ocean Sciences"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "5ff8d754100d1e00282bc041",
+  "pid": "B128DL80w",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Earth and Ocean Sciences (EOS)",
+    "id": "5c13fb3b42504f2400e645d8",
+    "linkedGroup": "5be3691afed2d200010da13f",
+    "name": "EOS"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of EOS 130, GEOG 130.</li> </ul>",
+  "title": "Climate Change"
+}

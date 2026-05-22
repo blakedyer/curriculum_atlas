@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CHEM102",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2021-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2021-05-03",
+  "description": "<p>Introduction to thermodynamics and kinetics for chemical transformations in the environment. First and second laws of thermodynamics. Equilibria including acid base chemistry. Kinetics of one step and multiple step reactions, with an introduction to transition states and reactive intermediates. Application of these chemical concepts to the atmosphere and oceans. Laboratory builds on the experience of CHEM 101, with practice in developing routine skills. Continued emphasis is given to reporting data accurately.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb65cedee95370001de0ca0",
+    "name": "Department of Chemistry"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5f6e45ab4272fc00267b50df",
+  "pid": "r11A0D6XN",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\"><div>Chemistry 12</div></div></li><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e50238ed48ad3250088989f\" target=\"_blank\">CHEM091</a> <!-- -->-<!-- --> <!-- -->Introduction to Chemistry<!-- --> <span style=\"margin-left:5px\">(0)</span></span></li></ul></div></div></li></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d781350a50c3624007f55c8\" target=\"_blank\">CHEM101</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Chemistry from Atoms to Materials<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6e3494e82e2400a23437\" target=\"_blank\">CHEM150</a> <!-- -->-<!-- --> <!-- -->Engineering Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63168b42bee727d381e640aa\" target=\"_blank\">MATH100</a> <!-- -->-<!-- --> <!-- -->Calculus I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/651de9ca8d54b2de78bce62c\" target=\"_blank\">MATH102</a> <!-- -->-<!-- --> <!-- -->Calculus for Students in the Social and Biological Sciences<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168d043e376f0b1f621ffd\" target=\"_blank\">MATH109</a> <!-- -->-<!-- --> <!-- -->Introduction to Calculus<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Chemistry (CHEM)",
+    "id": "5bbec2f9dd74d22e00571e83",
+    "linkedGroup": "5bb65cedee95370001de0ca0",
+    "name": "CHEM"
+  },
+  "supplementalNotes": "",
+  "title": "Chemical Reactivity Fundamentals with Environmental Applications"
+}

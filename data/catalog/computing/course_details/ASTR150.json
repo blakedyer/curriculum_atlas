@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ASTR150",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2018-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2008-05-02",
+  "description": "<p>Introduces some of the great ideas and concepts in modern astronomy, as well as the basic physical principles required to understand these concepts. Topics include properties of the solar system, extrasolar planets, galaxies, expanding universe, big bang, origin of the elements, dark matter, dark energy, black holes, neutron stars.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "5c4fedddbb9b5e240081086d",
+  "pid": "HySJ0P67N",
+  "preOrCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63168b42bee727d381e640aa\" target=\"_blank\">MATH100</a> <!-- -->-<!-- --> <!-- -->Calculus I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168d043e376f0b1f621ffd\" target=\"_blank\">MATH109</a> <!-- -->-<!-- --> <!-- -->Introduction to Calculus<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63177170cdd330fd06504399\" target=\"_blank\">PHYS110</a> <!-- -->-<!-- --> <!-- -->Introductory Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe7e4afbf82400f7adb7\" target=\"_blank\">PHYS120</a> <!-- -->-<!-- --> <!-- -->Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Astronomy (ASTR)",
+    "id": "5bbfc63ca6762c2e00837c29",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "ASTR"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ASTR 150, ASTR 200A.</li></ul>",
+  "title": "Concepts in Modern Astronomy"
+}

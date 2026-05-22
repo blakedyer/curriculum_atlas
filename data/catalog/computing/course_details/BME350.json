@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "BME350",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "2.0",
+      "min": "2.0"
+    },
+    "value": "2.0"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Design methodology; recognizing and defining open-ended biomedical engineering problems, problem definition, concept generation, project planning, modelling, analysis, decision making, design synthesis, prototyping and testing. Students complete a series of design projects in small teams to develop teamwork. Introduction to engineering graphics; perspective and orthographic projects; 3D models, dimensioning and tolerancing; generation of engineering drawings with CAD systems.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e2fdfae5f596cf4bbf7e6",
+    "name": "Biomedical Engineering"
+  },
+  "hoursCatalogText": "4-3-1",
+  "id": "5cbdf49867a5c324003b0b6c",
+  "pid": "SJg9Av6m4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf49604ce072400155e6d\" target=\"_blank\">BME201</a> <!-- -->-<!-- --> <!-- -->Quantitative Human Physiology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d82648f184abe2400908765\" target=\"_blank\">MECH220</a> <!-- -->-<!-- --> <!-- -->Mechanics of Solids I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biomedical Engineering (BME)",
+    "id": "5c13f65f185fc42400eea3f2",
+    "linkedGroup": "",
+    "name": "BME"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of BME 350, MECH 350.</li></ul>",
+  "title": "Biomedical Engineering Design"
+}

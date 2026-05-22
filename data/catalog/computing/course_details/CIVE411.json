@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CIVE411",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-09-02",
+  "description": "<p>The resilient smart cities context and the relationship to urban sustainability; smart city tools, applications and systems; all hazards risk assessment and the evolving cyber-physical threat; operational and strategic urban resilience planning processes in general and for smart city systems.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "61bbb290c46bd8e8117f7d7a",
+  "pid": "BkJEyOpQV",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\"><div>Minimum fourth-year standing in the Civil Engineering program</div></div></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CIVE 411, CIVE 511.</li> <li>Students in other programs may request permission to register in the course.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Resilient Smart Cities"
+}

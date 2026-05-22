@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "GEOG315",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Introduces the activity of geocaching, the fundamentals of GPS navigation and data collection. Emphasis is placed on geocaching, the history and workings of GPS and associated navigation systems, map datums and coordinate systems and basics of GPS data management. Hands-on operating and working with GPS units in the field, through a variety of geocaching activities and assignments. Examples of the use of GPS in geographical research is demonstrated through lectures and readings.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5e5943e26737b12500c22ecf",
+  "pid": "SkMmHOamV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Minimum third-year standing.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of GEOG 315, GEOG 391 (if taken in the same topic).</li></ul>",
+  "title": "Geocaching"
+}

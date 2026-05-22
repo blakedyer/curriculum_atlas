@@ -15,6 +15,7 @@ def run(command: list[str]) -> None:
 
 def main() -> None:
     run([sys.executable, "scripts/sync_uvic_catalog.py"])
+    run([sys.executable, "scripts/sync_uvic_computing_catalog.py"])
     run([sys.executable, "scripts/build_static_site.py"])
 
 

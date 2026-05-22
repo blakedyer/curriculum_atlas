@@ -1,0 +1,42 @@
+{
+  "__catalogCourseId": "BIOL469",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2026-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "BIOL569",
+      "pid": "S1k5524MWl",
+      "title": "Introduction to Computational Genomics"
+    }
+  ],
+  "dateStart": "2026-05-03",
+  "description": "<p>Practical introduction to computational genomics and bioinformatics. Lectures include sequencing and genomic techniques. Labs include command-line programming, data processing and visualizing in R, genome assembly, RNA-seq analysis, sequence alignment, variant calling and basic population genomics. Engagement with primary genomics literature. Analysis of genomic data as a final project.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "hoursCatalogText": "1-3-0",
+  "id": "68893234c4dc63ea26b9e1c2",
+  "pid": "S1p4f2Ivel",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6f68fb68f3240022d231\" target=\"_blank\">BIOL230</a> <!-- -->-<!-- --> <!-- -->Principles of Genetics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6fb8d2bc1524008cb14a\" target=\"_blank\">BIOL361</a> <!-- -->-<!-- --> <!-- -->Molecular Genetics and Genomics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul> <li>BIOL 330 is recommended prior to BIOL 469.</li> </ul>",
+  "subjectCode": {
+    "description": "Biology (BIOL)",
+    "id": "5bb6513b65a8732e00a173d9",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "BIOL"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of BIOL 469, BIOL 470 (if taken in the same topic), BIOL 550E (if taken in the same topic), BIOL 569.</li> <li>A combined undergraduate and graduate course.</li> </ul>",
+  "title": "Introduction to Computational Genomics"
+}

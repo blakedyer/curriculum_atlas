@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "GEOG418",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Explores advanced topics in the numerical analysis of points, lines, areas, and surfaces in discrete and continuous space, drawing on methodologies from geo-statistics, spatial analysis, regional sciences and landscape ecology. Includes coverage of spatial systems modelling and simulation, spatio-temporal analysis, exploratory spatial analysis and spatial data mining.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "2-3-0",
+  "id": "5d1f73b189944f24002ad6c1",
+  "pid": "SkxBHHupXN",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f67bd89944f24002acd13\" target=\"_blank\">GEOG328</a> <!-- -->-<!-- --> <!-- -->GIS Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/657cafe8367f266105fa6aa1\" target=\"_blank\">GEOG329</a> <!-- -->-<!-- --> <!-- -->GIS Applications and Tools<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "<ul><li> GEOG 328 and GEOG 329 recommended prior to GEOG 418.</li></ul>",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Advanced Spatial Analysis and Geo-statistics"
+}

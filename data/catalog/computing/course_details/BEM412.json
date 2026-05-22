@@ -1,0 +1,32 @@
+{
+  "__catalogCourseId": "BEM412",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Collection, analysis, and interpretation of health data using statistical and computational methods. Data mining techniques, machine learning algorithms, visualization tools, extracting insights from health data for improving patient care, research and healthcare administration. </p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "677d996581a472364390d22a",
+  "pid": "HJADFMoI1l",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biomedical Engineering and Management (BEM)",
+    "id": "67ad328b99e12e33bd88200a",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "BEM"
+  },
+  "title": "Health Data Analytics"
+}

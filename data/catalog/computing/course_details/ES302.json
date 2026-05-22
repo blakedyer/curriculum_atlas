@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ES302",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Examines how the global capitalist economy is transforming ecosystems, and how social and environmental challenges are in turn beginning to transform capitalism. Economic alternatives are examined in local and global contexts (e.g. the social economy, steady state economies and Indigenous economic practices).</p>",
+  "formerlyNotesText": "ES 402",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5e5842352beb4c2500153a53",
+  "pid": "SylQ4NOa7V",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e5841f6b72ef32500f34d9e\" target=\"_blank\">ES200</a> <!-- -->-<!-- --> <!-- -->Introduction to Environmental Studies<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Environmental Studies (ES)",
+    "id": "5c13fba53d3a3326007677bd",
+    "linkedGroup": "5be368fb56a15d000126dea6",
+    "name": "ES"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ES 302, ES 402, ES 400A (if taken in Sep 1989 - Apr 1994), ES 402, ES 420.</li></ul>",
+  "title": "Capitalism, Justice and Sustainability"
+}

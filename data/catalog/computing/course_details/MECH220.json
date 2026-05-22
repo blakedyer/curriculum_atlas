@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MECH220",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-05-02",
+  "description": "<p>Review of bending moment and shear force diagrams for beams. Introduction of stress and strain; axial loading, torsion, pure bending and transverse loading. Status failure and factors of safety. Stress and strain transformation in two dimensions. Mohr's circle. Beam deflection, stability of columns. Energy methods.</p> <p>* Indicates a 3 hour laboratory taken by students on alternate weeks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1.5*-1",
+  "id": "5d82648f184abe2400908765",
+  "pid": "SJmv2O6X4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf5fb04ce072400155fb3\" target=\"_blank\">ENGR141</a> <!-- -->-<!-- --> <!-- -->Engineering Mechanics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f76e5d2bc1524008cb6b4\" target=\"_blank\">MATH200</a> <!-- -->-<!-- --> <!-- -->Calculus III<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MECH 220, CIVE 220.</li></ul>",
+  "title": "Mechanics of Solids I"
+}

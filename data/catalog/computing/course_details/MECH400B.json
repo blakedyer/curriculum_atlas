@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "MECH400B",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "3.0",
+      "min": "3.0"
+    },
+    "value": "3.0"
+  },
+  "dateStart": "2023-09-02",
+  "description": "<p>Complete design of a product or a system in a team environment: finalization of client project brief; conceptual to detailed design including iteration; formal engineering analysis; selection of materials, parts and fabrication methods; design documentation including fabrication drawings, rapid prototyping data files and software; project logistical and financial management. As appropriate to project topic and scope, may include iterative prototyping and testing to verify performance analysis and targets.</p>",
+  "formerlyNotesText": "MECH400",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "2-6-3",
+  "id": "63c83e6388ee7128d123b2f5",
+  "pid": "HJcPRhrsj",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63c83b41d47c1f0ebaa8039d\" target=\"_blank\">MECH400A</a> <!-- -->-<!-- --> <!-- -->Capstone Design Proposal<!-- --> <span style=\"margin-left:5px\">(1)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of MECH 400B, MECH 400, MECH 464.</li> </ul>",
+  "title": "Capstone Design Project"
+}

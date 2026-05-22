@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ASTR250",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-05-03",
+  "description": "<p>Provides the physical foundation and introduction of astronomical terminology that is used in subsequent courses. Topics include astronomical coordinate systems, telescopes, stellar distances and magnitudes, binary stars, spectral classification, stellar evolution, variable stars, stellar motions, star clusters, interstellar medium, structure and rotation of the galaxy, external galaxies.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "3-3-0",
+  "id": "66d2281c74171541059724aa",
+  "pid": "BJDJ0D6Q4",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4fedddbb9b5e240081086d\" target=\"_blank\">ASTR150</a> <!-- -->-<!-- --> <!-- -->Concepts in Modern Astronomy<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f72acd2bc1524008cb36a\" target=\"_blank\">MATH101</a> <!-- -->-<!-- --> <!-- -->Calculus II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/63177170cdd330fd06504399\" target=\"_blank\">PHYS110</a> <!-- -->-<!-- --> <!-- -->Introductory Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ffe7e4afbf82400f7adb7\" target=\"_blank\">PHYS120</a> <!-- -->-<!-- --> <!-- -->Physics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "recommendations": "",
+  "subjectCode": {
+    "description": "Astronomy (ASTR)",
+    "id": "5bbfc63ca6762c2e00837c29",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "ASTR"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ASTR 250, ASTR 200B.</li></ul>",
+  "title": "Introduction to Astrophysics"
+}

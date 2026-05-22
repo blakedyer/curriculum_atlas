@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "BIOL404",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-09-02",
+  "description": "<p>Explores the neural mechanisms underlying sensory systems: sensory receptor coding logic; signal transduction; neuronal circuitry; comparative analysis of model organisms. Related clinical disorders and therapeutic strategies are also discussed. A large emphasis is placed on the primary literature highlighting major advances in the field, aimed at building skills for designing experiments to test specific hypotheses.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb51eae8d88df000194e9c2",
+    "name": "Department of Biology"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "61ca320ae78e34f519e02243",
+  "pid": "SyIrAvpQ4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6f6689944f24002ad368\" target=\"_blank\">BIOL365</a> <!-- -->-<!-- --> <!-- -->Animal Physiology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d826bdca534d924002f043f\" target=\"_blank\">BIOL367</a> <!-- -->-<!-- --> <!-- -->Neurobiology: Molecules to Behaviour<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4fee4119654524003845bc\" target=\"_blank\">BIOL409A</a> <!-- -->-<!-- --> <!-- -->Neurobiology: Molecules to Behaviour <!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Biology (BIOL)",
+    "id": "5bb6513b65a8732e00a173d9",
+    "linkedGroup": "5bb51eae8d88df000194e9c2",
+    "name": "BIOL"
+  },
+  "supplementalNotes": "",
+  "title": "Sensory Biology"
+}

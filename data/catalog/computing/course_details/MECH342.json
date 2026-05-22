@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MECH342",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-09-02",
+  "description": "<p>Kinematics and Dynamics of rigid bodies in three dimensional motion; spatial kinematics including rotation matrices, angular velocity and acceleration and time derivatives of vectors using a moving reference frame; three-dimensional equations of motion for a rigid body; numerical methods to solve for equilibrium conditions and calculating transient responses; stability of equilibria; work/energy and impulse/momentum methods in three-dimensional problems.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1*-1",
+  "id": "60c9144e497e1f049a59f517",
+  "pid": "B1wU4cLou",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66aa888eee5b4b224bff47b5\" target=\"_blank\">MECH242</a> <!-- -->-<!-- --> <!-- -->Dynamics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul> <li>*Indicates four 3 hour lab sessions.</li> </ul>",
+  "title": "Dynamics II"
+}

@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "CIVE410",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-05-03",
+  "description": "<p>Urban sources of air pollution, acute and chronic health effects of pollution taught through case studies; environmental quality standards and compliance criteria in BC and Canada; air quality modelling for prediction, introduction to software; integrated waste management and design, reduce, reuse, recycle, resource recovery and utilization, composting, fundamentals of waste degradation and disposal, geo-environmental aspects of landfill design, leachate and gas management at landfills.</p> <p>* Indicates a 3-hour laboratory taken by students on alternate weeks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3667356a15d000126de91",
+    "name": "Department of Civil Engineering"
+  },
+  "hoursCatalogText": "3-1.5*-0",
+  "id": "6322444dd04db1702605ff37",
+  "pid": "B1JNJ_6Q4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64a705f9b0f3602396b189f7\" target=\"_blank\">CIVE310</a> <!-- -->-<!-- --> <!-- -->Introduction to Environmental Engineering<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Civil Engineering (CIVE)",
+    "id": "5be1fb482d0dfe2e00ae298e",
+    "linkedGroup": null,
+    "name": "CIVE"
+  },
+  "supplementalNotes": "",
+  "title": "Solid Waste and Air Pollution"
+}

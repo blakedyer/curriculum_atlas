@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "ECE406",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Basic foundational concepts underlying classical and modern cryptography. Classical ciphers, introduction to number theory, block and stream ciphers (DES, AES, RC4), hash functions, public key encryption and digital signatures, RSA, ElGamal, Diffie-Helman, Rabin and knapsack crypto systems. Introduction to secret-sharing, zero knowledge protocols and homomorphic computation.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "66ec89aa1ab816565fa8aa70",
+  "pid": "BJxSr0Ml9",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>7.5 units of 200-level courses with any of the ECE, SENG, BME, or\nCSC designations</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Not open to students registered in ECE 506, CSC 429, CSC 529.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Applied Cryptography"
+}

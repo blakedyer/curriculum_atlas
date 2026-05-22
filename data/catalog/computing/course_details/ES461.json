@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "ES461",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "GEOG301",
+      "pid": "HkCfrdp7E",
+      "title": "Environmental Impact Assessment"
+    }
+  ],
+  "dateStart": "2020-01-01",
+  "description": "<p>An introduction to the objectives, philosophy, concepts, methods and social implications of environmental impact assessment (EIA). A critical examination of EIA as an analytical tool in the context of resource management and public policy is undertaken. Examples are drawn from BC, Canada and other countries.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "5e5848272beb4c2500153a7b",
+  "pid": "rk3rVu6mE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e5841f6b72ef32500f34d9e\" target=\"_blank\">ES200</a> <!-- -->-<!-- --> <!-- -->Introduction to Environmental Studies<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6ae289944f24002acfc8\" target=\"_blank\">ES301</a> <!-- -->-<!-- --> <!-- -->Political Ecology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/65a0b2d1d273cacc75fd1e15\" target=\"_blank\">ES321</a> <!-- -->-<!-- --> <!-- -->Ethnoecology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f72d294e82e2400a237af\" target=\"_blank\">ES341</a> <!-- -->-<!-- --> <!-- -->Past, Present, and Future Ecologies<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Environmental Studies (ES)",
+    "id": "5c13fba53d3a3326007677bd",
+    "linkedGroup": "5be368fb56a15d000126dea6",
+    "name": "ES"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ES 461, ES 410, ES 400A (if taken prior to September 1989), GEOG 301, GEOG 391 (if taken in the same topic).</li></ul>",
+  "title": "Environmental Impact Assessment"
+}

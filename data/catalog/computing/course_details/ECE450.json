@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE450",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2022-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2022-05-03",
+  "description": "<p>Transmission and filtering of random signals, analysis of modulation systems, in particular pulse code modulation, phase shift keying, frequency shift keying, etc., design of modems and of CODECs, introduction to noise analysis, information theory and coding.</p>",
+  "formerlyNotesText": "ELEC 450",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "6082f03201ff057b2e6d6546",
+  "pid": "B1VFxdTQN",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5f18be2f6a9b9f0026fb5d1d\" target=\"_blank\">ECE350</a> <!-- -->-<!-- --> <!-- -->Communications Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d07ec31124000cf102\" target=\"_blank\">ELEC350</a> <!-- -->-<!-- --> <!-- -->Communications Theory and Systems I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of ECE 450, ECE 512, ELEC 450, ELEC 512.</li> <li>May be offered as a joint undergraduate and graduate class</li> </ul>",
+  "title": "Communications Theory and Systems II"
+}

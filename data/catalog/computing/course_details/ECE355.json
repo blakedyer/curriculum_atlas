@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "ECE355",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Processor organization: general-purpose and application-specific processors, datapath and control implementation, pipelining concepts. Memory organization: static and dynamic semiconductor memory, optical and magnetic memory, memory hierarchy and caches. I/O organization: physical and logic interfaces, interrupts and interrupt services routines, direct memory access (DMA), device drivers. Buses and protocols: bus signalling and arbitration, examples of modern buses, communications protocol concepts. Computer networking: network topologies, protocol stack, examples of modern networks.</p>",
+  "formerlyNotesText": "CENG 355",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368bcfed2d200010da13b",
+    "name": "Department of Electrical and Computer Engineering"
+  },
+  "hoursCatalogText": "3-1.5-0",
+  "id": "5cbdf5822a310a240068a563",
+  "pid": "r1g5dedTXE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66ec87db703c825dbe5e01ca\" target=\"_blank\">ECE241</a> <!-- -->-<!-- --> <!-- -->Digital Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeaf19654524003846cd\" target=\"_blank\">CENG241</a> <!-- -->-<!-- --> <!-- -->Digital Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/64e3abc2014df36772e506a5\" target=\"_blank\">MATH122</a> <!-- -->-<!-- --> <!-- -->Logic and Foundations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57704ce072400155f52\" target=\"_blank\">ECE255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb019654524003846d1\" target=\"_blank\">CENG255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4ec67a5c324003b0bc3\" target=\"_blank\">CSC230</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Electrical and Computer Engineering (ECE)",
+    "id": "5c13f83b42504f2400e63fe6",
+    "linkedGroup": "5be368bcfed2d200010da13b",
+    "name": "ECE"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of ECE 355, CENG 355.</li></ul>",
+  "title": "Microprocessor-Based Systems"
+}

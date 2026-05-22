@@ -1,0 +1,36 @@
+{
+  "__catalogCourseId": "GEOG227",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Introduces a range of qualitative research approaches and tools applied in Geography. The course describes and examines a range of guiding paradigms (ethnography, participatory action research, the scientific method, indigenous methodologies, Marxism and Feminism) and data collection tools (from survey and questionnaires, focus groups, interviews, or participant observation to arts-based methods including photo voice and participatory video). Hands-on learning includes designing a research project, collecting data, analyzing the results (coding, data interpretation, thematic and interpretive analysis) and presenting the findings.</p>",
+  "formerlyNotesText": "GEOG 327",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be3699cfed2d200010da148",
+    "name": "Department of Geography"
+  },
+  "hoursCatalogText": "2-2-0",
+  "id": "657a373f2d647d070b57cc56",
+  "pid": "rkE1gCFsS",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Minimum second-year standing.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "repeatableCatalogText": "",
+  "subjectCode": {
+    "description": "Geography (GEOG)",
+    "id": "5be1fc782ce2be2e0030172e",
+    "linkedGroup": "5be3699cfed2d200010da148",
+    "name": "GEOG"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of GEOG 227, GEOG 327.</li> </ul>",
+  "title": "Qualitative Research Methods in Geography"
+}

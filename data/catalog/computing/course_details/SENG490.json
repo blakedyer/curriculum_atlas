@@ -1,0 +1,37 @@
+{
+  "__catalogCourseId": "SENG490",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "multiple",
+    "credits": {
+      "max": "3",
+      "min": "1.5"
+    },
+    "value": [
+      "1.5",
+      "3"
+    ]
+  },
+  "dateStart": "2020-01-01",
+  "description": "",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "id": "5cbdf66904ce07240015601d",
+  "pid": "HykelFpmV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>Permission of the department.</div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "repeatableCatalogText": "May be taken more than once for credit in different topics with permission of the department.",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "",
+  "title": "Directed Studies"
+}

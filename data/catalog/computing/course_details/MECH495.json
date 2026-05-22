@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "MECH495",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2020-02-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "MECH535",
+      "pid": "rJDt2u6Q4",
+      "title": "Computational Fluid Dynamics and Heat Transfer"
+    }
+  ],
+  "dateStart": "2020-05-02",
+  "description": "<p>Methods of predictions and historical perspective; governing differential equations of heat transfer and fluid flow; finite difference methods; discretization schemes; application to heat conduction problems; introduction to control volume formulation for fluid flow and to turbulence modelling; accuracy and convergence considerations. Individual term projects using a CFD program.</p> <p>*Indicates four 1.5 hour laboratories.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1*-0",
+  "id": "5d826f05a534d924002f046c",
+  "pid": "ByyYnuT74",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66aa892d833f9333d83acab7\" target=\"_blank\">MECH345</a> <!-- -->-<!-- --> <!-- -->Mechanics of Fluids<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf6102a310a240068a6cf\" target=\"_blank\">MECH395</a> <!-- -->-<!-- --> <!-- -->Heat Transfer<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of MECH 495, MECH 535.</li></ul>",
+  "title": "Computational Fluid Dynamics and Heat Transfer"
+}

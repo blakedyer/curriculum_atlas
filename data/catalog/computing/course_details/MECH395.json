@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "MECH395",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2019-11-15",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2020-01-01",
+  "description": "<p>Heat transfer modes. Analysis of steady and transient conduction in solids. Principles of convection: heat transfer under laminar and turbulent flow over flat plates and around bodies; convective heat transfer inside pipes. Thermal radiation physics and radiation between multiple black and gray surfaces.</p> <p>* Indicates a 3 hour laboratory taken by students on alternate weeks.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36b3ffed2d200010da15e",
+    "name": "Department of Mechanical Engineering"
+  },
+  "hoursCatalogText": "3-1.5*-1",
+  "id": "5cbdf6102a310a240068a6cf",
+  "pid": "SyiD3u6Q4",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/65203334a9a76876d1e3a380\" target=\"_blank\">MECH240</a> <!-- -->-<!-- --> <!-- -->Thermodynamics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/66aa892d833f9333d83acab7\" target=\"_blank\">MECH345</a> <!-- -->-<!-- --> <!-- -->Mechanics of Fluids<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Mechanical Engineering (MECH)",
+    "id": "5c1400cc185fc42400eeb9a5",
+    "linkedGroup": "5be36b3ffed2d200010da15e",
+    "name": "MECH"
+  },
+  "supplementalNotes": "",
+  "title": "Heat Transfer"
+}

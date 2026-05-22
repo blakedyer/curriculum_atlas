@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CSC466",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [],
+  "dateStart": "2023-05-03",
+  "description": "<p>Focuses on Layer 3 and above and the control plane of the Internet. Topics include: overlay network architectures, peer-to-peer application models, end-to-end control mechanisms, inter- and intra-domain routing protocols, service provisioning, network measurement and related best current practices on the Internet.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "63068322b8c67c86268fb6a9",
+  "pid": "r1l21daXE",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e50307b7ea20d2500081e92\" target=\"_blank\">CSC361</a> <!-- -->-<!-- --> <!-- -->Computer Communications and Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4fefa5bb9b5e2400810cd5\" target=\"_blank\">CSC450</a> <!-- -->-<!-- --> <!-- -->Computer Communications and Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb819654524003846e5\" target=\"_blank\">CENG460</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61ea019f5d55864a7ab7ac55\" target=\"_blank\">ECE363</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/61ea00c667be1dda828f8e96\" target=\"_blank\">ECE458</a> <!-- -->-<!-- --> <!-- -->Communication Networks<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 466, CSC 579.</li> <li>May be offered as a joint undergraduate and graduate class.</li> </ul>",
+  "title": "Overlay and Peer-to-Peer Networking"
+}

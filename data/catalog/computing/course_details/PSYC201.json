@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "PSYC201",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2024-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2024-09-01",
+  "description": "<p>Introduction to basic research techniques in psychology; emphasis on the conceptual rather than the statistical rationale underlying various research strategies. Areas include the nature of variables, types of measurement, how to generate and test hypotheses, types of validity, and how to interpret and report results. Laboratory exercises and class demonstrations on the processes involved in conducting empirical research.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be36d67fed2d200010da16e",
+    "name": "Department of Psychology"
+  },
+  "hoursCatalogText": "3-1-0",
+  "id": "6578a4b5a99db2e835f35d22",
+  "pid": "ByxKzJKpXV",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6e55fb68f3240022d159\" target=\"_blank\">PSYC100A</a> <!-- -->-<!-- --> <!-- -->Introductory Psychology I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f69a9fb68f3240022cdcf\" target=\"_blank\">PSYC100B</a> <!-- -->-<!-- --> <!-- -->Introductory Psychology II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64e7b6f87c6606787bfdbca5\" target=\"_blank\">ATWP135</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/68a35f14ef7b39ac5c733b8e\" target=\"_blank\">ATWP110</a> <!-- -->-<!-- --> <!-- -->Academic Reading and Writing Support and Development<!-- --> <span style=\"margin-left:5px\">(3)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Psychology (PSYC)",
+    "id": "5be1fd81dece022e00ba70cd",
+    "linkedGroup": "5be36d67fed2d200010da16e",
+    "name": "PSYC"
+  },
+  "supplementalNotes": "<ul><li>Credit will be granted for only one of PSYC 201, PSYC 200.</li></ul>",
+  "title": "Research Methods in Psychology"
+}
