@@ -1849,6 +1849,71 @@ def build_course_groups(
     return groups, code_to_group
 
 
+def scope_program_course_groups(
+    program: ProgramRecord,
+    courses: dict[str, CourseRecord],
+    course_groups: dict[str, CourseGroupRecord],
+    *,
+    stream: ProgramStreamRecord | None = None,
+) -> tuple[dict[str, CourseGroupRecord], dict[str, str]]:
+    """Keep catalog-wide display groups faithful to this program's requirements.
+
+    A shared role or a credit exclusion is not permission to substitute a course
+    in a degree. Named courses may share a node only when every occurrence is
+    in the same direct one-course choice. In particular, never absorb a named
+    requirement into a group of related prerequisites (e.g. BIOL184/BIOL150A).
+    """
+    include_stream_courses = stream is not None or not is_eos_base_program(program)
+    named_codes = set(program_named_codes(program, stream, include_stream_courses=include_stream_courses))
+    visible_codes = (named_codes | set(program_support_codes(program, stream))) & courses.keys()
+    occurrences: dict[str, list[tuple[int, ...]]] = {}
+
+    def walk(node: dict, path: tuple[int, ...]) -> None:
+        if node["kind"] == "course":
+            occurrences.setdefault(node["code"], []).append(path)
+        elif node["kind"] == "group":
+            kind, count = requirement_group_kind(node["label"])
+            direct_choice = (
+                kind == "choose"
+                and parse_requirement_count(count) == 1
+                and all(child["kind"] == "course" for child in node["children"])
+            )
+            for index, child in enumerate(node["children"]):
+                walk(child, path if direct_choice else (*path, index))
+
+    for section_index, section in enumerate(program_graph_sections(program, stream)):
+        for rule_index, rule in enumerate(section["rules"]):
+            walk(rule, (section_index, rule_index))
+
+    groups: dict[str, CourseGroupRecord] = {}
+    lookup: dict[str, str] = {}
+    for original in course_groups.values():
+        partitions: dict[tuple, list[str]] = {}
+        for code in original.codes:
+            if code not in visible_codes:
+                continue
+            if code in named_codes:
+                signature = ("named", tuple(occurrences[code])) if code in occurrences else ("named", code)
+            else:
+                signature = ("support",)
+            partitions.setdefault(signature, []).append(code)
+        for codes in partitions.values():
+            ordered_codes = tuple(sorted(codes, key=course_sort_key))
+            primary = choose_group_primary(ordered_codes)
+            # Preserve role labels only for actual multi-course alternatives.
+            role_label = next(
+                (role["label"] for role in SIMPLIFIED_ROLE_GROUPS if role["label"] == original.label),
+                None,
+            )
+            label = role_label if role_label and len(codes) > 1 else format_course_group_label(codes)
+            tooltip = " | ".join(f"{code}: {courses[code].name}" for code in ordered_codes)
+            if len(codes) > 1:
+                tooltip = "Grouped courses in this program map: " + tooltip
+            groups[primary] = CourseGroupRecord(primary, ordered_codes, label, tooltip)
+            lookup.update({code: primary for code in codes})
+    return groups, lookup
+
+
 def compute_dependency_depths(codes: set[str], courses: dict[str, CourseRecord]) -> dict[str, int]:
     memo: dict[str, int] = {}
     visiting: set[str] = set()
@@ -2452,6 +2517,9 @@ def build_program_mode_analytics(
     *,
     stream: ProgramStreamRecord | None = None,
 ) -> dict:
+    course_groups, course_group_lookup = scope_program_course_groups(
+        program, courses, course_groups, stream=stream,
+    )
     include_stream_courses = not is_eos_base_program(program) if stream is None else True
     explicit_codes = {code for code in program_named_codes(program, stream, include_stream_courses=include_stream_courses) if code in courses}
     visible_codes = explicit_codes | {code for code in program_support_codes(program, stream) if code in courses}
@@ -2489,11 +2557,18 @@ def build_program_mode_analytics(
     }
     year_group_lookup = build_program_year_group_lookup(program, course_group_lookup, stream)
     year_labels = dict(CONTACT_SUMMARY_BUCKETS)
-    relevant_redundant_checks = [
-        check
-        for check in redundant_checks
-        if check["courseGroup"] in prereq_map
-    ]
+    relevant_redundant_checks = []
+    for check in redundant_checks:
+        raw_codes = [check[key] for key in ("course", "redundant", "impliedBy")]
+        if not all(code in course_group_lookup for code in raw_codes):
+            continue
+        scoped_groups = [course_group_lookup[code] for code in raw_codes]
+        if len(set(scoped_groups)) != 3:
+            continue
+        relevant_redundant_checks.append({
+            **check,
+            **dict(zip(("courseGroup", "redundantGroup", "impliedByGroup"), scoped_groups)),
+        })
     redundant_count_by_group: Counter[str] = Counter()
     for check in relevant_redundant_checks:
         redundant_count_by_group[check["courseGroup"]] += 1
@@ -3666,6 +3741,9 @@ def write_program_graph(
     mode: GraphModeRecord,
     stream: ProgramStreamRecord | None = None,
 ) -> None:
+    course_groups, course_group_lookup = scope_program_course_groups(
+        program, courses, course_groups, stream=stream,
+    )
     graph_id = stream_asset_stem(program, stream) if stream is not None else program.code
     graph = graph_base(graph_id)
     if mode.key == "simplified":
@@ -5818,7 +5896,10 @@ def render_program_page(
     )
 
     graph_key_html = render_program_graph_key()
-    simplified_program_group_lookup = build_course_groups(courses, aggressive=True)[1]
+    simplified_program_groups = build_course_groups(courses, aggressive=True)[0]
+    simplified_program_group_lookup = scope_program_course_groups(
+        program, courses, simplified_program_groups,
+    )[1]
     program_graph_modes = [
         (mode, "../assets/graphs/programs/{asset_stem}" + mode.asset_suffix + ".svg")
         for mode in PROGRAM_GRAPH_MODES
@@ -5881,10 +5962,13 @@ def render_program_page(
             graph_anchor = "#program-streams"
 
         for stream in program.streams:
+            stream_group_lookup = scope_program_course_groups(
+                program, courses, simplified_program_groups, stream=stream,
+            )[1]
             _stream_node_styles, stream_legend_items = build_program_node_styles(
                 program,
                 stream,
-                course_group_lookup=simplified_program_group_lookup,
+                course_group_lookup=stream_group_lookup,
             )
             overlay_legend = graph_overlay_legend_data(
                 title="Program legend",

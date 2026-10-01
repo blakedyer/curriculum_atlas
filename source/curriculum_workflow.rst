@@ -41,3 +41,23 @@ The sync currently captures:
 * all supporting course codes referenced by those SEOS programs and EOS course rules
 
 That makes the pulled data a solid baseline for expanding graph coverage across the full SEOS portfolio, including combined and honours variants that were missing from the earlier hand-built lists.
+
+Program graph validation
+------------------------
+
+Run the offline regression suite before rebuilding or publishing:
+
+.. code-block:: bash
+
+   python -m unittest discover -s tests -v
+   python scripts/build_static_site.py
+   python scripts/verify_static_site.py
+
+Program maps scope course groups to the requirements of that program and stream.
+Courses with a shared introductory role or a calendar credit exclusion are not
+automatically interchangeable degree requirements. Named courses share a node
+only when the published rules list them in the same direct one-course choice
+at every occurrence. Related prerequisite courses remain separate from named
+requirements. The SVG, course links, colours, and analytics use the same scoped
+groups. This preserves, for example, Climate Science's required BIOL 184 while
+showing BIOL 186 only as a related prerequisite.

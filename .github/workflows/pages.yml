@@ -46,7 +46,9 @@ jobs:
 
       - name: Rebuild static site
         run: |
+          python -m unittest discover -s tests -v
           python scripts/build_static_site.py
+          python scripts/verify_static_site.py
           touch build/html/.nojekyll
 
       - name: Configure GitHub Pages
