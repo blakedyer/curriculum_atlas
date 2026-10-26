@@ -2,7 +2,7 @@
   "__catalogCourseId": "CSC475",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2020-02-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,17 +11,17 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2020-05-02",
-  "description": "<p>A comprehensive introduction to the emerging research area of Music Information Retrieval (MIR). Topics include techniques from signal processing, machine learning, information retrieval, human-computer interaction, and software engineering are applied in the design and development of MIR algorithms and systems.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>A comprehensive introduction to the emerging research area of Music Information Retrieval (MIR). Topics include techniques from signal processing, machine learning, information retrieval, human-computer interaction and software engineering are applied in the design and development of MIR algorithms and systems.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be366a356a15d000126de93",
     "name": "Department of Computer Science"
   },
   "hoursCatalogText": "3-0-0",
-  "id": "5d680bed78e11a24005d3dc5",
+  "id": "685d770acde7564fdec109f7",
   "pid": "rkQhyuamV",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>2</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64b57143bb24af4786cf4c0f\" target=\"_blank\">CSC330</a> <!-- -->-<!-- --> <!-- -->Programming Languages<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/634f1b98705f4b6ffcb5e403\" target=\"_blank\">CSC360</a> <!-- -->-<!-- --> <!-- -->Operating Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/634f189b41b5edffbabee0ae\" target=\"_blank\">CSC370</a> <!-- -->-<!-- --> <!-- -->Database Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57867a5c324003b0c2c\" target=\"_blank\">ECE260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cdbb9b5e24008114ba\" target=\"_blank\">ELEC260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ce19654524003850e9\" target=\"_blank\">ELEC310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf65656bbef2400c2f0e6\" target=\"_blank\">SENG310</a> <!-- -->-<!-- --> <!-- -->Human Computer Interaction<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf65804ce07240015600e\" target=\"_blank\">SENG330</a> <!-- -->-<!-- --> <!-- -->Object-Oriented Software Development<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->2<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682cbadc47556783ffff1ad7\" target=\"_blank\">CSC330</a> <!-- -->-<!-- --> <!-- -->Programming Languages<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.2\"><div data-test=\"ruleView-A.2-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd8f375061cd85fe0e5212\" target=\"_blank\">CSC360</a> <!-- -->-<!-- --> <!-- -->Operating Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.3\"><div data-test=\"ruleView-A.3-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd8f90a6bb936b5597af52\" target=\"_blank\">CSC370</a> <!-- -->-<!-- --> <!-- -->Database Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.4\"><div data-test=\"ruleView-A.4-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd9086e1e19f3026bf3d2a\" target=\"_blank\">SENG310</a> <!-- -->-<!-- --> <!-- -->Human Computer Interaction<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.5\"><div data-test=\"ruleView-A.5-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf65804ce07240015600e\" target=\"_blank\">SENG330</a> <!-- -->-<!-- --> <!-- -->Object-Oriented Software Development<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A.6\"><div data-test=\"ruleView-A.6-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57867a5c324003b0c2c\" target=\"_blank\">ECE260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/620ed5b415292f49f9a9fa82\" target=\"_blank\">ECE265</a> <!-- -->-<!-- --> <!-- -->Continuous-Time and Discrete-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

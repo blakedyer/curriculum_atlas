@@ -22,7 +22,7 @@
   "hoursCatalogText": "3-0-0",
   "id": "643ec1bad8bc27217641823d",
   "pid": "rkg2ydTmN",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/634f1b98705f4b6ffcb5e403\" target=\"_blank\">CSC360</a> <!-- -->-<!-- --> <!-- -->Operating Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd8f375061cd85fe0e5212\" target=\"_blank\">CSC360</a> <!-- -->-<!-- --> <!-- -->Operating Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

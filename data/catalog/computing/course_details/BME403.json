@@ -2,7 +2,7 @@
   "__catalogCourseId": "BME403",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2020-05-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -18,8 +18,8 @@
       "title": "Medical Image Processing"
     }
   ],
-  "dateStart": "2020-09-01",
-  "description": "<p>Image processing and understanding techniques applied in medical imaging technologies such as CT, MRI, ultrasound, X-ray. Design of computer aided diagnosis systems. Topics include algorithms for filtering, edge detection, segmentation, registration and 3D visualization of medical data.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Image processing and understanding techniques applied in medical imaging technologies such as CT, MRI, ultrasound, X-ray. Design of computer aided diagnosis systems. Algorithms for filtering, edge detection, segmentation, registration and 3D visualization of medical data.</p>",
   "formerlyNotesText": "also ELEC 435",
   "groupFilter1": {
     "customFields": {},
@@ -27,9 +27,9 @@
     "name": "Biomedical Engineering"
   },
   "hoursCatalogText": "3-1.5-0",
-  "id": "5e2b4b9a05b8c125006a6f94",
+  "id": "683494a0083f2e2d4a82a065",
   "pid": "B1f9CPTX4",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ce19654524003850e9\" target=\"_blank\">ELEC310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/620ed5b415292f49f9a9fa82\" target=\"_blank\">ECE265</a> <!-- -->-<!-- --> <!-- -->Continuous-Time and Discrete-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Biomedical Engineering (BME)",

@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "SENG365",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2026-09-01",
+  "courseNoteForCalendar": "",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2026-09-02",
+  "description": "<p>Specification, design, construction, testing and evolution of modern software systems using software tooling, within the context of socially and professionally relevant domains.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5c3e3006ae5f593258bbf801",
+    "name": "Software Engineering"
+  },
+  "hoursCatalogText": "3-2-0",
+  "id": "67f42e419d49ada2a12dc11a",
+  "pid": "BkeG1xYpmE",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67f42ec726121eacfdadd8bf\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67f41fa49ee131890f113479\" target=\"_blank\">CSC120</a> <!-- -->-<!-- --> <!-- -->Society, Ethics, Professionalism and Computing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf5fa56bbef2400c2f0aa\" target=\"_blank\">ENGR130</a> <!-- -->-<!-- --> <!-- -->Introduction to Professional Practice<!-- --> <span style=\"margin-left:5px\">(0.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Software Engineering (SENG)",
+    "id": "5c14042b42504f2400e6580b",
+    "linkedGroup": "5c3e3006ae5f593258bbf801",
+    "name": "SENG"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of SENG 365, CSC 365.</li> </ul>",
+  "title": "Software Systems Development"
+}

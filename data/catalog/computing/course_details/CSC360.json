@@ -2,7 +2,7 @@
   "__catalogCourseId": "CSC360",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2023-09-01",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,17 +11,17 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2023-09-02",
-  "description": "<p>Interrelationships between the operating system and the architecture of computer systems. Topics\u00a0 include operating system structures, concurrent programming techniques, cpu scheduling, deadlocks, memory management, file systems and protection.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Interrelationships between the operating system and the architecture of computer systems. Operating system structures, concurrent programming techniques, cpu scheduling, deadlocks, memory management, file systems and protection.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be366a356a15d000126de93",
     "name": "Department of Computer Science"
   },
   "hoursCatalogText": "3-0-1",
-  "id": "634f1b98705f4b6ffcb5e403",
+  "id": "67fd8f375061cd85fe0e5212",
   "pid": "SkWiJ_6mE",
-  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ea67a5c324003b0bbd\" target=\"_blank\">CSC225</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ec67a5c324003b0bc3\" target=\"_blank\">CSC230</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb019654524003846d1\" target=\"_blank\">CENG255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57704ce072400155f52\" target=\"_blank\">ECE255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682cacd70a4fbbb96d840da3\" target=\"_blank\">CSC225</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/67f42ec726121eacfdadd8bf\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67f41fa49ee131890f113479\" target=\"_blank\">CSC120</a> <!-- -->-<!-- --> <!-- -->Society, Ethics, Professionalism and Computing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf5fa56bbef2400c2f0aa\" target=\"_blank\">ENGR130</a> <!-- -->-<!-- --> <!-- -->Introduction to Professional Practice<!-- --> <span style=\"margin-left:5px\">(0.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/68af3363ef7b39ac5cd846cb\" target=\"_blank\">CSC230</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/691fa7c2192320144a1c7d2c\" target=\"_blank\">ECE255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

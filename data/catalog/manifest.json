@@ -1,10 +1,10 @@
 {
   "counts": {
-    "all_courses": 3726,
+    "all_courses": 3764,
     "all_programs": 280,
-    "eos_courses": 47,
+    "eos_courses": 46,
     "seos_programs": 19,
-    "support_courses": 156
+    "support_courses": 143
   },
   "duplicate_course_codes": {},
   "eos_course_codes": [
@@ -47,7 +47,6 @@
     "EOS433",
     "EOS440",
     "EOS450",
-    "EOS451",
     "EOS460",
     "EOS480",
     "EOS490",
@@ -56,7 +55,7 @@
     "EOS499A",
     "EOS499B"
   ],
-  "generated_at_utc": "2026-04-27T16:42:17.003057+00:00",
+  "generated_at_utc": "2026-10-26T15:43:19.968994+00:00",
   "missing_support_codes": [
     "BIOL311B",
     "CHEM400",
@@ -82,7 +81,8 @@
     "MRNE300",
     "PHYS102",
     "PHYS112",
-    "PHYS300"
+    "PHYS300",
+    "TCA300"
   ],
   "program_codes": [
     "BSC-BESC",
@@ -106,11 +106,11 @@
     "BSC-OPSD"
   ],
   "source": {
-    "catalog_id": "68923109c72beab1a99e4c73",
+    "catalog_id": "69bd9d92e76504efd3e57c74",
     "publish_timetable": "Y",
     "scope_rule": "Programs whose official description names the School of Earth and Ocean Sciences, plus all EOS courses and supporting referenced courses.",
     "search_api_base": "https://uvic.kuali.co/api/v1/catalog",
-    "term_code": "01|2026",
+    "term_code": "09|2026",
     "undergrad_calendar_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses"
   },
   "support_course_codes": [
@@ -218,20 +218,8 @@
     "MATH204",
     "MATH211",
     "MATH248",
-    "MATH301",
-    "MATH311",
-    "MATH341",
     "MATH342",
     "MATH346",
-    "MATH347",
-    "MATH348",
-    "MATH352",
-    "MATH369",
-    "MATH377",
-    "MATH436",
-    "MATH442",
-    "MATH449",
-    "MATH492",
     "PHIL333",
     "PHYS102A",
     "PHYS102B",
@@ -247,16 +235,16 @@
     "PHYS248",
     "PHYS317",
     "PHYS321A",
-    "PHYS321B",
     "PHYS323",
     "PHYS325",
     "PHYS326",
+    "PHYS329",
     "PHYS340",
-    "PHYS410",
     "PHYS411",
     "PHYS426",
     "PHYS427",
     "PHYS429A",
+    "PHYS433",
     "PHYS441",
     "PHYS460A",
     "PHYS460B",
@@ -264,11 +252,10 @@
     "POLI350",
     "POLI351",
     "POLI357",
-    "STAT254",
     "STAT255",
     "STAT260",
-    "STAT350",
     "STAT353",
-    "STAT359"
+    "STAT359",
+    "TCA210"
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "__catalogCourseId": "CHEM090",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "allGradingTypes": {
+    "com": true,
+    "f": true,
+    "n": true
+  },
+  "catalogActivationDate": "2026-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "0",
+      "min": "0"
+    },
+    "value": "0"
+  },
+  "dateStart": "2026-09-02",
+  "description": "<p>Special tutorial designed to provide Chemistry 11 background.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bb65cedee95370001de0ca0",
+    "name": "Department of Chemistry"
+  },
+  "hoursCatalogText": "0-0-1",
+  "id": "699e47094a7d5bdba8846ecd",
+  "pid": "H1-GD6suWx",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Chemistry (CHEM)",
+    "id": "5bbec2f9dd74d22e00571e83",
+    "linkedGroup": "5bb65cedee95370001de0ca0",
+    "name": "CHEM"
+  },
+  "supplementalNotes": "<ul> <li>For students intending to enrol, either simultaneously or subsequently, in an university-level introductory general chemistry course.</li> <li>0.5 fee unit.</li> <li>This course is delivered online.</li> <li>There are no set class times; a unit should be completed roughly every two weeks during the term. Students are assessed by timed on-line quizzes after the completion of each unit.</li> </ul>",
+  "title": "Introduction to Basic Chemical Concepts"
+}

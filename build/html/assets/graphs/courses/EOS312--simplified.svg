@@ -90,15 +90,15 @@
 <path fill="none" stroke="#7a8389" d="M205.64,-31.4C214.13,-35.89 223.54,-41.03 232,-46 250.32,-56.76 270.29,-69.53 286.47,-80.16"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="285.51,-82.46 292.7,-84.27 288.2,-78.37 285.51,-82.46"/>
 </g>
-<!-- choice_EOS401_0_3 -->
+<!-- choice_EOS401_0_0_3 -->
 <g id="node9" class="node">
-<title>choice_EOS401_0_3</title>
+<title>choice_EOS401_0_0_3</title>
 <path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M335,-64C335,-64 305,-64 305,-64 299,-64 293,-58 293,-52 293,-52 293,-40 293,-40 293,-34 299,-28 305,-28 305,-28 335,-28 335,-28 341,-28 347,-34 347,-40 347,-40 347,-52 347,-52 347,-58 341,-64 335,-64"/>
 <text text-anchor="middle" x="320" y="-43.8" font-family="Avenir Next" font-size="9.00">1 of</text>
 </g>
-<!-- course__EOS314&#45;&gt;choice_EOS401_0_3 -->
+<!-- course__EOS314&#45;&gt;choice_EOS401_0_0_3 -->
 <g id="edge8" class="edge">
-<title>course__EOS314&#45;&gt;choice_EOS401_0_3</title>
+<title>course__EOS314&#45;&gt;choice_EOS401_0_0_3</title>
 <path fill="none" stroke="#7a8389" d="M205.74,-23.27C228.44,-27.82 261.38,-34.43 285.88,-39.35"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="285.53,-41.78 292.88,-40.76 286.5,-36.98 285.53,-41.78"/>
 </g>
@@ -117,21 +117,21 @@
 <path fill="none" stroke="#7a8389" d="M232.24,-84.59C250.17,-88.18 269.7,-92.1 285.68,-95.31"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="285.41,-97.76 292.76,-96.73 286.38,-92.95 285.41,-97.76"/>
 </g>
-<!-- course__EOS431&#45;&gt;choice_EOS401_0_3 -->
+<!-- course__EOS431&#45;&gt;choice_EOS401_0_0_3 -->
 <g id="edge9" class="edge">
-<title>course__EOS431&#45;&gt;choice_EOS401_0_3</title>
+<title>course__EOS431&#45;&gt;choice_EOS401_0_0_3</title>
 <path fill="none" stroke="#7a8389" d="M232.24,-63.41C250.17,-59.82 269.7,-55.9 285.68,-52.69"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="286.38,-55.05 292.76,-51.27 285.41,-50.24 286.38,-55.05"/>
 </g>
-<!-- choice_EOS401_0 -->
+<!-- choice_EOS401_0_0 -->
 <g id="node10" class="node">
-<title>choice_EOS401_0</title>
+<title>choice_EOS401_0_0</title>
 <path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M709,-92C709,-92 679,-92 679,-92 673,-92 667,-86 667,-80 667,-80 667,-68 667,-68 667,-62 673,-56 679,-56 679,-56 709,-56 709,-56 715,-56 721,-62 721,-68 721,-68 721,-80 721,-80 721,-86 715,-92 709,-92"/>
 <text text-anchor="middle" x="694" y="-71.8" font-family="Avenir Next" font-size="9.00">3 of</text>
 </g>
-<!-- course__EOS312&#45;&gt;choice_EOS401_0 -->
+<!-- course__EOS312&#45;&gt;choice_EOS401_0_0 -->
 <g id="edge10" class="edge">
-<title>course__EOS312&#45;&gt;choice_EOS401_0</title>
+<title>course__EOS312&#45;&gt;choice_EOS401_0_0</title>
 <path fill="none" stroke="#7a8389" d="M606.19,-87.14C625.51,-84.21 644.5,-81.34 659.77,-79.03"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="660.4,-81.41 666.95,-77.94 659.66,-76.57 660.4,-81.41"/>
 </g>
@@ -150,15 +150,15 @@
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M347.11,-102C361.64,-102 380.77,-102 400.72,-102"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="400.8,-104.45 407.8,-102 400.8,-99.55 400.8,-104.45"/>
 </g>
-<!-- choice_EOS401_0_3&#45;&gt;choice_EOS401_0 -->
+<!-- choice_EOS401_0_0_3&#45;&gt;choice_EOS401_0_0 -->
 <g id="edge11" class="edge">
-<title>choice_EOS401_0_3&#45;&gt;choice_EOS401_0</title>
+<title>choice_EOS401_0_0_3&#45;&gt;choice_EOS401_0_0</title>
 <path fill="none" stroke="#7a8389" d="M347.16,-47.97C413.19,-52.94 586.57,-65.99 659.7,-71.49"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="659.71,-73.95 666.87,-72.03 660.07,-69.06 659.71,-73.95"/>
 </g>
-<!-- choice_EOS401_0&#45;&gt;course__EOS401 -->
+<!-- choice_EOS401_0_0&#45;&gt;course__EOS401 -->
 <g id="edge12" class="edge">
-<title>choice_EOS401_0&#45;&gt;course__EOS401</title>
+<title>choice_EOS401_0_0&#45;&gt;course__EOS401</title>
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M721.21,-74C737.18,-74 757.74,-74 774.84,-74"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="774.93,-76.45 781.93,-74 774.93,-71.55 774.93,-76.45"/>
 </g>

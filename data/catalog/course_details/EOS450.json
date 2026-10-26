@@ -2,7 +2,7 @@
   "__catalogCourseId": "EOS450",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2019-11-15",
+  "catalogActivationDate": "2026-05-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,17 +11,17 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2020-01-01",
-  "description": "<p>The methods and theory of Quaternary research, stressing the processes of interaction between the geosphere and biosphere. Topics include dating methods, paleoenvironmental studies, glaciation and global change, geological hazards, interdisciplinary research and applied studies, particularly the influence for engineering design.</p>",
+  "dateStart": "2026-05-03",
+  "description": "<p>Methods and theory of Quaternary research, stressing the processes of interaction between the climate, cryosphere, geosphere and biosphere. Topics include dating methods, paleoenvironmental studies, glaciation and global change, geological hazards, interdisciplinary research and applied studies.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be3691afed2d200010da13f",
     "name": "School of Earth and Ocean Sciences"
   },
-  "hoursCatalogText": "3-3-0",
-  "id": "5d1f722e89944f24002ad592",
+  "hoursCatalogText": "3-0-0",
+  "id": "67eb2184a743a9fba728c829",
   "pid": "Hy7p7daX4",
-  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6e62d2bc1524008cb067\" target=\"_blank\">EOS201</a> <!-- -->-<!-- --> <!-- -->Sedimentary Geology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/667f1fcdc1d1429420bd2bc2\" target=\"_blank\">EOS240</a> <!-- -->-<!-- --> <!-- -->Geochemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the school.</div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6e62d2bc1524008cb067\" target=\"_blank\">EOS201</a> <!-- -->-<!-- --> <!-- -->Sedimentary Geology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/657cb1092d647d752957f909\" target=\"_blank\">GEOG376</a> <!-- -->-<!-- --> <!-- -->Process Geomorphology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></div></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Earth and Ocean Sciences (EOS)",

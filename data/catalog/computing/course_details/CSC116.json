@@ -21,7 +21,7 @@
   "hoursCatalogText": "3-2-0",
   "id": "5cbdf4e667a5c324003b0bb9",
   "pid": "rJ7qJupQV",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4e356bbef2400c2efcf\" target=\"_blank\">CSC110</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e404ce072400155ec0\" target=\"_blank\">CSC111</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682df7870ce84e4b4baff766\" target=\"_blank\">CSC110</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e404ce072400155ec0\" target=\"_blank\">CSC111</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

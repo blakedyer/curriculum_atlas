@@ -21,7 +21,7 @@
   "hoursCatalogText": "3-0-0",
   "id": "63d831e9d0c73d7e1ed2fb83",
   "pid": "S1feznBho",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6307b1bdfe51a12031b36bfa\" target=\"_blank\">CSC226</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682cb258e9b854a010694f7a\" target=\"_blank\">CSC226</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/67f42ec726121eacfdadd8bf\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

@@ -2,7 +2,7 @@
   "__catalogCourseId": "CSC115",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2019-11-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,17 +11,17 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2020-01-01",
-  "description": "<p>Techniques, methods, and tools for systematic development and maintenance of software systems and documentation; basic algorithms and data structures; and fundamental concepts of object-oriented programming. Topics include control and data abstraction, modularization, abstract data types, layers of abstraction, information hiding, separation of concerns, type checking, program design, separate compilation, software libraries, techniques for the development of high-quality software components, program understanding.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Change the description to: \u201cDefinition, properties, representations and real-world applications of abstract data types. Including: design, tracing, implementation and analysis of common algorithms, software libraries, pointers, storage allocation and program traces. Introducing object-oriented programming concepts, abstraction, encapsulation, inheritance, polymorphism, generic programming, command-line interfaces, Big-O analysis, recursion and systematic test case design and analysis.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be366a356a15d000126de93",
     "name": "Department of Computer Science"
   },
   "hoursCatalogText": "3-2-0",
-  "id": "5cbdf4e567a5c324003b0bb6",
+  "id": "682df82660a8069b9d6a286a",
   "pid": "Hkm5kuT7V",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4e356bbef2400c2efcf\" target=\"_blank\">CSC110</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e404ce072400155ec0\" target=\"_blank\">CSC111</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682df7870ce84e4b4baff766\" target=\"_blank\">CSC110</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e404ce072400155ec0\" target=\"_blank\">CSC111</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

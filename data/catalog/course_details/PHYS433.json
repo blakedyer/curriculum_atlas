@@ -1,0 +1,41 @@
+{
+  "__catalogCourseId": "PHYS433",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2026-05-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "EOS433",
+      "pid": "HyG67_aQN",
+      "title": "Physics of Climate"
+    }
+  ],
+  "dateStart": "2026-05-03",
+  "description": "<p>Examines the physics that determines Earth's climate and controls how climate changes. May include study of Earth\u2019s atmosphere, ocean and cryosphere, and comparison to other Earth-like planets. Analyses climate data and examines a hierarchy of climate models, from idealised mathematical models to complex Global Climate Models.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "68bf45cf5eb019427f4c5bfa",
+  "pid": "HJuRBT2cxx",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/667f21ef07ae35617cfa3e71\" target=\"_blank\">EOS340</a> <!-- -->-<!-- --> <!-- -->Atmospheric Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/667f257207ae3558c7fa3e8f\" target=\"_blank\">PHYS340</a> <!-- -->-<!-- --> <!-- -->Atmospheric Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Physics (PHYS)",
+    "id": "5bbfc647a6762c2e00837c2a",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "PHYS"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of PHYS 433, EOS 433.</li> <li>May be offered as a joint undergraduate and graduate class.</li> <li>Normally offered in alternate years; consult with the School of Earth and Ocean Sciences to determine schedule.</li> </ul>",
+  "title": "Physics of Climate"
+}

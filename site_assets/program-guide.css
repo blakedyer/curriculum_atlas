@@ -359,6 +359,59 @@ summary:focus-visible {
   padding-top: 0.95rem;
 }
 
+.catalog-update {
+  border-block: 1px solid var(--line);
+}
+
+.catalog-update__summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+  min-height: 44px;
+  padding: 0.75rem 0;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.catalog-update__summary::-webkit-details-marker {
+  display: none;
+}
+
+.catalog-update__toggle {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.catalog-update__summary:hover .catalog-update__toggle {
+  color: var(--accent-dark);
+}
+
+.catalog-update__hide,
+.catalog-update[open] .catalog-update__show {
+  display: none;
+}
+
+.catalog-update[open] .catalog-update__hide {
+  display: inline;
+}
+
+.catalog-update__body {
+  max-width: 75ch;
+  padding-bottom: 0.75rem;
+}
+
+.catalog-update__body ul {
+  padding-left: 1.25rem;
+}
+
+.catalog-update__body li + li {
+  margin-top: 0.65rem;
+}
+
 .metric-grid,
 .directory-grid,
 .detail-grid,

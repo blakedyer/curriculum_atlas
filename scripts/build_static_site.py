@@ -6566,6 +6566,35 @@ def render_workflow_page(manifest: dict) -> str:
     )
 
 
+def render_catalog_update(manifest: dict) -> str:
+    update_path = ROOT / "data" / "catalog_update.json"
+    if not update_path.exists():
+        return ""
+    update = read_json(update_path)
+    if update["catalog_id"] != manifest["source"]["catalog_id"]:
+        return ""
+
+    highlights = "".join(
+        f'<li><strong>{e(item["title"])}</strong> {e(item["text"])}</li>'
+        for item in update["highlights"]
+    )
+    return f"""
+    <section class="section section--tight" aria-label="Catalog update">
+      <details class="catalog-update">
+        <summary class="catalog-update__summary">
+          <span>{e(update['title'])}</span>
+          <span class="catalog-update__toggle"><span class="catalog-update__show">View changes</span><span class="catalog-update__hide">Hide changes</span></span>
+        </summary>
+        <div class="catalog-update__body">
+          <p class="meta-line">Highlights since the {e(format_date_label(update['previous_snapshot_at_utc']))} SEOS snapshot.</p>
+          <ul>{highlights}</ul>
+          <p><a class="text-link" href="{e(manifest['source']['undergrad_calendar_url'])}">Open the official UVic calendar</a></p>
+        </div>
+      </details>
+    </section>
+    """.strip()
+
+
 def render_index_page(programs: dict[str, ProgramRecord], courses: dict[str, CourseRecord], manifest: dict) -> str:
     generated_at = format_date_label(manifest["generated_at_utc"])
     metric_cards = "".join(
@@ -6581,6 +6610,8 @@ def render_index_page(programs: dict[str, ProgramRecord], courses: dict[str, Cou
     <section class="section section--tight">
       <div class="metric-grid">{metric_cards}</div>
     </section>
+
+    {render_catalog_update(manifest)}
 
     <section class="section">
       <div class="split-callout">

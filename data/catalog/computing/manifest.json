@@ -1,11 +1,11 @@
 {
   "counts": {
-    "all_courses": 3717,
-    "direct_prerequisite_edges": 1166,
-    "missing_prereq_codes": 63,
-    "prerequisite_only_courses": 167,
+    "all_courses": 3764,
+    "direct_prerequisite_edges": 1186,
+    "missing_prereq_codes": 60,
+    "prerequisite_only_courses": 169,
     "seed_courses": 255,
-    "total_courses": 422
+    "total_courses": 424
   },
   "direct_prerequisite_edges": [
     {
@@ -54,10 +54,6 @@
     },
     {
       "source": "BIOC300A",
-      "target": "BCMB301A"
-    },
-    {
-      "source": "BIOC300A",
       "target": "BIOC300B"
     },
     {
@@ -73,14 +69,6 @@
       "target": "BIOL365"
     },
     {
-      "source": "BIOC300A",
-      "target": "MICR405"
-    },
-    {
-      "source": "BIOC300B",
-      "target": "BCMB301A"
-    },
-    {
       "source": "BIOC300B",
       "target": "BIOL360"
     },
@@ -91,10 +79,6 @@
     {
       "source": "BIOC300B",
       "target": "BIOL365"
-    },
-    {
-      "source": "BIOC300B",
-      "target": "MICR405"
     },
     {
       "source": "BIOL150A",
@@ -283,6 +267,10 @@
     {
       "source": "BME350",
       "target": "MECH460"
+    },
+    {
+      "source": "CHEM090",
+      "target": "CHEM150"
     },
     {
       "source": "CHEM091",
@@ -542,7 +530,19 @@
     },
     {
       "source": "CSC110",
+      "target": "CSC120"
+    },
+    {
+      "source": "CSC110",
       "target": "CSC349A"
+    },
+    {
+      "source": "CSC110",
+      "target": "ECE255"
+    },
+    {
+      "source": "CSC110",
+      "target": "ENGR001"
     },
     {
       "source": "CSC110",
@@ -606,6 +606,10 @@
     },
     {
       "source": "CSC111",
+      "target": "CSC120"
+    },
+    {
+      "source": "CSC111",
       "target": "CSC349A"
     },
     {
@@ -662,15 +666,19 @@
     },
     {
       "source": "CSC115",
-      "target": "CSC322"
-    },
-    {
-      "source": "CSC115",
       "target": "CSC446"
     },
     {
       "source": "CSC115",
+      "target": "ECE255"
+    },
+    {
+      "source": "CSC115",
       "target": "MATH348"
+    },
+    {
+      "source": "CSC115",
+      "target": "MECH200A"
     },
     {
       "source": "CSC115",
@@ -679,6 +687,10 @@
     {
       "source": "CSC115",
       "target": "SENG265"
+    },
+    {
+      "source": "CSC115",
+      "target": "SENG475"
     },
     {
       "source": "CSC116",
@@ -690,11 +702,11 @@
     },
     {
       "source": "CSC116",
-      "target": "CSC322"
+      "target": "CSC446"
     },
     {
       "source": "CSC116",
-      "target": "CSC446"
+      "target": "ECE255"
     },
     {
       "source": "CSC116",
@@ -707,6 +719,42 @@
     {
       "source": "CSC116",
       "target": "SENG265"
+    },
+    {
+      "source": "CSC116",
+      "target": "SENG475"
+    },
+    {
+      "source": "CSC120",
+      "target": "CSC305"
+    },
+    {
+      "source": "CSC120",
+      "target": "CSC320"
+    },
+    {
+      "source": "CSC120",
+      "target": "CSC321"
+    },
+    {
+      "source": "CSC120",
+      "target": "CSC360"
+    },
+    {
+      "source": "CSC120",
+      "target": "CSC370"
+    },
+    {
+      "source": "CSC120",
+      "target": "SENG265"
+    },
+    {
+      "source": "CSC120",
+      "target": "SENG310"
+    },
+    {
+      "source": "CSC120",
+      "target": "SENG365"
     },
     {
       "source": "CSC225",
@@ -750,15 +798,11 @@
     },
     {
       "source": "CSC226",
-      "target": "CSC330"
+      "target": "CSC321"
     },
     {
       "source": "CSC226",
       "target": "CSC361"
-    },
-    {
-      "source": "CSC226",
-      "target": "CSC421"
     },
     {
       "source": "CSC226",
@@ -822,10 +866,6 @@
     },
     {
       "source": "CSC305",
-      "target": "CSC471"
-    },
-    {
-      "source": "CSC305",
       "target": "CSC472"
     },
     {
@@ -855,6 +895,10 @@
     {
       "source": "CSC320",
       "target": "CSC429"
+    },
+    {
+      "source": "CSC320",
+      "target": "CSC432"
     },
     {
       "source": "CSC320",
@@ -1013,6 +1057,18 @@
       "target": "SENG499"
     },
     {
+      "source": "CSC411",
+      "target": "SENG455"
+    },
+    {
+      "source": "CSC412",
+      "target": "SENG455"
+    },
+    {
+      "source": "CSC413",
+      "target": "SENG455"
+    },
+    {
       "source": "ECE216",
       "target": "ECE220"
     },
@@ -1057,6 +1113,14 @@
       "target": "SENG310"
     },
     {
+      "source": "ECE242",
+      "target": "CSC225"
+    },
+    {
+      "source": "ECE250",
+      "target": "BME335"
+    },
+    {
       "source": "ECE250",
       "target": "ECE299"
     },
@@ -1067,6 +1131,10 @@
     {
       "source": "ECE250",
       "target": "ECE330"
+    },
+    {
+      "source": "ECE250",
+      "target": "ECE335"
     },
     {
       "source": "ECE250",
@@ -1106,11 +1174,11 @@
     },
     {
       "source": "ECE255",
-      "target": "ECE356"
+      "target": "ECE363"
     },
     {
       "source": "ECE255",
-      "target": "ECE363"
+      "target": "ECE476"
     },
     {
       "source": "ECE255",
@@ -1145,6 +1213,62 @@
       "target": "ECE360"
     },
     {
+      "source": "ECE265",
+      "target": "BME335"
+    },
+    {
+      "source": "ECE265",
+      "target": "BME403"
+    },
+    {
+      "source": "ECE265",
+      "target": "CSC475"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE270"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE300"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE315"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE335"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE350"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE360"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE435"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE459"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE466"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE471"
+    },
+    {
+      "source": "ECE265",
+      "target": "ECE486"
+    },
+    {
       "source": "ECE299",
       "target": "MECH350"
     },
@@ -1167,10 +1291,6 @@
     {
       "source": "ECE310",
       "target": "BME403"
-    },
-    {
-      "source": "ECE310",
-      "target": "CSC475"
     },
     {
       "source": "ECE310",
@@ -1207,6 +1327,18 @@
     {
       "source": "ECE310",
       "target": "ECE486"
+    },
+    {
+      "source": "ECE315",
+      "target": "ECE407"
+    },
+    {
+      "source": "ECE315",
+      "target": "ECE483"
+    },
+    {
+      "source": "ECE315",
+      "target": "ECE484"
     },
     {
       "source": "ECE320",
@@ -1259,14 +1391,6 @@
     {
       "source": "ECE355",
       "target": "SENG440"
-    },
-    {
-      "source": "ECE356",
-      "target": "SENG426"
-    },
-    {
-      "source": "ECE356",
-      "target": "SENG468"
     },
     {
       "source": "ECE360",
@@ -1351,6 +1475,14 @@
     {
       "source": "ECE460",
       "target": "MECH460"
+    },
+    {
+      "source": "ECE476",
+      "target": "SENG426"
+    },
+    {
+      "source": "ECE476",
+      "target": "SENG468"
     },
     {
       "source": "ECON103",
@@ -1450,11 +1582,43 @@
     },
     {
       "source": "ENGR130",
+      "target": "CSC305"
+    },
+    {
+      "source": "ENGR130",
+      "target": "CSC320"
+    },
+    {
+      "source": "ENGR130",
+      "target": "CSC321"
+    },
+    {
+      "source": "ENGR130",
+      "target": "CSC360"
+    },
+    {
+      "source": "ENGR130",
+      "target": "CSC370"
+    },
+    {
+      "source": "ENGR130",
       "target": "ENGR001"
     },
     {
       "source": "ENGR130",
       "target": "ENGR002"
+    },
+    {
+      "source": "ENGR130",
+      "target": "SENG265"
+    },
+    {
+      "source": "ENGR130",
+      "target": "SENG310"
+    },
+    {
+      "source": "ENGR130",
+      "target": "SENG365"
     },
     {
       "source": "ENGR141",
@@ -1882,6 +2046,10 @@
     },
     {
       "source": "GEOG226",
+      "target": "CSC321"
+    },
+    {
+      "source": "GEOG226",
       "target": "CSC446"
     },
     {
@@ -2158,6 +2326,10 @@
     },
     {
       "source": "MATH101",
+      "target": "ECE265"
+    },
+    {
+      "source": "MATH101",
       "target": "ECON180"
     },
     {
@@ -2354,7 +2526,19 @@
     },
     {
       "source": "MATH110",
+      "target": "CSC321"
+    },
+    {
+      "source": "MATH110",
       "target": "CSC349A"
+    },
+    {
+      "source": "MATH110",
+      "target": "CSC423"
+    },
+    {
+      "source": "MATH110",
+      "target": "CSC425"
     },
     {
       "source": "MATH110",
@@ -2367,6 +2551,14 @@
     {
       "source": "MATH110",
       "target": "ECE260"
+    },
+    {
+      "source": "MATH110",
+      "target": "ECE265"
+    },
+    {
+      "source": "MATH110",
+      "target": "ECE311"
     },
     {
       "source": "MATH110",
@@ -2486,11 +2678,11 @@
     },
     {
       "source": "MATH122",
-      "target": "CSC322"
+      "target": "CSC355"
     },
     {
       "source": "MATH122",
-      "target": "CSC355"
+      "target": "CSC432"
     },
     {
       "source": "MATH122",
@@ -2519,10 +2711,6 @@
     {
       "source": "MATH122",
       "target": "MATH335"
-    },
-    {
-      "source": "MATH151",
-      "target": "CSC205"
     },
     {
       "source": "MATH151",
@@ -2574,6 +2762,10 @@
     },
     {
       "source": "MATH200",
+      "target": "ECE311"
+    },
+    {
+      "source": "MATH200",
       "target": "ECE330"
     },
     {
@@ -2598,15 +2790,7 @@
     },
     {
       "source": "MATH200",
-      "target": "MATH346"
-    },
-    {
-      "source": "MATH200",
       "target": "MATH348"
-    },
-    {
-      "source": "MATH200",
-      "target": "MATH377"
     },
     {
       "source": "MATH200",
@@ -2615,10 +2799,6 @@
     {
       "source": "MATH200",
       "target": "MECH345"
-    },
-    {
-      "source": "MATH200",
-      "target": "MECH392"
     },
     {
       "source": "MATH200",
@@ -2750,15 +2930,23 @@
     },
     {
       "source": "MATH211",
-      "target": "CSC205"
-    },
-    {
-      "source": "MATH211",
       "target": "CSC305"
     },
     {
       "source": "MATH211",
+      "target": "CSC321"
+    },
+    {
+      "source": "MATH211",
       "target": "CSC349A"
+    },
+    {
+      "source": "MATH211",
+      "target": "CSC423"
+    },
+    {
+      "source": "MATH211",
+      "target": "CSC425"
     },
     {
       "source": "MATH211",
@@ -2767,6 +2955,10 @@
     {
       "source": "MATH211",
       "target": "ECE260"
+    },
+    {
+      "source": "MATH211",
+      "target": "ECE265"
     },
     {
       "source": "MATH211",
@@ -2878,6 +3070,10 @@
     },
     {
       "source": "MATH236",
+      "target": "MATH306"
+    },
+    {
+      "source": "MATH236",
       "target": "MATH335"
     },
     {
@@ -2895,6 +3091,14 @@
     {
       "source": "MATH301",
       "target": "MATH367"
+    },
+    {
+      "source": "MATH306",
+      "target": "MATH301"
+    },
+    {
+      "source": "MATH306",
+      "target": "MATH347"
     },
     {
       "source": "MATH320",
@@ -2962,10 +3166,6 @@
     },
     {
       "source": "MECH220",
-      "target": "MECH392"
-    },
-    {
-      "source": "MECH220",
       "target": "MECH444"
     },
     {
@@ -2975,10 +3175,6 @@
     {
       "source": "MECH240",
       "target": "MECH345"
-    },
-    {
-      "source": "MECH240",
-      "target": "MECH392"
     },
     {
       "source": "MECH240",
@@ -3025,10 +3221,6 @@
       "target": "MECH345"
     },
     {
-      "source": "MECH295",
-      "target": "MECH392"
-    },
-    {
       "source": "MECH320",
       "target": "MECH420"
     },
@@ -3065,7 +3257,7 @@
       "target": "MECH350"
     },
     {
-      "source": "MECH335",
+      "source": "MECH342",
       "target": "MECH430"
     },
     {
@@ -3110,10 +3302,6 @@
     },
     {
       "source": "MECH380",
-      "target": "ECE466"
-    },
-    {
-      "source": "MECH380",
       "target": "MECH381"
     },
     {
@@ -3154,31 +3342,11 @@
     },
     {
       "source": "MICR200A",
-      "target": "BCMB301A"
-    },
-    {
-      "source": "MICR200A",
       "target": "BIOL225"
     },
     {
-      "source": "MICR200A",
-      "target": "MICR200B"
-    },
-    {
-      "source": "MICR200A",
-      "target": "MICR405"
-    },
-    {
-      "source": "MICR200B",
-      "target": "BCMB301A"
-    },
-    {
-      "source": "MICR200B",
-      "target": "MICR405"
-    },
-    {
       "source": "PHIL203",
-      "target": "CSC322"
+      "target": "CSC432"
     },
     {
       "source": "PHYS102A",
@@ -3558,15 +3726,15 @@
     },
     {
       "source": "PSYC300A",
+      "target": "CSC321"
+    },
+    {
+      "source": "PSYC300A",
       "target": "SENG404"
     },
     {
       "source": "PSYC300A",
       "target": "STAT359"
-    },
-    {
-      "source": "SENG265",
-      "target": "CSC205"
     },
     {
       "source": "SENG265",
@@ -3626,11 +3794,15 @@
     },
     {
       "source": "SENG265",
+      "target": "SENG365"
+    },
+    {
+      "source": "SENG265",
       "target": "SENG404"
     },
     {
       "source": "SENG265",
-      "target": "SENG421"
+      "target": "SENG455"
     },
     {
       "source": "SENG265",
@@ -3681,6 +3853,10 @@
       "target": "SENG435"
     },
     {
+      "source": "SENG310",
+      "target": "SENG455"
+    },
+    {
       "source": "SENG321",
       "target": "SENG371"
     },
@@ -3725,8 +3901,24 @@
       "target": "SENG426"
     },
     {
+      "source": "SENG411",
+      "target": "SENG455"
+    },
+    {
+      "source": "SENG435",
+      "target": "SENG455"
+    },
+    {
       "source": "SENG474",
       "target": "CSC431"
+    },
+    {
+      "source": "SENG499",
+      "target": "SENG455"
+    },
+    {
+      "source": "STAT252",
+      "target": "CSC321"
     },
     {
       "source": "STAT252",
@@ -3770,7 +3962,15 @@
     },
     {
       "source": "STAT254",
+      "target": "CSC321"
+    },
+    {
+      "source": "STAT254",
       "target": "CSC446"
+    },
+    {
+      "source": "STAT254",
+      "target": "ECE311"
     },
     {
       "source": "STAT254",
@@ -3826,6 +4026,10 @@
     },
     {
       "source": "STAT255",
+      "target": "CSC321"
+    },
+    {
+      "source": "STAT255",
       "target": "CSC446"
     },
     {
@@ -3878,7 +4082,15 @@
     },
     {
       "source": "STAT260",
+      "target": "CSC321"
+    },
+    {
+      "source": "STAT260",
       "target": "CSC446"
+    },
+    {
+      "source": "STAT260",
+      "target": "ECE311"
     },
     {
       "source": "STAT260",
@@ -3962,7 +4174,7 @@
     }
   ],
   "duplicate_course_codes": {},
-  "generated_at_utc": "2026-05-22T15:57:00.038636+00:00",
+  "generated_at_utc": "2026-10-26T15:43:45.632717+00:00",
   "missing_detail_codes": [],
   "missing_prereq_codes": [
     "BIOL190A",
@@ -3972,7 +4184,6 @@
     "CENG255",
     "CENG290",
     "CENG355",
-    "CENG356",
     "CENG460",
     "CHEM232",
     "CHEM235",
@@ -3980,6 +4191,7 @@
     "CIVE295",
     "CIVE350",
     "CSC450",
+    "ECE356",
     "ECE458",
     "ECON103C",
     "ELEC199",
@@ -3989,7 +4201,6 @@
     "ELEC260",
     "ELEC299",
     "ELEC300",
-    "ELEC310",
     "ELEC320",
     "ELEC330",
     "ELEC340",
@@ -4016,10 +4227,8 @@
     "MATH205",
     "MATH208",
     "MATH300",
-    "MATH336",
     "MECH200",
     "MECH245",
-    "MECH405",
     "PHYS112",
     "PHYS122",
     "PHYS125",
@@ -4051,6 +4260,7 @@
     "BME200",
     "BME201",
     "BME320",
+    "CHEM090",
     "CHEM091",
     "CHEM101",
     "CHEM102",
@@ -4069,6 +4279,7 @@
     "CIVE395",
     "ECE216",
     "ECE220",
+    "ECE265",
     "ECE300",
     "ECE320",
     "ECE340",
@@ -4155,6 +4366,7 @@
     "MATH212",
     "MATH236",
     "MATH301",
+    "MATH306",
     "MATH320",
     "MATH322",
     "MATH335",
@@ -4174,7 +4386,6 @@
     "MECH400A",
     "MECH455",
     "MICR200A",
-    "MICR200B",
     "PHIL203",
     "PHYS102A",
     "PHYS102B",
@@ -4200,7 +4411,6 @@
   ],
   "seed_course_codes": [
     "ASTR329",
-    "BCMB301A",
     "BEM310",
     "BEM412",
     "BEM415",
@@ -4238,16 +4448,16 @@
     "CSC111",
     "CSC115",
     "CSC116",
+    "CSC120",
     "CSC130",
     "CSC167",
-    "CSC205",
     "CSC225",
     "CSC226",
     "CSC230",
     "CSC299",
     "CSC305",
     "CSC320",
-    "CSC322",
+    "CSC321",
     "CSC330",
     "CSC349A",
     "CSC350",
@@ -4261,7 +4471,6 @@
     "CSC411",
     "CSC412",
     "CSC413",
-    "CSC421",
     "CSC423",
     "CSC424",
     "CSC425",
@@ -4271,6 +4480,7 @@
     "CSC428A",
     "CSC429",
     "CSC431",
+    "CSC432",
     "CSC435",
     "CSC445",
     "CSC446",
@@ -4282,7 +4492,6 @@
     "CSC464",
     "CSC466",
     "CSC467",
-    "CSC471",
     "CSC472",
     "CSC473",
     "CSC475",
@@ -4321,11 +4530,12 @@
     "ECE270",
     "ECE299",
     "ECE310",
+    "ECE311",
+    "ECE315",
     "ECE330",
     "ECE335",
     "ECE350",
     "ECE355",
-    "ECE356",
     "ECE363",
     "ECE380",
     "ECE403",
@@ -4348,6 +4558,7 @@
     "ECE466",
     "ECE470",
     "ECE471",
+    "ECE476",
     "ECE481",
     "ECE483",
     "ECE484",
@@ -4411,7 +4622,6 @@
     "MECH459",
     "MECH460",
     "MECH495",
-    "MICR405",
     "MRNE412",
     "MRNE475",
     "PHYS248",
@@ -4425,14 +4635,15 @@
     "SENG330",
     "SENG350",
     "SENG360",
+    "SENG365",
     "SENG371",
     "SENG401",
     "SENG404",
     "SENG411",
-    "SENG421",
     "SENG426",
     "SENG435",
     "SENG440",
+    "SENG455",
     "SENG457",
     "SENG460",
     "SENG468",
@@ -4457,7 +4668,6 @@
   ],
   "seed_reasons": {
     "ASTR329": "keyword match: data analysis",
-    "BCMB301A": "keyword match: bioinformatics",
     "BEM310": "keyword match: data analytics, digital health",
     "BEM412": "keyword match: computational, data analytics, data mining, machine learning, +1 more",
     "BEM415": "keyword match: internet of things",
@@ -4495,16 +4705,16 @@
     "CSC111": "CSC subject",
     "CSC115": "CSC subject",
     "CSC116": "CSC subject",
+    "CSC120": "CSC subject",
     "CSC130": "CSC subject",
     "CSC167": "CSC subject",
-    "CSC205": "CSC subject",
     "CSC225": "CSC subject",
     "CSC226": "CSC subject",
     "CSC230": "CSC subject",
     "CSC299": "CSC subject",
     "CSC305": "CSC subject",
     "CSC320": "CSC subject",
-    "CSC322": "CSC subject",
+    "CSC321": "CSC subject",
     "CSC330": "CSC subject",
     "CSC349A": "CSC subject",
     "CSC350": "CSC subject",
@@ -4518,7 +4728,6 @@
     "CSC411": "CSC subject",
     "CSC412": "CSC subject",
     "CSC413": "CSC subject",
-    "CSC421": "CSC subject",
     "CSC423": "CSC subject",
     "CSC424": "CSC subject",
     "CSC425": "CSC subject",
@@ -4528,6 +4737,7 @@
     "CSC428A": "CSC subject",
     "CSC429": "CSC subject",
     "CSC431": "CSC subject",
+    "CSC432": "CSC subject",
     "CSC435": "CSC subject",
     "CSC445": "CSC subject",
     "CSC446": "CSC subject",
@@ -4539,7 +4749,6 @@
     "CSC464": "CSC subject",
     "CSC466": "CSC subject",
     "CSC467": "CSC subject",
-    "CSC471": "CSC subject",
     "CSC472": "CSC subject",
     "CSC473": "CSC subject",
     "CSC475": "CSC subject",
@@ -4578,11 +4787,12 @@
     "ECE270": "keyword match: computational, cyber systems/security, embedded systems, internet of things, +1 more",
     "ECE299": "keyword match: computer-aided work, simulation",
     "ECE310": "keyword match: digital signal processing, signal processing",
+    "ECE311": "keyword match: machine learning, optimization",
+    "ECE315": "keyword match: digital signal processing, image processing, signal processing",
     "ECE330": "keyword match: simulation",
     "ECE335": "keyword match: signal processing",
     "ECE350": "keyword match: MATLAB",
     "ECE355": "keyword match: microprocessor systems",
-    "ECE356": "keyword match: operating systems, software",
     "ECE363": "keyword match: algorithms",
     "ECE380": "keyword match: simulation",
     "ECE403": "keyword match: machine learning, optimization, signal processing",
@@ -4605,6 +4815,7 @@
     "ECE466": "keyword match: signal processing",
     "ECE470": "keyword match: artificial intelligence",
     "ECE471": "keyword match: computer vision",
+    "ECE476": "keyword match: operating systems, software",
     "ECE481": "keyword match: neural networks, VLSI",
     "ECE483": "keyword match: digital video",
     "ECE484": "keyword match: signal processing",
@@ -4668,7 +4879,6 @@
     "MECH459": "keyword match: optimization, simulation",
     "MECH460": "keyword match: computer-aided work, programming",
     "MECH495": "keyword match: computational",
-    "MICR405": "keyword match: bioinformatics",
     "MRNE412": "keyword match: database",
     "MRNE475": "keyword match: computing, data analysis, statistical computing",
     "PHYS248": "keyword match: coding, computer-assisted work, computing, data management, +2 more",
@@ -4682,14 +4892,15 @@
     "SENG330": "SENG subject",
     "SENG350": "SENG subject",
     "SENG360": "SENG subject",
+    "SENG365": "SENG subject",
     "SENG371": "SENG subject",
     "SENG401": "SENG subject",
     "SENG404": "SENG subject",
     "SENG411": "SENG subject",
-    "SENG421": "SENG subject",
     "SENG426": "SENG subject",
     "SENG435": "SENG subject",
     "SENG440": "SENG subject",
+    "SENG455": "SENG subject",
     "SENG457": "SENG subject",
     "SENG460": "SENG subject",
     "SENG468": "SENG subject",
@@ -4713,7 +4924,7 @@
     "STAT469": "keyword match: machine learning"
   },
   "source": {
-    "catalog_id": "69601062eff06bec3b0778a8",
+    "catalog_id": "69bd9d92e76504efd3e57c74",
     "direct_computing_subjects": [
       "CSC",
       "ECS",
@@ -4741,7 +4952,7 @@
     ],
     "scope_rule": "Seed courses are current UVic undergraduate calendar courses in Science or Engineering and Computer Science that are direct computing subjects or match computing/data/software/numerical/GIS/systems keywords; prerequisite courses are then followed recursively.",
     "search_api_base": "https://uvic.kuali.co/api/v1/catalog",
-    "term_code": "05|2026",
+    "term_code": "09|2026",
     "undergrad_calendar_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses"
   }
 }

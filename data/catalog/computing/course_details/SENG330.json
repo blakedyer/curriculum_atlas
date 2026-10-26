@@ -21,7 +21,7 @@
   "hoursCatalogText": "3-0-0",
   "id": "5cbdf65804ce07240015600e",
   "pid": "SJWkeFT7E",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67f42ec726121eacfdadd8bf\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Software Engineering (SENG)",

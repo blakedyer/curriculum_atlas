@@ -1,0 +1,35 @@
+{
+  "__catalogCourseId": "CSC321",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2026-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2026-09-02",
+  "description": "<p>An introduction to the basic concepts and techniques of Artificial Intelligence. Topics include heuristics, searching, knowledge representation, neural networks and feature spaces.</p>",
+  "formerlyNotesText": "CSC 421",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be366a356a15d000126de93",
+    "name": "Department of Computer Science"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "67f81e630e71424a7e327930",
+  "pid": "S12P0cHRkx",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682cb258e9b854a010694f7a\" target=\"_blank\">CSC226</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67f41fa49ee131890f113479\" target=\"_blank\">CSC120</a> <!-- -->-<!-- --> <!-- -->Society, Ethics, Professionalism and Computing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf5fa56bbef2400c2f0aa\" target=\"_blank\">ENGR130</a> <!-- -->-<!-- --> <!-- -->Introduction to Professional Practice<!-- --> <span style=\"margin-left:5px\">(0.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f67c789944f24002acd1e\" target=\"_blank\">MATH110</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/63168fab578b6df3d6c07ace\" target=\"_blank\">MATH211</a> <!-- -->-<!-- --> <!-- -->Matrix Algebra I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/654ab82479563116634e774f\" target=\"_blank\">GEOG226</a> <!-- -->-<!-- --> <!-- -->Quantitative Methods in Geography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d8d839e015c5b2400a72992\" target=\"_blank\">PSYC300A</a> <!-- -->-<!-- --> <!-- -->Statistical Methods in Psychology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5f2b40270d04170026ecad65\" target=\"_blank\">STAT252</a> <!-- -->-<!-- --> <!-- -->Statistics for Business<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6895fb68f3240022ccec\" target=\"_blank\">STAT254</a> <!-- -->-<!-- --> <!-- -->Probability and Statistics for Engineers<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/69fa1a4e3be2c1cf66f48b18\" target=\"_blank\">STAT255</a> <!-- -->-<!-- --> <!-- -->Statistics for Life Sciences I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5e615e517eb8e0250078b7da\" target=\"_blank\">STAT260</a> <!-- -->-<!-- --> <!-- -->Introduction to Probability and Statistics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Computer Science (CSC)",
+    "id": "5c13f75e3d3a332600766f0d",
+    "linkedGroup": "5be366a356a15d000126de93",
+    "name": "CSC"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of CSC 321, CSC 421, CENG 420, ECE 470.</li> </ul>",
+  "title": "Introduction to Artificial Intelligence"
+}

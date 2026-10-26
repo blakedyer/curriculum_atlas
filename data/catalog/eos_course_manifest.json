@@ -112,7 +112,7 @@
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses/Sy8n7_a74",
     "course_code": "EOS300",
     "course_name": "Earth Science Field School",
-    "id": "5e5839c07120522500518b65",
+    "id": "685319a74fa5b8a0daa82af9",
     "pid": "Sy8n7_a74",
     "subject": "EOS"
   },
@@ -229,7 +229,7 @@
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses/HJgphQu6m4",
     "course_code": "EOS400",
     "course_name": "Advanced Field Geology",
-    "id": "63911c673af2a2f897d1d833",
+    "id": "685319c7072fc5a80ce8355d",
     "pid": "HJgphQu6m4",
     "subject": "EOS"
   },
@@ -238,7 +238,7 @@
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses/S1oIB9G_N",
     "course_code": "EOS401",
     "course_name": "Oceanographic Field School",
-    "id": "60075fce0247a50027e7bfdc",
+    "id": "685207de47556783ffe66c3b",
     "pid": "S1oIB9G_N",
     "subject": "EOS"
   },
@@ -327,8 +327,8 @@
     "api_url": "https://uvic.kuali.co/api/v1/catalog/course/{catalog_id}/HyG67_aQN",
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses/HyG67_aQN",
     "course_code": "EOS433",
-    "course_name": "The Physics of Climate",
-    "id": "631b5ff487576eca2181f59a",
+    "course_name": "Physics of Climate",
+    "id": "685ecf3436a5cd8aacc5dbf0",
     "pid": "HyG67_aQN",
     "subject": "EOS"
   },
@@ -346,17 +346,8 @@
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses/Hy7p7daX4",
     "course_code": "EOS450",
     "course_name": "Quaternary Geology",
-    "id": "5d1f722e89944f24002ad592",
+    "id": "67eb2184a743a9fba728c829",
     "pid": "Hy7p7daX4",
-    "subject": "EOS"
-  },
-  {
-    "api_url": "https://uvic.kuali.co/api/v1/catalog/course/{catalog_id}/H1ujbt6mV",
-    "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses/H1ujbt6mV",
-    "course_code": "EOS451",
-    "course_name": "Introductory Dynamic Meteorology",
-    "id": "5d1f680afb68f3240022cc7e",
-    "pid": "H1ujbt6mV",
     "subject": "EOS"
   },
   {
@@ -364,7 +355,7 @@
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/courses/ryVTQu6QE",
     "course_code": "EOS460",
     "course_name": "Earth System Science",
-    "id": "6393bacf0f9d60f874466e9c",
+    "id": "681a5fcb36fc8f7fac74d7d6",
     "pid": "ryVTQu6QE",
     "subject": "EOS"
   },

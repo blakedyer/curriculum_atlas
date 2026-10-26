@@ -2,7 +2,7 @@
   "__catalogCourseId": "EOS401",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2019-11-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,16 +11,16 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2020-01-01",
+  "dateStart": "2026-09-02",
   "description": "<p>Methods of data acquisition, study and analysis required for solving oceanographic problems. Includes a field component held at Bamfield Marine Sciences Centre. Focus is on planning, implementing and analyzing a field data set, elucidating the biological, chemical, geological and physical dynamics of coastal waters.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be3691afed2d200010da13f",
     "name": "School of Earth and Ocean Sciences"
   },
-  "id": "60075fce0247a50027e7bfdc",
+  "id": "685207de47556783ffe66c3b",
   "pid": "S1oIB9G_N",
-  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->3<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d8168d3a3a3a624000770d2\" target=\"_blank\">EOS311</a> <!-- -->-<!-- --> <!-- -->Biological Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6edfd2bc1524008cb0bc\" target=\"_blank\">EOS312</a> <!-- -->-<!-- --> <!-- -->Introductory Chemical Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-C\"><div data-test=\"ruleView-C-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f715cfb68f3240022d38f\" target=\"_blank\">EOS313</a> <!-- -->-<!-- --> <!-- -->Introductory Geological Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-D\"><div data-test=\"ruleView-D-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6686cd20516b11d275078958\" target=\"_blank\">EOS314</a> <!-- -->-<!-- --> <!-- -->Descriptive Physical Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/6686d936f56b5f3a754f3d73\" target=\"_blank\">EOS431</a> <!-- -->-<!-- --> <!-- -->Physical Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><div><span class=\"rules_groupHeader_37\"></span><li><span>Complete <!-- -->3<!-- --> of the following</span><ul><li data-test=\"ruleView-B.5\"><div data-test=\"ruleView-B.5-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e500fdbd48ad325008896f8\" target=\"_blank\">BIOL311</a> <!-- -->-<!-- --> <!-- -->Biological Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d8168d3a3a3a624000770d2\" target=\"_blank\">EOS311</a> <!-- -->-<!-- --> <!-- -->Biological Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.2\"><div data-test=\"ruleView-B.2-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6edfd2bc1524008cb0bc\" target=\"_blank\">EOS312</a> <!-- -->-<!-- --> <!-- -->Introductory Chemical Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.3\"><div data-test=\"ruleView-B.3-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f715cfb68f3240022d38f\" target=\"_blank\">EOS313</a> <!-- -->-<!-- --> <!-- -->Introductory Geological Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B.4\"><div data-test=\"ruleView-B.4-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6686cd20516b11d275078958\" target=\"_blank\">EOS314</a> <!-- -->-<!-- --> <!-- -->Descriptive Physical Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/6686d936f56b5f3a754f3d73\" target=\"_blank\">EOS431</a> <!-- -->-<!-- --> <!-- -->Physical Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/66ecb089f3c90619a63d14a7\" target=\"_blank\">PHYS441</a> <!-- -->-<!-- --> <!-- -->Physical Oceanography<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></div><li data-test=\"ruleView-E\"><div data-test=\"ruleView-E-result\"><div>permission of the school.</div></div></li></ul></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Earth and Ocean Sciences (EOS)",
@@ -28,5 +28,6 @@
     "linkedGroup": "5be3691afed2d200010da13f",
     "name": "EOS"
   },
+  "supplementalNotes": "<ul> <li>Normally offered in summer session. </li> <li>Permission to register in this course is required by the School. Applications for permission to register are normally due in Fall term for summer field schools.</li> <li>See the School website (<a href=\"http://seos.uvic.ca/\">seos.uvic.ca</a>) or contact the School office (<a href=\"mailto:seos@uvic.ca\">seos@uvic.ca</a>) for application due date and field school dates. </li> <li>If oversubscribed, priority will be given to students declared in a program that requires the course, and to students nearest to graduation.</li> <li>A field school fee applies to this course, in addition to tuition fees.</li> </ul>",
   "title": "Oceanographic Field School"
 }

@@ -21,7 +21,7 @@
   "hoursCatalogText": "3-0-0",
   "id": "5e502f5044bef625003d60a1",
   "pid": "rJejk_p7V",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ea67a5c324003b0bbd\" target=\"_blank\">CSC225</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4ec67a5c324003b0bc3\" target=\"_blank\">CSC230</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682cacd70a4fbbb96d840da3\" target=\"_blank\">CSC225</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/68af3363ef7b39ac5cd846cb\" target=\"_blank\">CSC230</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

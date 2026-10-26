@@ -22,7 +22,7 @@
   "hoursCatalogText": "3-0-0",
   "id": "5d4b1175828b8d2400daa9e8",
   "pid": "HkD-2Op7N",
-  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6e7889944f24002ad2b9\" target=\"_blank\">MATH301</a> <!-- -->-<!-- --> <!-- -->Complex Variables<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6917eac4e7508a3276463623\" target=\"_blank\">MATH301</a> <!-- -->-<!-- --> <!-- -->Complex Variables<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Mathematics (MATH)",

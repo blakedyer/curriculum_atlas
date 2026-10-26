@@ -22,7 +22,7 @@
   "hoursCatalogText": "3-1-0",
   "id": "61170f03d7b1f0c2ec3b1ba8",
   "pid": "S1xFo1_a7V",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ef67a5c324003b0bc6\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/64b57143bb24af4786cf4c0f\" target=\"_blank\">CSC330</a> <!-- -->-<!-- --> <!-- -->Programming Languages<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd8f6c75ad7d4ad46fa381\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/682cbadc47556783ffff1ad7\" target=\"_blank\">CSC330</a> <!-- -->-<!-- --> <!-- -->Programming Languages<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

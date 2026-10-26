@@ -2,7 +2,7 @@
   "__catalogCourseId": "EOS433",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2023-05-01",
+  "catalogActivationDate": "2026-05-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,17 +11,24 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2023-05-03",
-  "description": "<p>Studies of the Earth's climate require an understanding of the intimate links between the hydrosphere, atmosphere, cryosphere and biosphere. Basic theories of the dynamics of ocean and atmosphere. The physics and biogeochemistry of coupled models are examined with emphasis on simple intuition-building mathematical models as well as discussion of large computer models.</p>",
+  "crossListedCourses": [
+    {
+      "__catalogCourseId": "PHYS433",
+      "pid": "HJuRBT2cxx",
+      "title": "Physics of Climate"
+    }
+  ],
+  "dateStart": "2026-05-03",
+  "description": "<p>Examines the physics that determines Earth's climate and controls how climate changes. May include study of Earth\u2019s atmosphere, ocean and cryosphere, and comparison to other Earth-like planets. Analyses climate data and examines a hierarchy of climate models, from idealised mathematical models to complex Global Climate Models.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be3691afed2d200010da13f",
     "name": "School of Earth and Ocean Sciences"
   },
   "hoursCatalogText": "3-0-0",
-  "id": "631b5ff487576eca2181f59a",
+  "id": "685ecf3436a5cd8aacc5dbf0",
   "pid": "HyG67_aQN",
-  "preOrCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->1<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/667f21ef07ae35617cfa3e71\" target=\"_blank\">EOS340</a> <!-- -->-<!-- --> <!-- -->Atmospheric Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/667f257207ae3558c7fa3e8f\" target=\"_blank\">PHYS340</a> <!-- -->-<!-- --> <!-- -->Atmospheric Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>or permission of the school.</div></div></li></ul></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/667f21ef07ae35617cfa3e71\" target=\"_blank\">EOS340</a> <!-- -->-<!-- --> <!-- -->Atmospheric Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/667f257207ae3558c7fa3e8f\" target=\"_blank\">PHYS340</a> <!-- -->-<!-- --> <!-- -->Atmospheric Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Earth and Ocean Sciences (EOS)",
@@ -29,6 +36,6 @@
     "linkedGroup": "5be3691afed2d200010da13f",
     "name": "EOS"
   },
-  "supplementalNotes": "<ul> <li>Normally offered in alternate years. Students are advised to consult with the department to determine when this is offered.</li> </ul>",
-  "title": "The Physics of Climate"
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of EOS 433, PHYS 433.</li> <li>May be offered as a joint undergraduate and graduate class.</li> <li>Normally offered in alternate years; consult with the School of Earth and Ocean Sciences to determine schedule.</li> </ul>",
+  "title": "Physics of Climate"
 }

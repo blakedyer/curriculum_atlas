@@ -2,7 +2,7 @@
   "__catalogCourseId": "BME350",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2019-11-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,15 +11,15 @@
     },
     "value": "2.0"
   },
-  "dateStart": "2020-01-01",
-  "description": "<p>Design methodology; recognizing and defining open-ended biomedical engineering problems, problem definition, concept generation, project planning, modelling, analysis, decision making, design synthesis, prototyping and testing. Students complete a series of design projects in small teams to develop teamwork. Introduction to engineering graphics; perspective and orthographic projects; 3D models, dimensioning and tolerancing; generation of engineering drawings with CAD systems.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Design methodology; recognizing and defining open-ended biomedical engineering problems, problem definition, concept generation, project planning, modelling, analysis, decision making, design synthesis, prototyping and testing. Teamwork and small group design projects. Introduction to engineering graphics; perspective and orthographic projects; 3D models, dimensioning and tolerancing; generation of engineering drawings with CAD systems.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5c3e2fdfae5f596cf4bbf7e6",
     "name": "Biomedical Engineering"
   },
   "hoursCatalogText": "4-3-1",
-  "id": "5cbdf49867a5c324003b0b6c",
+  "id": "68c9cc020eb5094521344107",
   "pid": "SJg9Av6m4",
   "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf49604ce072400155e6d\" target=\"_blank\">BME201</a> <!-- -->-<!-- --> <!-- -->Quantitative Human Physiology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d82648f184abe2400908765\" target=\"_blank\">MECH220</a> <!-- -->-<!-- --> <!-- -->Mechanics of Solids I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
@@ -29,6 +29,6 @@
     "linkedGroup": "",
     "name": "BME"
   },
-  "supplementalNotes": "<ul><li>Credit will be granted for only one of BME 350, MECH 350.</li></ul>",
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of BME 350, BME 351, MECH 350.</li> </ul>",
   "title": "Biomedical Engineering Design"
 }

@@ -2,7 +2,7 @@
   "__catalogCourseId": "ECE486",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2022-02-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,8 +11,8 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2022-05-03",
-  "description": "<p>Multirate signal processing, upsampling, downsampling, sampling rate conversion, polyphase techniques, multirate filter banks, multiresolution signal representations, wavelets, digital geometry processing, polygon meshes, subdivision surfaces/wavelets, efficient multiresolution signal processing. Applications in data compression, computer graphics/animation, geometric modeling, communications, and signal processing. C++ programming language, libraries such as OpenGL and CGAL.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Multirate signal processing, upsampling, downsampling, sampling rate conversion, polyphase techniques, multirate filter banks, multiresolution signal representations, wavelets, digital geometry processing, polygon meshes, subdivision surfaces/wavelets, efficient multiresolution signal processing. Applications in data compression, computer graphics/animation, geometric modeling, communications, signal processing. C++ programming language, libraries such as OpenGL and CGAL.</p>",
   "formerlyNotesText": "ELEC 486",
   "groupFilter1": {
     "customFields": {},
@@ -20,9 +20,9 @@
     "name": "Department of Electrical and Computer Engineering"
   },
   "hoursCatalogText": "3-0-1.5",
-  "id": "60830c1e88e1bc16c38fd7c3",
+  "id": "68349aba2d563f1b30bce7d3",
   "pid": "H13Kg_aXV",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ce19654524003850e9\" target=\"_blank\">ELEC310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/620ed5b415292f49f9a9fa82\" target=\"_blank\">ECE265</a> <!-- -->-<!-- --> <!-- -->Continuous-Time and Discrete-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Electrical and Computer Engineering (ECE)",

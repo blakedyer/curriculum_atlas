@@ -2,7 +2,7 @@
   "__catalogCourseId": "BIOC299",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2019-11-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,15 +11,15 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2020-01-01",
+  "dateStart": "2026-09-02",
   "description": "<p>An introduction to the concepts of biochemistry intended for students not majoring in biochemistry or microbiology. Properties of bio-molecules, basic enzymology and metabolism. Bioenergetics, nucleic acid structure and synthesis. Protein synthesis. Structure and properties of membranes.</p>",
   "groupFilter1": {
     "customFields": {},
-    "id": "5be365c456a15d000126de8a",
-    "name": "Department of Biochemistry and Microbiology"
+    "id": "69fcf26416ecfb85a46ceb67",
+    "name": "School of Molecular Life Sciences"
   },
   "hoursCatalogText": "3-0-0",
-  "id": "5d1f70aa94e82e2400a23628",
+  "id": "69fd096c63d280deced0f014",
   "pid": "Hk6-APpQE",
   "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f6e3689944f24002ad28a\" target=\"_blank\">CHEM231</a> <!-- -->-<!-- --> <!-- -->Introduction to Organic Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",

@@ -2,7 +2,7 @@
   "__catalogCourseId": "CSC370",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2023-09-01",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,17 +11,17 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2023-09-02",
-  "description": "<p>\u00a0Topics include: data entities and relationships; data modelling using Entity-Relation Diagrams: hierarchical, network and relational models of databases; query languages; physical representation of data in secondary storage; relational algebra and calculus as applied to the design of databases; security and integrity in the context of concurrent use; and basic ethical issues associated with database design and use.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Data entities and relationships, data modeling using Entity-Relationship diagrams, the relational model of databases, relational algebra and calculus as formal foundations for querying, query languages and query optimization, physical representation of data in secondary storage, concurrency control and recovery, security and integrity in multi-user environments, and ethical considerations related to data privacy, access control and responsible data management.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be366a356a15d000126de93",
     "name": "Department of Computer Science"
   },
   "hoursCatalogText": "3-0-0",
-  "id": "634f189b41b5edffbabee0ae",
+  "id": "67fd8f90a6bb936b5597af52",
   "pid": "BklGo1_T74",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ea67a5c324003b0bbd\" target=\"_blank\">CSC225</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682cacd70a4fbbb96d840da3\" target=\"_blank\">CSC225</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/67f42ec726121eacfdadd8bf\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67f41fa49ee131890f113479\" target=\"_blank\">CSC120</a> <!-- -->-<!-- --> <!-- -->Society, Ethics, Professionalism and Computing<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf5fa56bbef2400c2f0aa\" target=\"_blank\">ENGR130</a> <!-- -->-<!-- --> <!-- -->Introduction to Professional Practice<!-- --> <span style=\"margin-left:5px\">(0.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

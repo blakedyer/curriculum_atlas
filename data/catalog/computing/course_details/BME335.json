@@ -2,7 +2,7 @@
   "__catalogCourseId": "BME335",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2025-05-01",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -18,8 +18,8 @@
       "title": "Biosensors and Instrumentation"
     }
   ],
-  "dateStart": "2025-05-03",
-  "description": "<p>Principles of biomedical devices and instrumentation. Topics include: sensors and transducers (such as voltage sensors, optical sensors, displacement/pressure sensors and accelerometers, and acoustic sensors); signal filtering and amplification (Bode plots, passive and active filters, noise in electrical circuits); data acquisition and signal processing (sampling theory and signal aliasing, analogue-to-digital conversion); ECG; EEG; hearing aids; wearable and implanted devices; instrument/device safety.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Principles of biomedical devices and instrumentation. Sensors and transducers (such as voltage sensors, optical sensors, displacement/pressure sensors and accelerometers, and acoustic sensors). Signal filtering and amplification (Bode plots, passive and active filters, noise in electrical circuits). Data acquisition and signal processing (sampling theory and signal aliasing, analogue-to-digital conversion). ECG. EEG. Hearing aids. Wearable and implanted devices. Instrument/device safety.</p>",
   "formerlyNotesText": "also ELEC 335",
   "groupFilter1": {
     "customFields": {},
@@ -27,10 +27,10 @@
     "name": "Biomedical Engineering"
   },
   "hoursCatalogText": "3-1.5-0",
-  "id": "669983eb67ca2b55c3b5295f",
+  "id": "6834958260a8069b9d88b4b2",
   "pid": "BJkcADaXN",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57867a5c324003b0c2c\" target=\"_blank\">ECE260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
-  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67633b2263ba75d9414b1021\" target=\"_blank\">ECE330</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/67633f00d49e4abd60245e8d\" target=\"_blank\">ECE365</a> <!-- -->-<!-- --> <!-- -->Applied Electronics and Electrical Machines<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2cf19654524003850ec\" target=\"_blank\">ELEC330</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2d1bb9b5e24008114c4\" target=\"_blank\">ELEC365</a> <!-- -->-<!-- --> <!-- -->Applied Electronics and Electrical Machines<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57867a5c324003b0c2c\" target=\"_blank\">ECE260</a> <!-- -->-<!-- --> <!-- -->Continuous-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/620ed5b415292f49f9a9fa82\" target=\"_blank\">ECE265</a> <!-- -->-<!-- --> <!-- -->Continuous-Time and Discrete-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57667a5c324003b0c2a\" target=\"_blank\">ECE250</a> <!-- -->-<!-- --> <!-- -->Linear Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67633b2263ba75d9414b1021\" target=\"_blank\">ECE330</a> <!-- -->-<!-- --> <!-- -->Electronic Circuits I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/67633f00d49e4abd60245e8d\" target=\"_blank\">ECE365</a> <!-- -->-<!-- --> <!-- -->Applied Electronics and Electrical Machines<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Biomedical Engineering (BME)",

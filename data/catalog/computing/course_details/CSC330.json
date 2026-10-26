@@ -2,7 +2,7 @@
   "__catalogCourseId": "CSC330",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2024-05-01",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,18 +11,18 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2024-05-02",
-  "description": "<p>Fundamental concepts of programming in different paradigms. Topics include syntax, grammar, semantics, scope, extent, type construction, type checking, type inference, polymorphism, evaluation strategies, functions as values, closures, pattern matching, unification, non-determinism.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Basic concepts behind modern programming languages with an emphasis on functional programming and its contrast to other paradigms such as object-oriented programming. Inference typing, strong and dynamic typing and data types.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be366a356a15d000126de93",
     "name": "Department of Computer Science"
   },
   "hoursCatalogText": "3-0-0",
-  "id": "64b57143bb24af4786cf4c0f",
+  "id": "682cbadc47556783ffff1ad7",
   "pid": "SJJokdTQ4",
-  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6307b1bdfe51a12031b36bfa\" target=\"_blank\">CSC226</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf65404ce072400156009\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ec67a5c324003b0bc3\" target=\"_blank\">CSC230</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4feeb019654524003846d1\" target=\"_blank\">CENG255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57704ce072400155f52\" target=\"_blank\">ECE255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
-  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ef67a5c324003b0bc6\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67f42ec726121eacfdadd8bf\" target=\"_blank\">SENG265</a> <!-- -->-<!-- --> <!-- -->Software Development Methods<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/68af3363ef7b39ac5cd846cb\" target=\"_blank\">CSC230</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/691fa7c2192320144a1c7d2c\" target=\"_blank\">ECE255</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Architecture<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd8f6c75ad7d4ad46fa381\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

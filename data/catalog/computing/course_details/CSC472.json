@@ -21,7 +21,7 @@
   "hoursCatalogText": "3-0-0",
   "id": "65ea026dc55160335eedeff5",
   "pid": "HyG21d674",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/634f20f2a51adb55db67bb43\" target=\"_blank\">CSC305</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Graphics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd900395e6c3016c105853\" target=\"_blank\">CSC305</a> <!-- -->-<!-- --> <!-- -->Introduction to Computer Graphics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

@@ -22,7 +22,7 @@
   "hoursCatalogText": "2-2.5-0",
   "id": "66e09e4626f9a36711aea1a0",
   "pid": "HJRHCfAhA",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/66e09c3dc58de543b0ce1104\" target=\"_blank\">MECH200A</a> <!-- -->-<!-- --> <!-- -->Introduction to Technical Drawing and Computer Aided Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/6a1f59434bd599fc9aa00381\" target=\"_blank\">MECH200A</a> <!-- -->-<!-- --> <!-- -->Introduction to Technical Drawing and Computer Aided Design<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Mechanical Engineering (MECH)",

@@ -21,7 +21,7 @@
   "hoursCatalogText": "3-0-1",
   "id": "5d1f6e3689944f24002ad28a",
   "pid": "HkVACvpXV",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d781350a50c3624007f55c8\" target=\"_blank\">CHEM101</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Chemistry from Atoms to Materials<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6e3494e82e2400a23437\" target=\"_blank\">CHEM150</a> <!-- -->-<!-- --> <!-- -->Engineering Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d781350a50c3624007f55c8\" target=\"_blank\">CHEM101</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Chemistry from Atoms to Materials<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/699e4e994a7d5bdba8849184\" target=\"_blank\">CHEM150</a> <!-- -->-<!-- --> <!-- -->Engineering Chemistry<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Chemistry (CHEM)",

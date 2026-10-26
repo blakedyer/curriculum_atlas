@@ -56,7 +56,7 @@
   {
     "api_url": "https://uvic.kuali.co/api/v1/catalog/program/{catalog_id}/Hk0--QRAP",
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/programs/Hk0--QRAP",
-    "id": "64a742f71b3317315e26ae98",
+    "id": "69ab64a2d6b9c713e824a698",
     "pid": "Hk0--QRAP",
     "program_code": "BSC-CLSC",
     "program_name": "Climate Science",
@@ -65,7 +65,7 @@
   {
     "api_url": "https://uvic.kuali.co/api/v1/catalog/program/{catalog_id}/H1dHTmAAP",
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/programs/H1dHTmAAP",
-    "id": "64a742f91822a8b004067912",
+    "id": "69ab649ad74d5b95412ce253",
     "pid": "H1dHTmAAP",
     "program_code": "BSC-CLSD",
     "program_name": "Climate Science (Honours)",
@@ -110,7 +110,7 @@
   {
     "api_url": "https://uvic.kuali.co/api/v1/catalog/program/{catalog_id}/Hk1caX0zV",
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/programs/Hk1caX0zV",
-    "id": "61e05eaf560b8d3084b19651",
+    "id": "67eb17cc20609afa6347d93c",
     "pid": "Hk1caX0zV",
     "program_code": "MNR-OSC",
     "program_name": "Ocean Sciences (Minor)",
@@ -137,7 +137,7 @@
   {
     "api_url": "https://uvic.kuali.co/api/v1/catalog/program/{catalog_id}/rylJwpXCME",
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/programs/rylJwpXCME",
-    "id": "67787b842740d9c323c79df6",
+    "id": "685ecbb7498ae48190cf65cf",
     "pid": "rylJwpXCME",
     "program_code": "BSC-PESC",
     "program_name": "Physics and Earth Sciences (Geophysics)",
@@ -146,7 +146,7 @@
   {
     "api_url": "https://uvic.kuali.co/api/v1/catalog/program/{catalog_id}/B1kw6QAfV",
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/programs/B1kw6QAfV",
-    "id": "677878e66669eebb0f750885",
+    "id": "68cb293bc6fb4760c6b2bc8e",
     "pid": "B1kw6QAfV",
     "program_code": "BSC-PESD",
     "program_name": "Physics and Earth Sciences (Geophysics) (Honours)",
@@ -155,7 +155,7 @@
   {
     "api_url": "https://uvic.kuali.co/api/v1/catalog/program/{catalog_id}/BygDaXAfV",
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/programs/BygDaXAfV",
-    "id": "677c25c2771b972378c3503d",
+    "id": "685ec5215056a2296acce439",
     "pid": "BygDaXAfV",
     "program_code": "BSC-OPSC",
     "program_name": "Physics and Ocean-Atmosphere Sciences",
@@ -164,7 +164,7 @@
   {
     "api_url": "https://uvic.kuali.co/api/v1/catalog/program/{catalog_id}/S1evaXCzE",
     "catalog_url": "https://www.uvic.ca/calendar/undergrad/index.php#/programs/S1evaXCzE",
-    "id": "67787c712740d9c323c7a394",
+    "id": "68cb31ab5eb019427fa9b936",
     "pid": "S1evaXCzE",
     "program_code": "BSC-OPSD",
     "program_name": "Physics and Ocean-Atmosphere Sciences (Honours)",

@@ -1,0 +1,34 @@
+{
+  "__catalogCourseId": "TCA210",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2023-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2023-09-02",
+  "description": "<p>Examines a range of understandings of and approaches to addressing climate change, exploring: the kind of problem(s) it poses; the toolkits we need to develop to engage it effectively; how to collaborate across diverse understandings of and priorities in relation to it, and the scales and kinds of actions that should be prioritized.\u00a0</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5be368fb56a15d000126dea6",
+    "name": "School of Environmental Studies"
+  },
+  "hoursCatalogText": "3-0-0",
+  "id": "6357707ae1cd0a92ff80054c",
+  "pid": "rkMYxeSEs",
+  "proForma": "no",
+  "recommendations": "",
+  "subjectCode": {
+    "description": "Transformative Climate Action (TCA)",
+    "id": "6348c18f8a98a8f489e46af0",
+    "linkedGroup": "5c13fbd22c6b6100011efdf4",
+    "name": "TCA"
+  },
+  "supplementalNotes": "<ul> <li>Credit will be granted for only one of TCA 210, HDCC 200 (if taken prior to 2023)</li> </ul>",
+  "title": "Introduction to the Human Dimensions of Climate Change"
+}

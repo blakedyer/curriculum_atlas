@@ -126,21 +126,21 @@
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M605.13,-70C623.48,-70 642.82,-70 658.83,-70"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="658.94,-72.45 665.94,-70 658.94,-67.55 658.94,-72.45"/>
 </g>
-<!-- choice_EOS401_0 -->
+<!-- choice_EOS401_0_0 -->
 <g id="node9" class="node">
-<title>choice_EOS401_0</title>
+<title>choice_EOS401_0_0</title>
 <path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M829,-91C829,-91 799,-91 799,-91 793,-91 787,-85 787,-79 787,-79 787,-67 787,-67 787,-61 793,-55 799,-55 799,-55 829,-55 829,-55 835,-55 841,-61 841,-67 841,-67 841,-79 841,-79 841,-85 835,-91 829,-91"/>
 <text text-anchor="middle" x="814" y="-70.8" font-family="Avenir Next" font-size="9.00">3 of</text>
 </g>
-<!-- course__EOS431&#45;&gt;choice_EOS401_0 -->
+<!-- course__EOS431&#45;&gt;choice_EOS401_0_0 -->
 <g id="edge5" class="edge">
-<title>course__EOS431&#45;&gt;choice_EOS401_0</title>
+<title>course__EOS431&#45;&gt;choice_EOS401_0_0</title>
 <path fill="none" stroke="#7a8389" d="M597.43,-51.92C634.19,-42.59 682.99,-34.57 726,-42 744.53,-45.2 764.33,-51.97 780.36,-58.37"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="779.58,-60.7 786.98,-61.08 781.43,-56.16 779.58,-60.7"/>
 </g>
-<!-- course__EOS312&#45;&gt;choice_EOS401_0 -->
+<!-- course__EOS312&#45;&gt;choice_EOS401_0_0 -->
 <g id="edge4" class="edge">
-<title>course__EOS312&#45;&gt;choice_EOS401_0</title>
+<title>course__EOS312&#45;&gt;choice_EOS401_0_0</title>
 <path fill="none" stroke="#7a8389" d="M723.03,-114.11C739.93,-106.39 762.09,-96.26 780.19,-87.99"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="781.3,-90.18 786.65,-85.04 779.27,-85.72 781.3,-90.18"/>
 </g>
@@ -153,9 +153,9 @@
 </a>
 </g>
 </g>
-<!-- choice_EOS401_0&#45;&gt;course__EOS401 -->
+<!-- choice_EOS401_0_0&#45;&gt;course__EOS401 -->
 <g id="edge6" class="edge">
-<title>choice_EOS401_0&#45;&gt;course__EOS401</title>
+<title>choice_EOS401_0_0&#45;&gt;course__EOS401</title>
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M841.21,-73C857.18,-73 877.74,-73 894.84,-73"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="894.93,-75.45 901.93,-73 894.93,-70.55 894.93,-75.45"/>
 </g>

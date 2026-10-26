@@ -63,18 +63,18 @@
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M189.57,-74C208.27,-74 233.86,-74 257.72,-74"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="257.72,-76.45 264.72,-74 257.72,-71.55 257.72,-76.45"/>
 </g>
-<!-- course__STAT254 -->
+<!-- course__STAT255 -->
 <g id="node4" class="node">
-<title>course__STAT254</title>
-<g id="a_node4"><a xlink:href="../../../courses/STAT254.html" xlink:title="Collapsed in simplified view: STAT254: Probability and Statistics for Engineers | STAT255: Statistics for Life Sciences I | STAT260: Introduction to Probability and Statistics I" target="_top">
+<title>course__STAT255</title>
+<g id="a_node4"><a xlink:href="../../../courses/STAT255.html" xlink:title="Collapsed in simplified view: STAT255: Statistics for Life Sciences I | STAT260: Introduction to Probability and Statistics I" target="_top">
 <path fill="#e6dde9" stroke="#1b2730" stroke-width="1.6" d="M192,-36C192,-36 130,-36 130,-36 124,-36 118,-30 118,-24 118,-24 118,-12 118,-12 118,-6 124,0 130,0 130,0 192,0 192,0 198,0 204,-6 204,-12 204,-12 204,-24 204,-24 204,-30 198,-36 192,-36"/>
 <text text-anchor="middle" x="161" y="-15.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">Intro statistics</text>
 </a>
 </g>
 </g>
-<!-- course__STAT254&#45;&gt;course__BIOL370 -->
+<!-- course__STAT255&#45;&gt;course__BIOL370 -->
 <g id="edge4" class="edge">
-<title>course__STAT254&#45;&gt;course__BIOL370</title>
+<title>course__STAT255&#45;&gt;course__BIOL370</title>
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M204.27,-32.57C222.86,-38.97 245.01,-46.61 265.21,-53.57"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="264.56,-55.93 271.98,-55.9 266.16,-51.3 264.56,-55.93"/>
 </g>

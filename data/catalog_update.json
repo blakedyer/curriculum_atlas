@@ -1,0 +1,27 @@
+{
+  "catalog_id": "69bd9d92e76504efd3e57c74",
+  "title": "Fall 2026 catalog update",
+  "previous_snapshot_at_utc": "2026-04-27T16:42:17.003057+00:00",
+  "highlights": [
+    {
+      "title": "Field schools.",
+      "text": "EOS 300, 400 and 401 now share school-permission, summer scheduling, fall application, priority and fee notes. EOS 401 also recognizes BIOL 311 and PHYS 441 as prerequisite alternatives."
+    },
+    {
+      "title": "Physics of Climate.",
+      "text": "EOS 433 has a revised title and description, is cross-listed as PHYS 433, and no longer lists school permission as an alternative to its atmospheric-physics prerequisite or corequisite."
+    },
+    {
+      "title": "Prerequisites and contact hours.",
+      "text": "EOS 450 now requires EOS 201 or GEOG 376. EOS 450 and 460 change from 3-3-0 to 3-0-0 contact hours; EOS 460 requires EOS 335 rather than the former EOS 335/430 choice."
+    },
+    {
+      "title": "Course coverage.",
+      "text": "EOS 451 is absent from the fall catalog. The SEOS snapshot now covers 46 EOS courses, 143 supporting courses and the same 19 programs."
+    },
+    {
+      "title": "Program requirements.",
+      "text": "Climate Science adds first-year math and physics alternatives. The combined physics programs revise upper-year requirements and add PHYS 329. The Ocean Sciences minor adds explicit chemistry, math and physics requirements and expands its elective choices."
+    }
+  ]
+}

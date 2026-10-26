@@ -21,7 +21,7 @@
   "hoursCatalogText": "3-0-0",
   "id": "643f1e8f9d59270bcbea38ca",
   "pid": "BkO90c3M2",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Earn a minimum grade of <span>B+</span> in each of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4ef67a5c324003b0bc6\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Earn a minimum grade of <span>B+</span> in each of the following: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd8f6c75ad7d4ad46fa381\" target=\"_blank\">CSC320</a> <!-- -->-<!-- --> <!-- -->Foundations of Computer Science<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

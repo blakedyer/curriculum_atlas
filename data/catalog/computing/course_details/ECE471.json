@@ -2,7 +2,7 @@
   "__catalogCourseId": "ECE471",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2022-02-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,8 +11,8 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2022-05-03",
-  "description": "<p>Overview of the main concepts and methods in computer vision; geometry and physics of imaging, as related to image formation and image acquisition; low-level methods of image analysis, such as filtering, edge detection, feature detection, and segmentation; methods for extracting and representing three-dimensional scene information; visual pattern recognition; motion analysis and algorithms for video understanding.</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>Overview of the main concepts and methods in computer vision. Geometry and physics of imaging, as related to: image formation; and image acquisition. Low-level methods of image analysis, such as: filtering; edge detection; feature detection; and segmentation. Methods for extracting and representing three-dimensional scene information. Visual pattern recognition. Motion analysis and algorithms for video understanding.</p>",
   "formerlyNotesText": "CENG 421",
   "groupFilter1": {
     "customFields": {},
@@ -20,9 +20,9 @@
     "name": "Department of Electrical and Computer Engineering"
   },
   "hoursCatalogText": "3-1.5-0",
-  "id": "608307e07cc255c2a7fde953",
+  "id": "683499a52d563f1b30bcdfa6",
   "pid": "B1FKl_pXN",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5c4ff2ce19654524003850e9\" target=\"_blank\">ELEC310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/620ed5b415292f49f9a9fa82\" target=\"_blank\">ECE265</a> <!-- -->-<!-- --> <!-- -->Continuous-Time and Discrete-Time Signals and Systems<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf57c04ce072400155f56\" target=\"_blank\">ECE310</a> <!-- -->-<!-- --> <!-- -->Digital Signal Processing I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Electrical and Computer Engineering (ECE)",

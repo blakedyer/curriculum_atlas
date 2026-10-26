@@ -2,7 +2,7 @@
   "__catalogCourseId": "EOS400",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2023-09-01",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,24 +11,24 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2023-09-02",
-  "description": "<p>A field trip of up to two week's duration consisting of a transect of a major geological belt (usually the Canadian Cordillera). The focus varies with location, with the Cordilleran trip focusing on the tectonic interpretation of rock packages; the processes responsible for orogenesis; the role of orogens in the construction, growth, and evolution of continents; and how orogens affect and are affected by climate and the Earth system. </p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>A field trip of up to two week's duration consisting of a transect of a major geological belt (usually the Canadian Cordillera, occasionally internationally). The focus varies with location, with the Cordilleran trip focusing on the tectonic interpretation of rock packages; the processes responsible for orogenesis; the role of orogens in the construction, growth, and evolution of continents; and how orogens affect and are affected by climate and the Earth system.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be3691afed2d200010da13f",
     "name": "School of Earth and Ocean Sciences"
   },
-  "id": "63911c673af2a2f897d1d833",
+  "id": "685319c7072fc5a80ce8355d",
   "pid": "HJgphQu6m4",
-  "preAndCorequisites": "<div><div><div><ul><div><span class=\"rules_groupHeader_37\"></span><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5e5839c07120522500518b65\" target=\"_blank\">EOS300</a> <!-- -->-<!-- --> <!-- -->Earth Science Field School<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6b0689944f24002acff3\" target=\"_blank\">EOS316</a> <!-- -->-<!-- --> <!-- -->Igneous and Metamorphic Geology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></div><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\"><div>permission of the school.</div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A.1\"><div data-test=\"ruleView-A.1-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/685319a74fa5b8a0daa82af9\" target=\"_blank\">EOS300</a> <!-- -->-<!-- --> <!-- -->Earth Science Field School<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5d1f6b0689944f24002acff3\" target=\"_blank\">EOS316</a> <!-- -->-<!-- --> <!-- -->Igneous and Metamorphic Geology<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\"><div>permission of the school.</div></div></li></ul></li></ul></div></div></div>",
   "proForma": "no",
-  "recommendations": "<ul><li> EOS 330 strongly recommended prior to EOS 400.</li></ul>",
+  "recommendations": "",
   "subjectCode": {
     "description": "Earth and Ocean Sciences (EOS)",
     "id": "5c13fb3b42504f2400e645d8",
     "linkedGroup": "5be3691afed2d200010da13f",
     "name": "EOS"
   },
-  "supplementalNotes": "<ul> <li> <p>Normally held in mid-to-late May, after the conclusion of EOS 300. </p> </li> <li> <p>If oversubscribed, priority is given to students registered to Honours or Major program in Earth Sciences, or a Combined Honours or Major program in Earth Sciences in which the course is required, and to students nearest to graduation. </p> </li> </ul>",
+  "supplementalNotes": "<ul> <li>Normally offered in summer session.</li> <li>Permission to register in this course is required by the School. Applications for permission to register are normally due in Fall term for summer field schools.</li> <li>See the School website (<a href=\"http://seos.uvic.ca/\">seos.uvic.ca</a>) or contact the School office (<a href=\"mailto:seos@uvic.ca\">seos@uvic.ca</a>) for application due date and field school dates.</li> <li>If oversubscribed, priority will be given to students declared in a program that requires the course, and to students nearest to graduation.</li> <li>A field school fee applies to this course, in addition to tuition fees.</li> </ul>",
   "title": "Advanced Field Geology"
 }

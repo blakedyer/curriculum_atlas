@@ -2,7 +2,7 @@
   "__catalogCourseId": "CSC230",
   "__passedCatalogQuery": true,
   "_score": 1,
-  "catalogActivationDate": "2019-11-15",
+  "catalogActivationDate": "2026-09-01",
   "credits": {
     "chosen": "fixed",
     "credits": {
@@ -11,17 +11,17 @@
     },
     "value": "1.5"
   },
-  "dateStart": "2020-01-01",
-  "description": "<p>The architecture of computer systems including concepts such as CPU, memory, buses, I/O, cache, instruction sets, interrupt processing, pipelining, performance. Families of processors, CISC, RISC. Memory organization and management (including virtual memory, protection, segmentation and paging). Computer arithmetic. The use of assemblers, linkers and loaders. Assembly language programming and its interface with a high-level language (C).</p>",
+  "dateStart": "2026-09-02",
+  "description": "<p>The architecture of computer systems including concepts such as CPU, memory, buses, I/O, cache, instruction sets and interrupt processing. Families of processors, CISC, RISC. Memory organization and management. Computer arithmetic. Assembly language programming and its interface with a high-level language (C). An introduction to basic networking concepts.</p>",
   "groupFilter1": {
     "customFields": {},
     "id": "5be366a356a15d000126de93",
     "name": "Department of Computer Science"
   },
   "hoursCatalogText": "3-1.5-0",
-  "id": "5cbdf4ec67a5c324003b0bc3",
+  "id": "68af3363ef7b39ac5cd846cb",
   "pid": "HJeY5kOpXN",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf4e567a5c324003b0bb6\" target=\"_blank\">CSC115</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e667a5c324003b0bb9\" target=\"_blank\">CSC116</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/682df82660a8069b9d6a286a\" target=\"_blank\">CSC115</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4e667a5c324003b0bb9\" target=\"_blank\">CSC116</a> <!-- -->-<!-- --> <!-- -->Fundamentals of Programming with Engineering Applications II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Computer Science (CSC)",

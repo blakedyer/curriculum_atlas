@@ -29,7 +29,7 @@
   "id": "5d1f6ddefb68f3240022d101",
   "pid": "r1xamu6m4",
   "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/64dd5c23014e5324314b5789\" target=\"_blank\">PHYS321A</a> <!-- -->-<!-- --> <!-- -->Classical Mechanics I<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/64dd5ee66a7fcb090d2bb536\" target=\"_blank\">PHYS326</a> <!-- -->-<!-- --> <!-- -->Electricity and Magnetism<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
-  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5d1f67c094e82e2400a22f85\" target=\"_blank\">MATH346</a> <!-- -->-<!-- --> <!-- -->Introduction to Partial Differential Equations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preOrCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Completed or concurrently enrolled in all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/691a8dc7d8f8262e45f86a7f\" target=\"_blank\">MATH346</a> <!-- -->-<!-- --> <!-- -->Introduction to Partial Differential Equations<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "subjectCode": {
     "description": "Earth and Ocean Sciences (EOS)",

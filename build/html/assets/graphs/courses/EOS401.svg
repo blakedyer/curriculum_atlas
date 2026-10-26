@@ -606,15 +606,15 @@
 <path fill="none" stroke="#7a8389" d="M829.41,-715.2C852.61,-731.5 886.68,-755.44 911.46,-772.84"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="910.09,-774.87 917.23,-776.89 912.91,-770.87 910.09,-774.87"/>
 </g>
-<!-- choice_EOS401_0_3 -->
+<!-- choice_EOS401_0_0_3 -->
 <g id="node40" class="node">
-<title>choice_EOS401_0_3</title>
+<title>choice_EOS401_0_0_3</title>
 <path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M1472,-701C1472,-701 1442,-701 1442,-701 1436,-701 1430,-695 1430,-689 1430,-689 1430,-677 1430,-677 1430,-671 1436,-665 1442,-665 1442,-665 1472,-665 1472,-665 1478,-665 1484,-671 1484,-677 1484,-677 1484,-689 1484,-689 1484,-695 1478,-701 1472,-701"/>
 <text text-anchor="middle" x="1457" y="-680.8" font-family="Avenir Next" font-size="9.00">1 of</text>
 </g>
-<!-- course__EOS314&#45;&gt;choice_EOS401_0_3 -->
+<!-- course__EOS314&#45;&gt;choice_EOS401_0_0_3 -->
 <g id="edge56" class="edge">
-<title>course__EOS314&#45;&gt;choice_EOS401_0_3</title>
+<title>course__EOS314&#45;&gt;choice_EOS401_0_0_3</title>
 <path fill="none" stroke="#7a8389" d="M829.72,-703.02C875.68,-713.02 973.93,-732 1058,-732 1058,-732 1058,-732 1175,-732 1261.73,-732 1284.17,-729.04 1369,-711 1387.2,-707.13 1406.98,-700.93 1423.07,-695.35"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="1423.94,-697.64 1429.73,-693 1422.31,-693.02 1423.94,-697.64"/>
 </g>
@@ -681,33 +681,33 @@
 <path fill="none" stroke="#7a8389" d="M1350.98,-664.96C1373.16,-653.35 1401.79,-638.37 1423.56,-626.98"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="1424.72,-629.13 1429.79,-623.72 1422.45,-624.79 1424.72,-629.13"/>
 </g>
-<!-- course__EOS431&#45;&gt;choice_EOS401_0_3 -->
+<!-- course__EOS431&#45;&gt;choice_EOS401_0_0_3 -->
 <g id="edge57" class="edge">
-<title>course__EOS431&#45;&gt;choice_EOS401_0_3</title>
+<title>course__EOS431&#45;&gt;choice_EOS401_0_0_3</title>
 <path fill="none" stroke="#7a8389" d="M1369.24,-683C1387.17,-683 1406.7,-683 1422.68,-683"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="1422.76,-685.45 1429.76,-683 1422.76,-680.55 1422.76,-685.45"/>
 </g>
-<!-- choice_EOS401_0 -->
+<!-- choice_EOS401_0_0 -->
 <g id="node41" class="node">
-<title>choice_EOS401_0</title>
+<title>choice_EOS401_0_0</title>
 <path fill="#fff7ee" stroke="#b7793f" stroke-width="1.1" d="M1752,-214C1752,-214 1722,-214 1722,-214 1716,-214 1710,-208 1710,-202 1710,-202 1710,-190 1710,-190 1710,-184 1716,-178 1722,-178 1722,-178 1752,-178 1752,-178 1758,-178 1764,-184 1764,-190 1764,-190 1764,-202 1764,-202 1764,-208 1758,-214 1752,-214"/>
 <text text-anchor="middle" x="1737" y="-193.8" font-family="Avenir Next" font-size="9.00">3 of</text>
 </g>
-<!-- course__EOS311&#45;&gt;choice_EOS401_0 -->
+<!-- course__EOS311&#45;&gt;choice_EOS401_0_0 -->
 <g id="edge58" class="edge">
-<title>course__EOS311&#45;&gt;choice_EOS401_0</title>
+<title>course__EOS311&#45;&gt;choice_EOS401_0_0</title>
 <path fill="none" stroke="#7a8389" d="M1649.39,-178.43C1667.2,-182.04 1686.68,-185.99 1702.66,-189.23"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="1702.38,-191.68 1709.73,-190.67 1703.36,-186.88 1702.38,-191.68"/>
 </g>
-<!-- course__EOS312&#45;&gt;choice_EOS401_0 -->
+<!-- course__EOS312&#45;&gt;choice_EOS401_0_0 -->
 <g id="edge59" class="edge">
-<title>course__EOS312&#45;&gt;choice_EOS401_0</title>
+<title>course__EOS312&#45;&gt;choice_EOS401_0_0</title>
 <path fill="none" stroke="#7a8389" d="M1624.28,-230C1646.63,-223.2 1678.84,-213.4 1702.93,-206.06"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="1703.83,-208.35 1709.82,-203.97 1702.41,-203.66 1703.83,-208.35"/>
 </g>
-<!-- course__EOS313&#45;&gt;choice_EOS401_0 -->
+<!-- course__EOS313&#45;&gt;choice_EOS401_0_0 -->
 <g id="edge60" class="edge">
-<title>course__EOS313&#45;&gt;choice_EOS401_0</title>
+<title>course__EOS313&#45;&gt;choice_EOS401_0_0</title>
 <path fill="none" stroke="#7a8389" d="M1617.48,-85.21C1642.14,-108.26 1684.63,-147.98 1711.47,-173.07"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="1709.83,-174.89 1716.62,-177.88 1713.18,-171.31 1709.83,-174.89"/>
 </g>
@@ -793,15 +793,15 @@
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M971.21,-795C987.18,-795 1007.74,-795 1024.84,-795"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="1024.93,-797.45 1031.93,-795 1024.93,-792.55 1024.93,-797.45"/>
 </g>
-<!-- choice_EOS401_0_3&#45;&gt;choice_EOS401_0 -->
+<!-- choice_EOS401_0_0_3&#45;&gt;choice_EOS401_0_0 -->
 <g id="edge61" class="edge">
-<title>choice_EOS401_0_3&#45;&gt;choice_EOS401_0</title>
+<title>choice_EOS401_0_0_3&#45;&gt;choice_EOS401_0_0</title>
 <path fill="none" stroke="#7a8389" d="M1468.65,-664.62C1473.36,-656.47 1478.97,-646.76 1484,-638 1575.18,-479.13 1684,-287.6 1722.05,-220.58"/>
 <polygon fill="#7a8389" stroke="#7a8389" points="1724.39,-221.42 1725.72,-214.13 1720.13,-219 1724.39,-221.42"/>
 </g>
-<!-- choice_EOS401_0&#45;&gt;course__EOS401 -->
+<!-- choice_EOS401_0_0&#45;&gt;course__EOS401 -->
 <g id="edge62" class="edge">
-<title>choice_EOS401_0&#45;&gt;course__EOS401</title>
+<title>choice_EOS401_0_0&#45;&gt;course__EOS401</title>
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M1764.31,-196C1779.03,-196 1798.28,-196 1817.62,-196"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="1817.74,-198.45 1824.74,-196 1817.74,-193.55 1817.74,-198.45"/>
 </g>

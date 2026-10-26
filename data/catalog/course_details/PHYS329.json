@@ -1,0 +1,33 @@
+{
+  "__catalogCourseId": "PHYS329",
+  "__passedCatalogQuery": true,
+  "_score": 1,
+  "catalogActivationDate": "2025-09-01",
+  "credits": {
+    "chosen": "fixed",
+    "credits": {
+      "max": "1.5",
+      "min": "1.5"
+    },
+    "value": "1.5"
+  },
+  "dateStart": "2025-09-02",
+  "description": "<p>Principals and techniques of experiment design and measurement, systematic and statistical uncertainties, data acquisition and analysis. Modelling, parameter estimation and hypothesis testing. Troubleshooting, repair, calibration and maintenance of apparatus. Experiments illustrate important techniques across the discipline.</p>",
+  "groupFilter1": {
+    "customFields": {},
+    "id": "5bbfc6626d73970001701e45",
+    "name": "Department of Physics and Astronomy"
+  },
+  "hoursCatalogText": "1-5-0",
+  "id": "672d35778238482da9b40354",
+  "pid": "SJuA5dkii",
+  "preAndCorequisites": "<div><div><div><ul><li><span>Complete <!-- -->all<!-- --> of the following</span><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5c4ffe8536d45224006d156a\" target=\"_blank\">PHYS229</a> <!-- -->-<!-- --> <!-- -->Introduction to Experimental Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li><li data-test=\"ruleView-B\"><div data-test=\"ruleView-B-result\">Complete <span>1</span> of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/696569beffe169fcb10ede75\" target=\"_blank\">PHYS248</a> <!-- -->-<!-- --> <!-- -->Computer Assisted Physics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/682cb258e9b854a010694f7a\" target=\"_blank\">CSC226</a> <!-- -->-<!-- --> <!-- -->Algorithms and Data Structures II<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/5cbdf4f167a5c324003b0bcd\" target=\"_blank\">CSC349A</a> <!-- -->-<!-- --> <!-- -->Numerical Analysis<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li><li><span><a href=\"#/courses/view/62ba27622434d348954acfef\" target=\"_blank\">MATH248</a> <!-- -->-<!-- --> <!-- -->Computer Assisted Mathematics<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></li></ul></div></div></div>",
+  "proForma": "no",
+  "subjectCode": {
+    "description": "Physics (PHYS)",
+    "id": "5bbfc647a6762c2e00837c2a",
+    "linkedGroup": "5bbfc6626d73970001701e45",
+    "name": "PHYS"
+  },
+  "title": "Intermediate Physics Laboratory"
+}

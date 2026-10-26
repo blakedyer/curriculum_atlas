@@ -27,7 +27,7 @@
 </g>
 </g>
 <!-- course__PHYS102A&#45;&gt;course__PHYS102B -->
-<g id="edge7" class="edge">
+<g id="edge6" class="edge">
 <title>course__PHYS102A&#45;&gt;course__PHYS102B</title>
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M59.04,-214C82.35,-214 115.5,-214 140.97,-214"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="141.27,-216.45 148.27,-214 141.27,-211.55 141.27,-216.45"/>
@@ -108,63 +108,63 @@
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M418.4,-148.24C451.04,-168.49 503.53,-201.07 537.27,-222"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="536.1,-224.16 543.34,-225.77 538.68,-219.99 536.1,-224.16"/>
 </g>
-<!-- course__MATH348 -->
-<g id="node8" class="node">
-<title>course__MATH348</title>
-<g id="a_node8"><a xlink:href="../../../courses/MATH348.html" xlink:title="MATH348: Numerical Methods" target="_top">
-<path fill="#dfe3f4" stroke="#1b2730" stroke-width="1.6" d="M590,-204C590,-204 551,-204 551,-204 545,-204 539,-198 539,-192 539,-192 539,-180 539,-180 539,-174 545,-168 551,-168 551,-168 590,-168 590,-168 596,-168 602,-174 602,-180 602,-180 602,-192 602,-192 602,-198 596,-204 590,-204"/>
-<text text-anchor="middle" x="570.5" y="-183.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">MATH348</text>
-</a>
-</g>
-</g>
-<!-- course__MATH248&#45;&gt;course__MATH348 -->
-<g id="edge6" class="edge">
-<title>course__MATH248&#45;&gt;course__MATH348</title>
-<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M447.1,-148.03C474.99,-156.68 507.58,-166.79 532.12,-174.4"/>
-<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="531.41,-176.75 538.82,-176.48 532.86,-172.07 531.41,-176.75"/>
-</g>
 <!-- course__PHYS321A -->
-<g id="node9" class="node">
+<g id="node8" class="node">
 <title>course__PHYS321A</title>
-<g id="a_node9"><a xlink:href="../../../courses/PHYS321A.html" xlink:title="PHYS321A: Classical Mechanics I" target="_top">
-<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M592,-148C592,-148 549,-148 549,-148 543,-148 537,-142 537,-136 537,-136 537,-124 537,-124 537,-118 543,-112 549,-112 549,-112 592,-112 592,-112 598,-112 604,-118 604,-124 604,-124 604,-136 604,-136 604,-142 598,-148 592,-148"/>
-<text text-anchor="middle" x="570.5" y="-127.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS321A</text>
+<g id="a_node8"><a xlink:href="../../../courses/PHYS321A.html" xlink:title="PHYS321A: Classical Mechanics I" target="_top">
+<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M592,-204C592,-204 549,-204 549,-204 543,-204 537,-198 537,-192 537,-192 537,-180 537,-180 537,-174 543,-168 549,-168 549,-168 592,-168 592,-168 598,-168 604,-174 604,-180 604,-180 604,-192 604,-192 604,-198 598,-204 592,-204"/>
+<text text-anchor="middle" x="570.5" y="-183.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS321A</text>
 </a>
 </g>
 </g>
 <!-- course__MATH248&#45;&gt;course__PHYS321A -->
-<g id="edge8" class="edge">
+<g id="edge7" class="edge">
 <title>course__MATH248&#45;&gt;course__PHYS321A</title>
-<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M476.08,-130C494.84,-130 513.79,-130 529.67,-130"/>
-<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="529.73,-132.45 536.73,-130 529.73,-127.55 529.73,-132.45"/>
+<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M447.1,-148.03C474.12,-156.41 505.55,-166.16 529.8,-173.68"/>
+<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="529.35,-176.11 536.76,-175.84 530.8,-171.43 529.35,-176.11"/>
 </g>
 <!-- course__PHYS323 -->
-<g id="node10" class="node">
+<g id="node9" class="node">
 <title>course__PHYS323</title>
-<g id="a_node10"><a xlink:href="../../../courses/PHYS323.html" xlink:title="PHYS323: Quantum Mechanics I" target="_top">
-<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M588.5,-92C588.5,-92 552.5,-92 552.5,-92 546.5,-92 540.5,-86 540.5,-80 540.5,-80 540.5,-68 540.5,-68 540.5,-62 546.5,-56 552.5,-56 552.5,-56 588.5,-56 588.5,-56 594.5,-56 600.5,-62 600.5,-68 600.5,-68 600.5,-80 600.5,-80 600.5,-86 594.5,-92 588.5,-92"/>
-<text text-anchor="middle" x="570.5" y="-71.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS323</text>
+<g id="a_node9"><a xlink:href="../../../courses/PHYS323.html" xlink:title="PHYS323: Quantum Mechanics I" target="_top">
+<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M588.5,-148C588.5,-148 552.5,-148 552.5,-148 546.5,-148 540.5,-142 540.5,-136 540.5,-136 540.5,-124 540.5,-124 540.5,-118 546.5,-112 552.5,-112 552.5,-112 588.5,-112 588.5,-112 594.5,-112 600.5,-118 600.5,-124 600.5,-124 600.5,-136 600.5,-136 600.5,-142 594.5,-148 588.5,-148"/>
+<text text-anchor="middle" x="570.5" y="-127.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS323</text>
 </a>
 </g>
 </g>
 <!-- course__MATH248&#45;&gt;course__PHYS323 -->
-<g id="edge9" class="edge">
+<g id="edge8" class="edge">
 <title>course__MATH248&#45;&gt;course__PHYS323</title>
-<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M447.1,-111.97C475.55,-103.15 508.9,-92.8 533.6,-85.14"/>
-<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="534.37,-87.47 540.33,-83.05 532.92,-82.79 534.37,-87.47"/>
+<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M476.08,-130C496.09,-130 516.31,-130 532.8,-130"/>
+<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="533.1,-132.45 540.1,-130 533.1,-127.55 533.1,-132.45"/>
 </g>
 <!-- course__PHYS326 -->
-<g id="node11" class="node">
+<g id="node10" class="node">
 <title>course__PHYS326</title>
-<g id="a_node11"><a xlink:href="../../../courses/PHYS326.html" xlink:title="PHYS326: Electricity and Magnetism" target="_top">
-<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M588.5,-36C588.5,-36 552.5,-36 552.5,-36 546.5,-36 540.5,-30 540.5,-24 540.5,-24 540.5,-12 540.5,-12 540.5,-6 546.5,0 552.5,0 552.5,0 588.5,0 588.5,0 594.5,0 600.5,-6 600.5,-12 600.5,-12 600.5,-24 600.5,-24 600.5,-30 594.5,-36 588.5,-36"/>
-<text text-anchor="middle" x="570.5" y="-15.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS326</text>
+<g id="a_node10"><a xlink:href="../../../courses/PHYS326.html" xlink:title="PHYS326: Electricity and Magnetism" target="_top">
+<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M588.5,-92C588.5,-92 552.5,-92 552.5,-92 546.5,-92 540.5,-86 540.5,-80 540.5,-80 540.5,-68 540.5,-68 540.5,-62 546.5,-56 552.5,-56 552.5,-56 588.5,-56 588.5,-56 594.5,-56 600.5,-62 600.5,-68 600.5,-68 600.5,-80 600.5,-80 600.5,-86 594.5,-92 588.5,-92"/>
+<text text-anchor="middle" x="570.5" y="-71.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS326</text>
 </a>
 </g>
 </g>
 <!-- course__MATH248&#45;&gt;course__PHYS326 -->
-<g id="edge10" class="edge">
+<g id="edge9" class="edge">
 <title>course__MATH248&#45;&gt;course__PHYS326</title>
+<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M447.1,-111.97C475.55,-103.15 508.9,-92.8 533.6,-85.14"/>
+<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="534.37,-87.47 540.33,-83.05 532.92,-82.79 534.37,-87.47"/>
+</g>
+<!-- course__PHYS329 -->
+<g id="node11" class="node">
+<title>course__PHYS329</title>
+<g id="a_node11"><a xlink:href="../../../courses/PHYS329.html" xlink:title="PHYS329: Intermediate Physics Laboratory" target="_top">
+<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M588.5,-36C588.5,-36 552.5,-36 552.5,-36 546.5,-36 540.5,-30 540.5,-24 540.5,-24 540.5,-12 540.5,-12 540.5,-6 546.5,0 552.5,0 552.5,0 588.5,0 588.5,0 594.5,0 600.5,-6 600.5,-12 600.5,-12 600.5,-24 600.5,-24 600.5,-30 594.5,-36 588.5,-36"/>
+<text text-anchor="middle" x="570.5" y="-15.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS329</text>
+</a>
+</g>
+</g>
+<!-- course__MATH248&#45;&gt;course__PHYS329 -->
+<g id="edge10" class="edge">
+<title>course__MATH248&#45;&gt;course__PHYS329</title>
 <path fill="none" stroke="#5d6972" stroke-width="1.2" d="M418.4,-111.76C450.09,-92.09 500.53,-60.8 534.3,-39.84"/>
 <polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="535.75,-41.82 540.41,-36.05 533.17,-37.66 535.75,-41.82"/>
 </g>
@@ -172,16 +172,16 @@
 <g id="node12" class="node">
 <title>course__PHYS426</title>
 <g id="a_node12"><a xlink:href="../../../courses/PHYS426.html" xlink:title="PHYS426: Fluid Mechanics" target="_top">
-<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M713,-148C713,-148 677,-148 677,-148 671,-148 665,-142 665,-136 665,-136 665,-124 665,-124 665,-118 671,-112 677,-112 677,-112 713,-112 713,-112 719,-112 725,-118 725,-124 725,-124 725,-136 725,-136 725,-142 719,-148 713,-148"/>
-<text text-anchor="middle" x="695" y="-127.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS426</text>
+<path fill="#efd8cf" stroke="#1b2730" stroke-width="1.6" d="M713,-204C713,-204 677,-204 677,-204 671,-204 665,-198 665,-192 665,-192 665,-180 665,-180 665,-174 671,-168 677,-168 677,-168 713,-168 713,-168 719,-168 725,-174 725,-180 725,-180 725,-192 725,-192 725,-198 719,-204 713,-204"/>
+<text text-anchor="middle" x="695" y="-183.5" font-family="Avenir Next" font-size="10.00" fill="#17232b">PHYS426</text>
 </a>
 </g>
 </g>
 <!-- course__PHYS321A&#45;&gt;course__PHYS426 -->
 <g id="edge11" class="edge">
 <title>course__PHYS321A&#45;&gt;course__PHYS426</title>
-<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M604.01,-130C620.5,-130 640.6,-130 657.61,-130"/>
-<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="657.7,-132.45 664.7,-130 657.7,-127.55 657.7,-132.45"/>
+<path fill="none" stroke="#5d6972" stroke-width="1.2" d="M604.01,-186C620.5,-186 640.6,-186 657.61,-186"/>
+<polygon fill="#5d6972" stroke="#5d6972" stroke-width="1.2" points="657.7,-188.45 664.7,-186 657.7,-183.55 657.7,-188.45"/>
 </g>
 </g>
 </svg>

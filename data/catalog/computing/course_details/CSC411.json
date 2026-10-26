@@ -29,7 +29,7 @@
   "hoursCatalogText": "3-0-0",
   "id": "5f6a4e862b2fb60026ca7d1b",
   "pid": "SJCKCpvSv",
-  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/5cbdf65656bbef2400c2f0e6\" target=\"_blank\">SENG310</a> <!-- -->-<!-- --> <!-- -->Human Computer Interaction<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
+  "preAndCorequisites": "<div><div><div><ul><li data-test=\"ruleView-A\"><div data-test=\"ruleView-A-result\">Complete all of: <div><ul style=\"margin-top:5px;margin-bottom:5px\"><li><span><a href=\"#/courses/view/67fd9086e1e19f3026bf3d2a\" target=\"_blank\">SENG310</a> <!-- -->-<!-- --> <!-- -->Human Computer Interaction<!-- --> <span style=\"margin-left:5px\">(1.5)</span></span></li></ul></div></div></li></ul></div></div></div>",
   "proForma": "no",
   "repeatableCatalogText": "",
   "subjectCode": {

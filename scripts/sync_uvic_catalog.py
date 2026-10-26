@@ -175,6 +175,15 @@ def write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
 
 
+def write_detail_snapshot(directory: Path, details: dict[str, dict]) -> None:
+    """Replace a complete, successfully fetched detail set, removing stale records."""
+    for code, detail in details.items():
+        write_json(directory / f"{code}.json", detail)
+    for path in directory.glob("*.json"):
+        if path.stem not in details:
+            path.unlink()
+
+
 def write_csv(path: Path, rows: Iterable[Iterable[str]], header: Iterable[str]) -> None:
     with path.open("w", newline="") as handle:
         writer = csv.writer(handle)
@@ -338,10 +347,8 @@ def main() -> None:
     write_json(catalog_root / "support_course_manifest.json", build_course_manifest(support_course_summaries))
     write_json(catalog_root / "referenced_course_codes.json", sorted(referenced_course_codes))
 
-    for code, detail in program_details.items():
-        write_json(program_detail_root / f"{code}.json", detail)
-    for code, detail in {**eos_course_details, **support_course_details}.items():
-        write_json(course_detail_root / f"{code}.json", detail)
+    write_detail_snapshot(program_detail_root, program_details)
+    write_detail_snapshot(course_detail_root, {**eos_course_details, **support_course_details})
 
     write_csv(
         data_root / "eos_program_list.csv",
