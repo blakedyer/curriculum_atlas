@@ -3388,27 +3388,6 @@ def render_subject_pill(code: str) -> str:
     )
 
 
-def render_theme_swatch(token: str) -> str:
-    return f'<span class="theme-swatch" style="--theme-color: {e(theme_color(token))}"></span>'
-
-
-def render_theme_pill(token: str) -> str:
-    return (
-        f'<span class="theme-pill" style="--theme-color: {e(theme_color(token))}">'
-        f"{render_theme_swatch(token)}{e(theme_label(token))}</span>"
-    )
-
-
-def render_theme_filter_button(label: str, *, group: str, value: str, active: bool = False) -> str:
-    class_name = "filter-chip filter-chip--theme is-active" if active else "filter-chip filter-chip--theme"
-    pressed = "true" if active else "false"
-    swatch = "" if value == "all" else render_theme_swatch(value)
-    return (
-        f'<button class="{class_name}" type="button" data-filter-group="{e(group)}" '
-        f'data-filter-value="{e(value)}" aria-pressed="{pressed}">{swatch}<span>{e(label)}</span></button>'
-    )
-
-
 def render_course_chip(code: str, prefix: str, courses: dict[str, CourseRecord]) -> str:
     title = courses.get(code).name if code in courses else "Not found in the last UVic calendar sync"
     href = course_page_href(prefix, code, courses)
@@ -4197,29 +4176,15 @@ def write_computing_graph(
 
 
 def render_nav(base: str, active: str) -> str:
-    local_items = [
-        ("Overview", f"{base}index.html", "home"),
-        ("Programs", f"{base}programs/overview.html", "programs"),
-        ("Courses", f"{base}courses/overview.html", "courses"),
-        ("Workflow", f"{base}curriculum_workflow.html", "workflow"),
-    ]
-    ecosystem_items = [
-        ("Earth History Research", RESEARCH_SITE_URL),
-        ("Curriculum Work", CURRICULUM_SITE_URL),
-        ("Teaching", TEACHING_SITE_URL),
-    ]
-    links = []
-    links.append('<span class="site-nav__label">This site</span>')
-    for label, href, key in local_items:
-        is_active = key == active
-        class_attr = ' class="is-active"' if is_active else ""
-        current = ' aria-current="page"' if is_active else ""
-        links.append(f"<a{class_attr} href=\"{href}\"{current}>{e(label)}</a>")
-    links.append('<span class="nav-divider" aria-hidden="true">|</span>')
-    links.append('<span class="site-nav__label">Other sites</span>')
-    for label, href in ecosystem_items:
-        links.append(f'<a href="{href}" target="_blank" rel="noopener">{e(label)}</a>')
-    return "".join(links)
+    return "".join(
+        f'<a class="{"is-active" if key == active else ""}"'
+        + (' aria-current="page"' if key == active else '')
+        + f' href="{base}{path}">{label}</a>'
+        for label, path, key in [
+            ("Programs", "programs/overview.html", "programs"),
+            ("Courses", "courses/overview.html", "courses"),
+        ]
+    )
 
 
 def program_hero_image(base: str, program: ProgramRecord) -> str:
@@ -4237,7 +4202,6 @@ def render_layout(
     active_site: str,
     title: str,
     description: str,
-    eyebrow: str,
     hero_title: str,
     hero_lede: str,
     hero_actions: str,
@@ -4260,6 +4224,7 @@ def render_layout(
   <script defer src="{base}program-guide.js"></script>
 </head>
 <body{body_class_attr}>
+  <a class="skip-link" href="#content">Skip to content</a>
   <header class="site-header">
     <div class="nav-shell">
       <a class="site-mark" href="{base}index.html">{e(SITE_NAME)}</a>
@@ -4269,12 +4234,11 @@ def render_layout(
     </div>
   </header>
 
-  <main class="page-shell">
+  <main class="page-shell" id="content">
     <section class="{hero_class}"{hero_style}>
       <div class="hero__content">
-        <p class="hero__eyebrow">{e(eyebrow)}</p>
         <h1 class="hero__title hero__title--wide">{e(hero_title)}</h1>
-        <p class="hero__lede">{e(hero_lede)}</p>
+        {f'<p class="hero__lede">{e(hero_lede)}</p>' if hero_lede else ''}
         {hero_actions}
       </div>
     </section>
@@ -4284,13 +4248,10 @@ def render_layout(
   <footer>
     <div class="footer-shell">
       <div>
-        <p class="footer-brand">{e(SITE_NAME)}</p>
-        <p class="footer-copy">Static curriculum maps generated from current UVic undergraduate calendar data. Pages and graphs are rebuilt together so the published site stays aligned with the catalog snapshot.</p>
+        <p class="footer-copy">UVic calendar · Synced {e(format_date_label(read_json(DATA_DIR / 'manifest.json')['generated_at_utc']))}</p>
       </div>
       <div class="footer-links">
-        <a href="{base}programs/overview.html">Programs</a>
-        <a href="{base}courses/overview.html">Courses</a>
-        <a href="{base}curriculum_workflow.html">Workflow</a>
+        <a href="{base}curriculum_workflow.html">Update workflow</a>
         <a href="{RESEARCH_SITE_URL}" target="_blank" rel="noopener">Earth History Research</a>
         <a href="{TEACHING_SITE_URL}" target="_blank" rel="noopener">Teaching</a>
         <a href="{CURRICULUM_SITE_URL}" target="_blank" rel="noopener">Curriculum work</a>
@@ -4300,15 +4261,6 @@ def render_layout(
 </body>
 </html>
 """
-
-
-def render_metric_card(value: str, label: str) -> str:
-    return (
-        '<article class="metric-card">'
-        f'<p class="metric-card__value">{value}</p>'
-        f'<p class="metric-card__label">{e(label)}</p>'
-        "</article>"
-    )
 
 
 def render_filter_search(
@@ -4340,14 +4292,14 @@ def render_filter_search(
     )
 
 
-def render_filter_disclosure(title: str, body: str, *, open: bool = False) -> str:
-    open_attr = " open" if open else ""
-    return (
-        f'<details class="filter-disclosure"{open_attr}>'
-        f'<summary>{e(title)}</summary>'
-        f'{body}'
-        "</details>"
-    )
+def render_filter_select(label: str, group: str, options: list[tuple[str, str]]) -> str:
+    choices = "".join(f'<option value="{e(value)}">{e(text)}</option>' for value, text in options)
+    return f'<label class="filter-select"><span>{e(label)}</span><select data-filter-select="{e(group)}">{choices}</select></label>'
+
+
+def render_disclosure(title: str, body: str, *, anchor: str = "") -> str:
+    id_attr = f' id="{e(anchor)}"' if anchor else ""
+    return f'<details class="detail-disclosure"{id_attr}><summary>{e(title)}</summary><div class="detail-disclosure__body">{body}</div></details>'
 
 
 def render_graph_key_item(title: str, body: str, sample: str) -> str:
@@ -4476,54 +4428,8 @@ def render_graph_overlay_legend_body(legend: dict | None) -> str:
     return f'<div class="graph-overlay-legend__list">{items_html}</div>'
 
 
-def render_graph_guide(
-    *,
-    summary: str,
-    preview_samples: list[tuple[str, str]] | None,
-    legend_html: str,
-    graph_key_html: str,
-    preview_html: str | None = None,
-    title: str = "Graph key and legend",
-) -> str:
-    if preview_html is not None:
-        preview = preview_html
-    else:
-        preview = "".join(render_graph_key_sample(label, modifier) for label, modifier in (preview_samples or []))
-    legend_block = f'<div class="legend">{legend_html}</div>' if legend_html else ""
-    return f"""
-    <details class="graph-guide">
-      <summary class="graph-guide__summary">
-        <span class="graph-guide__summary-copy">
-          <span class="graph-guide__title">{e(title)}</span>
-          <span class="graph-guide__caption">{e(summary)}</span>
-        </span>
-        <span class="graph-guide__preview">{preview}</span>
-      </summary>
-      <div class="graph-guide__body">
-        {legend_block}
-        {graph_key_html}
-      </div>
-    </details>
-    """
-
-
-def render_graph_preview(
-    *,
-    title: str,
-    summary: str,
-    preview_html: str,
-) -> str:
-    return f"""
-    <div class="graph-guide graph-guide--static">
-      <div class="graph-guide__summary">
-        <span class="graph-guide__summary-copy">
-          <span class="graph-guide__title">{e(title)}</span>
-          <span class="graph-guide__caption">{e(summary)}</span>
-        </span>
-        <span class="graph-guide__preview">{preview_html}</span>
-      </div>
-    </div>
-    """
+def render_graph_guide(*, legend_html: str, graph_key_html: str) -> str:
+    return f'<div class="legend">{legend_html}</div>{graph_key_html}'
 
 
 def render_additional_requirements(note_lines: list[str], *, title: str) -> str:
@@ -4532,7 +4438,7 @@ def render_additional_requirements(note_lines: list[str], *, title: str) -> str:
     items = "".join(f"<li>{e(line)}</li>" for line in note_lines)
     return f"""
     <div class="graph-followup">
-      <p class="detail-card__eyebrow">{e(title)}</p>
+      <h3>{e(title)}</h3>
       <ul class="graph-followup__list">{items}</ul>
     </div>
     """
@@ -4623,7 +4529,6 @@ def render_program_graph_analytics(analytics: dict) -> str:
 def render_graph_shell(
     *,
     shell_id: str,
-    section_kicker: str,
     heading: str,
     note: str,
     default_svg: str,
@@ -4662,13 +4567,10 @@ def render_graph_shell(
     <div class="graph-shell" id="{e(shell_id)}" data-graph-switcher>
       <div class="graph-shell__head">
         <div>
-          <p class="section-kicker">{e(section_kicker)}</p>
           <h2>{e(heading)}</h2>
-          <p class="graph-note">{e(note)}</p>
         </div>
         <a class="text-link graph-open-link" data-graph-link href="{default_svg}">Open SVG</a>
       </div>
-      {guide_html}
       <div class="graph-frame">
         {overlay_legend_html}
         <div class="graph-frame__left-rail">
@@ -4686,13 +4588,16 @@ def render_graph_shell(
         </div>
         <div class="graph-frame__right-rail">
           <details class="graph-control-dock">
-            <summary class="graph-overlay-summary">Overlays</summary>
+            <summary class="graph-overlay-summary">View</summary>
             <div class="graph-control-dock__body">
               <div class="graph-control-dock__group">
-                <p class="detail-card__eyebrow">View</p>
                 <div class="segmented-control" role="group" aria-label="{e(heading)} graph mode">
                   {"".join(toolbar_buttons)}
                 </div>
+              </div>
+              <div class="segmented-control" role="group" aria-label="Graph zoom">
+                <button class="toggle-button" type="button" data-graph-zoom="in">Zoom in</button>
+                <button class="toggle-button" type="button" data-graph-zoom="out">Zoom out</button>
               </div>
               {analytics_html}
             </div>
@@ -4710,6 +4615,7 @@ def render_graph_shell(
         </div>
       </div>
       {footer_html}
+      {render_disclosure("About this graph", f'<p class="graph-note">{e(note)}</p>{guide_html}')}
     </div>
     """
 
@@ -4794,19 +4700,9 @@ def render_computing_secret_page(courses: dict[str, CourseRecord], manifest: dic
         key=lambda item: course_sort_key(item.code),
     )
     manifest_rows = read_computing_manifest_rows()
-    prerequisite_only_count = int(manifest.get("counts", {}).get("prerequisite_only_courses", 0))
-    total_edges = int(manifest.get("counts", {}).get("direct_prerequisite_edges", 0))
     generated_at = format_date_label(manifest["generated_at_utc"])
     source = manifest.get("source", {})
 
-    metric_cards = "".join(
-        [
-            render_metric_card(str(len(seed_courses)), "Computing courses in the manifest"),
-            render_metric_card(str(prerequisite_only_count), "Prerequisite-only courses pulled recursively"),
-            render_metric_card(str(total_edges), "Direct prerequisite links in scope"),
-            render_metric_card(e(generated_at), "Last UVic calendar sync"),
-        ]
-    )
     role_legend = "".join(
         [
             '<span class="legend-item"><span class="legend-swatch" style="--swatch-color: #dce9ec; --swatch-border: #1f4f66"></span>Computing course</span>',
@@ -4815,11 +4711,8 @@ def render_computing_secret_page(courses: dict[str, CourseRecord], manifest: dic
     )
     subject_legend = render_subject_legend([course.code for course in courses.values()])
     guide_html = render_graph_guide(
-        summary="Expand for role colours, department colours, choice nodes, and merged-course labels.",
-        preview_samples=[("CSC225", "focus"), ("MATH100", "named"), ("1 of", "choice"), ("", "junction")],
         legend_html=role_legend + subject_legend,
         graph_key_html=render_computing_graph_key(),
-        title="Graph key and legend",
     )
     overlay_legend = graph_overlay_legend_data(
         title="Computing graph roles",
@@ -4831,8 +4724,8 @@ def render_computing_secret_page(courses: dict[str, CourseRecord], manifest: dic
     )
     graph_html = render_graph_shell(
         shell_id="computing-graph",
-        section_kicker="Secret Graph",
-        heading="Computing courses and their prerequisite closure.",
+
+        heading="Computing prerequisites",
         note="The graph starts with Science and Engineering calendar courses that look computing-related, then recursively follows every published prerequisite. Co-requisites are treated as prerequisite links.",
         default_svg="assets/graphs/computing/computing-courses--simplified.svg",
         aria_label="Computing course prerequisite graph",
@@ -4861,26 +4754,17 @@ def render_computing_secret_page(courses: dict[str, CourseRecord], manifest: dic
 
     content = f"""
     <section class="section section--tight">
-      <div class="metric-grid">{metric_cards}</div>
-    </section>
-
-    <section class="section section--tight">
       {graph_html}
     </section>
 
     <section class="section section--program-overview">
-      <div class="section-heading section-heading--compact">
-        <p class="section-kicker">Computing Manifest</p>
-        <h2>Seed courses pulled from Science and Engineering.</h2>
-        <p>The table lists only the courses selected as computing-related. The graph also includes prerequisite-only courses reached from those seeds.</p>
-      </div>
+      <details class="detail-disclosure"><summary>Browse {len(seed_courses)} computing courses</summary><div class="detail-disclosure__body">
       <div class="filter-panel filter-panel--compact" data-card-filter>
         {render_filter_search("Search manifest", "Course code, title, department, or match reason", autocomplete_id="computing-course-options", autocomplete_options=search_options)}
         <div class="filter-panel__status">
           <span data-filter-count>{len(seed_courses)} courses</span>
-          <button class="filter-clear" type="button" data-filter-clear>Clear filters</button>
+          <button class="filter-clear" type="button" data-filter-clear hidden>Clear filters</button>
         </div>
-        <p class="filter-panel__note">{e(source.get("scope_rule", ""))}</p>
       </div>
       <div class="table-shell">
         <table class="program-overview-table">
@@ -4898,15 +4782,11 @@ def render_computing_secret_page(courses: dict[str, CourseRecord], manifest: dic
         </table>
       </div>
       <p class="empty-state empty-state--filtered is-hidden" data-filter-empty>No computing courses match the current search.</p>
+      <p class="meta-line">{e(source.get("scope_rule", ""))}</p></div></details>
     </section>
     """
 
-    hero_actions = (
-        '<div class="hero__actions">'
-        '<a class="button" href="#computing-graph">Graph</a>'
-        f'<a class="button button--ghost" href="{e(source.get("undergrad_calendar_url", UNDERGRAD_CALENDAR_URL))}" target="_blank" rel="noopener">UVic Calendar</a>'
-        "</div>"
-    )
+    hero_actions = f'<div class="hero__actions"><a class="hero-link" href="{e(source.get("undergrad_calendar_url", UNDERGRAD_CALENDAR_URL))}">UVic calendar</a></div>'
 
     return render_layout(
         base="",
@@ -4914,9 +4794,9 @@ def render_computing_secret_page(courses: dict[str, CourseRecord], manifest: dic
         active_site="atlas",
         title=f"Computing Prerequisites | {SITE_NAME}",
         description="Unlinked computing course prerequisite graph generated from current UVic undergraduate calendar data.",
-        eyebrow="Unlinked page | UVic calendar graph",
-        hero_title="Computing prerequisite structure",
-        hero_lede="A generated side map for computing-related Science and Engineering courses, plus the full prerequisite closure behind them.",
+
+        hero_title="Computing prerequisites",
+        hero_lede=f"{len(seed_courses)} computing courses · {len(courses)} courses including prerequisites.",
         hero_actions=hero_actions,
         content=content,
         hero_image=f"{HERO_ASSET_URL}course-overview.jpg",
@@ -5044,64 +4924,11 @@ def course_theme_labels(course: CourseRecord) -> list[str]:
     return [token_to_label[token] for token in course_theme_tokens(course)]
 
 
-def render_filter_button(label: str, *, group: str, value: str, active: bool = False) -> str:
-    class_name = "filter-chip is-active" if active else "filter-chip"
-    pressed = "true" if active else "false"
-    return (
-        f'<button class="{class_name}" type="button" data-filter-group="{e(group)}" '
-        f'data-filter-value="{e(value)}" aria-pressed="{pressed}">{e(label)}</button>'
-    )
-
-
-def render_filter_group(title: str, buttons: list[str]) -> str:
-    return (
-        '<div class="filter-group">'
-        f'<p class="detail-card__eyebrow">{e(title)}</p>'
-        '<div class="filter-chip-row">'
-        + "".join(buttons)
-        + "</div></div>"
-    )
-
-
-def render_program_card(program: ProgramRecord, base: str, courses: dict[str, CourseRecord]) -> str:
-    include_stream_courses = not is_eos_base_program(program)
-    named_codes = program_named_codes(program, include_stream_courses=include_stream_courses)
-    eos_count = sum(1 for code in named_codes if subject_from_code(code) == "EOS")
-    partner_prereq_count = len(program.support_codes)
-    category = program_primary_category_label(program)
-    category_tokens = program_category_tokens(program)
-    search_text = " ".join(unique_ordered([program.code, program.name, program.title, category, *category_tokens]))
-    metadata_pills = "".join(
-        f'<span class="meta-pill">{e(label)}</span>'
-        for label in [category]
-    )
-    official_link = (
-        f'<a class="text-link" href="{e(program.catalog_url)}">Official calendar</a>'
-        if program.catalog_url
-        else ""
-    )
-    return (
-        '<article class="directory-card"'
-        f' data-filter-category="{e(filter_token_string(category_tokens))}"'
-        f' data-filter-search="{e(search_text.lower())}">'
-        f'<p class="directory-card__eyebrow">{e(program.code)} | {e(category)}</p>'
-        f'<h3><a href="{program_page_href(base, program.code)}">{e(program.name)}</a></h3>'
-        f'<p>{e(program.title)}</p>'
-        f'<p class="meta-line">{len(named_codes)} named courses | {eos_count} EOS | {partner_prereq_count} related prerequisite courses outside the named list</p>'
-        f'<div class="pill-row">{metadata_pills}</div>'
-        '<div class="link-row">'
-        f'<a class="text-link" href="{program_page_href(base, program.code)}">Open graph</a>'
-        f'{official_link}'
-        "</div>"
-        "</article>"
-    )
-
-
 def render_contact_overview_summary_value(summary: dict | None) -> str:
     if not summary:
         return '<span class="program-hours-cell__value">—</span>'
     if summary.get("has_field_course"):
-        visible_value = e(summary["average_range"])
+        visible_value = e(summary["average_range"].replace(" hrs/wk/term", ""))
         spoken_value = e(summary["average_range"].replace(" (+F)", ""))
         return (
             '<span class="program-hours-cell__value" title="Includes summer field course">'
@@ -5109,7 +4936,7 @@ def render_contact_overview_summary_value(summary: dict | None) -> str:
             f'<span class="sr-only">{spoken_value}, includes summer field course</span>'
             "</span>"
         )
-    return f'<span class="program-hours-cell__value">{e(summary["average_range"])}</span>'
+    return f'<span class="program-hours-cell__value">{e(summary["average_range"].replace(" hrs/wk/term", ""))}</span>'
 
 
 def render_contact_overview_cell(paths: list[dict], bucket_key: str) -> str:
@@ -5157,9 +4984,8 @@ def render_program_overview_row(program: ProgramRecord, courses: dict[str, Cours
         f'<td class="program-overview-table__hours" data-label="Year 1">{render_contact_overview_cell(contact_paths, "year-1")}</td>'
         f'<td class="program-overview-table__hours" data-label="Year 2">{render_contact_overview_cell(contact_paths, "year-2")}</td>'
         f'<td class="program-overview-table__hours" data-label="Years 3 + 4">{render_contact_overview_cell(contact_paths, "years-3-4")}</td>'
-        '<td class="program-overview-table__details" data-label="Details">'
+        '<td class="program-overview-table__details" data-label="Source">'
         '<div class="program-overview-table__links">'
-        f'<a class="text-link" href="{program_page_href("", program.code)}">Open graph</a>'
         f"{official_link}"
         "</div>"
         "</td>"
@@ -5168,37 +4994,17 @@ def render_program_overview_row(program: ProgramRecord, courses: dict[str, Cours
 
 
 def render_course_card(course: CourseRecord, base: str, *, support: bool = False) -> str:
-    card_type = "Partner-department course" if support else "EOS course"
-    level_label = course_level_label(course.code)
-    theme_tokens = course_theme_tokens(course)
-    theme_labels = [theme_label(token) for token in theme_tokens]
-    search_text = " ".join(unique_ordered([course.code, course.name, subject_name(course.code), *theme_labels]))
-    official_link = (
-        f'<a class="text-link" href="{e(course.catalog_url)}">Official calendar</a>'
-        if course.catalog_url
-        else ""
-    )
-    tag_pills = f'<span class="meta-pill">{e(level_label)}</span>' + "".join(
-        render_theme_pill(token)
-        for token in theme_tokens[:3]
-    )
+    themes = course_theme_tokens(course)
+    search_text = " ".join([course.code, course.name, subject_name(course.code), *(theme_label(token) for token in themes)])
     return (
-        '<article class="directory-card"'
-        f' data-filter-track="{e("support" if support else "eos")}"'
+        '<article class="course-row"'
+        f' data-filter-track="{"support" if support else "eos"}"'
         f' data-filter-subject="{e(subject_from_code(course.code).lower())}"'
         f' data-filter-level="{e(course_level_token(course.code))}"'
-        f' data-filter-theme="{e(filter_token_string(theme_tokens))}"'
+        f' data-filter-theme="{e(filter_token_string(themes))}"'
         f' data-filter-search="{e(search_text.lower())}">'
-        f'<p class="directory-card__eyebrow">{e(card_type)} | {e(course.code)}</p>'
-        f'<h3><a href="{base}{course.code}.html">{e(course.name)}</a></h3>'
-        f'<p class="meta-line">{e(subject_name(course.code))}</p>'
-        f'<p class="meta-line">{len(course.prereq_codes)} prerequisite links | {len(course.used_by_programs)} programs | {len(course.dependents)} downstream courses</p>'
-        f'<div class="pill-row">{render_subject_pill(course.code)}{tag_pills}</div>'
-        '<div class="link-row">'
-        f'<a class="text-link" href="{base}{course.code}.html">Open graph</a>'
-        f'{official_link}'
-        "</div>"
-        "</article>"
+        f'<a class="course-row__link" href="{base}{course.code}.html">'
+        f'<span class="course-row__code">{e(course.code)}</span><span>{e(course.name)}</span></a></article>'
     )
 
 
@@ -5589,7 +5395,7 @@ def render_contact_compact_path(
     summary_tiles = "".join(
         '<span class="contact-compact__summary-cell">'
         f'<span class="contact-compact__summary-label">{e(summary["label"])}</span>'
-        f'<span class="contact-compact__summary-value">{e(summary["average_range"])}</span>'
+        f'<span class="contact-compact__summary-value">{e(summary["average_range"].replace(" hrs/wk/term", ""))}</span>'
         "</span>"
         for summary in summaries
     )
@@ -5598,10 +5404,8 @@ def render_contact_compact_path(
     button_id = f"contact-hours-toggle-{path.slug}"
     path_meta_html = ""
     if show_path_meta:
-        eyebrow = "Stream path" if path.stream is not None else "Program path"
         path_meta_html = (
             '<div class="contact-compact-path__meta">'
-            f'<p class="detail-card__eyebrow">{e(eyebrow)}</p>'
             f'<p class="contact-compact-path__title">{e(path.title)}</p>'
             f'<p class="meta-line">{e(path.note)}</p>'
             "</div>"
@@ -5824,8 +5628,9 @@ def render_contact_hours_section(program: ProgramRecord, courses: dict[str, Cour
     )
     return (
         '<section class="section">'
-        '<p class="contact-brief">Contact hours are calculated using the listed lecture-lab-tutorial information in calendar. Hour ranges for electives are calculated assuming all 3-0-0 (min) and 3-3-0 (max).</p>'
-        f'<div class="section-stack">{path_html}</div>'
+        '<details class="detail-disclosure" id="contact-hours"><summary>Contact hours</summary><div class="detail-disclosure__body">'
+        '<p class="contact-brief">Based on published lecture, lab and tutorial hours. Elective estimates range from 3-0-0 to 3-3-0; field courses are listed separately.</p>'
+        f'<div class="section-stack">{path_html}</div></div></details>'
         '</section>'
     )
 
@@ -5835,57 +5640,12 @@ def render_program_page(
     courses: dict[str, CourseRecord],
     redundant_checks: list[dict],
 ) -> str:
-    include_stream_courses = not is_eos_base_program(program)
-    named_codes = program_named_codes(program, include_stream_courses=include_stream_courses)
-    metric_items = [
-        render_metric_card(program_primary_category_label(program), "Program type"),
-        render_metric_card(str(len(named_codes)), "Named courses in the published structure"),
-        render_metric_card(str(len(program.support_codes)), "Related prerequisite courses outside the named list"),
-    ]
-    if program.streams:
-        metric_items.append(render_metric_card(str(len(program.streams)), "Named stream progressions"))
-    else:
-        metric_items.append(
-            render_metric_card(
-                str(sum(1 for code in named_codes if subject_from_code(code) == "EOS")),
-                "EOS courses named directly in the program",
-            )
-        )
-    metric_cards = "".join(metric_items)
-
-    details_cards = [
-        (
-            "Official Source",
-            "Calendar entry",
-            (
-                f'<p><a class="text-link" href="{e(program.catalog_url)}">Open the UVic calendar entry</a></p>'
-                if program.catalog_url
-                else '<p class="empty-state">Official calendar link not available in the current snapshot.</p>'
-            ),
-        ),
-        (
-            "Published Description",
-            "Catalog text",
-            render_rich_text(program.detail.get("description"), "../courses/", courses),
-        ),
-    ]
+    detail_parts = []
+    if program.detail.get("description"):
+        detail_parts.append(render_rich_text(program.detail["description"], "../courses/", courses))
     if program.detail.get("programNotes"):
-        details_cards.append(
-            (
-                "Program Notes",
-                "Catalog notes",
-                render_rich_text(program.detail.get("programNotes"), "../courses/", courses),
-            )
-        )
-
-    detail_html = "".join(
-        '<article class="detail-card">'
-        f'<p class="detail-card__eyebrow">{e(eyebrow)}</p>'
-        f"<h3>{e(title)}</h3>"
-        f"{body}"
-        "</article>"
-        for eyebrow, title, body in details_cards
-    )
+        detail_parts.append(render_rich_text(program.detail["programNotes"], "../courses/", courses))
+    detail_html = "".join(detail_parts)
 
     support_body = (
         '<div class="pill-row">'
@@ -5895,7 +5655,6 @@ def render_program_page(
         else '<p class="empty-state">No additional prerequisite courses fall outside the named program structure in this snapshot.</p>'
     )
 
-    graph_key_html = render_program_graph_key()
     simplified_program_groups = build_course_groups(courses, aggressive=True)[0]
     simplified_program_group_lookup = scope_program_course_groups(
         program, courses, simplified_program_groups,
@@ -5907,13 +5666,6 @@ def render_program_page(
     if program.streams:
         is_eos_base = is_eos_base_program(program)
         show_base_graph = is_eos_base
-        graph_intro = (
-            '<div class="section-heading">'
-            '<p class="section-kicker">Program Graphs</p>'
-            '<h2>Program requirements arranged by prerequisite flow.</h2>'
-            f'<p>{"This program includes a base map, plus any published option maps. " if show_base_graph else ""}Courses with no direct prerequisite links in the database are shown as isolated nodes; some may have prerequisites outside the pulled course set.</p>'
-            '</div>'
-        )
         graph_shells = []
         if show_base_graph:
             _program_node_styles, program_legend_items = build_program_node_styles(
@@ -5938,12 +5690,12 @@ def render_program_page(
             graph_shells.append(
                 render_graph_shell(
                     shell_id="program-graph",
-                    section_kicker="Program Graph",
-                    heading="Program requirements arranged by prerequisite flow.",
-                    note="The graph is driven by prerequisites from left to right (instead of year suggestions). The simplified view keeps the sequence readable while the full view is closer to the real data structure.",
+
+                    heading="Program requirements",
+                    note="Prerequisites run left to right. Courses without links may have prerequisites outside this snapshot. Switch to Full view for the complete mapped structure.",
                     default_svg=page_graph_modes[0][1],
                     aria_label=f"{program.name} program graph",
-                    guide_html="",
+                    guide_html=render_program_graph_key(),
                     graph_modes=page_graph_modes,
                     course_href_prefix="../courses/",
                     footer_html=additional_requirements_html,
@@ -5957,9 +5709,6 @@ def render_program_page(
                     ),
                 )
             )
-            graph_anchor = "#program-graph"
-        else:
-            graph_anchor = "#program-streams"
 
         for stream in program.streams:
             stream_group_lookup = scope_program_course_groups(
@@ -5992,12 +5741,12 @@ def render_program_page(
             graph_shells.append(
                 render_graph_shell(
                     shell_id=f"program-graph-{stream.slug}",
-                    section_kicker="Stream Map",
+
                     heading=stream_heading,
                     note=stream_note,
                     default_svg=stream_graph_modes[0][1],
                     aria_label=f"{program.name} {stream.title} graph",
-                    guide_html="",
+                    guide_html=render_program_graph_key(),
                     graph_modes=stream_graph_modes,
                     course_href_prefix="../courses/",
                     footer_html=additional_requirements_html,
@@ -6013,7 +5762,7 @@ def render_program_page(
                 )
             )
         graphs_html = (
-            f'{graph_intro}<div class="section-stack" id="program-streams">{"".join(graph_shells)}</div>'
+            f'<div class="section-stack" id="program-streams">{"".join(graph_shells)}</div>'
         )
     else:
         _program_node_styles, program_legend_items = build_program_node_styles(
@@ -6036,12 +5785,12 @@ def render_program_page(
         ]
         graphs_html = render_graph_shell(
             shell_id="program-graph",
-            section_kicker="Program Graph",
-            heading="Program requirements arranged by prerequisite flow.",
-            note="The graph is driven by prerequisites from left to right (instead of year suggestions). The simplified view keeps the sequence readable while the full view is closer to the real data structure.",
+
+            heading="Program requirements",
+            note="Prerequisites run left to right. Courses without links may have prerequisites outside this snapshot. Switch to Full view for the complete mapped structure.",
             default_svg=page_graph_modes[0][1],
             aria_label=f"{program.name} program graph",
-            guide_html="",
+            guide_html=render_program_graph_key(),
             graph_modes=page_graph_modes,
             course_href_prefix="../courses/",
             footer_html=additional_requirements_html,
@@ -6050,45 +5799,19 @@ def render_program_page(
                 build_program_analytics_bundle(program, courses, redundant_checks)
             ),
         )
-        graph_anchor = "#program-graph"
 
     content = f"""
-    <section class="section section--tight">
-      {graphs_html}
-    </section>
-
-    <section class="section">
-      <div class="metric-grid">{metric_cards}</div>
-    </section>
-
-    <section class="section">
-      <div class="detail-grid">{detail_html}</div>
-    </section>
-
+    <section class="section section--tight">{graphs_html}</section>
+    <section class="section">{render_disclosure("Program notes", detail_html)}</section>
     {render_contact_hours_section(program, courses)}
-
-    <section class="section">
-      <div class="section-heading">
-        <p class="section-kicker">Related Courses</p>
-        <h2>Prerequisite courses outside the named program list.</h2>
-        <p>These courses are not listed directly in the published program requirements, but they appear in the prerequisite chains that make the flow map readable.</p>
-      </div>
-      <div class="section-block">{support_body}</div>
-    </section>
+    <section class="section">{render_disclosure("Supporting prerequisites", support_body) if program.support_codes else ''}</section>
     """
-
-    official_calendar_button = (
-        f'<a class="button button--ghost" href="{e(program.catalog_url)}">Official calendar</a>'
-        if program.catalog_url
-        else ""
+    source_link = f'<a class="hero-link" href="{e(program.catalog_url)}">UVic calendar</a>' if program.catalog_url else ""
+    stream_links = "".join(
+        f'<a class="hero-link" href="#program-graph-{e(stream.slug)}">{e(stream.title)}</a>'
+        for stream in program.streams
     )
-    hero_actions = (
-        '<div class="hero__actions">'
-        f'<a class="button" href="{graph_anchor}">Graph</a>'
-        '<a class="button button--ghost" href="overview.html">Back to programs</a>'
-        f'{official_calendar_button}'
-        "</div>"
-    )
+    hero_actions = f'<div class="hero__actions">{source_link}<a class="hero-link" href="#contact-hours">Contact hours</a>{stream_links}</div>'
 
     return render_layout(
         base="../",
@@ -6096,13 +5819,9 @@ def render_program_page(
         active_site="atlas",
         title=f"{program.name} | {SITE_NAME}",
         description=f"Published program map for {program.name} at UVic, with generated prerequisite-flow graphs.",
-        eyebrow=f"Programs | {program.code}",
+
         hero_title=program.name,
-        hero_lede=(
-            "Published program structure, rebuilt as a static map with stream-aware prerequisite graphs."
-            if program.streams
-            else "Published program structure, rebuilt as a static map with generated prerequisite-flow graphs."
-        ),
+        hero_lede=program_primary_category_label(program),
         hero_actions=hero_actions,
         content=content,
         hero_image=program_hero_image("../", program),
@@ -6117,70 +5836,25 @@ def render_course_page(
     course_groups: dict[str, CourseGroupRecord],
     course_group_lookup: dict[str, str],
 ) -> str:
-    metric_cards = "".join(
-        [
-            render_metric_card(e(subject_name(course.code)), "Subject area"),
-            render_metric_card(course_level_label(course.code), "Course level"),
-            render_metric_card(str(len(course.used_by_programs)), "Programs that name this course"),
-            render_metric_card(str(len(course.prereq_codes)), "Published prerequisite links"),
-        ]
-    )
-
     used_by_body = (
-        '<div class="pill-row">'
+        '<ul class="link-list">'
         + "".join(
-            f'<a class="course-pill" href="{program_page_href("../programs/", program_code)}">{e(programs[program_code].name if program_code in programs else program_code)}</a>'
+            f'<li><a class="text-link" href="{program_page_href("../programs/", program_code)}">{e(programs[program_code].name if program_code in programs else program_code)}</a></li>'
             for program_code in sorted(
                 course.used_by_programs,
                 key=lambda item: programs[item].name if item in programs else item,
             )
         )
-        + "</div>"
+        + "</ul>"
         if course.used_by_programs
         else '<p class="empty-state">This course is not named directly in the current SEOS program set.</p>'
     )
 
-    detail_cards = [
-        (
-            "Official Source",
-            "Calendar entry",
-            (
-                f'<p><a class="text-link" href="{e(course.catalog_url)}">Open the UVic calendar entry</a></p>'
-                if course.catalog_url
-                else '<p class="empty-state">Detailed catalog link not available in the current snapshot.</p>'
-            ),
-        ),
-        (
-            "Description",
-            "Catalog description",
-            render_rich_text(course.detail.get("description"), "", courses),
-        ),
-    ]
-    if course.detail.get("supplementalNotes"):
-        detail_cards.append(
-            (
-                "Supplemental Notes",
-                "Catalog notes",
-                render_rich_text(course.detail.get("supplementalNotes"), "", courses),
-            )
-        )
-    if course.detail.get("restrictions"):
-        detail_cards.append(
-            (
-                "Restrictions",
-                "Catalog text",
-                render_rich_text(course.detail.get("restrictions"), "", courses),
-            )
-        )
-
-    details_html = "".join(
-        '<article class="detail-card">'
-        f'<p class="detail-card__eyebrow">{e(eyebrow)}</p>'
-        f"<h3>{e(title)}</h3>"
-        f"{body}"
-        "</article>"
-        for eyebrow, title, body in detail_cards
-    )
+    detail_parts = [render_rich_text(course.detail.get("description"), "", courses)]
+    for field, label in [("supplementalNotes", "Notes"), ("restrictions", "Restrictions"), ("recommendations", "Recommended preparation")]:
+        if course.detail.get(field):
+            detail_parts.append(f'<h3>{label}</h3>' + render_rich_text(course.detail[field], "", courses))
+    details_html = "".join(detail_parts)
     course_note_lines = course_graph_note_lines(
         course,
         courses,
@@ -6189,11 +5863,8 @@ def render_course_page(
     )
     graph_key_html = render_course_graph_key()
     guide_html = render_graph_guide(
-        summary="Expand for department colours, choice nodes, and merged-course labels used in the course map.",
-        preview_samples=[(course.code, "focus"), ("1 of", "choice"), ("", "junction"), ("Merged", "merged")],
         legend_html=render_subject_legend([course.code, *course.prereq_codes, *course.dependents]),
         graph_key_html=graph_key_html,
-        title="Graph key and legend",
     )
 
     additional_requirements_html = render_additional_requirements(
@@ -6202,8 +5873,8 @@ def render_course_page(
     )
     graph_html = render_graph_shell(
         shell_id="course-graph",
-        section_kicker="Course Graph",
-        heading="Prerequisite flow into the course, and dependencies flow out from it.",
+
+        heading="Prerequisites and progression",
         note="Co-requisites are treated as prerequisite links, and equivalent or cross-listed courses are merged into shared course nodes. The simplified view shows one prerequisite level above the course and one dependency level downstream.",
         default_svg=f"../assets/graphs/courses/{course.code}--simplified.svg",
         aria_label=f"{course.code} course graph",
@@ -6233,41 +5904,20 @@ def render_course_page(
     )
 
     content = f"""
-    <section class="section section--tight">
-      {graph_html}
-    </section>
-
-    <section class="section">
-      <div class="metric-grid">{metric_cards}</div>
-    </section>
-
-    <section class="section">
-      <div class="detail-grid">{details_html}</div>
-    </section>
-
-    <section class="section">
-      <div class="detail-grid detail-grid--single">
-        <article class="detail-card">
-          <p class="detail-card__eyebrow">Program Use</p>
-          <h3>Programs that name this course</h3>
-          {used_by_body}
-        </article>
-      </div>
-    </section>
+    <section class="section section--tight">{graph_html}</section>
+    <section class="section">{render_disclosure("Course details", details_html)}</section>
+    <section class="section">{render_disclosure(f"Programs using {course.code} ({len(course.used_by_programs)})", used_by_body) if course.used_by_programs else ''}</section>
     """
-
-    official_calendar_button = (
-        f'<a class="button button--ghost" href="{e(course.catalog_url)}">Official calendar</a>'
-        if course.catalog_url
-        else ""
-    )
-    hero_actions = (
-        '<div class="hero__actions">'
-        '<a class="button" href="#course-graph">Graph</a>'
-        '<a class="button button--ghost" href="overview.html">Back to courses</a>'
-        f'{official_calendar_button}'
-        "</div>"
-    )
+    source_link = f'<a class="hero-link" href="{e(course.catalog_url)}">UVic calendar</a>' if course.catalog_url else ""
+    hero_actions = f'<div class="hero__actions">{source_link}</div>' if source_link else ""
+    facts = []
+    credits = course.detail.get("credits") or {}
+    if credits.get("value"):
+        facts.append(f"{credits['value']} units")
+    if course.detail.get("hoursCatalogText"):
+        facts.append(f"{course.detail['hoursCatalogText']} lecture–lab–tutorial hours")
+    if course.placeholder:
+        facts.append("Referenced course; calendar details unavailable")
 
     return render_layout(
         base="../",
@@ -6275,13 +5925,9 @@ def render_course_page(
         active_site="atlas",
         title=f"{course.code} | {SITE_NAME}",
         description=f"Published course map for {course.code} at UVic, with generated prerequisite and downstream graphs.",
-        eyebrow=f"Courses | {course.code}",
+
         hero_title=f"{course.code}: {course.name}",
-        hero_lede=(
-            "Course page generated from current catalog data and related program references."
-            if course.placeholder
-            else "Published course information, generated as a static page and SVG graph."
-        ),
+        hero_lede=" · ".join(facts),
         hero_actions=hero_actions,
         content=content,
         hero_image=course_hero_image("../", course),
@@ -6292,278 +5938,76 @@ def render_course_page(
 def render_program_overview(programs: dict[str, ProgramRecord], courses: dict[str, CourseRecord], generated_at: str) -> str:
     programs_sorted = sorted(programs.values(), key=lambda item: item.name)
     rows = "".join(render_program_overview_row(program, courses) for program in programs_sorted)
-    search_options = []
-    for program in programs_sorted:
-        category = program_primary_category_label(program)
-        search_options.extend(
-            [
-                (program.name, f"{program.code} | {category}"),
-                (program.code, f"{program.name} | {category}"),
-            ]
-        )
-    category_filters = render_filter_group(
-        "Category",
-        [
-            render_filter_button("All", group="category", value="all", active=True),
-            render_filter_button("SEOS only", group="category", value="seos-only"),
-            render_filter_button("Honours", group="category", value="honours"),
-            render_filter_button("Major", group="category", value="major"),
-            render_filter_button("Minor", group="category", value="minor"),
-            render_filter_button("General", group="category", value="general"),
-            render_filter_button("Combined", group="category", value="combined"),
-        ],
-    )
+    categories = [("all", "All programs"), ("seos-only", "SEOS only"), ("honours", "Honours"), ("major", "Major"), ("minor", "Minor"), ("general", "General"), ("combined", "Combined")]
     content = f"""
-    <section class="section section--program-overview">
-      <div class="section-heading section-heading--compact">
-        <p class="section-kicker">SEOS Programs</p>
-        <p>Search or filter, then open a graph page for the full prerequisite map.</p>
+    <section class="section">
+      <div class="filter-panel" data-card-filter>
+        {render_filter_search("Search programs", "Program name, code, or type")}
+        {render_filter_select("Program type", "category", categories)}
+        <div class="filter-panel__status"><span data-filter-count aria-live="polite">{len(programs_sorted)} programs</span><button class="filter-clear" type="button" data-filter-clear hidden>Clear</button></div>
       </div>
-      <div class="filter-panel filter-panel--compact" data-card-filter>
-        {render_filter_search("Search programs", "Program name, code, or type", autocomplete_id="program-search-options", autocomplete_options=search_options)}
-        <div class="filter-panel__status">
-          <span data-filter-count>{len(programs_sorted)} programs</span>
-          <button class="filter-clear" type="button" data-filter-clear>Clear filters</button>
-        </div>
-        <div class="filter-panel__groups">
-          {category_filters}
-        </div>
-        <p class="filter-panel__note">Filter by program category. <span aria-hidden="true">(+F)</span><span class="sr-only"> plus F</span> means the year group includes a summer field course.</p>
-      </div>
+      <p class="table-note">Contact hours per week, averaged over each term. +F indicates a summer field course.</p>
       <div class="table-shell">
         <table class="program-overview-table">
-          <caption class="sr-only">SEOS program overview with program links, program type, contact hour summaries for Year 1, Year 2, and Years 3 plus 4, and detail links.</caption>
-          <thead>
-            <tr>
-              <th scope="col">Program</th>
-              <th scope="col">Type</th>
-              <th scope="col">Year 1</th>
-              <th scope="col">Year 2</th>
-              <th scope="col">Years 3 + 4</th>
-              <th scope="col">Details</th>
-            </tr>
-          </thead>
+          <caption class="sr-only">Programs and weekly contact hours by year.</caption>
+          <thead><tr><th scope="col">Program</th><th scope="col">Type</th><th scope="col">Year 1</th><th scope="col">Year 2</th><th scope="col">Years 3 + 4</th><th scope="col">Source</th></tr></thead>
           <tbody data-filter-grid>{rows}</tbody>
         </table>
       </div>
-      <p class="empty-state empty-state--filtered is-hidden" data-filter-empty>No programs match the current filters.</p>
+      <p class="empty-state empty-state--filtered is-hidden" data-filter-empty>No programs match. Clear the filters to see all programs.</p>
     </section>
     """
-    hero_actions = (
-        '<div class="hero__actions">'
-        '<a class="button" href="../index.html">Guide home</a>'
-        '<a class="button button--ghost" href="../curriculum_workflow.html">Build workflow</a>'
-        "</div>"
-    )
-    return render_layout(
-        base="../",
-        active="programs",
-        active_site="atlas",
-        title=f"Programs | {SITE_NAME}",
-        description="Published SEOS and related program structures at UVic, generated as static curriculum maps with node graphs.",
-        eyebrow="Programs",
-        hero_title="Program overview",
-        hero_lede="Compare program type and contact-hour load at a glance, then open the full guide page for any program.",
-        hero_actions=hero_actions,
-        content=content,
-        hero_image=f"{HERO_ASSET_URL}program-overview.jpg",
-        body_class="page--program-overview",
-    )
+    return render_layout(base="../", active="programs", active_site="atlas", title=f"Programs | {SITE_NAME}",
+        description="UVic SEOS programs, requirements and contact hours.", hero_title="Programs",
+        hero_lede="Compare requirements and contact hours.", hero_actions="", content=content,
+        hero_image=f"{HERO_ASSET_URL}program-overview.jpg", body_class="page--program-overview")
 
 
 def render_course_overview(courses: dict[str, CourseRecord], generated_at: str) -> str:
-    eos_courses = [
-        course
-        for course in courses.values()
-        if subject_from_code(course.code) == "EOS" and not course.placeholder
-    ]
-    support_courses = [
-        course
-        for course in courses.values()
-        if subject_from_code(course.code) != "EOS" and not course.placeholder
-    ]
-
-    eos_cards = "".join(render_course_card(course, "", support=False) for course in sorted(eos_courses, key=lambda item: course_sort_key(item.code)))
-    support_cards = "".join(render_course_card(course, "", support=True) for course in sorted(support_courses, key=lambda item: course_sort_key(item.code)))
-
-    metric_cards = "".join(
-        [
-            render_metric_card(str(len(eos_courses)), "EOS course pages"),
-            render_metric_card(str(len(support_courses)), "Partner-department course pages"),
-            render_metric_card(str(sum(len(course.dependents) for course in eos_courses)), "Direct dependencies across EOS courses"),
-            render_metric_card(e(generated_at), "Last UVic calendar sync"),
-        ]
-    )
-    department_codes = unique_ordered(
-        subject_from_code(course.code)
-        for course in sorted(eos_courses + support_courses, key=lambda item: course_sort_key(item.code))
-    )
-    department_filters = render_filter_group(
-        "Department",
-        [render_filter_button("All", group="subject", value="all", active=True)]
-        + [
-            render_filter_button(subject_name(code), group="subject", value=code.lower())
-            for code in department_codes
-        ],
-    )
-    level_filters = render_filter_group(
-        "Level",
-        [
-            render_filter_button("All", group="level", value="all", active=True),
-            render_filter_button("100-level", group="level", value="100"),
-            render_filter_button("200-level", group="level", value="200"),
-            render_filter_button("300-level", group="level", value="300"),
-            render_filter_button("400-level", group="level", value="400"),
-        ],
-    )
-    theme_filters = render_filter_group(
-        "Theme",
-        [render_theme_filter_button("All", group="theme", value="all", active=True)]
-        + [
-            render_theme_filter_button(label, group="theme", value=token)
-            for token, label, _ in COURSE_THEME_RULES
-        ],
-    )
-
+    ordered = sorted(courses.values(), key=lambda item: (subject_from_code(item.code) != "EOS", course_sort_key(item.code)))
+    rows = "".join(render_course_card(course, "", support=subject_from_code(course.code) != "EOS") for course in ordered)
+    subjects = sorted({subject_from_code(course.code) for course in ordered})
+    departments = [("all", "All departments")] + [(code.lower(), subject_name(code)) for code in subjects]
+    levels = [("all", "All levels")] + [(str(level), f"{level}-level") for level in (100, 200, 300, 400)]
+    themes = [("all", "All themes")] + [(token, label) for token, label, _ in COURSE_THEME_RULES]
     content = f"""
-    <section class="section section--tight">
-      <div class="metric-grid">{metric_cards}</div>
-    </section>
-
     <section class="section">
-      <div class="section-heading">
-        <p class="section-kicker">Course Directory</p>
-        <h2>EOS courses and partner-department prerequisites.</h2>
-        <p>Search by code or title first; open a course graph when you find the dependency chain you need.</p>
+      <div class="filter-panel filter-panel--courses" data-card-filter>
+        {render_filter_search("Search courses", "Course code or title")}
+        {render_filter_select("Department", "subject", departments)}
+        {render_filter_select("Level", "level", levels)}
+        {render_filter_select("Theme", "theme", themes)}
+        <div class="filter-panel__status"><span data-filter-count aria-live="polite">{len(ordered)} courses</span><button class="filter-clear" type="button" data-filter-clear hidden>Clear</button></div>
       </div>
-      <div class="filter-panel" data-card-filter>
-        {render_filter_search("Search courses", "Course code, title, department, or theme")}
-        <div class="filter-panel__status">
-          <span data-filter-count>{len(eos_courses) + len(support_courses)} courses</span>
-          <button class="filter-clear" type="button" data-filter-clear>Clear filters</button>
-        </div>
-        <div class="filter-panel__groups">
-          {level_filters}
-          {render_filter_disclosure("Department filters", department_filters)}
-          {render_filter_disclosure("Theme filters", theme_filters)}
-        </div>
-      </div>
-      <div class="directory-grid" data-filter-grid>{eos_cards}{support_cards}</div>
-      <p class="empty-state empty-state--filtered is-hidden" data-filter-empty>No courses match the current filters.</p>
+      <div class="course-directory" data-filter-grid>{rows}</div>
+      <p class="empty-state empty-state--filtered is-hidden" data-filter-empty>No courses match. Clear the filters to see all courses.</p>
     </section>
     """
-
-    hero_actions = (
-        '<div class="hero__actions">'
-        '<a class="button" href="../index.html">Guide home</a>'
-        '<a class="button button--ghost" href="../programs/overview.html">Programs</a>'
-        "</div>"
-    )
-
-    return render_layout(
-        base="../",
-        active="courses",
-        active_site="atlas",
-        title=f"Courses | {SITE_NAME}",
-        description="Published SEOS and supporting course structures at UVic, generated as static curriculum maps with node graphs.",
-        eyebrow="Courses",
-        hero_title="Courses covered in SEOS programs",
-        hero_lede="Published course information, rebuilt as static pages and SVG graphs from the last UVic calendar sync.",
-        hero_actions=hero_actions,
-        content=content,
-        hero_image=f"{HERO_ASSET_URL}course-overview.jpg",
-        body_class="page--course-overview",
-    )
+    return render_layout(base="../", active="courses", active_site="atlas", title=f"Courses | {SITE_NAME}",
+        description="UVic SEOS and supporting courses with prerequisite maps.", hero_title="Courses",
+        hero_lede="EOS and supporting courses. Select a course to explore its prerequisites.", hero_actions="", content=content,
+        hero_image=f"{HERO_ASSET_URL}course-overview.jpg", body_class="page--course-overview")
 
 
 def render_workflow_page(manifest: dict) -> str:
-    generated_at = format_date_label(manifest["generated_at_utc"])
-    missing_support = "".join(
-        f'<span class="course-pill course-pill--ghost">{e(code)}</span>'
-        for code in manifest.get("missing_support_codes", [])
-    )
+    missing = ", ".join(manifest.get("missing_support_codes", []))
+    gaps = render_disclosure("Referenced courses absent from the calendar", f'<p>{e(missing)}</p>') if missing else ""
     content = f"""
-    <section class="section">
-      <div class="split-callout">
-        <div>
-          <p class="section-kicker">Build Model</p>
-          <h2>Scripted static generation of HTML.</h2>
-          <p>This guide built as static HTML and SVG from the synced catalog JSON. The intended workflow is a data pull, a full graph and page rebuild, and then a publish step.</p>
-        </div>
-        <div>
-          <p class="section-kicker">Last UVic calendar sync</p>
-          <p class="panel-note">{e(generated_at)} | {e(str(manifest['counts']['seos_programs']))} programs | {e(str(manifest['counts']['eos_courses']))} EOS courses | {e(str(manifest['counts']['support_courses']))} supporting courses</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="detail-grid">
-        <article class="command-card">
-          <p class="detail-card__eyebrow">Update data and rebuild</p>
-          <h3>Recommended maintenance command</h3>
-          <div class="code-block"><code>python3 scripts/update_program_guide.py</code></div>
-          <p class="meta-line">Runs the UVic catalog sync, then regenerates every graph and every static page into <code>build/html</code>.</p>
-        </article>
-        <article class="command-card">
-          <p class="detail-card__eyebrow">Rebuild only</p>
-          <h3>When the snapshot is already current</h3>
-          <div class="code-block"><code>python3 scripts/build_static_site.py</code></div>
-          <p class="meta-line">Useful after local styling or page-template edits when the data files themselves have not changed.</p>
-        </article>
-        <article class="command-card">
-          <p class="detail-card__eyebrow">Publish</p>
-          <h3>Push the generated site</h3>
-          <div class="code-block"><code>git push</code></div>
-          <p class="meta-line">Publishes the freshly generated <code>build/html</code> output to the repository’s <code>gh-pages</code> branch.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="detail-grid">
-        <article class="detail-card">
-          <p class="detail-card__eyebrow">Scope</p>
-          <h3>What gets regenerated</h3>
-          <div class="rich-text">
-            <ul>
-              <li>Guide home page and workflow page</li>
-              <li>Program overview plus one page and one SVG graph for every SEOS program in the synced set</li>
-              <li>Course overview plus one page and one SVG graph for every EOS and partner-department course with detail data</li>
-            </ul>
-          </div>
-        </article>
-        <article class="detail-card">
-          <p class="detail-card__eyebrow">Known Gaps</p>
-          <h3>Referenced codes missing from the live snapshot</h3>
-          <div class="pill-row">{missing_support or '<p class="empty-state">No missing referenced partner-department course codes in the current snapshot.</p>'}</div>
-        </article>
-      </div>
+    <section class="section reading-column">
+      <ol class="workflow-steps">
+        <li><h2>Sync and rebuild</h2><p>Refresh the approved calendar data and regenerate the atlas.</p><pre class="code-block"><code>python scripts/update_program_guide.py</code></pre></li>
+        <li><h2>Check the build</h2><pre class="code-block"><code>python -m unittest discover -s tests -v
+python scripts/verify_static_site.py</code></pre><p>For template-only changes, rebuild with <code>python scripts/build_static_site.py</code>.</p></li>
+        <li><h2>Publish</h2><p>Commit the updated sources and generated site, then push. GitHub Actions validates, rebuilds and deploys GitHub Pages.</p><pre class="code-block"><code>git push</code></pre></li>
+      </ol>
+      {render_disclosure("Data scope", '<p>Includes all EOS courses, programs naming the School of Earth and Ocean Sciences, and referenced supporting courses. The computing map has a separate course selection and prerequisite snapshot.</p><p>Draft proposals are tracked on the <a class="text-link" href="' + CURRICULUM_SITE_URL + '">curriculum site</a>.</p>')}
+      {gaps}
     </section>
     """
-
-    hero_actions = (
-        '<div class="hero__actions">'
-        '<a class="button" href="index.html">Guide home</a>'
-        '<a class="button button--ghost" href="programs/overview.html">Programs</a>'
-        '<a class="button button--ghost" href="courses/overview.html">Courses</a>'
-        "</div>"
-    )
-
-    return render_layout(
-        base="",
-        active="workflow",
-        active_site="atlas",
-        title=f"Workflow | {SITE_NAME}",
-        description=f"Maintenance workflow for the {SITE_NAME} static site and graph generation pipeline.",
-        eyebrow="Workflow",
-        hero_title="Static build workflow for the curriculum atlas.",
-        hero_lede="Sync the catalog data, generate every graph and page, then publish by pushing to the repository.",
-        hero_actions=hero_actions,
-        content=content,
-        hero_image=f"{HERO_ASSET_URL}workflow-overview.jpg",
-        body_class="page--workflow",
-    )
+    return render_layout(base="", active="workflow", active_site="atlas", title=f"Update workflow | {SITE_NAME}",
+        description="Update and publish the SEOS Curriculum Atlas.", hero_title="Update the atlas",
+        hero_lede="Sync after changes appear in the official UVic calendar.", hero_actions="", content=content,
+        hero_image=f"{HERO_ASSET_URL}workflow-overview.jpg", body_class="page--workflow")
 
 
 def render_catalog_update(manifest: dict) -> str:
@@ -6596,63 +6040,17 @@ def render_catalog_update(manifest: dict) -> str:
 
 
 def render_index_page(programs: dict[str, ProgramRecord], courses: dict[str, CourseRecord], manifest: dict) -> str:
-    generated_at = format_date_label(manifest["generated_at_utc"])
-    metric_cards = "".join(
-        [
-            render_metric_card(str(manifest["counts"]["seos_programs"]), "Programs in the current SEOS snapshot"),
-            render_metric_card(str(manifest["counts"]["eos_courses"]), "EOS course pages"),
-            render_metric_card(str(manifest["counts"]["support_courses"]), "Partner-department course pages"),
-            render_metric_card(e(generated_at), "Last UVic calendar sync"),
-        ]
-    )
-
-    content = f"""
-    <section class="section section--tight">
-      <div class="metric-grid">{metric_cards}</div>
-    </section>
-
-    {render_catalog_update(manifest)}
-
-    <section class="section">
-      <div class="split-callout">
-        <div>
-          <p class="section-kicker">How To Use This Guide</p>
-          <h2>Program and Course pre-requisite graphs, based directly on the UVic Calendar.</h2>
-          <p>This site maps the current calendar structure for SEOS programs and related courses. Start with the <a class="text-link" href="programs/overview.html">program directory</a> when you want to explore programs, then use the <a class="text-link" href="courses/overview.html">course directory</a> to zoom in on specific course requirements.</p>
-        </div>
-        <div>
-          <p class="section-kicker">Regeneration</p>
-          <ol class="process-list">
-            <li>Pull the latest UVic catalog data.</li>
-            <li>Rebuild every graph and every page as static HTML and SVG.</li>
-            <li>Publish the generated output to the site branch.</li>
-          </ol>
-          <p class="panel-note"><a class="text-link" href="curriculum_workflow.html">Open the maintenance workflow</a></p>
-        </div>
-      </div>
-    </section>
-    """
-
-    hero_actions = (
+    actions = (
         '<div class="hero__actions">'
-        '<a class="button" href="programs/overview.html">Open programs</a>'
-        '<a class="button button--ghost" href="courses/overview.html">Open courses</a>'
-        "</div>"
+        '<a class="button" href="programs/overview.html">Browse programs</a>'
+        '<a class="button button--ghost" href="courses/overview.html">Find a course</a></div>'
     )
-
-    return render_layout(
-        base="",
-        active="home",
-        active_site="atlas",
-        title=SITE_NAME,
-        description="Static atlas for the published UVic SEOS curriculum structure, with generated program and course node graphs.",
-        eyebrow="School of Earth and Ocean Sciences | UVic",
-        hero_title="An atlas of SEOS programs and courses",
-        hero_lede="Current published programs and course progressions visualized as SVG node graphs.",
-        hero_actions=hero_actions,
-        content=content,
-        hero_image=f"{HERO_ASSET_URL}rockies-program.jpg",
-    )
+    return render_layout(base="", active="home", active_site="atlas", title=SITE_NAME,
+        description="Explore UVic SEOS programs, course prerequisites and contact hours.",
+        hero_title="SEOS programs and courses",
+        hero_lede="Explore degree requirements, prerequisite connections and contact hours from the UVic calendar.",
+        hero_actions=actions, content=render_catalog_update(manifest),
+        hero_image=f"{HERO_ASSET_URL}rockies-program.jpg", body_class="page--home")
 
 
 def write_site(

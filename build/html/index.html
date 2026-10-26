@@ -4,35 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SEOS Curriculum Atlas</title>
-  <meta name="description" content="Static atlas for the published UVic SEOS curriculum structure, with generated program and course node graphs.">
+  <meta name="description" content="Explore UVic SEOS programs, course prerequisites and contact hours.">
   <meta name="theme-color" content="#f4f1eb">
   <link rel="stylesheet" href="program-guide.css">
   <script defer src="program-guide.js"></script>
 </head>
-<body>
+<body class="page--home">
+  <a class="skip-link" href="#content">Skip to content</a>
   <header class="site-header">
     <div class="nav-shell">
       <a class="site-mark" href="index.html">SEOS Curriculum Atlas</a>
       <nav class="site-nav" aria-label="Sections">
-        <span class="site-nav__label">This site</span><a class="is-active" href="index.html" aria-current="page">Overview</a><a href="programs/overview.html">Programs</a><a href="courses/overview.html">Courses</a><a href="curriculum_workflow.html">Workflow</a><span class="nav-divider" aria-hidden="true">|</span><span class="site-nav__label">Other sites</span><a href="https://blakedyer.github.io/" target="_blank" rel="noopener">Earth History Research</a><a href="https://blakedyer.github.io/seos_curriculum/" target="_blank" rel="noopener">Curriculum Work</a><a href="https://eos-courses.readthedocs.io/en/latest/" target="_blank" rel="noopener">Teaching</a>
+        <a class="" href="programs/overview.html">Programs</a><a class="" href="courses/overview.html">Courses</a>
       </nav>
     </div>
   </header>
 
-  <main class="page-shell">
+  <main class="page-shell" id="content">
     <section class="hero hero--guide hero--photo" style="--hero-image: url('https://blakedyer.github.io/curriculum_atlas/assets/heroes/rockies-program.jpg')">
       <div class="hero__content">
-        <p class="hero__eyebrow">School of Earth and Ocean Sciences | UVic</p>
-        <h1 class="hero__title hero__title--wide">An atlas of SEOS programs and courses</h1>
-        <p class="hero__lede">Current published programs and course progressions visualized as SVG node graphs.</p>
-        <div class="hero__actions"><a class="button" href="programs/overview.html">Open programs</a><a class="button button--ghost" href="courses/overview.html">Open courses</a></div>
+        <h1 class="hero__title hero__title--wide">SEOS programs and courses</h1>
+        <p class="hero__lede">Explore degree requirements, prerequisite connections and contact hours from the UVic calendar.</p>
+        <div class="hero__actions"><a class="button" href="programs/overview.html">Browse programs</a><a class="button button--ghost" href="courses/overview.html">Find a course</a></div>
       </div>
     </section>
-    
-    <section class="section section--tight">
-      <div class="metric-grid"><article class="metric-card"><p class="metric-card__value">19</p><p class="metric-card__label">Programs in the current SEOS snapshot</p></article><article class="metric-card"><p class="metric-card__value">46</p><p class="metric-card__label">EOS course pages</p></article><article class="metric-card"><p class="metric-card__value">143</p><p class="metric-card__label">Partner-department course pages</p></article><article class="metric-card"><p class="metric-card__value">October 26, 2026</p><p class="metric-card__label">Last UVic calendar sync</p></article></div>
-    </section>
-
     <section class="section section--tight" aria-label="Catalog update">
       <details class="catalog-update">
         <summary class="catalog-update__summary">
@@ -46,38 +41,15 @@
         </div>
       </details>
     </section>
-
-    <section class="section">
-      <div class="split-callout">
-        <div>
-          <p class="section-kicker">How To Use This Guide</p>
-          <h2>Program and Course pre-requisite graphs, based directly on the UVic Calendar.</h2>
-          <p>This site maps the current calendar structure for SEOS programs and related courses. Start with the <a class="text-link" href="programs/overview.html">program directory</a> when you want to explore programs, then use the <a class="text-link" href="courses/overview.html">course directory</a> to zoom in on specific course requirements.</p>
-        </div>
-        <div>
-          <p class="section-kicker">Regeneration</p>
-          <ol class="process-list">
-            <li>Pull the latest UVic catalog data.</li>
-            <li>Rebuild every graph and every page as static HTML and SVG.</li>
-            <li>Publish the generated output to the site branch.</li>
-          </ol>
-          <p class="panel-note"><a class="text-link" href="curriculum_workflow.html">Open the maintenance workflow</a></p>
-        </div>
-      </div>
-    </section>
-    
   </main>
 
   <footer>
     <div class="footer-shell">
       <div>
-        <p class="footer-brand">SEOS Curriculum Atlas</p>
-        <p class="footer-copy">Static curriculum maps generated from current UVic undergraduate calendar data. Pages and graphs are rebuilt together so the published site stays aligned with the catalog snapshot.</p>
+        <p class="footer-copy">UVic calendar · Synced October 26, 2026</p>
       </div>
       <div class="footer-links">
-        <a href="programs/overview.html">Programs</a>
-        <a href="courses/overview.html">Courses</a>
-        <a href="curriculum_workflow.html">Workflow</a>
+        <a href="curriculum_workflow.html">Update workflow</a>
         <a href="https://blakedyer.github.io/" target="_blank" rel="noopener">Earth History Research</a>
         <a href="https://eos-courses.readthedocs.io/en/latest/" target="_blank" rel="noopener">Teaching</a>
         <a href="https://blakedyer.github.io/seos_curriculum/" target="_blank" rel="noopener">Curriculum work</a>

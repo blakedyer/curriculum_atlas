@@ -21,112 +21,46 @@ document.addEventListener("DOMContentLoaded", () => {
     applyExpanded(false);
   });
 
+  document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    link.addEventListener("click", () => {
+      const target = document.getElementById(link.hash.slice(1));
+      if (target instanceof HTMLDetailsElement) target.open = true;
+    });
+  });
+
   document.querySelectorAll("[data-card-filter]").forEach((panel) => {
     const grid = panel.parentElement?.querySelector("[data-filter-grid]");
     const emptyState = panel.parentElement?.querySelector("[data-filter-empty]");
-    const buttons = Array.from(panel.querySelectorAll("[data-filter-group]"));
-    const searchInput = panel.querySelector("[data-filter-search-input]");
-    const countLabel = panel.querySelector("[data-filter-count]");
-    const clearButton = panel.querySelector("[data-filter-clear]");
-
-    if (!grid) {
-      return;
-    }
-
-    const cards = Array.from(grid.children);
-    const countNoun = (countLabel?.textContent || "items").replace(/^\d+\s*/, "") || "items";
-
-    const activeFilters = {};
-    buttons.forEach((button) => {
-      const group = button.getAttribute("data-filter-group");
-      if (!group || activeFilters[group]) {
-        return;
-      }
-      const activeButton =
-        buttons.find(
-          (candidate) =>
-            candidate.getAttribute("data-filter-group") === group &&
-            candidate.classList.contains("is-active"),
-        ) ||
-        buttons.find((candidate) => candidate.getAttribute("data-filter-group") === group);
-      if (activeButton) {
-        activeFilters[group] = activeButton.getAttribute("data-filter-value") || "all";
-      }
-    });
-
-    const applyFilters = () => {
-      const query = (searchInput?.value || "").trim().toLowerCase();
-      let visibleCount = 0;
-
-      cards.forEach((card) => {
-        const matchesSearch = !query || (card.getAttribute("data-filter-search") || "").includes(query);
-        const matchesGroups = Object.entries(activeFilters).every(([group, value]) => {
-          if (!value || value === "all") {
-            return true;
-          }
-          const haystack = card.getAttribute(`data-filter-${group}`) || "";
-          return haystack.split(/\s+/).includes(value);
-        });
-        const isVisible = matchesSearch && matchesGroups;
-        card.classList.toggle("is-hidden", !isVisible);
-        if (isVisible) {
-          visibleCount += 1;
-        }
+    const selects = Array.from(panel.querySelectorAll("[data-filter-select]"));
+    const search = panel.querySelector("[data-filter-search-input]");
+    const count = panel.querySelector("[data-filter-count]");
+    const clear = panel.querySelector("[data-filter-clear]");
+    if (!grid) return;
+    const rows = Array.from(grid.children);
+    const noun = (count?.textContent || "items").replace(/^\d+\s*/, "");
+    const apply = () => {
+      const query = (search?.value || "").trim().toLowerCase();
+      let visible = 0;
+      rows.forEach((row) => {
+        const match = (!query || (row.dataset.filterSearch || "").includes(query)) && selects.every((select) =>
+          select.value === "all" || (row.getAttribute(`data-filter-${select.dataset.filterSelect}`) || "").split(/\s+/).includes(select.value)
+        );
+        row.classList.toggle("is-hidden", !match);
+        if (match) visible++;
       });
-
-      if (emptyState) {
-        emptyState.classList.toggle("is-hidden", visibleCount !== 0);
-      }
-      if (countLabel) {
-        countLabel.textContent = `${visibleCount} ${countNoun}`;
-      }
+      emptyState?.classList.toggle("is-hidden", visible !== 0);
+      if (count) count.textContent = `${visible} ${visible === 1 ? noun.replace(/s$/, "") : noun}`;
+      if (clear) clear.hidden = !query && selects.every((select) => select.value === "all");
     };
-
-    buttons.forEach((button) => {
-      button.addEventListener("click", () => {
-        const group = button.getAttribute("data-filter-group");
-        const value = button.getAttribute("data-filter-value") || "all";
-        if (!group) {
-          return;
-        }
-        activeFilters[group] = value;
-        buttons.forEach((candidate) => {
-          if (candidate.getAttribute("data-filter-group") !== group) {
-            return;
-          }
-          const isActive = candidate === button;
-          candidate.classList.toggle("is-active", isActive);
-          candidate.setAttribute("aria-pressed", String(isActive));
-        });
-        applyFilters();
-      });
+    search?.addEventListener("input", apply);
+    selects.forEach((select) => select.addEventListener("change", apply));
+    clear?.addEventListener("click", () => {
+      if (search) search.value = "";
+      selects.forEach((select) => { select.value = "all"; });
+      apply();
+      search?.focus();
     });
-
-    if (searchInput) {
-      searchInput.addEventListener("input", applyFilters);
-    }
-
-    if (clearButton) {
-      clearButton.addEventListener("click", () => {
-        if (searchInput) {
-          searchInput.value = "";
-        }
-        Object.keys(activeFilters).forEach((group) => {
-          activeFilters[group] = "all";
-          buttons.forEach((button) => {
-            if (button.getAttribute("data-filter-group") !== group) {
-              return;
-            }
-            const isActive = (button.getAttribute("data-filter-value") || "all") === "all";
-            button.classList.toggle("is-active", isActive);
-            button.setAttribute("aria-pressed", String(isActive));
-          });
-        });
-        applyFilters();
-      });
-    }
-
-    applyFilters();
+    apply();
   });
 
   document.querySelectorAll("[data-graph-switcher]").forEach((shell) => {
@@ -1395,6 +1329,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     buttons.forEach((button) => {
       button.addEventListener("click", () => applyMode(button));
+    });
+
+    shell.querySelectorAll("[data-graph-zoom]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const svg = getActiveSvg();
+        if (!svg) return;
+        const rect = svg.getBoundingClientRect();
+        zoomGraph(svg, button.dataset.graphZoom === "in" ? 0.7 : 1 / 0.7,
+          rect.left + rect.width / 2, rect.top + rect.height / 2);
+      });
     });
 
     if (graphSearchInput) {
